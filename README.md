@@ -119,6 +119,7 @@ TypeScript Version **(recommended)**
 
 ### Additional content
 - [Tao of React](https://alexkondov.com/tao-of-react/)
+- [Delightful React File/Directory Structure](https://www.joshwcomeau.com/react/file-structure/)
 - [Mastering React Hooks with TypeScript](https://www.youtube.com/watch?v=zM_ZiSl2n2E)
 - [Screaming Architecture - Evolution of a React folder structure](https://dev.to/profydev/screaming-architecture-evolution-of-a-react-folder-structure-4g25)
 - [React TypeScript Cheetsheets](https://github.com/typescript-cheatsheets/react)
@@ -132,3 +133,4 @@ TypeScript Version **(recommended)**
 - [Common React Mistakes: useEffect - Part 2](https://www.youtube.com/watch?v=F-0SZ_TicXA)
 - [React project structure for scale: decomposition, layers and hierarchy](https://www.developerway.com/posts/react-project-structure)
 - [10 React Antipatterns to Avoid - Code This, Not That!](https://www.youtube.com/watch?v=b0IZo2Aho9Y&t=275s)
+- [React is slow, what now?](https://nosleepjavascript.com/react-performance/)
