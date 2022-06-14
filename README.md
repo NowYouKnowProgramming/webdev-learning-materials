@@ -97,3 +97,38 @@ A list of learning materials for Web Development.
 ### Paid
 
 ### Additional content
+
+## React
+
+### Free
+**React Workshops**
+
+JavaScript Version
+- [React Fundamentals](https://github.com/kentcdodds/react-fundamentals)
+- [React Hooks](https://github.com/kentcdodds/react-hooks)
+- [Advanced React Hooks](https://github.com/kentcdodds/advanced-react-hooks)
+- [Advanced React Patterns](https://github.com/kentcdodds/advanced-react-patterns)
+
+TypeScript Version **(recommended)**
+- tbc
+
+- [Introduction to React by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe)
+- [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
+
+### Paid 
+
+### Additional content
+- [Tao of React](https://alexkondov.com/tao-of-react/)
+- [Mastering React Hooks with TypeScript](https://www.youtube.com/watch?v=zM_ZiSl2n2E)
+- [Screaming Architecture - Evolution of a React folder structure](https://dev.to/profydev/screaming-architecture-evolution-of-a-react-folder-structure-4g25)
+- [React TypeScript Cheetsheets](https://github.com/typescript-cheatsheets/react)
+- [React 18: useEffect Double Call; Mistake or Awesome?](https://www.youtube.com/watch?v=j8s01ThR7bQ)
+- [Mastering React Context: Do you NEED a state manager?](https://www.youtube.com/watch?v=MpdFj8MEuJA)
+- [Mastering React Memo](https://www.youtube.com/watch?v=DEPwA3mv_R8)
+- [Mastering React Batch Updating](https://www.youtube.com/watch?v=MlDTHzK1vKI)
+- [Mastering React's useEffect](https://www.youtube.com/watch?v=dH6i3GurZW8)
+- [TypeScript/React Testing: Components, Hooks, Custom Hooks, Redux and Zustand](https://www.youtube.com/watch?v=bvdHVxqjv80)
+- [Common React Mistakes: useEffect - Part 1](https://www.youtube.com/watch?v=lStfMBiWROQ)
+- [Common React Mistakes: useEffect - Part 2](https://www.youtube.com/watch?v=F-0SZ_TicXA)
+- [React project structure for scale: decomposition, layers and hierarchy](https://www.developerway.com/posts/react-project-structure)
+- [10 React Antipatterns to Avoid - Code This, Not That!](https://www.youtube.com/watch?v=b0IZo2Aho9Y&t=275s)
