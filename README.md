@@ -36,10 +36,9 @@ A list of learning materials for Web Development.
 - [CSS for JavaScript Developers](https://css-for-js.dev/)
 
 ### Additional content
-- https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility
+- [The Surprising Truth About Pixels and Accessibility](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility)
 - [100 CSS Pro Tips - Code this, NOT that!](https://youtu.be/Qhaz36TZG5Y)
 - [3 More Life-Changing CSS Tips](https://www.youtube.com/watch?v=JSURzPQnkl0)
-- https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility
 
 ## Git
 
