@@ -10,7 +10,7 @@ A list of learning materials for Web Development.
 - https://www.youtube.com/watch?v=NVGuFdX5guE
 
 ### Paid
-https://academy.zerotomastery.io/p/learning-to-learn-efficient-learning-zero-to-mastery-blueprint
+- https://academy.zerotomastery.io/p/learning-to-learn-efficient-learning-zero-to-mastery-blueprint
 
 ## HTML
 
