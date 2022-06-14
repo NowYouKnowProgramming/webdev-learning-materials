@@ -56,7 +56,7 @@ A list of learning materials for Web Development.
 ### Free
 **JavaScript Course for Beginners - Learn JavaScript from Scratch!**
 - https://www.youtube.com/watch?v=2qDywOS7VAc
-- 
+ 
 **Codecademy - Learn JavaScript**
 - https://www.codecademy.com/learn/introduction-to-javascript
 - https://www.codecademy.com/learn/learn-intermediate-javascript
