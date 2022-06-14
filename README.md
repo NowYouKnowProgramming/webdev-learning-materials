@@ -2,11 +2,11 @@
 A list of learning materials for Web Development.
 
 ## YouTube Channels / Blogs
-- Fireship: https://www.youtube.com/c/Fireship
-- uidotdev (JS/React): https://www.youtube.com/c/uidotdev/
-- Kevin Powell (HTML/CSS/JS): https://www.youtube.com/kepowob
-- Kent C. Dodds (JS/React): https://kentcdodds.com/blog
-- Josh W. Comeau (CSS/JS): https://www.joshwcomeau.com/
+- [Fireship](https://www.youtube.com/c/Fireship)
+- [uidotdev (JS/React)](https://www.youtube.com/c/uidotdev/)
+- [Kevin Powell (HTML/CSS/JS)](https://www.youtube.com/kepowob)
+- [Kent C. Dodds (JS/React)](https://kentcdodds.com/blog)
+- [Josh W. Comeau (CSS/JS)](https://www.joshwcomeau.com/)
 - [Matt Pocock - different TypeScript challenges](https://www.youtube.com/channel/UCswG6FSbgZjbWtdf_hMLaow)
 
 ## Learning to Learn
