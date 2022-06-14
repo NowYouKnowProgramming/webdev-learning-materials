@@ -7,6 +7,7 @@ A list of learning materials for Web Development.
 - Kevin Powell (HTML/CSS/JS): https://www.youtube.com/kepowob
 - Kent C. Dodds (JS/React): https://kentcdodds.com/blog
 - Josh W. Comeau (CSS/JS): https://www.joshwcomeau.com/
+- [Matt Pocock - different TypeScript challenges](https://www.youtube.com/channel/UCswG6FSbgZjbWtdf_hMLaow)
 
 ## Learning to Learn
 
@@ -78,10 +79,17 @@ A list of learning materials for Web Development.
 ## TypeScript
 
 ### Free
+- https://learntypescript.dev/
+- https://www.youtube.com/watch?v=BwuLxPH8IDs
+- [No BS TS Series by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
 
 ### Paid
+- [Academind - Understanding TypeScript](https://pro.academind.com/p/understanding-typescript)
 
 ### Additional content
+- [TypeScript tips and Tricks with Matt Pocock](https://www.youtube.com/watch?v=hBk4nV7q6-w)
+- [TypeScript Features to Avoid](https://www.executeprogram.com/blog/typescript-features-to-avoid)
+- [Fixing TypeScript's Blindspot: Runtime Typechecking](https://www.youtube.com/watch?v=rY_XqfSHock)
 
 
 ## Design patterns 
