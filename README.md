@@ -136,7 +136,7 @@ A list of learning materials for Web Development.
 ## React
 
 ### Free
-**React Workshops**
+**Kent C. Dodds - React Workshops (from Epic React)**
 
 JavaScript Version
 - [React Fundamentals](https://github.com/kentcdodds/react-fundamentals)
@@ -146,6 +146,8 @@ JavaScript Version
 
 TypeScript Version **(recommended)**
 - tbc
+
+---
 
 - [Introduction to React by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe)
 - [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
