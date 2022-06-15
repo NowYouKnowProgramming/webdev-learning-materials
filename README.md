@@ -1,8 +1,7 @@
 # webdev-learning-materials
 A list of learning materials for Web Development.
 
-- [webdev-learning-materials](#webdev-learning-materials)
-  * [YouTube Channels / Blogs](#youtube-channels---blogs)
+## TABLE OF CONTENTS
   * [Learning to Learn](#learning-to-learn)
     + [Free](#free)
     + [Paid](#paid)
