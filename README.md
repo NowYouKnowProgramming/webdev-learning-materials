@@ -1,6 +1,41 @@
 # webdev-learning-materials
 A list of learning materials for Web Development.
 
+## TABLE OF CONTENTS
+  * [Learning to Learn](#learning-to-learn)
+    + [Free](#free)
+    + [Paid](#paid)
+  * [HTML](#html)
+    + [Free](#free-1)
+  * [CSS](#css)
+    + [Free](#free-2)
+    + [Paid](#paid-1)
+    + [Additional content](#additional-content)
+  * [Git](#git)
+    + [Free](#free-3)
+    + [Additional content](#additional-content-1)
+  * [JavaScript](#javascript)
+    + [Free](#free-4)
+    + [Paid](#paid-2)
+    + [Additional content](#additional-content-2)
+  * [TypeScript](#typescript)
+    + [Free](#free-5)
+    + [Paid](#paid-3)
+    + [Additional content](#additional-content-3)
+  * [Design patterns](#design-patterns)
+    + [Free](#free-6)
+    + [Paid](#paid-4)
+    + [Additional content](#additional-content-4)
+  * [Node.js](#nodejs)
+    + [Free](#free-7)
+    + [Paid](#paid-5)
+    + [Additional content](#additional-content-5)
+  * [React](#react)
+    + [Free](#free-8)
+    + [Paid](#paid-6)
+    + [Additional content](#additional-content-6)
+
+
 ## YouTube Channels / Blogs
 - [Fireship](https://www.youtube.com/c/Fireship)
 - [uidotdev (JS/React)](https://www.youtube.com/c/uidotdev/)
