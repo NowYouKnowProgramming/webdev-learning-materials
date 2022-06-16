@@ -105,7 +105,7 @@ A list of learning materials for Web Development.
 
 ### Free
 - https://learntypescript.dev/
-- https://www.youtube.com/watch?v=BwuLxPH8IDs
+- [Academind - TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://www.youtube.com/watch?v=BwuLxPH8IDs)
 - [No BS TS Series by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
 
 ### Paid
