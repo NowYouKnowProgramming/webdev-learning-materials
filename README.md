@@ -101,7 +101,7 @@ A list of learning materials for Web Development.
 - [Jack Herrington - Is JavaScript Spread Operator a Performance Killer?](https://www.youtube.com/watch?v=tcZbY-Q0TIE)
 - [Jack Herrington - JavaScript consts Aren't Constants - JavaScript Quick Fix](https://www.youtube.com/watch?v=5zwzyHqBFnA)
 - [Fireship - Async Await try-catch hell](https://www.youtube.com/shorts/ITogH7lJTyE)
-- [Web Dev Simplefied - Are You Using Null and Undefined Wrong?](https://www.youtube.com/watch?v=7bpQUVK9Gn4)
+- [Web Dev Simplified - Are You Using Null and Undefined Wrong?](https://www.youtube.com/watch?v=7bpQUVK9Gn4)
 
 ## TypeScript
 
