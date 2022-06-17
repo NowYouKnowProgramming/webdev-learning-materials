@@ -22,7 +22,7 @@ A list of learning materials for Web Development.
     + [Free](#free-5)
     + [Paid](#paid-3)
     + [Additional content](#additional-content-3)
-  * [Design patterns](#design-patterns)
+  * [Design Patterns / Clean Code](#design-patterns--clean-code)
     + [Free](#free-6)
     + [Paid](#paid-4)
     + [Additional content](#additional-content-4)
@@ -119,7 +119,7 @@ A list of learning materials for Web Development.
 - [Jack Herrington - Fixing TypeScript's Blindspot: Runtime Typechecking](https://www.youtube.com/watch?v=rY_XqfSHock)
 
 
-## Design patterns 
+## Design Patterns / Clean Code 
 
 ### Free
 - [Uncle Martin's (Author of Clean Code Book) Lectures](https://www.youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
