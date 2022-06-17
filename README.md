@@ -122,10 +122,27 @@ A list of learning materials for Web Development.
 ## Design patterns 
 
 ### Free
+- [Uncle Martin's (Author of Clean Code Book) Lectures](https://www.youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
+- [Clean Code - JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
+- [Clean Code - TypeScript](https://github.com/labs42io/clean-code-typescript)
+- Jack Herrington - Design Patterns with TypeScript:
+    - [Factory Patterns](https://www.youtube.com/watch?v=-1YhP5IOBCI)
+    - [Pub/Sub Patterns](https://www.youtube.com/watch?v=f3Cn0CGytSQ)
+    - [Visitor and Iterator Patterns](https://www.youtube.com/watch?v=SZ2kAkMdAZE)
+    - [Command & Memento Patterns](https://www.youtube.com/watch?v=H2kxc_ZrSPI)
+    - [Proxy & Flyweight Patterns](https://www.youtube.com/watch?v=0vumsisnqwM)
+- [Patterns.dev](https://www.patterns.dev/)
+- [Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
+- [Refactoring Guru - Refactoring: clean your code](https://refactoring.guru/refactoring)
+- [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
 
 ### Paid
+- [Academind - Clean Code](https://pro.academind.com/p/clean-code)
+- [Refactoring Guru - Dive into Design Patterns](https://refactoring.guru/design-patterns)
 
 ### Additional content
+- [Fireship - 10 Design Patterns explained in 10 minutes](https://www.youtube.com/watch?v=tv-_1er1mWI)
+- [Continuous Delivery - Object-oriented programming (OOP) vs Functional Programming (FP)](https://www.youtube.com/watch?v=wyABTfR9UTU)
 
 ## Node.js 
 
