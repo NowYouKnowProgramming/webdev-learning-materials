@@ -34,6 +34,7 @@ A list of learning materials for Web Development.
     + [Free](#free-8)
     + [Paid](#paid-6)
     + [Additional content](#additional-content-6)
+  * [HR/Recruitment Resources](#hr--recruitment-resources)
 
 
 ## YouTube Channels / Blogs
@@ -171,3 +172,15 @@ TypeScript Version **(recommended)**
 - [React project structure for scale: decomposition, layers and hierarchy](https://www.developerway.com/posts/react-project-structure)
 - [10 React Antipatterns to Avoid - Code This, Not That!](https://www.youtube.com/watch?v=b0IZo2Aho9Y&t=275s)
 - [React is slow, what now?](https://nosleepjavascript.com/react-performance/)
+
+## HR / Recruitment Resources
+- Make a nice looking resume:
+    - [FlowCV](https://flowcv.io/)
+    - [Resume Template in Figma](https://www.figma.com/community/file/1104429213755894357)
+- [Jobscan - scan your resume and optimize it to match offers keywords](https://www.jobscan.co/)
+- [CV Duck - check your CV by experienced recruiters and get feedback](https://cvduck.pro/)
+- [Josh Fluke - Ignore Job Requirements & Apply Anyway!](https://www.youtube.com/watch?v=NaPezvkzl8U)
+- [Addy Osmani - About importance of soft skills](https://addyosmani.com/blog/software-engineering-soft-parts/)
+- [Technical Interview Guide for Busy People](https://www.techinterviewhandbook.org/)
+![Rough Guide to Frontend Interviews - image](https://media.discordapp.net/attachments/918032586809438258/933647593752363018/ekcpgo047q881.png)
+- [Dawid Mazur - Hiring from developer's point of view: Your GitHub profile](https://www.linkedin.com/feed/update/urn:li:activity:6900405038557339648)
