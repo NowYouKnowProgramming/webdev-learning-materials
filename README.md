@@ -125,6 +125,7 @@ A list of learning materials for Web Development.
 - [Uncle Martin's (Author of Clean Code Book) Lectures](https://www.youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
 - [Clean Code - JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
 - [Clean Code - TypeScript](https://github.com/labs42io/clean-code-typescript)
+- [10 Common JavaScript Clean Code Mistakes](https://www.youtube.com/watch?v=fHJC44PESIk)
 - Jack Herrington - Design Patterns with TypeScript:
     - [Factory Patterns](https://www.youtube.com/watch?v=-1YhP5IOBCI)
     - [Pub/Sub Patterns](https://www.youtube.com/watch?v=f3Cn0CGytSQ)
