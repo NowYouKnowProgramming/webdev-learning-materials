@@ -164,6 +164,7 @@ JavaScript Version
 - [Advanced React Patterns](https://github.com/kentcdodds/advanced-react-patterns)
 
 TypeScript Version **(recommended)**
+- [React Fundamentals](https://github.com/Willaiem/react-fundamentals-typescript)
 - tbc
 
 ---
