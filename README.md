@@ -35,7 +35,8 @@ A list of learning materials for Web Development.
     + [Paid](#paid-6)
     + [Additional content](#additional-content-6)
   * [HR/Recruitment Resources](#hr--recruitment-resources)
-
+  * [Other Resources (worth your time)](#other-resources-worth-your-time)
+    + [Valuable videos](#valuable-videos)
 
 ## YouTube Channels / Blogs
 - [Fireship](https://www.youtube.com/c/Fireship)
@@ -165,6 +166,7 @@ JavaScript Version
 - [Advanced React Patterns](https://github.com/kentcdodds/advanced-react-patterns)
 
 TypeScript Version **(recommended)**
+- [React Fundamentals](https://github.com/Willaiem/react-fundamentals-typescript)
 - tbc
 
 ---
@@ -203,3 +205,19 @@ TypeScript Version **(recommended)**
 - [Technical Interview Guide for Busy People](https://www.techinterviewhandbook.org/)
 ![Rough Guide to Frontend Interviews - image](https://media.discordapp.net/attachments/918032586809438258/933647593752363018/ekcpgo047q881.png)
 - [Dawid Mazur - Hiring from developer's point of view: Your GitHub profile](https://www.linkedin.com/feed/update/urn:li:activity:6900405038557339648)
+
+
+## Other Resources (worth your time)
+
+### Valuable videos:
+- [ThePrimeagen - How do I create a side project (as a software enginner)?](https://www.youtube.com/watch?v=bKGy_eYnI3U)
+- [ThePrimeagen - How I Choose Side Projects (as a software enginner)](https://www.youtube.com/watch?v=KjjjQSSbhfU)
+- [ThePrimeagen - How I Became A Better Programmer](https://www.youtube.com/watch?v=cgXfWo42gig)
+- [Stefan ... - Should I Take a Break from Learning CSS?](https://www.youtube.com/watch?v=78tNu4f91oM)
+- [Fireship - Vim in 100 seconds (and beyond)](https://www.youtube.com/watch?v=-txKSRn0qeA)
+- [FreeCodeCamp - Vim Tutorial for Beginners](https://www.youtube.com/watch?v=RZ4p-saaQkc)
+- [Fireship - How to "Google It" like a Senior Software Engineer](https://www.youtube.com/watch?v=cEBkvm0-rg0)
+- [Web Dev Simplified - Learn CORS in 6 Minutes](https://www.youtube.com/watch?v=PNtFSVU-YTI)
+- [Fireship - 25 VS Code Productivity Tips and Speed Hacks](https://www.youtube.com/watch?v=ifTF3ags0XI)
+- [Fireship - Session vs Token Authentication in 100 seconds](https://www.youtube.com/watch?v=UBUNrFtufWo)
+- [Fireship - 100+ Computer Science Concepts Explained](https://www.youtube.com/watch?v=-uleG_Vecis)
