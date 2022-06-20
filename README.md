@@ -167,7 +167,7 @@ JavaScript Version
 
 TypeScript Version **(recommended)**
 - [React Fundamentals](https://github.com/Willaiem/react-fundamentals-typescript)
-- tbc
+- [React Hooks](https://github.com/Willaiem/react-hooks-typescript)
 
 ---
 
