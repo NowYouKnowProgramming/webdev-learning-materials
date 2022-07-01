@@ -198,7 +198,7 @@ TypeScript Version **(recommended)**
 - [Jack Herrington - Mastering React Context: Do you NEED a state manager?](https://www.youtube.com/watch?v=MpdFj8MEuJA)
 - [Jack Herrington - Mastering React Memo](https://www.youtube.com/watch?v=DEPwA3mv_R8)
 - [Jack Herrington - Mastering React Batch Updating](https://www.youtube.com/watch?v=MlDTHzK1vKI)
-- [Mastering React's useEffect](https://www.youtube.com/watch?v=dH6i3GurZW8)
+- [Jack Herrington - Mastering React's useEffect](https://www.youtube.com/watch?v=dH6i3GurZW8)
 - [Jack Herrington - TypeScript/React Testing: Components, Hooks, Custom Hooks, Redux and Zustand](https://www.youtube.com/watch?v=bvdHVxqjv80)
 - [Jack Herrington - Common React Mistakes: useEffect - Part 1](https://www.youtube.com/watch?v=lStfMBiWROQ)
 - [Jack Herrington - Common React Mistakes: useEffect - Part 2](https://www.youtube.com/watch?v=F-0SZ_TicXA)
