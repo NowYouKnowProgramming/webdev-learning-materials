@@ -175,6 +175,8 @@ TypeScript Version **(recommended)**
 - [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
 
 ### Paid 
+- [Kent C. Dodds - Epic React (if you need the solutions)](https://epicreact.dev/)
+
 
 ### Additional content
 - [Alex Kondov - Tao of React](https://alexkondov.com/tao-of-react/)
@@ -182,6 +184,16 @@ TypeScript Version **(recommended)**
 - [Jack Herrington - Mastering React Hooks with TypeScript](https://www.youtube.com/watch?v=zM_ZiSl2n2E)
 - [Screaming Architecture - Evolution of a React folder structure](https://dev.to/profydev/screaming-architecture-evolution-of-a-react-folder-structure-4g25)
 - [React TypeScript Cheetsheets](https://github.com/typescript-cheatsheets/react)
+- [Reddit Thread - What is the recommended way to load data for React 18?](https://www.reddit.com/r/reactjs/comments/vi6q6f/comment/iddrjue/?utm_source=reddit&utm_medium=web2x&context=3)
+<details>
+<summary>Advices from Dan Abramov (member of React Core Team)</summary>
+
+![First advice about the React fetching](./assets/react/react-fetching-1_3.png)
+![Second advice about the React fetching](./assets/react/react-fetching-2_3.png)
+![Third advice about the React fetching](./assets/react/react-fetching-3_3.png)
+
+</details>
+
 - [Jack Herrington - React 18: useEffect Double Call; Mistake or Awesome?](https://www.youtube.com/watch?v=j8s01ThR7bQ)
 - [Jack Herrington - Mastering React Context: Do you NEED a state manager?](https://www.youtube.com/watch?v=MpdFj8MEuJA)
 - [Jack Herrington - Mastering React Memo](https://www.youtube.com/watch?v=DEPwA3mv_R8)
