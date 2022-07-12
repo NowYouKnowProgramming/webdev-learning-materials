@@ -172,12 +172,14 @@ TypeScript Version **(recommended)**
 
 - [Introduction to React by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe)
 - [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
+- [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
 
 ### Paid 
 - [Kent C. Dodds - Epic React (if you need the solutions)](https://epicreact.dev/)
-
+- [Brad Schiff (LearnWebCode) - React For The Rest Of Us](https://www.udemy.com/course/react-for-the-rest-of-us/)
 
 ### Additional content
+- [Brad Schiff (LearnWebCode) - What is React and what problems does it solve? (Vanilla JS vs React comparison)](https://www.youtube.com/watch?v=fZpINicCPRY)
 - [Alex Kondov - Tao of React](https://alexkondov.com/tao-of-react/)
 - [Josh W. Comeau - Delightful React File/Directory Structure](https://www.joshwcomeau.com/react/file-structure/)
 - [Jack Herrington - Mastering React Hooks with TypeScript](https://www.youtube.com/watch?v=zM_ZiSl2n2E)
