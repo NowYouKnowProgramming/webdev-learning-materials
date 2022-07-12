@@ -82,9 +82,12 @@ A list of learning materials for Web Development.
 
 ### Free
 
+
 ### Additional content
 - [List of git commands for different situations](https://ohshitgit.com/)
 - [Fireship - 13 Advanced (but useful) Git Techniques and Shortcuts](https://www.youtube.com/watch?v=ecK3EnyGD8o)
+- [Annie Sexton - Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go)
+- [How to learn Git slowly.](https://dev.to/samuelfaure/how-to-learn-git-slowly-38fa)
 
 ## JavaScript
 
