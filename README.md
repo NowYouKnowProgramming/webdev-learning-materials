@@ -204,6 +204,9 @@ TypeScript Version **(recommended)**
 - [React project structure for scale: decomposition, layers and hierarchy](https://www.developerway.com/posts/react-project-structure)
 - [Fireship - 10 React Antipatterns to Avoid - Code This, Not That!](https://www.youtube.com/watch?v=b0IZo2Aho9Y&t=275s)
 - [React is slow, what now?](https://nosleepjavascript.com/react-performance/)
+- [React Philosophies - what you need to know, when writing the React code?](https://github.com/mithi/react-philosophies)
+- [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
+- [React Docs - You Might Not Need an Effect (when to use useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
 
 ## HR / Recruitment Resources
 - Make a nice looking resume:
