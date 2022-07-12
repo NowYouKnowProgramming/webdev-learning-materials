@@ -209,6 +209,7 @@ TypeScript Version **(recommended)**
 - [React Philosophies - what you need to know, when writing the React code?](https://github.com/mithi/react-philosophies)
 - [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
 - [React Docs - You Might Not Need an Effect (when to use the useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
+- [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
 
 ## HR / Recruitment Resources
 - Make a nice looking resume:
