@@ -118,6 +118,7 @@ A list of learning materials for Web Development.
 - [TypeScript tips and Tricks with Matt Pocock](https://www.youtube.com/watch?v=hBk4nV7q6-w)
 - [TypeScript Features to Avoid](https://www.executeprogram.com/blog/typescript-features-to-avoid)
 - [Jack Herrington - Fixing TypeScript's Blindspot: Runtime Typechecking](https://www.youtube.com/watch?v=rY_XqfSHock)
+- [Theo - ping.gg - You Might Be Using TypeScript Wrong... (how to use TypeScript the most effective way?)](https://www.youtube.com/watch?v=RmGHnYUqQ4k)
 
 
 ## Design Patterns / Clean Code 
