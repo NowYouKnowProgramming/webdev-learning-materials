@@ -208,7 +208,7 @@ TypeScript Version **(recommended)**
 - [React is slow, what now?](https://nosleepjavascript.com/react-performance/)
 - [React Philosophies - what you need to know, when writing the React code?](https://github.com/mithi/react-philosophies)
 - [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
-- [React Docs - You Might Not Need an Effect (when to use useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
+- [React Docs - You Might Not Need an Effect (when to use the useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
 
 ## HR / Recruitment Resources
 - Make a nice looking resume:
