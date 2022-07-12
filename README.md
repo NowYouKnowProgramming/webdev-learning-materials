@@ -152,7 +152,7 @@ A list of learning materials for Web Development.
 
 ### Paid
 
-### Additional content
+### Additional content https://github.com/goldbergyoni/nodebestpractices
 
 ## React
 
@@ -225,7 +225,7 @@ TypeScript Version **(recommended)**
 - [ThePrimeagen - How do I create a side project (as a software enginner)?](https://www.youtube.com/watch?v=bKGy_eYnI3U)
 - [ThePrimeagen - How I Choose Side Projects (as a software enginner)](https://www.youtube.com/watch?v=KjjjQSSbhfU)
 - [ThePrimeagen - How I Became A Better Programmer](https://www.youtube.com/watch?v=cgXfWo42gig)
-- [Stefan ... - Should I Take a Break from Learning CSS?](https://www.youtube.com/watch?v=78tNu4f91oM)
+- [Stefan Mischook - Should I Take a Break from Learning CSS?](https://www.youtube.com/watch?v=78tNu4f91oM)
 - [Fireship - Vim in 100 seconds (and beyond)](https://www.youtube.com/watch?v=-txKSRn0qeA)
 - [FreeCodeCamp - Vim Tutorial for Beginners](https://www.youtube.com/watch?v=RZ4p-saaQkc)
 - [Fireship - How to "Google It" like a Senior Software Engineer](https://www.youtube.com/watch?v=cEBkvm0-rg0)
@@ -233,3 +233,24 @@ TypeScript Version **(recommended)**
 - [Fireship - 25 VS Code Productivity Tips and Speed Hacks](https://www.youtube.com/watch?v=ifTF3ags0XI)
 - [Fireship - Session vs Token Authentication in 100 seconds](https://www.youtube.com/watch?v=UBUNrFtufWo)
 - [Fireship - 100+ Computer Science Concepts Explained](https://www.youtube.com/watch?v=-uleG_Vecis)
+<<<<<<< Updated upstream
+=======
+- [Jack Herrington - Senior Developer Workflow For Stress-Free Coding](https://www.youtube.com/watch?v=eAfUfKYcvBo)
+
+### Turn your theory into practice:
+#### Test your skills:
+- [Frontend Practice - Recreate the existing pages](https://www.frontendpractice.com/)
+- [Chris Hansen - Master Frontend Development 💻 By Cloning These Websites 💯](https://www.dev.to/hyggedev/master-frontend-development-by-cloning-these-websites-1m08)
+- [Lydia Hallie - JavaScript Questions with answers](https://github.com/lydiahallie/javascript-questions)
+
+
+#### Interesting tutorials to get you inspired:
+- [TomDoesTech - Build a Blog with the T3 Stack (TypeScript, Next.js, tRPC, Prisma and more!)](https://www.youtube.com/watch?v=syEWlxVFUrY)
+- [Ben Awad - Fullstack Reddit Clone (TypeScript, React, GraphQL, Node.js, Postgres and more!)](https://www.youtube.com/watch?v=I6ypD7qv3Z8)
+
+#### Build your own project (better than cloning, ideally make it as a group project!):
+- [8 beginner-friendly projects to create (the original title is a exaggeration, but they're fine when starting to learn front-end)](https://dev.to/madza/8-projects-to-build-to-master-your-front-end-skills-4gnc)
+- [Project Guidelines (to make your project easier to develop)](https://github.com/elsewhencode/project-guidelines)
+- The Code Review Pyramid:
+- ![The Code Review Pyramid](https://media.discordapp.net/attachments/920370741747277924/954270609527959562/image_from_ios.png)
+>>>>>>> Stashed changes
