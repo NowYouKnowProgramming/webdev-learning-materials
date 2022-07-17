@@ -149,6 +149,7 @@ A list of learning materials for Web Development.
 - [Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
 - [Refactoring Guru - Refactoring: clean your code](https://refactoring.guru/refactoring)
 - [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
+- [Alex Bespoyasov - Clean Architecture on Frontend](https://dev.to/bespoyasov/clean-architecture-on-frontend-4311)
 
 ### Paid
 - [Academind - Clean Code](https://pro.academind.com/p/clean-code)
