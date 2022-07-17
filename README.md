@@ -177,6 +177,8 @@ TypeScript Version **(recommended)**
 - [Introduction to React by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe)
 - [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
 - [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
+- [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
+- [New React Docs (beta)](https://beta.reactjs.org/)
 
 ### Paid 
 - [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
@@ -214,6 +216,8 @@ TypeScript Version **(recommended)**
 - [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
 - [React Docs - You Might Not Need an Effect (when to use the useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
 - [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
+- [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
+- [Best React Libraries to Use](https://www.reddit.com/r/reactjs/comments/vxklim/best_react_libraries_to_use_in_2022/)
 
 ## HR / Recruitment Resources
 - Make a nice looking resume:
