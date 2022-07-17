@@ -77,6 +77,8 @@ A list of learning materials for Web Development.
 - [Josh W. Comeau - The Surprising Truth About Pixels and Accessibility](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility)
 - [Fireship - 100 CSS Pro Tips - Code this, NOT that!](https://youtu.be/Qhaz36TZG5Y)
 - [Fireship - 3 More Life-Changing CSS Tips](https://www.youtube.com/watch?v=JSURzPQnkl0)
+- [Defensive CSS - practical tips that helps in building "bullet-proof" UI interfaces](https://defensivecss.dev/)
+- [CSS Reference - visual guide for the most popular properties](https://cssreference.io/)
 
 ## Git
 
@@ -233,8 +235,6 @@ TypeScript Version **(recommended)**
 - [Fireship - 25 VS Code Productivity Tips and Speed Hacks](https://www.youtube.com/watch?v=ifTF3ags0XI)
 - [Fireship - Session vs Token Authentication in 100 seconds](https://www.youtube.com/watch?v=UBUNrFtufWo)
 - [Fireship - 100+ Computer Science Concepts Explained](https://www.youtube.com/watch?v=-uleG_Vecis)
-<<<<<<< Updated upstream
-=======
 - [Jack Herrington - Senior Developer Workflow For Stress-Free Coding](https://www.youtube.com/watch?v=eAfUfKYcvBo)
 
 ### Turn your theory into practice:
@@ -253,4 +253,4 @@ TypeScript Version **(recommended)**
 - [Project Guidelines (to make your project easier to develop)](https://github.com/elsewhencode/project-guidelines)
 - The Code Review Pyramid:
 - ![The Code Review Pyramid](https://media.discordapp.net/attachments/920370741747277924/954270609527959562/image_from_ios.png)
->>>>>>> Stashed changes
+- [Peter Lunch - How to Plan and Build a Programming Project - A Legitimate Guide for Beginners](https://www.peterlunch.com/blog/how-to-plan-and-build-a-programming-project)
