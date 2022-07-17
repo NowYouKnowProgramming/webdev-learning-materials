@@ -81,14 +81,21 @@ A list of learning materials for Web Development.
 - [Josh W. Comeau - The Surprising Truth About Pixels and Accessibility](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility)
 - [Fireship - 100 CSS Pro Tips - Code this, NOT that!](https://youtu.be/Qhaz36TZG5Y)
 - [Fireship - 3 More Life-Changing CSS Tips](https://www.youtube.com/watch?v=JSURzPQnkl0)
+- [Defensive CSS - practical tips that helps in building "bullet-proof" UI interfaces](https://defensivecss.dev/)
+- [CSS Reference - visual guide for the most popular properties](https://cssreference.io/)
 
 ## Git
 
 ### Free
 
+
 ### Additional content
 - [List of git commands for different situations](https://ohshitgit.com/)
 - [Fireship - 13 Advanced (but useful) Git Techniques and Shortcuts](https://www.youtube.com/watch?v=ecK3EnyGD8o)
+- [Annie Sexton - Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go)
+- [How to learn Git slowly.](https://dev.to/samuelfaure/how-to-learn-git-slowly-38fa)
+- [Write Git Commit Messages That Your Colleagues Will Love](https://dev.to/simeg/write-git-commit-messages-that-your-colleagues-will-love-1757)
+- [Conventional Commits - add a type of your commit to your messages](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ## JavaScript
 
@@ -122,6 +129,11 @@ A list of learning materials for Web Development.
 - [TypeScript tips and Tricks with Matt Pocock](https://www.youtube.com/watch?v=hBk4nV7q6-w)
 - [TypeScript Features to Avoid](https://www.executeprogram.com/blog/typescript-features-to-avoid)
 - [Jack Herrington - Fixing TypeScript's Blindspot: Runtime Typechecking](https://www.youtube.com/watch?v=rY_XqfSHock)
+- [Theo - ping.gg - You Might Be Using TypeScript Wrong... (how to use TypeScript the most effective way?)](https://www.youtube.com/watch?v=RmGHnYUqQ4k)
+- Convert JS objects to TypeScript (a tricky way to do it):
+    - [Transform JS object to JSON](https://transform.tools/js-object-to-json)
+    - [Then convert JSON to TypeScript](https://transform.tools/json-to-typescript)
+- [TypeScript Error Translator (VS Code extension to understand TypeScript errors)](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
 
 
 ## Design Patterns / Clean Code 
@@ -141,6 +153,7 @@ A list of learning materials for Web Development.
 - [Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
 - [Refactoring Guru - Refactoring: clean your code](https://refactoring.guru/refactoring)
 - [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
+- [Alex Bespoyasov - Clean Architecture on Frontend](https://dev.to/bespoyasov/clean-architecture-on-frontend-4311)
 
 ### Paid
 - [Academind - Clean Code](https://pro.academind.com/p/clean-code)
@@ -156,8 +169,8 @@ A list of learning materials for Web Development.
 
 ### Paid
 
-### Additional content
-
+### Additional content 
+- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
 ## React
 
 ### Free
@@ -168,6 +181,10 @@ JavaScript Version
 - [React Hooks](https://github.com/kentcdodds/react-hooks)
 - [Advanced React Hooks](https://github.com/kentcdodds/advanced-react-hooks)
 - [Advanced React Patterns](https://github.com/kentcdodds/advanced-react-patterns)
+- [React Performance](https://github.com/kentcdodds/react-performance)
+- [Testing React Apps](https://github.com/kentcdodds/testing-react-apps)
+- [React Suspence](https://github.com/kentcdodds/react-suspense)
+- [Build an Epic React App (Bookshelf)](https://github.com/kentcdodds/bookshelf)
 
 TypeScript Version **(recommended)**
 - [React Fundamentals](https://github.com/Willaiem/react-fundamentals-typescript)
@@ -177,12 +194,16 @@ TypeScript Version **(recommended)**
 
 - [Introduction to React by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe)
 - [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
+- [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
+- [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
+- [New React Docs (beta)](https://beta.reactjs.org/)
 
 ### Paid 
-- [Kent C. Dodds - Epic React (if you need the solutions)](https://epicreact.dev/)
-
+- [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
+- [Brad Schiff (LearnWebCode) - React For The Rest Of Us](https://www.udemy.com/course/react-for-the-rest-of-us/)
 
 ### Additional content
+- [Brad Schiff (LearnWebCode) - What is React and what problems does it solve? (Vanilla JS vs React comparison)](https://www.youtube.com/watch?v=fZpINicCPRY)
 - [Alex Kondov - Tao of React](https://alexkondov.com/tao-of-react/)
 - [Josh W. Comeau - Delightful React File/Directory Structure](https://www.joshwcomeau.com/react/file-structure/)
 - [Jack Herrington - Mastering React Hooks with TypeScript](https://www.youtube.com/watch?v=zM_ZiSl2n2E)
@@ -209,6 +230,12 @@ TypeScript Version **(recommended)**
 - [React project structure for scale: decomposition, layers and hierarchy](https://www.developerway.com/posts/react-project-structure)
 - [Fireship - 10 React Antipatterns to Avoid - Code This, Not That!](https://www.youtube.com/watch?v=b0IZo2Aho9Y&t=275s)
 - [React is slow, what now?](https://nosleepjavascript.com/react-performance/)
+- [React Philosophies - what you need to know, when writing the React code?](https://github.com/mithi/react-philosophies)
+- [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
+- [React Docs - You Might Not Need an Effect (when to use the useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
+- [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
+- [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
+- [Best React Libraries to Use](https://www.reddit.com/r/reactjs/comments/vxklim/best_react_libraries_to_use_in_2022/)
 
 ## HR / Recruitment Resources
 - Make a nice looking resume:
@@ -229,7 +256,7 @@ TypeScript Version **(recommended)**
 - [ThePrimeagen - How do I create a side project (as a software enginner)?](https://www.youtube.com/watch?v=bKGy_eYnI3U)
 - [ThePrimeagen - How I Choose Side Projects (as a software enginner)](https://www.youtube.com/watch?v=KjjjQSSbhfU)
 - [ThePrimeagen - How I Became A Better Programmer](https://www.youtube.com/watch?v=cgXfWo42gig)
-- [Stefan ... - Should I Take a Break from Learning CSS?](https://www.youtube.com/watch?v=78tNu4f91oM)
+- [Stefan Mischook - Should I Take a Break from Learning CSS?](https://www.youtube.com/watch?v=78tNu4f91oM)
 - [Fireship - Vim in 100 seconds (and beyond)](https://www.youtube.com/watch?v=-txKSRn0qeA)
 - [FreeCodeCamp - Vim Tutorial for Beginners](https://www.youtube.com/watch?v=RZ4p-saaQkc)
 - [Fireship - How to "Google It" like a Senior Software Engineer](https://www.youtube.com/watch?v=cEBkvm0-rg0)
@@ -237,6 +264,8 @@ TypeScript Version **(recommended)**
 - [Fireship - 25 VS Code Productivity Tips and Speed Hacks](https://www.youtube.com/watch?v=ifTF3ags0XI)
 - [Fireship - Session vs Token Authentication in 100 seconds](https://www.youtube.com/watch?v=UBUNrFtufWo)
 - [Fireship - 100+ Computer Science Concepts Explained](https://www.youtube.com/watch?v=-uleG_Vecis)
+- [Jack Herrington - Senior Developer Workflow For Stress-Free Coding](https://www.youtube.com/watch?v=eAfUfKYcvBo)
+
 ### Turn your theory into practice:
 #### Test your skills:
 - [Frontend Practice - Recreate the existing pages](https://www.frontendpractice.com/)
@@ -253,3 +282,4 @@ TypeScript Version **(recommended)**
 - [Project Guidelines (to make your project easier to develop)](https://github.com/elsewhencode/project-guidelines)
 - The Code Review Pyramid:
 - ![The Code Review Pyramid](https://media.discordapp.net/attachments/920370741747277924/954270609527959562/image_from_ios.png)
+- [Peter Lunch - How to Plan and Build a Programming Project - A Legitimate Guide for Beginners](https://www.peterlunch.com/blog/how-to-plan-and-build-a-programming-project)
