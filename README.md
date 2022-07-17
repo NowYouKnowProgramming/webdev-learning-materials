@@ -163,6 +163,10 @@ JavaScript Version
 - [React Hooks](https://github.com/kentcdodds/react-hooks)
 - [Advanced React Hooks](https://github.com/kentcdodds/advanced-react-hooks)
 - [Advanced React Patterns](https://github.com/kentcdodds/advanced-react-patterns)
+- [React Performance](https://github.com/kentcdodds/react-performance)
+- [Testing React Apps](https://github.com/kentcdodds/testing-react-apps)
+- [React Suspence](https://github.com/kentcdodds/react-suspense)
+- [Build an Epic React App (Bookshelf)](https://github.com/kentcdodds/bookshelf)
 
 TypeScript Version **(recommended)**
 - [React Fundamentals](https://github.com/Willaiem/react-fundamentals-typescript)
@@ -175,7 +179,7 @@ TypeScript Version **(recommended)**
 - [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
 
 ### Paid 
-- [Kent C. Dodds - Epic React (if you need the solutions)](https://epicreact.dev/)
+- [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
 - [Brad Schiff (LearnWebCode) - React For The Rest Of Us](https://www.udemy.com/course/react-for-the-rest-of-us/)
 
 ### Additional content
