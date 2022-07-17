@@ -154,8 +154,8 @@ A list of learning materials for Web Development.
 
 ### Paid
 
-### Additional content https://github.com/goldbergyoni/nodebestpractices
-
+### Additional content 
+- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
 ## React
 
 ### Free
