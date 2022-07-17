@@ -37,6 +37,10 @@ A list of learning materials for Web Development.
   * [HR/Recruitment Resources](#hr--recruitment-resources)
   * [Other Resources (worth your time)](#other-resources-worth-your-time)
     + [Valuable videos](#valuable-videos)
+    * [Turn your theory into practice](#turn-your-theory-into-practice)
+      + [Test your skills](#test-your-skills)
+      + [Interesting tutorials to get you inspired](#interesting-tutorials-to-get-you-inspired)
+      + [Build your own project (better than cloning, ideally make it as a group project!):](#build-your-own-project-better-than-cloning-ideally-make-it-as-a-group-project)
 
 ## YouTube Channels / Blogs
 - [Fireship](https://www.youtube.com/c/Fireship)
