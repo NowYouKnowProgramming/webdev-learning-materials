@@ -248,6 +248,7 @@ TypeScript Version **(recommended)**
 - [Technical Interview Guide for Busy People](https://www.techinterviewhandbook.org/)
 ![Rough Guide to Frontend Interviews - image](https://media.discordapp.net/attachments/918032586809438258/933647593752363018/ekcpgo047q881.png)
 - [Dawid Mazur - Hiring from developer's point of view: Your GitHub profile](https://www.linkedin.com/feed/update/urn:li:activity:6900405038557339648)
+- [Jason Tu - How to get a job in a new industry without experience (interesting approach to this problem)](https://jasont.co/no-experience/)
 
 
 ## Other Resources (worth your time)
