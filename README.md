@@ -166,6 +166,10 @@ JavaScript Version
 - [React Hooks](https://github.com/kentcdodds/react-hooks)
 - [Advanced React Hooks](https://github.com/kentcdodds/advanced-react-hooks)
 - [Advanced React Patterns](https://github.com/kentcdodds/advanced-react-patterns)
+- [React Performance](https://github.com/kentcdodds/react-performance)
+- [Testing React Apps](https://github.com/kentcdodds/testing-react-apps)
+- [React Suspence](https://github.com/kentcdodds/react-suspense)
+- [Build an Epic React App (Bookshelf)](https://github.com/kentcdodds/bookshelf)
 
 TypeScript Version **(recommended)**
 - [React Fundamentals](https://github.com/Willaiem/react-fundamentals-typescript)
@@ -175,12 +179,16 @@ TypeScript Version **(recommended)**
 
 - [Introduction to React by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe)
 - [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
+- [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
+- [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
+- [New React Docs (beta)](https://beta.reactjs.org/)
 
 ### Paid 
-- [Kent C. Dodds - Epic React (if you need the solutions)](https://epicreact.dev/)
-
+- [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
+- [Brad Schiff (LearnWebCode) - React For The Rest Of Us](https://www.udemy.com/course/react-for-the-rest-of-us/)
 
 ### Additional content
+- [Brad Schiff (LearnWebCode) - What is React and what problems does it solve? (Vanilla JS vs React comparison)](https://www.youtube.com/watch?v=fZpINicCPRY)
 - [Alex Kondov - Tao of React](https://alexkondov.com/tao-of-react/)
 - [Josh W. Comeau - Delightful React File/Directory Structure](https://www.joshwcomeau.com/react/file-structure/)
 - [Jack Herrington - Mastering React Hooks with TypeScript](https://www.youtube.com/watch?v=zM_ZiSl2n2E)
@@ -207,6 +215,12 @@ TypeScript Version **(recommended)**
 - [React project structure for scale: decomposition, layers and hierarchy](https://www.developerway.com/posts/react-project-structure)
 - [Fireship - 10 React Antipatterns to Avoid - Code This, Not That!](https://www.youtube.com/watch?v=b0IZo2Aho9Y&t=275s)
 - [React is slow, what now?](https://nosleepjavascript.com/react-performance/)
+- [React Philosophies - what you need to know, when writing the React code?](https://github.com/mithi/react-philosophies)
+- [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
+- [React Docs - You Might Not Need an Effect (when to use the useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
+- [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
+- [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
+- [Best React Libraries to Use](https://www.reddit.com/r/reactjs/comments/vxklim/best_react_libraries_to_use_in_2022/)
 
 ## HR / Recruitment Resources
 - Make a nice looking resume:
