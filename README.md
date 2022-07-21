@@ -37,6 +37,10 @@ A list of learning materials for Web Development.
   * [HR/Recruitment Resources](#hr--recruitment-resources)
   * [Other Resources (worth your time)](#other-resources-worth-your-time)
     + [Valuable videos](#valuable-videos)
+    * [Turn your theory into practice](#turn-your-theory-into-practice)
+      + [Test your skills](#test-your-skills)
+      + [Interesting tutorials to get you inspired](#interesting-tutorials-to-get-you-inspired)
+      + [Build your own project (better than cloning, ideally make it as a group project!):](#build-your-own-project-better-than-cloning-ideally-make-it-as-a-group-project)
 
 ## YouTube Channels / Blogs
 - [Fireship](https://www.youtube.com/c/Fireship)
@@ -88,9 +92,14 @@ A list of learning materials for Web Development.
 
 ### Free
 
+
 ### Additional content
 - [List of git commands for different situations](https://ohshitgit.com/)
 - [Fireship - 13 Advanced (but useful) Git Techniques and Shortcuts](https://www.youtube.com/watch?v=ecK3EnyGD8o)
+- [Annie Sexton - Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go)
+- [How to learn Git slowly.](https://dev.to/samuelfaure/how-to-learn-git-slowly-38fa)
+- [Write Git Commit Messages That Your Colleagues Will Love](https://dev.to/simeg/write-git-commit-messages-that-your-colleagues-will-love-1757)
+- [Conventional Commits - add a type of your commit to your messages](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ## JavaScript
 
@@ -148,6 +157,7 @@ A list of learning materials for Web Development.
 - [Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
 - [Refactoring Guru - Refactoring: clean your code](https://refactoring.guru/refactoring)
 - [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
+- [Alex Bespoyasov - Clean Architecture on Frontend](https://dev.to/bespoyasov/clean-architecture-on-frontend-4311)
 
 ### Paid
 - [Academind - Clean Code](https://pro.academind.com/p/clean-code)
@@ -242,6 +252,7 @@ TypeScript Version **(recommended)**
 - [Technical Interview Guide for Busy People](https://www.techinterviewhandbook.org/)
 ![Rough Guide to Frontend Interviews - image](https://media.discordapp.net/attachments/918032586809438258/933647593752363018/ekcpgo047q881.png)
 - [Dawid Mazur - Hiring from developer's point of view: Your GitHub profile](https://www.linkedin.com/feed/update/urn:li:activity:6900405038557339648)
+- [Jason Tu - How to get a job in a new industry without experience (interesting approach to this problem)](https://jasont.co/no-experience/)
 
 
 ## Other Resources (worth your time)
