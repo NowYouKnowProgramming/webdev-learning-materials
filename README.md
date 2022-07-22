@@ -37,6 +37,10 @@ A list of learning materials for Web Development.
   * [HR/Recruitment Resources](#hr--recruitment-resources)
   * [Other Resources (worth your time)](#other-resources-worth-your-time)
     + [Valuable videos](#valuable-videos)
+    * [Turn your theory into practice](#turn-your-theory-into-practice)
+      + [Test your skills](#test-your-skills)
+      + [Interesting tutorials to get you inspired](#interesting-tutorials-to-get-you-inspired)
+      + [Build your own project (better than cloning, ideally make it as a group project!):](#build-your-own-project-better-than-cloning-ideally-make-it-as-a-group-project)
 
 ## YouTube Channels / Blogs
 - [Fireship](https://www.youtube.com/c/Fireship)
@@ -61,7 +65,11 @@ A list of learning materials for Web Development.
 
 ### Free
 - [Codecademy - Learn HTML](https://www.codecademy.com/learn/learn-html)
+- [Minim - HTML for Absolute Beginners](https://www.youtube.com/playlist?list=PL4cTxE4s2XIYJL6uPQUwMt25M70gPl-O6)
 
+### Additional content
+- [Minim - When to Use Semantic HTML Elements Instead of Divs (part of the HTML for Absolute Beginners series)](https://www.youtube.com/watch?v=ZThq93Yuwd0)
+- [Web Dev Simplified - 5+ Must Know HTML Tags That Almost Nobody Knows](https://www.youtube.com/watch?v=iX_QyjdctsQ)
 
 ## CSS
 
@@ -84,9 +92,14 @@ A list of learning materials for Web Development.
 
 ### Free
 
+
 ### Additional content
 - [List of git commands for different situations](https://ohshitgit.com/)
 - [Fireship - 13 Advanced (but useful) Git Techniques and Shortcuts](https://www.youtube.com/watch?v=ecK3EnyGD8o)
+- [Annie Sexton - Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go)
+- [How to learn Git slowly.](https://dev.to/samuelfaure/how-to-learn-git-slowly-38fa)
+- [Write Git Commit Messages That Your Colleagues Will Love](https://dev.to/simeg/write-git-commit-messages-that-your-colleagues-will-love-1757)
+- [Conventional Commits - add a type of your commit to your messages](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ## JavaScript
 
@@ -105,8 +118,6 @@ A list of learning materials for Web Development.
 - [Jack Herrington - JavaScript consts Aren't Constants - JavaScript Quick Fix](https://www.youtube.com/watch?v=5zwzyHqBFnA)
 - [Fireship - Async Await try-catch hell](https://www.youtube.com/shorts/ITogH7lJTyE)
 - [Web Dev Simplified - Are You Using Null and Undefined Wrong?](https://www.youtube.com/watch?v=7bpQUVK9Gn4)
-- [Philip Roberts - What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
-- [Erin Zimmer - Further Adventures of the Event Loop (follow-up to the above video)](https://www.youtube.com/watch?v=u1kqx6AenYw)
 
 ## TypeScript
 
@@ -122,6 +133,11 @@ A list of learning materials for Web Development.
 - [TypeScript tips and Tricks with Matt Pocock](https://www.youtube.com/watch?v=hBk4nV7q6-w)
 - [TypeScript Features to Avoid](https://www.executeprogram.com/blog/typescript-features-to-avoid)
 - [Jack Herrington - Fixing TypeScript's Blindspot: Runtime Typechecking](https://www.youtube.com/watch?v=rY_XqfSHock)
+- [Theo - ping.gg - You Might Be Using TypeScript Wrong... (how to use TypeScript the most effective way?)](https://www.youtube.com/watch?v=RmGHnYUqQ4k)
+- Convert JS objects to TypeScript (a tricky way to do it):
+    - [Transform JS object to JSON](https://transform.tools/js-object-to-json)
+    - [Then convert JSON to TypeScript](https://transform.tools/json-to-typescript)
+- [TypeScript Error Translator (VS Code extension to understand TypeScript errors)](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
 
 
 ## Design Patterns / Clean Code 
@@ -141,6 +157,7 @@ A list of learning materials for Web Development.
 - [Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
 - [Refactoring Guru - Refactoring: clean your code](https://refactoring.guru/refactoring)
 - [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
+- [Alex Bespoyasov - Clean Architecture on Frontend](https://dev.to/bespoyasov/clean-architecture-on-frontend-4311)
 
 ### Paid
 - [Academind - Clean Code](https://pro.academind.com/p/clean-code)
@@ -168,6 +185,10 @@ JavaScript Version
 - [React Hooks](https://github.com/kentcdodds/react-hooks)
 - [Advanced React Hooks](https://github.com/kentcdodds/advanced-react-hooks)
 - [Advanced React Patterns](https://github.com/kentcdodds/advanced-react-patterns)
+- [React Performance](https://github.com/kentcdodds/react-performance)
+- [Testing React Apps](https://github.com/kentcdodds/testing-react-apps)
+- [React Suspence](https://github.com/kentcdodds/react-suspense)
+- [Build an Epic React App (Bookshelf)](https://github.com/kentcdodds/bookshelf)
 
 TypeScript Version **(recommended)**
 - [React Fundamentals](https://github.com/Willaiem/react-fundamentals-typescript)
@@ -177,11 +198,16 @@ TypeScript Version **(recommended)**
 
 - [Introduction to React by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe)
 - [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
+- [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
+- [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
+- [New React Docs (beta)](https://beta.reactjs.org/)
 
 ### Paid 
-- [Kent C. Dodds - Epic React (if you need the solutions)](https://epicreact.dev/)
+- [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
+- [Brad Schiff (LearnWebCode) - React For The Rest Of Us](https://www.udemy.com/course/react-for-the-rest-of-us/)
 
 ### Additional content
+- [Brad Schiff (LearnWebCode) - What is React and what problems does it solve? (Vanilla JS vs React comparison)](https://www.youtube.com/watch?v=fZpINicCPRY)
 - [Alex Kondov - Tao of React](https://alexkondov.com/tao-of-react/)
 - [Josh W. Comeau - Delightful React File/Directory Structure](https://www.joshwcomeau.com/react/file-structure/)
 - [Jack Herrington - Mastering React Hooks with TypeScript](https://www.youtube.com/watch?v=zM_ZiSl2n2E)
@@ -208,6 +234,12 @@ TypeScript Version **(recommended)**
 - [React project structure for scale: decomposition, layers and hierarchy](https://www.developerway.com/posts/react-project-structure)
 - [Fireship - 10 React Antipatterns to Avoid - Code This, Not That!](https://www.youtube.com/watch?v=b0IZo2Aho9Y&t=275s)
 - [React is slow, what now?](https://nosleepjavascript.com/react-performance/)
+- [React Philosophies - what you need to know, when writing the React code?](https://github.com/mithi/react-philosophies)
+- [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
+- [React Docs - You Might Not Need an Effect (when to use the useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
+- [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
+- [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
+- [Best React Libraries to Use](https://www.reddit.com/r/reactjs/comments/vxklim/best_react_libraries_to_use_in_2022/)
 
 ## HR / Recruitment Resources
 - Make a nice looking resume:
@@ -220,6 +252,7 @@ TypeScript Version **(recommended)**
 - [Technical Interview Guide for Busy People](https://www.techinterviewhandbook.org/)
 ![Rough Guide to Frontend Interviews - image](https://media.discordapp.net/attachments/918032586809438258/933647593752363018/ekcpgo047q881.png)
 - [Dawid Mazur - Hiring from developer's point of view: Your GitHub profile](https://www.linkedin.com/feed/update/urn:li:activity:6900405038557339648)
+- [Jason Tu - How to get a job in a new industry without experience (interesting approach to this problem)](https://jasont.co/no-experience/)
 
 
 ## Other Resources (worth your time)
@@ -244,442 +277,6 @@ TypeScript Version **(recommended)**
 - [Chris Hansen - Master Frontend Development 💻 By Cloning These Websites 💯](https://www.dev.to/hyggedev/master-frontend-development-by-cloning-these-websites-1m08)
 - [Lydia Hallie - JavaScript Questions with answers](https://github.com/lydiahallie/javascript-questions)
 
-<details>
-<summary>Real-world frontend technical questions:</summary>
-
-### JavaScript
-- How this expression is called?
-```js
-(function () {
-  console.log('Hello!')  
-})()
-```
-- What are the differences between JavaScript and other programming languages such as C++ and PHP?
-- What are the key differences between ``var``, ``let`` and ``const``?
-- How do you handle asynchronous requests in JavaScript?
-- ``const`` vs ``Object.freeze`` - what are differences for arrays and objects?
-- Based on this code:
-```js
-const obj = {nested: {}}
-
-const anotherObj = {...obj}
-
-obj.nested.a = 1
-```
-Does the ``a`` property will be declared also in ``anotherObj`` and why? If yes, how you can prevent it?
-
-- How you can iterate through the objects?
-- How you would describe hoisting?
-- How you would describe array/object mutation? It is a good practice or something to avoid?
-- Based on this code: 
-```js
-const result = (flag: boolean) => {
-  return new Promise((resolve, reject) => {
-    if (flag) {
-      resolve('success');
-    } else {
-      reject('error');
-    }
-  })
-}
-
-const promise = result(true)
-
-promise
-  .then(r => {
-    // 1.
-    console.log(r)
-
-    return result(false)
-  })
-  .catch(e => {
-    // 2.
-    console.log(e)
-
-    return 'fail'
-  })
-  .then(r => {
-    // 3.
-    console.log(r)
-
-    return result(true)
-  })
-  .catch(e => {
-    // 4.
-    console.log(e)
-  })
-```
-What results will be displayed in console.log's and why?
-
-- Based on this code: 
-```js
-const timeoutAsync = (time) => {
-  return new Promise(resolve => {
-    const timeout = setTimeout(() => {
-      clearTimeout(timeout)
-      resolve(`Timeout resolved after ${time} milliseconds.`);
-    }, time);
-  });
-};
-
-const timeouts = [timeoutAsync(3000), timeoutAsync(5500), timeoutAsync(1000)];
-
-// 1.
-timeouts.forEach(async (timeout) => {
-  const info = await timeout;
-  console.log(info);
-})
-
-// 2.
-const timeoutsInfos = timeouts.reduce(async (promisedAcc, timeout) => {
-  const acc = await promisedAcc;
-  const info = await timeout;
-  console.log(info);
-  acc.push(info);
-  return acc;
-}, Promise.resolve([]))
-
-// 3.
-for (const promiseInfo of timeouts) {
-  const info = await promiseInfo;
-  console.log(info);
-}
-```
-What will be differences between those iterators? In which order the timeouts will be resolved and why?
-
-### TypeScript
-- What are differences between ``type`` and ``interface``?
-- How you can validate a data structure without using the third party validation library?
-
-### Other questions
-- Do you know any patterns from functional programming?
-- Since I mentioned this paradigm, based on this code: 
-```ts
-import { interval, OperatorFunction } from 'rxjs';
-import { take, map, filter } from 'rxjs/operators';
-
-const curry: (n: number) => (num: number) => number = (n) => {
-  return (num) => {
-    return num * n
-  }
-}
-
-const operator = (n: number): OperatorFunction<number, number> => {
-  return map((number: number) => number * n);
-}
-
-const increaseByOne = (n: number): number => n + 1;
-
-const number$ = interval(1000).pipe(map(increaseByOne));
-const obser1$ = number$.pipe(take(3));
-const obser2$ = number$.pipe(take(4), map((n: number): string => `Hello ${'!'.repeat(n - 1)}`));
-const obser3$ = number$.pipe(take(5), map(curry(2)));
-const obser4$ = number$.pipe(take(4), filter((n: number) => n !== 3), operator(10));
-
-obser1$.subscribe((value: number) => {
-  // 1.
-  console.log(value);
-});
-
-obser2$.subscribe((value: string) => {
-  // 2.
-  console.log(value);
-});
-
-obser3$.subscribe((value: number) => {
-  // 3.
-  console.log(value);
-});
-
-obser4$.subscribe((value: number) => {
-  // 4.
-  console.log(value);
-});
-```
-What values will be console.log'ed from observables and why?
-
-- What do you think about testing, how are you doing it and what exactly you are testing?
-- Can you mention a few design patterns and how you can apply them?
-- Can you explain what is TDD, BDD and DDD? What are differences between them?
-
-</details>
-
-<details>
-<summary>Real-world frontend technical recruitment tasks</summary>
-
-1. Internship recruitment task
-
-- Create the function to calculate the balance in a specific category within the specified time period. 
-
-```js
-function getBalanceByCategoryInPeriod(transactionsList, category, startTime, endTime) {
-  // ...
-}
-```
-
-Parameters:
-- transactionsList: array of transactions
-- category: string
-- start time: Date
-- end time: Date
-
-Transaction object looks like this:
-```js
-{
-  id: 123,
-  sourceAccount: 'my_account',
-  targetAccount: 'coffee_shop',
-  amount: -30,
-  category: 'eating_out',
-  time: '2018-03-12T12:34:00Z'
-}
-```
-
-- Create the function to find duplicated transactions.
-
-Sometimes when a customer gets charged, a duplicate transaction is created.
-We need to find those transactions so that they can be dealt with. 
-Everything about the transaction should be identical, except the transaction id and the time at which it occurred,
-as there can be up to a minute delay.
-
-```js
-function findDuplicateTransactions(transactions) {
-  // ...
-}
-```
-Parameters: 
-- transactions: array of transactions
-
-Find all transactions that have the same sourceAccount, targetAccount, category, amount,
-and the time difference between each consecutive transaction is less than 1 minute.
-
-You can assume that all parameters will always be present and valid.
-However, the incoming transactions are not guaranteed to be in any particular order.
-
-List of all the duplicate transaction groups, ordered by time ascending (nested array of transactions).
-The groups should be sorted in ascending order of the first transaction in the group.
-
-Example:
-
-Input:
-```js
-[
-  {
-    id: 3,
-    sourceAccount: "A",
-    targetAccount: "B",
-    amount: 100,
-    category: "eating_out",
-    time: "2018-03-02T10:34:30.000Z",
-  },
-  {
-    id: 1,
-    sourceAccount: "A",
-    targetAccount: "B",
-    amount: 100,
-    category: "eating_out",
-    time: "2018-03-02T10:33:00.000Z",
-  },
-  {
-    id: 6,
-    sourceAccount: "A",
-    targetAccount: "C",
-    amount: 250,
-    category: "other",
-    time: "2018-03-02T10:33:05.000Z",
-  },
-  {
-    id: 4,
-    sourceAccount: "A",
-    targetAccount: "B",
-    amount: 100,
-    category: "eating_out",
-    time: "2018-03-02T10:36:00.000Z",
-  },
-  {
-    id: 2,
-    sourceAccount: "A",
-    targetAccount: "B",
-    amount: 100,
-    category: "eating_out",
-    time: "2018-03-02T10:33:50.000Z",
-  },
-  {
-    id: 5,
-    sourceAccount: "A",
-    targetAccount: "C",
-    amount: 250,
-    category: "other",
-    time: "2018-03-02T10:33:00.000Z",
-  },
-];
-```
-
-Output:
-```js
-[
-  [
-    {
-      id: 1,
-      sourceAccount: "A",
-      targetAccount: "B",
-      amount: 100,
-      category: "eating_out",
-      time: "2018-03-02T10:33:00.000Z",
-    },
-    {
-      id: 2,
-      sourceAccount: "A",
-      targetAccount: "B",
-      amount: 100,
-      category: "eating_out",
-      time: "2018-03-02T10:33:50.000Z",
-    },
-    {
-      id: 3,
-      sourceAccount: "A",
-      targetAccount: "B",
-      amount: 100,
-      category: "eating_out",
-      time: "2018-03-02T10:34:30.000Z",
-    },
-  ],
-  [
-    {
-      id: 5,
-      sourceAccount: "A",
-      targetAccount: "C",
-      amount: 250,
-      category: "other",
-      time: "2018-03-02T10:33:00.000Z",
-    },
-    {
-      id: 6,
-      sourceAccount: "A",
-      targetAccount: "C",
-      amount: 250,
-      category: "other",
-      time: "2018-03-02T10:33:05.000Z",
-    },
-  ],
-];
-```
-
-2. Create e-commerce app using the included design (only for desktop).
-
-Essentials:
-- Has to use Gatsby.js (or any other SSG framework)
-- Has to be pixel perfect.
-- Use SCSS/SASS.
-- Make the sliders animations (carousel).
-- Recreate the hover effect.
-- Upload it to GitHub.
-- Use Bootstrap.
-- App should be responsive.
-
-Optional:
-- Add the lightbox (create it yourself or use the NPM package), which opens, when clicked the image. Must have the option to move between the images (via the arrows).
-- Add a bar under the slide that marks the countdown time until the next slide is shown. It is supposed to be animated, and when it reaches 100% it shows the next slide.
-- Deploy the app on GitHub Pages / Netlify / Vercel / etc.
-- Connect the WordPress to Gatsby and send the contact form data to it.
-- Adding your own animations.
-- Create a sub-page of the article, the content of which will be downloaded from wordpress. The look of this page is up to you, but put great emphasis on aesthetics.
-
-Pay attention to the file structure.
-Folders or components properly laid out. It will be an added advantage to pay attention to such elements as page loading speed, optimization of images, use of lazy loading, etc.
-
-As a design you can use:
-- https://dribbble.com/shots/15389208-Antic-Decoration-Landing-Page
-- https://dribbble.com/shots/15182337-BoConcept-e-Commerce-Slider
-
-3. GitHub Issues App
-
-Essentials:
-- Use GitHub API - either the REST API or GraphQL API.
-- Use TypeScript.
-- Take care of code quality and clean code.
-- Use any JavaScript framework.
-
-Features:
-- App should search GitHub issues by username and repository name.
-- App should have search bar, results list and number of results.
-- On default it should display the default GitHub issues list response.
-- While searching, the app should display the loading indicator.
-- While searching, the result list should display the result of the search.
-- It should search and display users and repositories together.
-- The results should be sorted by ID.
-- Pagination is optional.
-- The app should be responsive.
-- When the user is clicked, it should display in another view the username, nickname, followers count, following count, stars count and their avatar.
-- When the repo is clicked, then nothing happens.
-
-3. Yet another variation of GitHub Issues App.
-
-Essentials:
-- Use GitHub API - either the REST API or GraphQL API.
-- Select any repo, which it should fetch the issues, ie. https://github.com/facebook/react
-- You can use any third-party libraries.
-- Take care of code quality and clean code.
-- Use any architecture.
-- App should be responsive.
-
-Features:
-- Load and display the last 10 issues.
-- Implement the infinite scroll - when scrolled to the bottom, the app should fetch the next 5 issues.
-- Each "tile" should have a title, issue number and creation date.
-- When clicked, it should display the title, issue number, it's status (open/closed), creation date and it's body.
-- It should also display the issue rate counter (like on Stack Overflow) and have to possibility to increse/decrease it.
-- When the count is below ``-99`` or above ``99``, it should display ``99!!``, otherwise it should display the count.
-- The count should be saved somewhere and still be available when the app is reloaded and the same issue will be open.
-
-Optional:
-- Local search engine.
-- Animations and transitions.
-
-4. Create the part of e-commerce app.
-
-- Use this API: https://jsonplaceholder.typicode.com/photos
-- Has to be pixel perfect.
-- You can use Bootstrap, Material Design or any other component library.
-- App should be responsive.
-- TypeScript is recommended, but still optional.
-
-Main page:
-- Load and display all products.
-- On navbar:
-    - Search bar should filter the products by title.
-    - Next to search bar it should have two checkboxes - active and promo, that are acting as filters.
-    - Next to checkboxes it should have the Log In button - when clicked it should redirect to the login page.
-- Working pagination in certain way:
-    - When all pages are: n > 6
-        - When user is on the first or second page:
-            - 1,2,3 ... n-2, n-1, n
-        - When user is on third page:
-            - 2,3,4 ... n-2, n-1, n
-    - When all pages are: n < 6
-        - Present all pages like this:
-            - 1,2,3,4,5,6
-- Handle the situation, when it couldn't find the products.
-
-Login page:
-- The only login and password that is valid is "admin" and "admin123!".
-- The "Forgot password" should do nothing.
-- Handle the situation, when the login or password is incorrect.
-- When the login is successful, it should redirect to the main page.
-- The Log in button is changed to the avatar icon - when clicked, it should display the dropdown with the "Log out" option.
-- When logout, the avatar icon is changed to the "Log in" button. 
-- The log in should be persistant, even after the page is closed.
-
-Optional:
-- Write the unit tests.
-- Write the e2e tests.
-
-As a design you can use:
-- https://dribbble.com/shots/15389208-Antic-Decoration-Landing-Page
-- https://dribbble.com/shots/15117860-Syncrhomedics-Reference-Page
-- https://dribbble.com/shots/16634976-eCommerce-Cosmetic-Web-design
-
-</details>
 
 #### Interesting tutorials to get you inspired:
 - [TomDoesTech - Build a Blog with the T3 Stack (TypeScript, Next.js, tRPC, Prisma and more!)](https://www.youtube.com/watch?v=syEWlxVFUrY)
