@@ -227,6 +227,9 @@ TypeScript Version **(recommended)**
 - [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
 - [Best React Libraries to Use](https://www.reddit.com/r/reactjs/comments/vxklim/best_react_libraries_to_use_in_2022/)
 - [Applying SOLID principles in React](https://medium.com/dailyjs/applying-solid-principles-in-react-14905d9c5377)
+- [Kent C. Dodds - Memoization and React](https://epicreact.dev/memoization-and-react/)
+- [Bartosz Szczeciński - Intro to debugging ReactJS applications](https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
+- [Web Dev Junkie - Tips and Tricks for Debugging React Applications](https://www.youtube.com/watch?v=UXDAp0ILOwg)
 
 ## HR / Recruitment Resources
 - Make a nice looking resume:
