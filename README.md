@@ -225,12 +225,19 @@ TypeScript Version **(recommended)**
 - [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
 - [React Docs - You Might Not Need an Effect (when to use the useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
 - [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
-- [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
 - [Best React Libraries to Use](https://www.reddit.com/r/reactjs/comments/vxklim/best_react_libraries_to_use_in_2022/)
 - [Applying SOLID principles in React](https://medium.com/dailyjs/applying-solid-principles-in-react-14905d9c5377)
 - [Kent C. Dodds - Memoization and React](https://epicreact.dev/memoization-and-react/)
 - [Bartosz Szczeciński - Intro to debugging ReactJS applications](https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
 - [Web Dev Junkie - Tips and Tricks for Debugging React Applications](https://www.youtube.com/watch?v=UXDAp0ILOwg)
+- [Kent C. Dodds - Stop using isLoading booleans](https://kentcdodds.com/blog/stop-using-isloading-booleans)
+- [Kent C. Dodds - Inversion of Control](https://kentcdodds.com/blog/inversion-of-control)
+- [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
+- [Theo - ping.gg - Your Folder Structure Hurt Me (reaction to Web Dev Simplified's folder structure video + from 11:06 shows and explain folder structure in his projects)](https://www.youtube.com/watch?v=86i8ZODqMlI)
+  - This shows two different approaches to organizing your React projects.
+- [Kent C. Dodds - When to useMemo and useCallback.](https://kentcdodds.com/blog/usememo-and-usecallback)
+- [Kent C. Dodds - React DevTools](https://kentcdodds.com/blog/react-devtools)
+
 
 ## HR / Recruitment Resources
 - Make a nice looking resume:
