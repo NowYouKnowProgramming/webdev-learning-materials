@@ -22,18 +22,22 @@ A list of learning materials for Web Development.
     + [Free](#free-5)
     + [Paid](#paid-3)
     + [Additional content](#additional-content-3)
-  * [Design Patterns / Clean Code](#design-patterns--clean-code)
+  * [Clean Code](#clean-code)
     + [Free](#free-6)
     + [Paid](#paid-4)
     + [Additional content](#additional-content-4)
-  * [Node.js](#nodejs)
+  * [Design Patterns](#design-patterns)
     + [Free](#free-7)
     + [Paid](#paid-5)
     + [Additional content](#additional-content-5)
-  * [React](#react)
+  * [Node.js](#nodejs)
     + [Free](#free-8)
     + [Paid](#paid-6)
     + [Additional content](#additional-content-6)
+  * [React](#react)
+    + [Free](#free-9)
+    + [Paid](#paid-7)
+    + [Additional content](#additional-content-7)
   * [HR/Recruitment Resources](#hr--recruitment-resources)
   * [Other Resources (worth your time)](#other-resources-worth-your-time)
     + [Valuable videos](#valuable-videos)
@@ -140,13 +144,20 @@ A list of learning materials for Web Development.
 - [TypeScript Error Translator (VS Code extension to understand TypeScript errors)](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
 
 
-## Design Patterns / Clean Code 
+## Clean Code
 
 ### Free
 - [Uncle Martin's (Author of Clean Code Book) Lectures](https://www.youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
 - [Clean Code - JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
 - [Clean Code - TypeScript](https://github.com/labs42io/clean-code-typescript)
+### Paid
+- [Academind - Clean Code](https://pro.academind.com/p/clean-code)
+### Additional content
 - [10 Common JavaScript Clean Code Mistakes](https://www.youtube.com/watch?v=fHJC44PESIk)
+
+## Design Patterns
+
+### Free
 - Jack Herrington - Design Patterns with TypeScript:
     - [Factory Patterns](https://www.youtube.com/watch?v=-1YhP5IOBCI)
     - [Pub/Sub Patterns](https://www.youtube.com/watch?v=f3Cn0CGytSQ)
@@ -160,7 +171,7 @@ A list of learning materials for Web Development.
 - [Alex Bespoyasov - Clean Architecture on Frontend](https://dev.to/bespoyasov/clean-architecture-on-frontend-4311)
 
 ### Paid
-- [Academind - Clean Code](https://pro.academind.com/p/clean-code)
+
 - [Refactoring Guru - Dive into Design Patterns](https://refactoring.guru/design-patterns)
 
 ### Additional content
