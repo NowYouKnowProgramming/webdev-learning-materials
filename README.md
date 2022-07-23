@@ -194,6 +194,7 @@ TypeScript Version **(recommended)**
 
 ### Additional content
 - [Brad Schiff (LearnWebCode) - What is React and what problems does it solve? (Vanilla JS vs React comparison)](https://www.youtube.com/watch?v=fZpINicCPRY)
+- [Kent C. Dodds. - JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
 - [Alex Kondov - Tao of React](https://alexkondov.com/tao-of-react/)
 - [Josh W. Comeau - Delightful React File/Directory Structure](https://www.joshwcomeau.com/react/file-structure/)
 - [Jack Herrington - Mastering React Hooks with TypeScript](https://www.youtube.com/watch?v=zM_ZiSl2n2E)
