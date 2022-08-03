@@ -219,6 +219,7 @@ TypeScript Version **(recommended)**
 - [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
 - [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
 - [New React Docs (beta)](https://beta.reactjs.org/)
+- [React Framwork.dev - different React resources (books, videos, courses, podcasts) and more](https://react.framework.dev/)
 
 ### Paid 
 - [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
