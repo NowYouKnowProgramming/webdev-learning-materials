@@ -45,6 +45,8 @@ A list of learning materials for Web Development.
       + [Test your skills](#test-your-skills)
       + [Interesting tutorials to get you inspired](#interesting-tutorials-to-get-you-inspired)
       + [Build your own project (better than cloning, ideally make it as a group project!):](#build-your-own-project-better-than-cloning-ideally-make-it-as-a-group-project)
+  * [Productivity tools](#productivity-tools)
+  * [Contributing](#contributing)
 
 ## YouTube Channels / Blogs
 - [Fireship](https://www.youtube.com/c/Fireship)
@@ -406,6 +408,50 @@ What will be differences between those iterators? In which order the timeouts wi
 ### TypeScript
 - What are differences between ``type`` and ``interface``?
 - How you can validate a data structure without using the third party validation library?
+- Which access modifiers allow property to be accessible only within the class?
+
+## React
+- What is props?
+- Why you have to use ``className`` attribute instead of ``class``?
+- What will happen when a component in React component tree throws an error?
+- What are the rules of the React Hooks?
+- Given this following state:
+```js
+{
+  id: 0,
+  name: 'John',
+  detailedInfo: {
+    age: 30,
+    address: '123 Main St',
+  }
+}
+```
+what is the correct way to increment the age?
+- What is React Fragment and how they work?
+- Given this code:
+```js
+const names = ['John', 'Jane', 'Mary', 'Bob']
+
+function RandomName() {
+  const [name, setName] = useState(name.at(0));
+  const changeName = () => {
+    const randomNameIndex = Math.floor(Math.random() * names.length);
+    setName(names[randomNameIndex]);
+  }
+
+  return (
+    <div>
+      <p>Current name: {name}</p>
+      <p>Previous name: {prevName}</p>
+      <button onClick={changeName}>Change name</button>
+    </div>
+  );
+}
+``` 
+How you can store the ``prevName`` value, so that it holds the previous value of ``name`` and is displayed properly in React?
+- Which data structures cannot be rendered in React?
+- What is ``React.memo`` and when you should use it?
+
 
 ### Other questions
 - Do you know any patterns from functional programming?
@@ -748,3 +794,12 @@ As a design you can use:
 - The Code Review Pyramid:
 - ![The Code Review Pyramid](https://media.discordapp.net/attachments/920370741747277924/954270609527959562/image_from_ios.png)
 - [Peter Lunch - How to Plan and Build a Programming Project - A Legitimate Guide for Beginners](https://www.peterlunch.com/blog/how-to-plan-and-build-a-programming-project)
+
+## Productivity tools:
+- [You.com - interesting alternative to Google, which suggests code snippets, Stack Overflow answers or even YouTube videos](https://you.com/)
+- [Raindrop.io - manage your bookmarks way easier than you think](https://raindrop.io/)
+- [Notion - really amazing tool to make notes and organize your thoughts](https://notion.so/)
+
+## Contributing:
+If you found something interesting, but it's not in the list, please open an issue or, even better, a pull request.
+😊 We will be happy to check it out.
