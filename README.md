@@ -259,6 +259,7 @@ TypeScript Version **(recommended)**
 - [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
 - [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
 - [Best React Libraries to Use](https://www.reddit.com/r/reactjs/comments/vxklim/best_react_libraries_to_use_in_2022/)
+- [AppUnite - Vue's Slots Composition adapted to React - how and when to use it](https://appunite.com/blog/composition-known-as-slots-in-react)
 
 ## HR / Recruitment Resources
 - Make a nice looking resume:
