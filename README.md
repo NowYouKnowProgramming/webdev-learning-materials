@@ -126,6 +126,8 @@ A list of learning materials for Web Development.
 - [Jack Herrington - JavaScript consts Aren't Constants - JavaScript Quick Fix](https://www.youtube.com/watch?v=5zwzyHqBFnA)
 - [Fireship - Async Await try-catch hell](https://www.youtube.com/shorts/ITogH7lJTyE)
 - [Web Dev Simplified - Are You Using Null and Undefined Wrong?](https://www.youtube.com/watch?v=7bpQUVK9Gn4)
+- [Web Dev Simplified - var vs let vs const](https://www.youtube.com/watch?v=9WIJQDvt4Us)
+- [Framework.dev - resources about JavaScript frameworks (books, videos, courses, podcasts), popular libraries and possibility of compare them and more](https://www.framework.dev/)
 
 ## TypeScript
 
