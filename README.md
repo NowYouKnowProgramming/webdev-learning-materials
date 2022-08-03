@@ -299,6 +299,7 @@ TypeScript Version **(recommended)**
 - [Frontend Practice - Recreate the existing pages](https://www.frontendpractice.com/)
 - [Chris Hansen - Master Frontend Development 💻 By Cloning These Websites 💯](https://www.dev.to/hyggedev/master-frontend-development-by-cloning-these-websites-1m08)
 - [Lydia Hallie - JavaScript Questions with answers](https://github.com/lydiahallie/javascript-questions)
+- [Frontend Mentor - improve your front-end skills by building different projects](https://www.frontendmentor.io/)
 
 <details>
 <summary>Real-world frontend technical questions:</summary>
