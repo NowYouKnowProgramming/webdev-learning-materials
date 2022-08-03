@@ -379,7 +379,7 @@ const timeoutAsync = (time) => {
   });
 };
 
-const timeouts = [timeoutAsync(3000), timeoutAsync(5500), timeoutAsync(1000)];
+const timeouts = [timeoutAsync(9000), timeoutAsync(5500), timeoutAsync(1000)];
 
 // 1.
 timeouts.forEach(async (timeout) => {
@@ -397,8 +397,7 @@ const timeoutsInfos = timeouts.reduce(async (promisedAcc, timeout) => {
 }, Promise.resolve([]))
 
 // 3.
-for (const promiseInfo of timeouts) {
-  const info = await promiseInfo;
+for await (const info of timeouts) {
   console.log(info);
 }
 ```
