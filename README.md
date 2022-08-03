@@ -199,8 +199,9 @@ TypeScript Version **(recommended)**
 - [New React Docs (beta)](https://beta.reactjs.org/)
 
 ### Paid 
-- [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
+- [Academind - React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
 - [Brad Schiff (LearnWebCode) - React For The Rest Of Us](https://www.udemy.com/course/react-for-the-rest-of-us/)
+- [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
 
 ### Additional content
 - [Brad Schiff (LearnWebCode) - What is React and what problems does it solve? (Vanilla JS vs React comparison)](https://www.youtube.com/watch?v=fZpINicCPRY)
