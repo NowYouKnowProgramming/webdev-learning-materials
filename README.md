@@ -237,6 +237,8 @@ TypeScript Version **(recommended)**
   - This shows two different approaches to organizing your React projects.
 - [Kent C. Dodds - When to useMemo and useCallback.](https://kentcdodds.com/blog/usememo-and-usecallback)
 - [Kent C. Dodds - React DevTools](https://kentcdodds.com/blog/react-devtools)
+- [Web Dev Junkie - How to implement the MVC pattern in React (very interesting approach to this problem)](https://www.youtube.com/watch?v=LIlTrgVz4QA)
+- [Lydia Hallie - Advanced Rendering Patterns (what shortcuts like ISR, SSG and SSR really mean? )](https://www.youtube.com/watch?v=PN1HgvAOmi8)
 
 
 ## HR / Recruitment Resources
