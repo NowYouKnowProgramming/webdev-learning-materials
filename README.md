@@ -131,7 +131,6 @@ A list of learning materials for Web Development.
   - 🇵🇱 [Overment - Jak działa Promise? Async await i wiele więcej](https://www.youtube.com/playlist?list=PLjHmWifVUNMLOfSdeSSEGgSXebPXL7Z3Q)
   - 🇵🇱 [Overment - Operator NOT oraz Array.reduce](https://www.youtube.com/playlist?list=PLjHmWifVUNMJHa4AJdjXoFQPA3UKyVzin)
   - 🇵🇱 [Overment - Programowanie funkcyjne (high order function, function composition, itp.) w JavaScript](https://www.youtube.com/playlist?list=PLjHmWifVUNMLR1Oz3WYK7XRLEY5LvSOPu)
-- 🇵🇱 [Jak zacząć programować? - Tutorial HTML, CSS i JavaScript, ale bez ściemy](https://www.youtube.com/watch?v=lfQmsYCDci8)
 
 ### Paid
 - [Academind - JavaScript - The Complete Guide (Beginner + Advanced)](https://acad.link/js)
@@ -875,6 +874,7 @@ As a design you can use:
 #### Interesting tutorials to get you inspired:
 - [TomDoesTech - Build a Blog with the T3 Stack (TypeScript, Next.js, tRPC, Prisma and more!)](https://www.youtube.com/watch?v=syEWlxVFUrY)
 - [Ben Awad - Fullstack Reddit Clone (TypeScript, React, GraphQL, Node.js, Postgres and more!)](https://www.youtube.com/watch?v=I6ypD7qv3Z8)
+- 🇵🇱 [Jak zacząć programować? - Tutorial HTML, CSS i JavaScript, ale bez ściemy](https://www.youtube.com/watch?v=lfQmsYCDci8)
 
 #### Build your own project (better than cloning, ideally make it as a group project!):
 - [8 beginner-friendly projects to create (the original title is a exaggeration, but they're fine when starting to learn front-end)](https://dev.to/madza/8-projects-to-build-to-master-your-front-end-skills-4gnc)
