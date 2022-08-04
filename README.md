@@ -22,21 +22,31 @@ A list of learning materials for Web Development.
     + [Free](#free-5)
     + [Paid](#paid-3)
     + [Additional content](#additional-content-3)
-  * [Design Patterns / Clean Code](#design-patterns--clean-code)
+  * [Clean Code](#clean-code)
     + [Free](#free-6)
     + [Paid](#paid-4)
     + [Additional content](#additional-content-4)
-  * [Node.js](#nodejs)
+  * [Design Patterns](#design-patterns)
     + [Free](#free-7)
     + [Paid](#paid-5)
     + [Additional content](#additional-content-5)
-  * [React](#react)
+  * [Node.js](#nodejs)
     + [Free](#free-8)
     + [Paid](#paid-6)
     + [Additional content](#additional-content-6)
+  * [React](#react)
+    + [Free](#free-9)
+    + [Paid](#paid-7)
+    + [Additional content](#additional-content-7)
   * [HR/Recruitment Resources](#hr--recruitment-resources)
   * [Other Resources (worth your time)](#other-resources-worth-your-time)
     + [Valuable videos](#valuable-videos)
+    * [Turn your theory into practice](#turn-your-theory-into-practice)
+      + [Test your skills](#test-your-skills)
+      + [Interesting tutorials to get you inspired](#interesting-tutorials-to-get-you-inspired)
+      + [Build your own project (better than cloning, ideally make it as a group project!):](#build-your-own-project-better-than-cloning-ideally-make-it-as-a-group-project)
+  * [Productivity tools](#productivity-tools)
+  * [Contributing](#contributing)
 
 ## YouTube Channels / Blogs
 - [Fireship](https://www.youtube.com/c/Fireship)
@@ -45,6 +55,7 @@ A list of learning materials for Web Development.
 - [Kent C. Dodds (JS/React)](https://kentcdodds.com/blog)
 - [Josh W. Comeau (CSS/JS)](https://www.joshwcomeau.com/)
 - [Matt Pocock (TypeScript)](https://www.youtube.com/channel/UCswG6FSbgZjbWtdf_hMLaow)
+- [DesignCode (Figma/React)](https://www.youtube.com/c/DesignCodeTeam)
 
 ## Learning to Learn
 
@@ -61,7 +72,11 @@ A list of learning materials for Web Development.
 
 ### Free
 - [Codecademy - Learn HTML](https://www.codecademy.com/learn/learn-html)
+- [Minim - HTML for Absolute Beginners](https://www.youtube.com/playlist?list=PL4cTxE4s2XIYJL6uPQUwMt25M70gPl-O6)
 
+### Additional content
+- [Minim - When to Use Semantic HTML Elements Instead of Divs (part of the HTML for Absolute Beginners series)](https://www.youtube.com/watch?v=ZThq93Yuwd0)
+- [Web Dev Simplified - 5+ Must Know HTML Tags That Almost Nobody Knows](https://www.youtube.com/watch?v=iX_QyjdctsQ)
 
 ## CSS
 
@@ -75,18 +90,29 @@ A list of learning materials for Web Development.
 
 ### Additional content
 - [Josh W. Comeau - The Surprising Truth About Pixels and Accessibility](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility)
+- [Josh W. Comeau - Secret Mechanisms of CSS [learn the "hidden" fundamentals that nobody told you about.]](https://www.youtube.com/watch?v=Xt1Cw4qM3Ec)
 - [Fireship - 100 CSS Pro Tips - Code this, NOT that!](https://youtu.be/Qhaz36TZG5Y)
 - [Fireship - 3 More Life-Changing CSS Tips](https://www.youtube.com/watch?v=JSURzPQnkl0)
 - [Defensive CSS - practical tips that helps in building "bullet-proof" UI interfaces](https://defensivecss.dev/)
 - [CSS Reference - visual guide for the most popular properties](https://cssreference.io/)
+- [Kevin Powell - The console.log() of CSS](https://www.youtube.com/shorts/ii-lSK2_Nu4)
+- [Josh W. Comeau - What The Heck, z-index?? [how to manage the positioning of elements]](https://www.joshwcomeau.com/css/stacking-contexts/)
+- [CSS Tricks - My Dumbest CSS Mistakes](https://css-tricks.com/my-dumbest-css-mistakes/)
+- [Josh W. Comeau - You Don’t Need A UI Framework (how to build ui without using the third-party component library?)](https://www.smashingmagazine.com/2022/05/you-dont-need-ui-framework/)
 
 ## Git
 
 ### Free
 
+
 ### Additional content
 - [List of git commands for different situations](https://ohshitgit.com/)
 - [Fireship - 13 Advanced (but useful) Git Techniques and Shortcuts](https://www.youtube.com/watch?v=ecK3EnyGD8o)
+- [Annie Sexton - Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go)
+- [How to learn Git slowly.](https://dev.to/samuelfaure/how-to-learn-git-slowly-38fa)
+- [Write Git Commit Messages That Your Colleagues Will Love](https://dev.to/simeg/write-git-commit-messages-that-your-colleagues-will-love-1757)
+- [Conventional Commits - add a type of your commit to your messages](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Undo wrong Git changes](https://dev.to/dailydevtips1/undo-wrong-git-changes-32mc)
 
 ## JavaScript
 
@@ -100,11 +126,15 @@ A list of learning materials for Web Development.
 - [Dan Abramov - Just JavaScript (ebook)](https://justjavascript.com/)
 
 ### Additional content
-- [Javascript Arrays Made Easy Playlist by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBJmAHWnJbVnXsl71hiHCrQh)
+- [Jack Herrington - Javascript Arrays Made Easy Playlist by ](https://www.youtube.com/playlist?list=PLNqp92_EXZBJmAHWnJbVnXsl71hiHCrQh)
 - [Jack Herrington - Is JavaScript Spread Operator a Performance Killer?](https://www.youtube.com/watch?v=tcZbY-Q0TIE)
 - [Jack Herrington - JavaScript consts Aren't Constants - JavaScript Quick Fix](https://www.youtube.com/watch?v=5zwzyHqBFnA)
 - [Fireship - Async Await try-catch hell](https://www.youtube.com/shorts/ITogH7lJTyE)
 - [Web Dev Simplified - Are You Using Null and Undefined Wrong?](https://www.youtube.com/watch?v=7bpQUVK9Gn4)
+- [Web Dev Simplified - var vs let vs const](https://www.youtube.com/watch?v=9WIJQDvt4Us)
+- [Framework.dev - resources about JavaScript frameworks (books, videos, courses, podcasts), popular libraries and possibility of compare them and more](https://www.framework.dev/)
+- [TomDoesTech - 9 JavaScript Opinions That Will Make You Mad](https://www.youtube.com/watch?v=b9C8r5m-mj8)
+- [Jenn Creighton - Now and .then: Debugging Async JavaScript](https://www.youtube.com/watch?v=V-lu0YjJYdk)
 
 ## TypeScript
 
@@ -127,13 +157,22 @@ A list of learning materials for Web Development.
 - [TypeScript Error Translator (VS Code extension to understand TypeScript errors)](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
 
 
-## Design Patterns / Clean Code 
+## Clean Code
 
 ### Free
 - [Uncle Martin's (Author of Clean Code Book) Lectures](https://www.youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
 - [Clean Code - JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
 - [Clean Code - TypeScript](https://github.com/labs42io/clean-code-typescript)
+### Paid
+- [Academind - Clean Code](https://pro.academind.com/p/clean-code)
+### Additional content
 - [10 Common JavaScript Clean Code Mistakes](https://www.youtube.com/watch?v=fHJC44PESIk)
+- [Kent C. Dodds - AHA Programming](https://youtu.be/wuVy7rwkCfc)
+- [What does abstraction mean in programming?](https://stackoverflow.com/questions/21220155/what-does-abstraction-mean-in-programming)
+
+## Design Patterns
+
+### Free
 - Jack Herrington - Design Patterns with TypeScript:
     - [Factory Patterns](https://www.youtube.com/watch?v=-1YhP5IOBCI)
     - [Pub/Sub Patterns](https://www.youtube.com/watch?v=f3Cn0CGytSQ)
@@ -144,14 +183,18 @@ A list of learning materials for Web Development.
 - [Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
 - [Refactoring Guru - Refactoring: clean your code](https://refactoring.guru/refactoring)
 - [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
+- [Alex Bespoyasov - Clean Architecture on Frontend](https://dev.to/bespoyasov/clean-architecture-on-frontend-4311)
 
 ### Paid
-- [Academind - Clean Code](https://pro.academind.com/p/clean-code)
+
 - [Refactoring Guru - Dive into Design Patterns](https://refactoring.guru/design-patterns)
 
 ### Additional content
 - [Fireship - 10 Design Patterns explained in 10 minutes](https://www.youtube.com/watch?v=tv-_1er1mWI)
 - [Continuous Delivery - Object-oriented programming (OOP) vs Functional Programming (FP)](https://www.youtube.com/watch?v=wyABTfR9UTU)
+- [Fireship - Object Oriented vs Functional Programming in TypeScript](https://www.youtube.com/watch?v=fsVL_xrYO0w)
+- [Traversy Media - 5 Design Patterns Every Engineer Should Know (with Jack Herrington)](https://www.youtube.com/watch?v=FLmBqI3IKMA)
+- [Fireship - Test-Driven Development // Fun TDD Introduction with JavaScript](https://www.youtube.com/watch?v=Jv2uxzhPFl4)
 
 ## Node.js 
 
@@ -187,6 +230,7 @@ TypeScript Version **(recommended)**
 - [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
 - [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
 - [New React Docs (beta)](https://beta.reactjs.org/)
+- [React Framwork.dev - different React resources (books, videos, courses, podcasts) and more](https://react.framework.dev/)
 
 ### Paid 
 - [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
@@ -239,8 +283,10 @@ TypeScript Version **(recommended)**
 - [Kent C. Dodds - React DevTools](https://kentcdodds.com/blog/react-devtools)
 - [Web Dev Junkie - How to implement the MVC pattern in React (very interesting approach to this problem)](https://www.youtube.com/watch?v=LIlTrgVz4QA)
 - [Lydia Hallie - Advanced Rendering Patterns (what shortcuts like ISR, SSG and SSR really mean? )](https://www.youtube.com/watch?v=PN1HgvAOmi8)
-
-
+- [AppUnite - Vue's Slots Composition adapted to React - how and when to use it](https://appunite.com/blog/composition-known-as-slots-in-react)
+- [Conner Ardman - React Coding Interview Ft. Clément Mihailescu (build the wordle clone)](https://www.youtube.com/watch?v=5xf4_Kx7azg)
+    - Used API (if someone wants to recreate the task): https://api.frontendexpert.io/api/fe/wordle-words
+    
 ## HR / Recruitment Resources
 - Make a nice looking resume:
     - [FlowCV](https://flowcv.io/)
@@ -252,15 +298,20 @@ TypeScript Version **(recommended)**
 - [Technical Interview Guide for Busy People](https://www.techinterviewhandbook.org/)
 ![Rough Guide to Frontend Interviews - image](https://media.discordapp.net/attachments/918032586809438258/933647593752363018/ekcpgo047q881.png)
 - [Dawid Mazur - Hiring from developer's point of view: Your GitHub profile](https://www.linkedin.com/feed/update/urn:li:activity:6900405038557339648)
+- [Jason Tu - How to get a job in a new industry without experience (interesting approach to this problem)](https://jasont.co/no-experience/)
+- [Fireship - How to NOT Fail a Technical Interview](https://www.youtube.com/watch?v=1t1_a1BZ04o)
+- [Josh W. Comeau - Building an Effective Dev Portfolio](https://www.joshwcomeau.com/effective-portfolio/download-book/)
 
 
 ## Other Resources (worth your time)
+- [web.dev - various resources about front-end from Google itself (responsive design, accessibility, optimazation, etc.)](https://web.dev/)
+- [Fullstack Open - learn to code fullstack apps with React, Node, TypeScript and more!](https://fullstackopen.com/)
 
 ### Valuable videos:
 - [ThePrimeagen - How do I create a side project (as a software enginner)?](https://www.youtube.com/watch?v=bKGy_eYnI3U)
 - [ThePrimeagen - How I Choose Side Projects (as a software enginner)](https://www.youtube.com/watch?v=KjjjQSSbhfU)
 - [ThePrimeagen - How I Became A Better Programmer](https://www.youtube.com/watch?v=cgXfWo42gig)
-- [Stefan Mischook - Should I Take a Break from Learning CSS?](https://www.youtube.com/watch?v=78tNu4f91oM)
+- [Stefan Mischook - Should I Take a Break from Learning CSS? (when to take a break from learning anything)](https://www.youtube.com/watch?v=78tNu4f91oM)
 - [Fireship - Vim in 100 seconds (and beyond)](https://www.youtube.com/watch?v=-txKSRn0qeA)
 - [FreeCodeCamp - Vim Tutorial for Beginners](https://www.youtube.com/watch?v=RZ4p-saaQkc)
 - [Fireship - How to "Google It" like a Senior Software Engineer](https://www.youtube.com/watch?v=cEBkvm0-rg0)
@@ -269,12 +320,502 @@ TypeScript Version **(recommended)**
 - [Fireship - Session vs Token Authentication in 100 seconds](https://www.youtube.com/watch?v=UBUNrFtufWo)
 - [Fireship - 100+ Computer Science Concepts Explained](https://www.youtube.com/watch?v=-uleG_Vecis)
 - [Jack Herrington - Senior Developer Workflow For Stress-Free Coding](https://www.youtube.com/watch?v=eAfUfKYcvBo)
+- [Web Dev Junkie - My list of advanced web development topics you should learn](https://www.youtube.com/watch?v=5PWXfjCCm1g)
+- [Code Creative - 3 Skills That Will Help You Succeed as a Junior Developer](https://www.youtube.com/watch?v=I0Erp3w8qu4)
+- [Code Creative - Day In The Life of a Software Enginner (probably the most real-world one)](https://www.youtube.com/watch?v=c5z85kfof6w)
+- [Fireship - Problem-Solving for Developers - A Beginner's Guide](https://www.youtube.com/watch?v=UFc-RPbq8kg)
+- [The Digital CEO - Design tips for Front End Developers](https://youtu.be/XNJPHGWxLQA)
+- [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
+- [Kenny Gunderman - Should You Learn Native or Cross-Platform Mobile Development?](https://youtu.be/Mq_HS-o-v6o)
 
 ### Turn your theory into practice:
 #### Test your skills:
 - [Frontend Practice - Recreate the existing pages](https://www.frontendpractice.com/)
 - [Chris Hansen - Master Frontend Development 💻 By Cloning These Websites 💯](https://www.dev.to/hyggedev/master-frontend-development-by-cloning-these-websites-1m08)
 - [Lydia Hallie - JavaScript Questions with answers](https://github.com/lydiahallie/javascript-questions)
+- [Frontend Mentor - improve your front-end skills by building different projects](https://www.frontendmentor.io/)
+- [BFE.dev - prepare for Front-End job interviews](https://bigfrontend.dev/)
+- [Wes Bos - JavaScript 30](https://javascript30.com/)
+
+<details>
+<summary>Real-world frontend technical questions:</summary>
+
+### JavaScript
+- How this expression is called?
+```js
+(function () {
+  console.log('Hello!')  
+})()
+```
+- What are the differences between JavaScript and other programming languages such as C++ and PHP?
+- What are the key differences between ``var``, ``let`` and ``const``?
+- How do you handle asynchronous requests in JavaScript?
+- ``const`` vs ``Object.freeze`` - what are differences for arrays and objects?
+- Based on this code:
+```js
+const obj = {nested: {}}
+
+const anotherObj = {...obj}
+
+obj.nested.a = 1
+```
+Does the ``a`` property will be declared also in ``anotherObj`` and why? If yes, how you can prevent it?
+
+- How you can iterate through the objects?
+- How you would describe hoisting?
+- How you would describe array/object mutation? It is a good practice or something to avoid?
+- Based on this code: 
+```js
+const result = (flag: boolean) => {
+  return new Promise((resolve, reject) => {
+    if (flag) {
+      resolve('success');
+    } else {
+      reject('error');
+    }
+  })
+}
+
+const promise = result(true)
+
+promise
+  .then(r => {
+    // 1.
+    console.log(r)
+
+    return result(false)
+  })
+  .catch(e => {
+    // 2.
+    console.log(e)
+
+    return 'fail'
+  })
+  .then(r => {
+    // 3.
+    console.log(r)
+
+    return result(true)
+  })
+  .catch(e => {
+    // 4.
+    console.log(e)
+  })
+```
+What results will be displayed in console.log's and why?
+
+- Based on this code: 
+```js
+const timeoutAsync = (time) => {
+  return new Promise(resolve => {
+    const timeout = setTimeout(() => {
+      clearTimeout(timeout)
+      resolve(`Timeout resolved after ${time} milliseconds.`);
+    }, time);
+  });
+};
+
+const timeouts = [timeoutAsync(9000), timeoutAsync(5500), timeoutAsync(1000)];
+
+// 1.
+timeouts.forEach(async (timeout) => {
+  const info = await timeout;
+  console.log(info);
+})
+
+// 2.
+const timeoutsInfos = timeouts.reduce(async (promisedAcc, timeout) => {
+  const acc = await promisedAcc;
+  const info = await timeout;
+  console.log(info);
+  acc.push(info);
+  return acc;
+}, Promise.resolve([]))
+
+// 3.
+for await (const info of timeouts) {
+  console.log(info);
+}
+```
+What will be differences between those iterators? In which order the timeouts will be resolved and why?
+
+### TypeScript
+- What are differences between ``type`` and ``interface``?
+- How you can validate a data structure without using the third party validation library?
+- Which access modifiers allow property to be accessible only within the class?
+
+## React
+- What is props?
+- Why you have to use ``className`` attribute instead of ``class``?
+- What will happen when a component in React component tree throws an error?
+- What are the rules of the React Hooks?
+- Given this following state:
+```js
+{
+  id: 0,
+  name: 'John',
+  detailedInfo: {
+    age: 30,
+    address: '123 Main St',
+  }
+}
+```
+what is the correct way to increment the age?
+- What is React Fragment and how they work?
+- Given this code:
+```js
+const names = ['John', 'Jane', 'Mary', 'Bob']
+
+function RandomName() {
+  const [name, setName] = useState(name.at(0));
+  const changeName = () => {
+    const randomNameIndex = Math.floor(Math.random() * names.length);
+    setName(names[randomNameIndex]);
+  }
+
+  return (
+    <div>
+      <p>Current name: {name}</p>
+      <p>Previous name: {prevName}</p>
+      <button onClick={changeName}>Change name</button>
+    </div>
+  );
+}
+``` 
+How you can store the ``prevName`` value, so that it holds the previous value of ``name`` and is displayed properly in React?
+- Which data structures cannot be rendered in React?
+- What is ``React.memo`` and when you should use it?
+
+
+### Other questions
+- Do you know any patterns from functional programming?
+- Since I mentioned this paradigm, based on this code: 
+```ts
+import { interval, OperatorFunction } from 'rxjs';
+import { take, map, filter } from 'rxjs/operators';
+
+const curry: (n: number) => (num: number) => number = (n) => {
+  return (num) => {
+    return num * n
+  }
+}
+
+const operator = (n: number): OperatorFunction<number, number> => {
+  return map((number: number) => number * n);
+}
+
+const increaseByOne = (n: number): number => n + 1;
+
+const number$ = interval(1000).pipe(map(increaseByOne));
+const obser1$ = number$.pipe(take(3));
+const obser2$ = number$.pipe(take(4), map((n: number): string => `Hello ${'!'.repeat(n - 1)}`));
+const obser3$ = number$.pipe(take(5), map(curry(2)));
+const obser4$ = number$.pipe(take(4), filter((n: number) => n !== 3), operator(10));
+
+obser1$.subscribe((value: number) => {
+  // 1.
+  console.log(value);
+});
+
+obser2$.subscribe((value: string) => {
+  // 2.
+  console.log(value);
+});
+
+obser3$.subscribe((value: number) => {
+  // 3.
+  console.log(value);
+});
+
+obser4$.subscribe((value: number) => {
+  // 4.
+  console.log(value);
+});
+```
+What values will be console.log'ed from observables and why?
+
+- What do you think about testing, how are you doing it and what exactly you are testing?
+- Can you mention a few design patterns and how you can apply them?
+- Can you explain what is TDD, BDD and DDD? What are differences between them?
+
+</details>
+
+<details>
+<summary>Real-world frontend technical recruitment tasks</summary>
+
+1. Internship recruitment task
+
+- Create the function to calculate the balance in a specific category within the specified time period. 
+
+```js
+function getBalanceByCategoryInPeriod(transactionsList, category, startTime, endTime) {
+  // ...
+}
+```
+
+Parameters:
+- transactionsList: array of transactions
+- category: string
+- start time: Date
+- end time: Date
+
+Transaction object looks like this:
+```js
+{
+  id: 123,
+  sourceAccount: 'my_account',
+  targetAccount: 'coffee_shop',
+  amount: -30,
+  category: 'eating_out',
+  time: '2018-03-12T12:34:00Z'
+}
+```
+
+- Create the function to find duplicated transactions.
+
+Sometimes when a customer gets charged, a duplicate transaction is created.
+We need to find those transactions so that they can be dealt with. 
+Everything about the transaction should be identical, except the transaction id and the time at which it occurred,
+as there can be up to a minute delay.
+
+```js
+function findDuplicateTransactions(transactions) {
+  // ...
+}
+```
+Parameters: 
+- transactions: array of transactions
+
+Find all transactions that have the same sourceAccount, targetAccount, category, amount,
+and the time difference between each consecutive transaction is less than 1 minute.
+
+You can assume that all parameters will always be present and valid.
+However, the incoming transactions are not guaranteed to be in any particular order.
+
+List of all the duplicate transaction groups, ordered by time ascending (nested array of transactions).
+The groups should be sorted in ascending order of the first transaction in the group.
+
+Example:
+
+Input:
+```js
+[
+  {
+    id: 3,
+    sourceAccount: "A",
+    targetAccount: "B",
+    amount: 100,
+    category: "eating_out",
+    time: "2018-03-02T10:34:30.000Z",
+  },
+  {
+    id: 1,
+    sourceAccount: "A",
+    targetAccount: "B",
+    amount: 100,
+    category: "eating_out",
+    time: "2018-03-02T10:33:00.000Z",
+  },
+  {
+    id: 6,
+    sourceAccount: "A",
+    targetAccount: "C",
+    amount: 250,
+    category: "other",
+    time: "2018-03-02T10:33:05.000Z",
+  },
+  {
+    id: 4,
+    sourceAccount: "A",
+    targetAccount: "B",
+    amount: 100,
+    category: "eating_out",
+    time: "2018-03-02T10:36:00.000Z",
+  },
+  {
+    id: 2,
+    sourceAccount: "A",
+    targetAccount: "B",
+    amount: 100,
+    category: "eating_out",
+    time: "2018-03-02T10:33:50.000Z",
+  },
+  {
+    id: 5,
+    sourceAccount: "A",
+    targetAccount: "C",
+    amount: 250,
+    category: "other",
+    time: "2018-03-02T10:33:00.000Z",
+  },
+];
+```
+
+Output:
+```js
+[
+  [
+    {
+      id: 1,
+      sourceAccount: "A",
+      targetAccount: "B",
+      amount: 100,
+      category: "eating_out",
+      time: "2018-03-02T10:33:00.000Z",
+    },
+    {
+      id: 2,
+      sourceAccount: "A",
+      targetAccount: "B",
+      amount: 100,
+      category: "eating_out",
+      time: "2018-03-02T10:33:50.000Z",
+    },
+    {
+      id: 3,
+      sourceAccount: "A",
+      targetAccount: "B",
+      amount: 100,
+      category: "eating_out",
+      time: "2018-03-02T10:34:30.000Z",
+    },
+  ],
+  [
+    {
+      id: 5,
+      sourceAccount: "A",
+      targetAccount: "C",
+      amount: 250,
+      category: "other",
+      time: "2018-03-02T10:33:00.000Z",
+    },
+    {
+      id: 6,
+      sourceAccount: "A",
+      targetAccount: "C",
+      amount: 250,
+      category: "other",
+      time: "2018-03-02T10:33:05.000Z",
+    },
+  ],
+];
+```
+
+2. Create e-commerce app using the included design (only for desktop).
+
+Essentials:
+- Has to use Gatsby.js (or any other SSG framework)
+- Has to be pixel perfect.
+- Use SCSS/SASS.
+- Make the sliders animations (carousel).
+- Recreate the hover effect.
+- Upload it to GitHub.
+- Use Bootstrap.
+- App should be responsive.
+
+Optional:
+- Add the lightbox (create it yourself or use the NPM package), which opens, when clicked the image. Must have the option to move between the images (via the arrows).
+- Add a bar under the slide that marks the countdown time until the next slide is shown. It is supposed to be animated, and when it reaches 100% it shows the next slide.
+- Deploy the app on GitHub Pages / Netlify / Vercel / etc.
+- Connect the WordPress to Gatsby and send the contact form data to it.
+- Adding your own animations.
+- Create a sub-page of the article, the content of which will be downloaded from wordpress. The look of this page is up to you, but put great emphasis on aesthetics.
+
+Pay attention to the file structure.
+Folders or components properly laid out. It will be an added advantage to pay attention to such elements as page loading speed, optimization of images, use of lazy loading, etc.
+
+As a design you can use:
+- https://dribbble.com/shots/15389208-Antic-Decoration-Landing-Page
+- https://dribbble.com/shots/15182337-BoConcept-e-Commerce-Slider
+
+3. GitHub Issues App
+
+Essentials:
+- Use GitHub API - either the REST API or GraphQL API.
+- Use TypeScript.
+- Take care of code quality and clean code.
+- Use any JavaScript framework.
+
+Features:
+- App should search GitHub issues by username and repository name.
+- App should have search bar, results list and number of results.
+- On default it should display the default GitHub issues list response.
+- While searching, the app should display the loading indicator.
+- While searching, the result list should display the result of the search.
+- It should search and display users and repositories together.
+- The results should be sorted by ID.
+- Pagination is optional.
+- The app should be responsive.
+- When the user is clicked, it should display in another view the username, nickname, followers count, following count, stars count and their avatar.
+- When the repo is clicked, then nothing happens.
+
+3. Yet another variation of GitHub Issues App.
+
+Essentials:
+- Use GitHub API - either the REST API or GraphQL API.
+- Select any repo, which it should fetch the issues, ie. https://github.com/facebook/react
+- You can use any third-party libraries.
+- Take care of code quality and clean code.
+- Use any architecture.
+- App should be responsive.
+
+Features:
+- Load and display the last 10 issues.
+- Implement the infinite scroll - when scrolled to the bottom, the app should fetch the next 5 issues.
+- Each "tile" should have a title, issue number and creation date.
+- When clicked, it should display the title, issue number, it's status (open/closed), creation date and it's body.
+- It should also display the issue rate counter (like on Stack Overflow) and have to possibility to increse/decrease it.
+- When the count is below ``-99`` or above ``99``, it should display ``99!!``, otherwise it should display the count.
+- The count should be saved somewhere and still be available when the app is reloaded and the same issue will be open.
+
+Optional:
+- Local search engine.
+- Animations and transitions.
+
+4. Create the part of e-commerce app.
+
+- Use this API: https://jsonplaceholder.typicode.com/photos
+- Has to be pixel perfect.
+- You can use Bootstrap, Material Design or any other component library.
+- App should be responsive.
+- TypeScript is recommended, but still optional.
+
+Main page:
+- Load and display all products.
+- On navbar:
+    - Search bar should filter the products by title.
+    - Next to search bar it should have two checkboxes - active and promo, that are acting as filters.
+    - Next to checkboxes it should have the Log In button - when clicked it should redirect to the login page.
+- Working pagination in certain way:
+    - When all pages are: n > 6
+        - When user is on the first or second page:
+            - 1,2,3 ... n-2, n-1, n
+        - When user is on third page:
+            - 2,3,4 ... n-2, n-1, n
+    - When all pages are: n < 6
+        - Present all pages like this:
+            - 1,2,3,4,5,6
+- Handle the situation, when it couldn't find the products.
+
+Login page:
+- The only login and password that is valid is "admin" and "admin123!".
+- The "Forgot password" should do nothing.
+- Handle the situation, when the login or password is incorrect.
+- When the login is successful, it should redirect to the main page.
+- The Log in button is changed to the avatar icon - when clicked, it should display the dropdown with the "Log out" option.
+- When logout, the avatar icon is changed to the "Log in" button. 
+- The log in should be persistant, even after the page is closed.
+
+Optional:
+- Write the unit tests.
+- Write the e2e tests.
+
+As a design you can use:
+- https://dribbble.com/shots/15389208-Antic-Decoration-Landing-Page
+- https://dribbble.com/shots/15117860-Syncrhomedics-Reference-Page
+- https://dribbble.com/shots/16634976-eCommerce-Cosmetic-Web-design
+
+</details>
 
 
 #### Interesting tutorials to get you inspired:
@@ -287,3 +828,13 @@ TypeScript Version **(recommended)**
 - The Code Review Pyramid:
 - ![The Code Review Pyramid](https://media.discordapp.net/attachments/920370741747277924/954270609527959562/image_from_ios.png)
 - [Peter Lunch - How to Plan and Build a Programming Project - A Legitimate Guide for Beginners](https://www.peterlunch.com/blog/how-to-plan-and-build-a-programming-project)
+
+## Productivity tools:
+- [You.com - interesting alternative to Google, which suggests code snippets, Stack Overflow answers or even YouTube videos](https://you.com/)
+- [Raindrop.io - manage your bookmarks way easier than you think](https://raindrop.io/)
+- [Notion - really amazing tool to make notes and organize your thoughts](https://notion.so/)
+- [Unsplash - free sources of pictures](https://unsplash.com/)
+
+## Contributing:
+If you found something interesting, but it's not in the list, please open an issue or, even better, a pull request.
+😊 We will be happy to check it out and add it.
