@@ -238,6 +238,7 @@ TypeScript Version **(recommended)**
 
 ### Additional content
 - [Brad Schiff (LearnWebCode) - What is React and what problems does it solve? (Vanilla JS vs React comparison)](https://www.youtube.com/watch?v=fZpINicCPRY)
+- [Kent C. Dodds. - JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
 - [Alex Kondov - Tao of React](https://alexkondov.com/tao-of-react/)
 - [Josh W. Comeau - Delightful React File/Directory Structure](https://www.joshwcomeau.com/react/file-structure/)
 - [Jack Herrington - Mastering React Hooks with TypeScript](https://www.youtube.com/watch?v=zM_ZiSl2n2E)
@@ -268,12 +269,24 @@ TypeScript Version **(recommended)**
 - [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
 - [React Docs - You Might Not Need an Effect (when to use the useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
 - [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
-- [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
 - [Best React Libraries to Use](https://www.reddit.com/r/reactjs/comments/vxklim/best_react_libraries_to_use_in_2022/)
+- [Applying SOLID principles in React](https://medium.com/dailyjs/applying-solid-principles-in-react-14905d9c5377)
+- [Kent C. Dodds - Memoization and React](https://epicreact.dev/memoization-and-react/)
+- [Bartosz Szczeciński - Intro to debugging ReactJS applications](https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
+- [Web Dev Junkie - Tips and Tricks for Debugging React Applications](https://www.youtube.com/watch?v=UXDAp0ILOwg)
+- [Kent C. Dodds - Stop using isLoading booleans](https://kentcdodds.com/blog/stop-using-isloading-booleans)
+- [Kent C. Dodds - Inversion of Control](https://kentcdodds.com/blog/inversion-of-control)
+- [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
+- [Theo - ping.gg - Your Folder Structure Hurt Me (reaction to Web Dev Simplified's folder structure video + from 11:06 shows and explain folder structure in his projects)](https://www.youtube.com/watch?v=86i8ZODqMlI)
+  - This shows two different approaches to organizing your React projects.
+- [Kent C. Dodds - When to useMemo and useCallback.](https://kentcdodds.com/blog/usememo-and-usecallback)
+- [Kent C. Dodds - React DevTools](https://kentcdodds.com/blog/react-devtools)
+- [Web Dev Junkie - How to implement the MVC pattern in React (very interesting approach to this problem)](https://www.youtube.com/watch?v=LIlTrgVz4QA)
+- [Lydia Hallie - Advanced Rendering Patterns (what shortcuts like ISR, SSG and SSR really mean? )](https://www.youtube.com/watch?v=PN1HgvAOmi8)
 - [AppUnite - Vue's Slots Composition adapted to React - how and when to use it](https://appunite.com/blog/composition-known-as-slots-in-react)
 - [Conner Ardman - React Coding Interview Ft. Clément Mihailescu (build the wordle clone)](https://www.youtube.com/watch?v=5xf4_Kx7azg)
     - Used API (if someone wants to recreate the task): https://api.frontendexpert.io/api/fe/wordle-words
-
+    
 ## HR / Recruitment Resources
 - Make a nice looking resume:
     - [FlowCV](https://flowcv.io/)
