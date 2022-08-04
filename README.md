@@ -396,6 +396,7 @@ TypeScript Version **(recommended)**
 - [Frontend Mentor - improve your front-end skills by building different projects](https://www.frontendmentor.io/)
 - [BFE.dev - prepare for Front-End job interviews](https://bigfrontend.dev/)
 - [Wes Bos - JavaScript 30](https://javascript30.com/)
+- [25 Extremely Modern Layouts Using CSS Grid✨ (try to recreate them!)](https://dev.to/preethi_dev/25-extremely-modern-layouts-using-css-grid-10ek)
 - 🇵🇱 [Localhost Academy - Zbiór zadań HTML, CSS, JS, React, itp.](https://github.com/Przemocny/zbior-zadan-html-css-js-react)
 
 <details>
