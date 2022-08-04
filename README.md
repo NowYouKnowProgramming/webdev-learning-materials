@@ -207,6 +207,7 @@ A list of learning materials for Web Development.
     - [Proxy & Flyweight Patterns](https://www.youtube.com/watch?v=0vumsisnqwM)
 - [Patterns.dev](https://www.patterns.dev/)
 - [Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
+- [Anjana Vakil - Learning Functional Programming with JavaScript](https://youtu.be/e-5obm1G_FY)
 - [Refactoring Guru - Refactoring: clean your code](https://refactoring.guru/refactoring)
 - [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
 - [Alex Bespoyasov - Clean Architecture on Frontend](https://dev.to/bespoyasov/clean-architecture-on-frontend-4311)
