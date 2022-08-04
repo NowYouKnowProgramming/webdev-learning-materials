@@ -118,6 +118,7 @@ A list of learning materials for Web Development.
 - [Write Git Commit Messages That Your Colleagues Will Love](https://dev.to/simeg/write-git-commit-messages-that-your-colleagues-will-love-1757)
 - [Conventional Commits - add a type of your commit to your messages](https://www.conventionalcommits.org/en/v1.0.0/)
 - [Undo wrong Git changes](https://dev.to/dailydevtips1/undo-wrong-git-changes-32mc)
+- [Please Start Writing Better Git Commits](https://tawdev.hashnode.dev/please-start-writing-better-git-commits)
 
 ## JavaScript
 
