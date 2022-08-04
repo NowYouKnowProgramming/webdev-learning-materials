@@ -303,6 +303,10 @@ TypeScript Version **(recommended)**
 - [Code Creative - 3 Skills That Will Help You Succeed as a Junior Developer](https://www.youtube.com/watch?v=I0Erp3w8qu4)
 - [Code Creative - Day In The Life of a Software Enginner (probably the most real-world one)](https://www.youtube.com/watch?v=c5z85kfof6w)
 - [Fireship - Problem-Solving for Developers - A Beginner's Guide](https://www.youtube.com/watch?v=UFc-RPbq8kg)
+- [The Digital CEO - Design tips for Front End Developers](https://youtu.be/XNJPHGWxLQA)
+- [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
+- [Kenny Gunderman - Should You Learn Native or Cross-Platform Mobile Development?](https://youtu.be/Mq_HS-o-v6o)
+- [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
 
 ### Turn your theory into practice:
 #### Test your skills:
