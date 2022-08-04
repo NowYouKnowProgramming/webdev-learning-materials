@@ -55,6 +55,7 @@ A list of learning materials for Web Development.
 - [Kent C. Dodds (JS/React)](https://kentcdodds.com/blog)
 - [Josh W. Comeau (CSS/JS)](https://www.joshwcomeau.com/)
 - [Matt Pocock (TypeScript)](https://www.youtube.com/channel/UCswG6FSbgZjbWtdf_hMLaow)
+- [DesignCode (Figma/React)](https://www.youtube.com/c/DesignCodeTeam)
 
 ## Learning to Learn
 
@@ -313,7 +314,6 @@ TypeScript Version **(recommended)**
 - [The Digital CEO - Design tips for Front End Developers](https://youtu.be/XNJPHGWxLQA)
 - [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
 - [Kenny Gunderman - Should You Learn Native or Cross-Platform Mobile Development?](https://youtu.be/Mq_HS-o-v6o)
-- [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
 
 ### Turn your theory into practice:
 #### Test your skills:
