@@ -300,6 +300,9 @@ TypeScript Version **(recommended)**
 - [Fireship - 100+ Computer Science Concepts Explained](https://www.youtube.com/watch?v=-uleG_Vecis)
 - [Jack Herrington - Senior Developer Workflow For Stress-Free Coding](https://www.youtube.com/watch?v=eAfUfKYcvBo)
 - [Web Dev Junkie - My list of advanced web development topics you should learn](https://www.youtube.com/watch?v=5PWXfjCCm1g)
+- [Code Creative - 3 Skills That Will Help You Succeed as a Junior Developer](https://www.youtube.com/watch?v=I0Erp3w8qu4)
+- [Code Creative - Day In The Life of a Software Enginner (probably the most real-world one)](https://www.youtube.com/watch?v=c5z85kfof6w)
+- [Fireship - Problem-Solving for Developers - A Beginner's Guide](https://www.youtube.com/watch?v=UFc-RPbq8kg)
 
 ### Turn your theory into practice:
 #### Test your skills:
