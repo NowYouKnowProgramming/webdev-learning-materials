@@ -56,6 +56,9 @@ A list of learning materials for Web Development.
 - [Josh W. Comeau (CSS/JS)](https://www.joshwcomeau.com/)
 - [Matt Pocock (TypeScript)](https://www.youtube.com/channel/UCswG6FSbgZjbWtdf_hMLaow)
 - [DesignCode (Figma/React)](https://www.youtube.com/c/DesignCodeTeam)
+- 🇵🇱 [Jak zacząć programować? (HTML/CSS/JS)](https://www.youtube.com/c/Jakzacz%C4%85%C4%87programowa%C4%87)
+- 🇵🇱 [Przeprogramowani (JavaScript i nie tylko)](https://www.youtube.com/c/Przeprogramowani)
+
 
 ## Learning to Learn
 
@@ -73,6 +76,7 @@ A list of learning materials for Web Development.
 ### Free
 - [Codecademy - Learn HTML](https://www.codecademy.com/learn/learn-html)
 - [Minim - HTML for Absolute Beginners](https://www.youtube.com/playlist?list=PL4cTxE4s2XIYJL6uPQUwMt25M70gPl-O6)
+- 🇵🇱 [Jak zacząć programować? - Podstawy HTML + CSS w dwie godziny - kurs krok po kroku!](https://www.youtube.com/watch?v=opNgrPv3Qw8)
 
 ### Additional content
 - [Minim - When to Use Semantic HTML Elements Instead of Divs (part of the HTML for Absolute Beginners series)](https://www.youtube.com/watch?v=ZThq93Yuwd0)
@@ -103,7 +107,7 @@ A list of learning materials for Web Development.
 ## Git
 
 ### Free
-
+- 🇵🇱 [Overment - Kurs Git po polsku od podstaw](https://www.youtube.com/playlist?list=PLjHmWifVUNMKIGHmaGPVqSD-L6i1Zw-MH)
 
 ### Additional content
 - [List of git commands for different situations](https://ohshitgit.com/)
@@ -120,10 +124,19 @@ A list of learning materials for Web Development.
 - [Academind - JavaScript Course for Beginners - Learn JavaScript from Scratch!](https://www.youtube.com/watch?v=2qDywOS7VAc)
 - [Codecademy - Learn JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
 - [Codecademy - Intermediate JavaScript](https://www.codecademy.com/learn/learn-intermediate-javascript)
+- 🇵🇱 [Jak zacząć programować? - Kurs JavaScript od zera](https://youtu.be/n-cW9HzpnRk)
+- Overment - różne serie dot. JavaScriptu:
+  - 🇵🇱 [Overment - ESNext Tutorial (ES6+)](https://www.youtube.com/playlist?list=PLjHmWifVUNMJbnpl8YlXRpyVyepcHa0cH)
+  - 🇵🇱 [Overment - Zakres (Scope), Domknięcia (Closures), zakresy i konteksty wykonania (scope & execution context)](https://www.youtube.com/playlist?list=PLjHmWifVUNMKO1xl1LfOhE3d-4akRX9aJ)
+  - 🇵🇱 [Overment - Jak działa Promise? Async await i wiele więcej](https://www.youtube.com/playlist?list=PLjHmWifVUNMLOfSdeSSEGgSXebPXL7Z3Q)
+  - 🇵🇱 [Overment - Operator NOT oraz Array.reduce](https://www.youtube.com/playlist?list=PLjHmWifVUNMJHa4AJdjXoFQPA3UKyVzin)
+  - 🇵🇱 [Overment - Programowanie funkcyjne (high order function, function composition, itp.) w JavaScript](https://www.youtube.com/playlist?list=PLjHmWifVUNMLR1Oz3WYK7XRLEY5LvSOPu)
+- 🇵🇱 [Jak zacząć programować? - Tutorial HTML, CSS i JavaScript, ale bez ściemy](https://www.youtube.com/watch?v=lfQmsYCDci8)
 
 ### Paid
 - [Academind - JavaScript - The Complete Guide (Beginner + Advanced)](https://acad.link/js)
 - [Dan Abramov - Just JavaScript (ebook)](https://justjavascript.com/)
+- 🇵🇱 [Kursy JS od Eduweb (polecam kursy od Overmenta - Adam Gospodarczyk)](https://eduweb.pl/wyszukiwarka?query=javascript)
 
 ### Additional content
 - [Jack Herrington - Javascript Arrays Made Easy Playlist by ](https://www.youtube.com/playlist?list=PLNqp92_EXZBJmAHWnJbVnXsl71hiHCrQh)
@@ -135,6 +148,12 @@ A list of learning materials for Web Development.
 - [Framework.dev - resources about JavaScript frameworks (books, videos, courses, podcasts), popular libraries and possibility of compare them and more](https://www.framework.dev/)
 - [TomDoesTech - 9 JavaScript Opinions That Will Make You Mad](https://www.youtube.com/watch?v=b9C8r5m-mj8)
 - [Jenn Creighton - Now and .then: Debugging Async JavaScript](https://www.youtube.com/watch?v=V-lu0YjJYdk)
+- 🇵🇱 [Localhost Academy - HOF (high order function), potęga metody Array.reduce i jej zastosowanie, jak przeszukiwać zagnieżdżone w sobie obiekty? (oglądać do 1:20:32)](https://www.youtube.com/watch?v=Y178v49NXik)
+- 🇵🇱 [Przeprogramowani - 7 najpopularniejszych błędów Junior JavaScript Developera](https://www.youtube.com/watch?v=tWzuQsoi6fA)
+- 🇵🇱 [Przeprogramowani - ESLint, Prettier i VS Code - Czysty JS z automatu](https://www.youtube.com/watch?v=u2yUxhzpht4)
+- 🇵🇱 [Przeprogramowani - Wydajny JavaScript - Promisy, setTimeout czy Web Workery?](https://www.youtube.com/watch?v=kNsE8EFLwdg)
+- 🇵🇱 [Przeprogramowani - Jak działa async/await w JavaScript?](https://www.youtube.com/watch?v=_dZsebSj7fI)
+- 🇵🇱 [Przeprogramowani - MODUŁY W JĘZYKU JAVASCRIPT - Module Pattern vs Common JS vs AMD vs ES Modules](https://www.youtube.com/watch?v=5upaxzBNbmQ)
 
 ## TypeScript
 
@@ -142,9 +161,13 @@ A list of learning materials for Web Development.
 - [Learn TypeScript](https://learntypescript.dev/)
 - [Academind - TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://www.youtube.com/watch?v=BwuLxPH8IDs)
 - [No BS TS Series by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
+- 🇵🇱 [Przeprogramowani - Seria Przeprogramowani.ts](https://www.youtube.com/playlist?list=PLfE0DpqEANZ0CQ9pCGlxGKPvYb1Sj6ybV)
+- 🇵🇱 [Jak zacząć programować? - Typescript - kurs podstaw 🔥 Tutorial krok po kroku!](https://www.youtube.com/watch?v=5CBZ6DymX0Y)
 
 ### Paid
 - [Academind - Understanding TypeScript](https://pro.academind.com/p/understanding-typescript)
+- 🇵🇱 [Kurs TS od Eduweb (Overment)](https://eduweb.pl/wyszukiwarka?query=typescript)
+- 🇵🇱 [Michał Miszczyszyn - Książka "TypeScript na poważnie"](https://typescriptnapowaznie.pl/)
 
 ### Additional content
 - [TypeScript tips and Tricks with Matt Pocock](https://www.youtube.com/watch?v=hBk4nV7q6-w)
@@ -195,10 +218,22 @@ A list of learning materials for Web Development.
 - [Fireship - Object Oriented vs Functional Programming in TypeScript](https://www.youtube.com/watch?v=fsVL_xrYO0w)
 - [Traversy Media - 5 Design Patterns Every Engineer Should Know (with Jack Herrington)](https://www.youtube.com/watch?v=FLmBqI3IKMA)
 - [Fireship - Test-Driven Development // Fun TDD Introduction with JavaScript](https://www.youtube.com/watch?v=Jv2uxzhPFl4)
+- 🇵🇱 [Localhost Academy - Wzorce MVC + Seperation of Concerns w React - jak to wygląda i jak to zastosować w praktyce?](https://www.youtube.com/watch?v=3vs8KrNCsiQ)
+- 🇵🇱 [Localhost Academy - Obsługa błędów (error handling), walidacja kodu oraz dzielenie go na mniejsze części zgodnie z zasadami DRY i KISS (oglądać do 1:18:55)](https://www.youtube.com/watch?v=3VCwGdlr68M)
+- 🇵🇱 [Localhost Academy - Jak zadbać o strukturę folderów projektu? Jak rozbić problem na mniejsze, zrozumiałe części? Czym jest architektura i od czego ona zależy?](https://www.youtube.com/watch?v=Oycym206rTg)
+- 🇵🇱 [Localhost Academy - OOP w JavaScript/TypeScript - teoria i praktyka, czym jest abstrakcja i o co w niej chodzi? (jeden z trudniejszych wykładów do zrozumienia). Dodatkowo trochę o asynchroniczności i obsłudze błędów.](https://www.youtube.com/watch?v=8iXuFTO96gY)
+- 🇵🇱 [Localhost Academy - Uniwersalne koncepty/wzorce w programowaniu - czym jest i do czego służą te "magiczne" słowa: DRY, KISS, YAGNI, WYSIWIG, SOLID i inne takie?](https://www.youtube.com/watch?v=J2u47UQ5vC0)
+- 🇵🇱 [Localhost Academy - Po co się waliduje kod? W jaki sposób to robić, żeby to było dobrze zrobione?](https://www.youtube.com/watch?v=SDksgAJxUo8)
+- 🇵🇱 [Localhost Academy - 10 zasad w programowaniu, które warto znać. (oglądać do 1:12:29)](https://www.youtube.com/watch?v=-kRadcD5jRw)
+- 🇵🇱 [Przeprogramowani - Jak uczyć się wzorców projektowych na froncie? Odpowiedź dla Juniora, Mida i Seniora](https://www.youtube.com/watch?v=yiJlKWxk2jE)
+- 🇵🇱 [Przeprogramowani - SOLID i Open-Closed Principle w praktyce | Lepszy kod w 20 minut](https://www.youtube.com/watch?v=RWyiKjKmWPs)
 
 ## Node.js 
 
 ### Free
+- 🇵🇱 Jak zacząć programować? - mini-seria o Node.js i Express.js
+    - [Jak zacząć programować? - Backend - Podstawy w Node.js i Express](https://www.youtube.com/watch?v=Oc9hbOL0_nk)
+    - [Jak zacząć programować? - Backend w Node.js - PATCH, DELETE. Darmowy hosting na Heroku i Github pages](https://www.youtube.com/watch?v=TCjpRrIpZQ4)
 
 ### Paid
 
@@ -286,7 +321,17 @@ TypeScript Version **(recommended)**
 - [AppUnite - Vue's Slots Composition adapted to React - how and when to use it](https://appunite.com/blog/composition-known-as-slots-in-react)
 - [Conner Ardman - React Coding Interview Ft. Clément Mihailescu (build the wordle clone)](https://www.youtube.com/watch?v=5xf4_Kx7azg)
     - Used API (if someone wants to recreate the task): https://api.frontendexpert.io/api/fe/wordle-words
-    
+- 🇵🇱 [Przeprogramowani - Pięć pytań rekrutacyjnych z Reacta na 2022](https://www.youtube.com/watch?v=ObNaZr9frxY)
+- 🇵🇱 [Michał Taszycki - Architektura aplikacji w React.js – czyli poszukiwania Świętego Graala.](https://www.youtube.com/watch?v=eeJF8PdpOko)
+- 🇵🇱 Przeprogramowani - mini-seria ze wzorca State Machine (warte zobaczenia, bo daje szerszy obraz na to, jak można efektywniej zarządzać stanem w Reakcie):
+  - [Przeprogramowani - Jak NIE zarządzać stanem komponentów? | Wzorzec State Machine #1](https://www.youtube.com/watch?v=R-Bmdlk-hJY)
+  - [Przeprogramowani - Jak zastosować State Machine w praktyce? | Wzorzec State Machine #2](https://www.youtube.com/watch?v=XRUFIQgOXJQ)
+  - [Przeprogramowani - Zarządzanie stanem z XState | Wzorzec State Machine #3](https://www.youtube.com/watch?v=AIN-_KgU4BQ)
+- 🇵🇱 [Krzysztof Jendrzyca - The Zen of React (jak utrzymywać czysty kod w Reakcie)](https://festiwal.devmastery.pl/zen/)
+  - Realnie trwa z 40 minut, bo potem jest reklama kursu.
+  - https://thezenofreact.com/ - slajdy z powyższego wykładu.
+  - Prelegent nigdzie nie powiedział, że po stronie trzeba poruszać się strzałkami (lewo/prawo).
+
 ## HR / Recruitment Resources
 - Make a nice looking resume:
     - [FlowCV](https://flowcv.io/)
@@ -301,7 +346,8 @@ TypeScript Version **(recommended)**
 - [Jason Tu - How to get a job in a new industry without experience (interesting approach to this problem)](https://jasont.co/no-experience/)
 - [Fireship - How to NOT Fail a Technical Interview](https://www.youtube.com/watch?v=1t1_a1BZ04o)
 - [Josh W. Comeau - Building an Effective Dev Portfolio](https://www.joshwcomeau.com/effective-portfolio/download-book/)
-
+- 🇵🇱 [Localhost Academy - "Cała prawda" o rekrutacjach w branży IT - jak dostać pracę i "mroczny sekret rekruterów" (mocne) [zaczyna się od 27:45]](https://youtu.be/Mp7HTWZ6FyE?t=1665)
+- 🇵🇱 [Geekowojażer - Rekrutacja IT z perspektywy programisty seniora](https://www.geekowojazer.pl/rekrutacja-it-programista/)
 
 ## Other Resources (worth your time)
 - [web.dev - various resources about front-end from Google itself (responsive design, accessibility, optimazation, etc.)](https://web.dev/)
@@ -327,6 +373,12 @@ TypeScript Version **(recommended)**
 - [The Digital CEO - Design tips for Front End Developers](https://youtu.be/XNJPHGWxLQA)
 - [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
 - [Kenny Gunderman - Should You Learn Native or Cross-Platform Mobile Development?](https://youtu.be/Mq_HS-o-v6o)
+- 🇵🇱 [Duzy w Maluchu - ZABRALI MI MALUCHA! JAK ZARABIAĆ 2500 ZŁ DZIENNIE? *Patologie branży IT](https://www.youtube.com/watch?v=aHffnGVK-Vs)
+    - Ciekawy podcast o branży IT, jak tytuł sugeruje - mówi o różnych patologiach, ale też wspomina o rekrutacji, jak najwięcej zarabiać, problemy z legacy code
+- 🇵🇱 [WDI 2022 - Cezary Walenciuk - Ogniste pytania rekrutacyjne dla WebDev. Uzupełnij wiedzę](https://www.youtube.com/watch?v=nCEEa3CY_m0)
+- 🇵🇱 [WDI 2021 - Konstanty Orzeszko - Jak straciłem 600 000 PLN w 5 lat?](https://www.youtube.com/watch?v=mGuSdLWV1pk)
+    - O tym, jak nie przepalać pieniędzy (na głupoty) jako programista i jak nimi mądrze zarządzać.
+- 🇵🇱 [Przeprogramowani - Mini-seria o System Thinking (myślenie systemowe)](https://www.youtube.com/playlist?list=PLfE0DpqEANZ26E7uar_dMXid5UbZrElZ8)
 
 ### Turn your theory into practice:
 #### Test your skills:
@@ -336,6 +388,7 @@ TypeScript Version **(recommended)**
 - [Frontend Mentor - improve your front-end skills by building different projects](https://www.frontendmentor.io/)
 - [BFE.dev - prepare for Front-End job interviews](https://bigfrontend.dev/)
 - [Wes Bos - JavaScript 30](https://javascript30.com/)
+- 🇵🇱 [Localhost Academy - Zbiór zadań HTML, CSS, JS, React, itp.](https://github.com/Przemocny/zbior-zadan-html-css-js-react)
 
 <details>
 <summary>Real-world frontend technical questions:</summary>
@@ -828,6 +881,8 @@ As a design you can use:
 - The Code Review Pyramid:
 - ![The Code Review Pyramid](https://media.discordapp.net/attachments/920370741747277924/954270609527959562/image_from_ios.png)
 - [Peter Lunch - How to Plan and Build a Programming Project - A Legitimate Guide for Beginners](https://www.peterlunch.com/blog/how-to-plan-and-build-a-programming-project)
+- 🇵🇱 W jaki sposób podejść do tworzenia projektu? Interesujący komentarz z grupy na FB:
+- ![Komentarz dot. tworzenia projektu](./assets/misc/projekt.png)
 
 ## Productivity tools:
 - [You.com - interesting alternative to Google, which suggests code snippets, Stack Overflow answers or even YouTube videos](https://you.com/)
