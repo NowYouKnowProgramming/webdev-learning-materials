@@ -280,6 +280,8 @@ TypeScript Version **(recommended)**
 ![Rough Guide to Frontend Interviews - image](https://media.discordapp.net/attachments/918032586809438258/933647593752363018/ekcpgo047q881.png)
 - [Dawid Mazur - Hiring from developer's point of view: Your GitHub profile](https://www.linkedin.com/feed/update/urn:li:activity:6900405038557339648)
 - [Jason Tu - How to get a job in a new industry without experience (interesting approach to this problem)](https://jasont.co/no-experience/)
+- [Fireship - How to NOT Fail a Technical Interview](https://www.youtube.com/watch?v=1t1_a1BZ04o)
+- [Josh W. Comeau - Building an Effective Dev Portfolio](https://www.joshwcomeau.com/effective-portfolio/download-book/)
 
 
 ## Other Resources (worth your time)
