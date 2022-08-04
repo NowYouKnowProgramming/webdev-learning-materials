@@ -110,6 +110,7 @@ A list of learning materials for Web Development.
 - [How to learn Git slowly.](https://dev.to/samuelfaure/how-to-learn-git-slowly-38fa)
 - [Write Git Commit Messages That Your Colleagues Will Love](https://dev.to/simeg/write-git-commit-messages-that-your-colleagues-will-love-1757)
 - [Conventional Commits - add a type of your commit to your messages](https://www.conventionalcommits.org/en/v1.0.0/)
+- [Undo wrong Git changes](https://dev.to/dailydevtips1/undo-wrong-git-changes-32mc)
 
 ## JavaScript
 
