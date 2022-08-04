@@ -131,6 +131,8 @@ A list of learning materials for Web Development.
 - [Web Dev Simplified - Are You Using Null and Undefined Wrong?](https://www.youtube.com/watch?v=7bpQUVK9Gn4)
 - [Web Dev Simplified - var vs let vs const](https://www.youtube.com/watch?v=9WIJQDvt4Us)
 - [Framework.dev - resources about JavaScript frameworks (books, videos, courses, podcasts), popular libraries and possibility of compare them and more](https://www.framework.dev/)
+- [TomDoesTech - 9 JavaScript Opinions That Will Make You Mad](https://www.youtube.com/watch?v=b9C8r5m-mj8)
+- [Jenn Creighton - Now and .then: Debugging Async JavaScript](https://www.youtube.com/watch?v=V-lu0YjJYdk)
 
 ## TypeScript
 
