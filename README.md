@@ -310,6 +310,8 @@ TypeScript Version **(recommended)**
 - [Chris Hansen - Master Frontend Development 💻 By Cloning These Websites 💯](https://www.dev.to/hyggedev/master-frontend-development-by-cloning-these-websites-1m08)
 - [Lydia Hallie - JavaScript Questions with answers](https://github.com/lydiahallie/javascript-questions)
 - [Frontend Mentor - improve your front-end skills by building different projects](https://www.frontendmentor.io/)
+- [BFE.dev - prepare for Front-End job interviews](https://bigfrontend.dev/)
+- [Wes Bos - JavaScript 30](https://javascript30.com/)
 
 <details>
 <summary>Real-world frontend technical questions:</summary>
