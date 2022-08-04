@@ -267,6 +267,8 @@ TypeScript Version **(recommended)**
 - [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
 - [Best React Libraries to Use](https://www.reddit.com/r/reactjs/comments/vxklim/best_react_libraries_to_use_in_2022/)
 - [AppUnite - Vue's Slots Composition adapted to React - how and when to use it](https://appunite.com/blog/composition-known-as-slots-in-react)
+- [Conner Ardman - React Coding Interview Ft. Clément Mihailescu (build the wordle clone)](https://www.youtube.com/watch?v=5xf4_Kx7azg)
+    - Used API (if someone wants to recreate the task): https://api.frontendexpert.io/api/fe/wordle-words
 
 ## HR / Recruitment Resources
 - Make a nice looking resume:
