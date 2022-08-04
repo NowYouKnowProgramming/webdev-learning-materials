@@ -188,7 +188,9 @@ A list of learning materials for Web Development.
 ### Additional content
 - [Fireship - 10 Design Patterns explained in 10 minutes](https://www.youtube.com/watch?v=tv-_1er1mWI)
 - [Continuous Delivery - Object-oriented programming (OOP) vs Functional Programming (FP)](https://www.youtube.com/watch?v=wyABTfR9UTU)
+- [Fireship - Object Oriented vs Functional Programming in TypeScript](https://www.youtube.com/watch?v=fsVL_xrYO0w)
 - [Traversy Media - 5 Design Patterns Every Engineer Should Know (with Jack Herrington)](https://www.youtube.com/watch?v=FLmBqI3IKMA)
+- [Fireship - Test-Driven Development // Fun TDD Introduction with JavaScript](https://www.youtube.com/watch?v=Jv2uxzhPFl4)
 
 ## Node.js 
 
