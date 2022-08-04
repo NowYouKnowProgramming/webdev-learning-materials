@@ -290,7 +290,7 @@ TypeScript Version **(recommended)**
 - [ThePrimeagen - How do I create a side project (as a software enginner)?](https://www.youtube.com/watch?v=bKGy_eYnI3U)
 - [ThePrimeagen - How I Choose Side Projects (as a software enginner)](https://www.youtube.com/watch?v=KjjjQSSbhfU)
 - [ThePrimeagen - How I Became A Better Programmer](https://www.youtube.com/watch?v=cgXfWo42gig)
-- [Stefan Mischook - Should I Take a Break from Learning CSS?](https://www.youtube.com/watch?v=78tNu4f91oM)
+- [Stefan Mischook - Should I Take a Break from Learning CSS? (when to take a break from learning anything)](https://www.youtube.com/watch?v=78tNu4f91oM)
 - [Fireship - Vim in 100 seconds (and beyond)](https://www.youtube.com/watch?v=-txKSRn0qeA)
 - [FreeCodeCamp - Vim Tutorial for Beginners](https://www.youtube.com/watch?v=RZ4p-saaQkc)
 - [Fireship - How to "Google It" like a Senior Software Engineer](https://www.youtube.com/watch?v=cEBkvm0-rg0)
