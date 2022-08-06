@@ -553,6 +553,9 @@ How you can store the ``prevName`` value, so that it holds the previous value of
 - Which methods of class components is combined the ``useEffect`` hook?
 - What hooks do you know and explain how do you use them?
 
+## CSS
+- What are the ways to center the container with two boxes?
+- What is the difference between ``em`` and ``rem``?
 
 ### Other questions
 - Do you know any patterns from functional programming?
