@@ -887,6 +887,11 @@ As a design you can use:
 - https://dribbble.com/shots/15117860-Syncrhomedics-Reference-Page
 - https://dribbble.com/shots/16634976-eCommerce-Cosmetic-Web-design
 
+5. Live-coding problem #1 - issue with too much rerendering of the same component (look at the console)
+(you have to do something with memoization inside of the App component)
+https://jsfiddle.net/mdh2c7xg/#
+
+6. [Live-coding problem #2 - how to fetch user from the GitHub API?](https://jsfiddle.net/dn8rqksL/)
 </details>
 
 
