@@ -549,6 +549,9 @@ function RandomName() {
 How you can store the ``prevName`` value, so that it holds the previous value of ``name`` and is displayed properly in React?
 - Which data structures cannot be rendered in React?
 - What is ``React.memo`` and when you should use it?
+- When do you use the ``useCallback`` hook and ``React.memo``?
+- Which methods of class components is combined the ``useEffect`` hook?
+- What hooks do you know and explain how do you use them?
 
 
 ### Other questions
