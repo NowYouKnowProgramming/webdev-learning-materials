@@ -107,6 +107,17 @@ A list of learning materials for Web Development.
 - [CSS Tricks - My Dumbest CSS Mistakes](https://css-tricks.com/my-dumbest-css-mistakes/)
 - [Josh W. Comeau - You Don’t Need A UI Framework (how to build ui without using the third-party component library?)](https://www.smashingmagazine.com/2022/05/you-dont-need-ui-framework/)
 
+<details>
+<summary>Takeaways from CSS for JavaScript Developers:</summary>
+
+- Flex Basis / Flex Grow / Flex Shrink
+![Flex Basis / Flex Grow / Flex Shrink](./assets/css/flex_basis_grow_shrink.png)
+- Flex Shorthand
+![Flex Shorthand](./assets/css/flex_shorthand.png)
+
+</details>
+
+
 ## Git
 
 ### Free
@@ -368,6 +379,7 @@ TypeScript Version **(recommended)**
 - [Fullstack Open - learn to code fullstack apps with React, Node, TypeScript and more!](https://fullstackopen.com/)
 - [JetBrains Academy - Frontend Developer Path (learn HTML, CSS, JavaScript, React and more!)](https://hyperskill.org/tracks/5)
 
+
 ### Valuable videos:
 - [ThePrimeagen - How do I create a side project (as a software enginner)?](https://www.youtube.com/watch?v=bKGy_eYnI3U)
 - [ThePrimeagen - How I Choose Side Projects (as a software enginner)](https://www.youtube.com/watch?v=KjjjQSSbhfU)
@@ -404,6 +416,29 @@ TypeScript Version **(recommended)**
 - [BFE.dev - prepare for Front-End job interviews](https://bigfrontend.dev/)
 - [Wes Bos - JavaScript 30](https://javascript30.com/)
 - [25 Extremely Modern Layouts Using CSS Grid✨ (try to recreate them!)](https://dev.to/preethi_dev/25-extremely-modern-layouts-using-css-grid-10ek)
+- Exercises from [CSS for JavaScript Developers](https://css-for-js.dev/) - all modules:
+  - [Huckleberry - the basics of CSS (flow layout, box model)](https://github.com/css-for-js/huckleberry)
+  - [Character Creator - position and overflow](https://github.com/css-for-js/character-creator)
+  - [Mini Component Library - create your own components (progress bar, select element and search input)](https://github.com/css-for-js/mini-component-library)
+
+   <details>
+    <summary>How these components could look like:</summary>
+    <img src="./assets/css/components.png" alt="progress bar, select element and search input">
+  </details>
+
+  - [Sole and Ankle - Flexbox](https://github.com/css-for-js/sole-and-ankle)
+  - [Sole and Ankle Revisited - responsive design](https://github.com/css-for-js/sole-and-ankle-revisited)
+  - [Unsprinkle - typography and images](https://github.com/css-for-js/unsprinkle)
+  
+  <details>
+    <summary>How this page looks like:</summary>
+    <img src="./assets/css/unsprinkle.png" alt="unsprinkle page">
+  </details>
+
+  - [New Grid Times - CSS Grid Layout](https://github.com/css-for-js/new-grid-times)
+    - [Design for this exercise](https://www.figma.com/file/BDdNhCeVLye5mFHHxQhkgE/New-Grid-Times?node-id=0%3A1)
+  - [Sole and Ankle Animated - animations](https://github.com/css-for-js/sole-and-ankle-animated)
+
 - 🇵🇱 [Localhost Academy - Zbiór zadań HTML, CSS, JS, React, itp.](https://github.com/Przemocny/zbior-zadan-html-css-js-react)
 
 <details>
