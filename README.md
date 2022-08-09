@@ -152,6 +152,7 @@ A list of learning materials for Web Development.
 - [Jenn Creighton - Now and .then: Debugging Async JavaScript](https://www.youtube.com/watch?v=V-lu0YjJYdk)
 - [Fireship - JavaScript Pro Tips - Code This, NOT That](https://www.youtube.com/watch?v=Mus_vwhTCq0)
 - [Fireship - The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE)
+- [SimonDev - Pass by Value vs Reference in JavaScript](https://youtu.be/jxaxyvHo8ZM)
 - 🇵🇱 [Localhost Academy - HOF (high order function), potęga metody Array.reduce i jej zastosowanie, jak przeszukiwać zagnieżdżone w sobie obiekty? (oglądać do 1:20:32)](https://www.youtube.com/watch?v=Y178v49NXik)
 - 🇵🇱 [Przeprogramowani - 7 najpopularniejszych błędów Junior JavaScript Developera](https://www.youtube.com/watch?v=tWzuQsoi6fA)
 - 🇵🇱 [Przeprogramowani - ESLint, Prettier i VS Code - Czysty JS z automatu](https://www.youtube.com/watch?v=u2yUxhzpht4)
