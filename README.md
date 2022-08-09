@@ -89,7 +89,7 @@ A list of learning materials for Web Development.
 ### Free
 - [Codecademy - Learn CSS](https://www.codecademy.com/learn/learn-css)
 - [Codecademy - Intermediate CSS](https://www.codecademy.com/learn/learn-intermediate-css)
-
+- [web.dev - Learn CSS](https://web.dev/learn/css/)
 
 ### Paid
 - [CSS for JavaScript Developers](https://css-for-js.dev/)
