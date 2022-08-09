@@ -68,6 +68,7 @@ A list of learning materials for Web Development.
 - ["Your Theme"](https://www.youtube.com/watch?v=NVGuFdX5guE)
 - [Josh W. Comeau - How to learn stuff quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
 - [An Approach to Continuous Learning](https://dev.to/abh1navv/an-approach-to-continuous-learning-30pk)
+- [Reddit Post - Most of you need to SLOW DOWN](https://www.reddit.com/r/learnprogramming/comments/vvsw0x/most_of_you_need_to_slow_down/)
 
 ### Paid
 - [Zero to Mastery - Learning to Learn](https://academy.zerotomastery.io/p/learning-to-learn-efficient-learning-zero-to-mastery-blueprint)
