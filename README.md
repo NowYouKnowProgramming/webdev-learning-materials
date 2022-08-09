@@ -360,6 +360,7 @@ TypeScript Version **(recommended)**
   - [Part 2 - The TRUTH about LYING on your resume..](https://youtu.be/90g8EMyIqeU)
 - 🇵🇱 [Localhost Academy - "Cała prawda" o rekrutacjach w branży IT - jak dostać pracę i "mroczny sekret rekruterów" (mocne) [zaczyna się od 27:45]](https://youtu.be/Mp7HTWZ6FyE?t=1665)
 - 🇵🇱 [Geekowojażer - Rekrutacja IT z perspektywy programisty seniora](https://www.geekowojazer.pl/rekrutacja-it-programista/)
+- 🇵🇱 [Programistyczny preworkout na rozmowy rekrutacyjne - 11 konceptów, które warto znać](https://app.minicoursegenerator.com/5RgSg_hWwEebgf1KuVnzFA/1)
 
 ## Other Resources (worth your time)
 - [web.dev - various resources about front-end from Google itself (responsive design, accessibility, optimazation, etc.)](https://web.dev/)
