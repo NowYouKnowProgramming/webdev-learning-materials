@@ -146,6 +146,7 @@ A list of learning materials for Web Development.
 - [Academind - JavaScript Course for Beginners - Learn JavaScript from Scratch!](https://www.youtube.com/watch?v=2qDywOS7VAc)
 - [Codecademy - Learn JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
 - [Codecademy - Intermediate JavaScript](https://www.codecademy.com/learn/learn-intermediate-javascript)
+- [Exercism - Learn JavaScript by doing exercises](https://exercism.org/tracks/javascript)
 - 🇵🇱 [Jak zacząć programować? - Kurs JavaScript od zera](https://youtu.be/n-cW9HzpnRk)
 - Overment - różne serie dot. JavaScriptu:
   - 🇵🇱 [Overment - ESNext Tutorial (ES6+)](https://www.youtube.com/playlist?list=PLjHmWifVUNMJbnpl8YlXRpyVyepcHa0cH)
