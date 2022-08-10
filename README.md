@@ -247,6 +247,8 @@ A list of learning materials for Web Development.
 - [Fireship - Object Oriented vs Functional Programming in TypeScript](https://www.youtube.com/watch?v=fsVL_xrYO0w)
 - [Traversy Media - 5 Design Patterns Every Engineer Should Know (with Jack Herrington)](https://www.youtube.com/watch?v=FLmBqI3IKMA)
 - [Fireship - Test-Driven Development // Fun TDD Introduction with JavaScript](https://www.youtube.com/watch?v=Jv2uxzhPFl4)
+- [Jack Herrington - Micro-Frontends in Just 10 Minutes](https://www.youtube.com/watch?v=s_Fs4AXsTnA)
+- [Jack Herrington - Micro-Frontends: What, why and how](https://www.youtube.com/watch?v=w58aZjACETQ)
 - 🇵🇱 [Localhost Academy - Wzorce MVC + Seperation of Concerns w React - jak to wygląda i jak to zastosować w praktyce?](https://www.youtube.com/watch?v=3vs8KrNCsiQ)
 - 🇵🇱 [Localhost Academy - Obsługa błędów (error handling), walidacja kodu oraz dzielenie go na mniejsze części zgodnie z zasadami DRY i KISS (oglądać do 1:18:55)](https://www.youtube.com/watch?v=3VCwGdlr68M)
 - 🇵🇱 [Localhost Academy - Jak zadbać o strukturę folderów projektu? Jak rozbić problem na mniejsze, zrozumiałe części? Czym jest architektura i od czego ona zależy?](https://www.youtube.com/watch?v=Oycym206rTg)
