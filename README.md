@@ -356,6 +356,9 @@ TypeScript Version **(recommended)**
     - Used API (if someone wants to recreate the task): https://api.frontendexpert.io/api/fe/wordle-words
 - [Web Dev Junkie - How you can use custom hooks to abstract your React code](https://www.youtube.com/watch?v=S2rzM9IQVdg)
 - [Web Dev Junkie - Refactoring and decoupling some React code (DRY, KISS, YAGNI, WET)](https://www.youtube.com/watch?v=lU9lzM3rt5w)
+- [uidotdev - The Story of React](https://www.youtube.com/watch?v=Wm_xI7KntDs)
+- [uidotdev - The Story of Next.js](https://www.youtube.com/watch?v=BILxV_vrZO0)
+- [uidotdev - The Story of Concurrent React](https://www.youtube.com/watch?v=NZoRlVi3MjQ)
 - 🇵🇱 [Przeprogramowani - Pięć pytań rekrutacyjnych z Reacta na 2022](https://www.youtube.com/watch?v=ObNaZr9frxY)
 - 🇵🇱 [Michał Taszycki - Architektura aplikacji w React.js – czyli poszukiwania Świętego Graala.](https://www.youtube.com/watch?v=eeJF8PdpOko)
 - 🇵🇱 Przeprogramowani - mini-seria ze wzorca State Machine (warte zobaczenia, bo daje szerszy obraz na to, jak można efektywniej zarządzać stanem w Reakcie):
