@@ -474,6 +474,7 @@ TypeScript Version **(recommended)**
   - [Sole and Ankle Animated - animations](https://github.com/css-for-js/sole-and-ankle-animated)
 
 - [Florin Pop - App Ideas (from Beginners to Advanced)](https://github.com/florinpop17/app-ideas)
+- [30 seconds of interviews - HTML, CSS, JavaScript, React, Node and Security questions & answers](https://30secondsofinterviews.org/)
 - [Real Tough Candy - Project Ideas for Web Developers](https://github.com/RealToughCandy/project-ideas-for-web-developers)
 - 🇵🇱 [Localhost Academy - Zbiór zadań HTML, CSS, JS, React, itp.](https://github.com/Przemocny/zbior-zadan-html-css-js-react)
 
