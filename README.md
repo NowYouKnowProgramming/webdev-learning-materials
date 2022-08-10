@@ -399,6 +399,14 @@ TypeScript Version **(recommended)**
 - [JustJoinIT](https://justjoin.it/all/javascript)
 - [NoFluffJobs](https://nofluffjobs.com/pl/frontend)
 - [FB - Praca w IT dla Stażystów i Juniorów (IT Jobs for Intern/Junior)](https://www.facebook.com/groups/1561984417428846/)
+
+## Learn English
+- [Grammarly - a browser plugin to correct English grammar mistakes](https://www.grammarly.com/)
+- [Rememberry - a Chrome plugin which translates when text is selected](https://chrome.google.com/webstore/detail/rememberry-translate-and/dipiagiiohfljcicegpgffpbnjmgjcnf)
+- [Serenade.ai - really interesting tool to control VS Code / Chrome / etc. with English words](https://serenade.ai/)
+- 🇵🇱 [Diki - słownik angielsko-polski](http://diki.pl/)
+- 🇵🇱 [DeepL - dla mnie lepszy translator niż Google Translator](https://www.deepl.com/pl/translator)
+
 ## Other Resources (worth your time)
 - [web.dev - various resources about front-end from Google itself (responsive design, accessibility, optimazation, etc.)](https://web.dev/)
 - [Fullstack Open - learn to code fullstack apps with React, Node, TypeScript and more!](https://fullstackopen.com/)
