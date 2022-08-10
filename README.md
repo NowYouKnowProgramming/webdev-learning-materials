@@ -219,6 +219,7 @@ A list of learning materials for Web Development.
 - [10 Common JavaScript Clean Code Mistakes](https://www.youtube.com/watch?v=fHJC44PESIk)
 - [Kent C. Dodds - AHA Programming](https://youtu.be/wuVy7rwkCfc)
 - [What does abstraction mean in programming?](https://stackoverflow.com/questions/21220155/what-does-abstraction-mean-in-programming)
+- [Demeter’s Law: Don’t talk to strangers!](https://betterprogramming.pub/demeters-law-don-t-talk-to-strangers-87bb4af11694)
 
 ## Design Patterns
 
