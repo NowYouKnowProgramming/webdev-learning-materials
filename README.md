@@ -448,7 +448,7 @@ TypeScript Version **(recommended)**
 - [Lydia Hallie - JavaScript Questions with answers](https://github.com/lydiahallie/javascript-questions)
 - [Frontend Mentor - improve your front-end skills by building different projects](https://www.frontendmentor.io/)
 - [BFE.dev - prepare for Front-End job interviews](https://bigfrontend.dev/)
-- [Wes Bos - JavaScript 30](https://javascript30.com/)
+- [Wes Bos - JavaScript 30 - build 30 small projects/apps](https://javascript30.com/)
 - [25 Extremely Modern Layouts Using CSS Grid✨ (try to recreate them!)](https://dev.to/preethi_dev/25-extremely-modern-layouts-using-css-grid-10ek)
 - Exercises from [CSS for JavaScript Developers](https://css-for-js.dev/) - all modules:
   - [Huckleberry - the basics of CSS (flow layout, box model)](https://github.com/css-for-js/huckleberry)
