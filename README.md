@@ -138,6 +138,7 @@ A list of learning materials for Web Development.
 - [Conventional Commits - add a type of your commit to your messages](https://www.conventionalcommits.org/en/v1.0.0/)
 - [Undo wrong Git changes](https://dev.to/dailydevtips1/undo-wrong-git-changes-32mc)
 - [Please Start Writing Better Git Commits](https://tawdev.hashnode.dev/please-start-writing-better-git-commits)
+- 🇵🇱 [Conventional Commits czyli jak tworzyć epickie commity w git](https://highlab.pl/conventional-commits/)
 
 ## JavaScript
 
