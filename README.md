@@ -396,9 +396,9 @@ TypeScript Version **(recommended)**
 
 ## Job Boards (find your dream job)
 - [LinkedIn](https://www.linkedin.com)
-- 🇵🇱 [JustJoinIT](https://justjoin.it/all/javascript)
-- 🇵🇱 [NoFluffJobs](https://nofluffjobs.com/pl/frontend)
-- 🇵🇱 [FB - Praca w IT dla Stażystów i Juniorów (IT Jobs for Intern/Junior)](https://www.facebook.com/groups/1561984417428846/)
+- [JustJoinIT](https://justjoin.it/all/javascript)
+- [NoFluffJobs](https://nofluffjobs.com/pl/frontend)
+- [FB - Praca w IT dla Stażystów i Juniorów (IT Jobs for Intern/Junior)](https://www.facebook.com/groups/1561984417428846/)
 ## Other Resources (worth your time)
 - [web.dev - various resources about front-end from Google itself (responsive design, accessibility, optimazation, etc.)](https://web.dev/)
 - [Fullstack Open - learn to code fullstack apps with React, Node, TypeScript and more!](https://fullstackopen.com/)
