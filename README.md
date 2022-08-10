@@ -475,6 +475,14 @@ TypeScript Version **(recommended)**
 
 - [Florin Pop - App Ideas (from Beginners to Advanced)](https://github.com/florinpop17/app-ideas)
 - [30 seconds of interviews - HTML, CSS, JavaScript, React, Node and Security questions & answers](https://30secondsofinterviews.org/)
+
+<details>
+<summary>Practice 50+ CSS Problems (taken from <a href="https://twitter.com/swapnakpanda/status/1550832649828122625">https://twitter.com/swapnakpanda/status/1550832649828122625</a>):</summary>
+<img src="./assets/css/css_exercises_1_3.png" alt="css exercise 1/3">
+<img src="./assets/css/css_exercises_2_3.png" alt="css exercise 2/3">
+<img src="./assets/css/css_exercises_3_3.png" alt="css exercise 3/3">
+</details>
+
 - [Real Tough Candy - Project Ideas for Web Developers](https://github.com/RealToughCandy/project-ideas-for-web-developers)
 - 🇵🇱 [Localhost Academy - Zbiór zadań HTML, CSS, JS, React, itp.](https://github.com/Przemocny/zbior-zadan-html-css-js-react)
 
