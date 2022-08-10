@@ -126,6 +126,7 @@ A list of learning materials for Web Development.
 ## Git
 
 ### Free
+- [BitBucket - Learn Git](https://www.atlassian.com/git/tutorials)
 - 🇵🇱 [Overment - Kurs Git po polsku od podstaw](https://www.youtube.com/playlist?list=PLjHmWifVUNMKIGHmaGPVqSD-L6i1Zw-MH)
 
 ### Additional content
