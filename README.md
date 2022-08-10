@@ -544,6 +544,15 @@ for await (const info of timeouts) {
 What will be differences between those iterators? In which order the timeouts will be resolved and why?
 - What are types of storages in browser?
 - What will be result of ``{} === {}`` and why?
+- Based on this code: 
+```js
+const arr = [7, 1, 4, 3, 2];
+
+for (const elem of arr) {
+  setTimeout(() => console.log(elem), elem);
+}
+```
+In which order will be the logs displayed and why?
 
 ### TypeScript
 - What are differences between ``type`` and ``interface``?
