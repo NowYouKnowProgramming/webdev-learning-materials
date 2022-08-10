@@ -126,6 +126,12 @@ A list of learning materials for Web Development.
 
 - [You Probably Don't Need Media Queries Anymore - how to build truly dynamic responsive websites](https://dev.to/kathryngrayson/you-probably-dont-need-media-queries-anymore-a4j)
 
+- [Godly -  find some web design inspirations](https://godly.website/)
+- [Dribbble - also find them here](https://dribbble.com/)
+- [UI Components Handbook - real-world examples of UI components](https://www.uiguideline.com/components)
+- [Design Systems - everything about this topic](https://www.designsystems.com/)
+
+
 
 ## Git
 
@@ -1004,6 +1010,7 @@ https://jsfiddle.net/mdh2c7xg/#
 - The Code Review Pyramid:
 - ![The Code Review Pyramid](https://media.discordapp.net/attachments/920370741747277924/954270609527959562/image_from_ios.png)
 - [Peter Lunch - How to Plan and Build a Programming Project - A Legitimate Guide for Beginners](https://www.peterlunch.com/blog/how-to-plan-and-build-a-programming-project)
+- [Keys to a well written README](https://medium.com/chingu/keys-to-a-well-written-readme-55c53d34fe6d)
 - 🇵🇱 W jaki sposób podejść do tworzenia projektu? Interesujący komentarz z grupy na FB:
 - ![Komentarz dot. tworzenia projektu](./assets/misc/projekt.png)
 
@@ -1012,6 +1019,9 @@ https://jsfiddle.net/mdh2c7xg/#
 - [Raindrop.io - manage your bookmarks way easier than you think](https://raindrop.io/)
 - [Notion - really amazing tool to make notes and organize your thoughts](https://notion.so/)
 - [Unsplash - free sources of pictures](https://unsplash.com/)
+- [Emmet Cheetsheet - write HTML and CSS with ease](https://docs.emmet.io/cheat-sheet/)
+- [Greenshot - cool tool to make screenshot and measure pixels like on MacOS](https://getgreenshot.org/)
+- [Path Intellisense - a VS Code plugin that autocompletes paths](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
 ## Contributing:
 If you found something interesting, but it's not in the list, please open an issue or, even better, a pull request.
