@@ -39,6 +39,7 @@ A list of learning materials for Web Development.
     + [Paid](#paid-7)
     + [Additional content](#additional-content-7)
   * [HR/Recruitment Resources](#hr--recruitment-resources)
+  * [Job Boards (find your dream job)](#job-boards-find-your-dream-job)
   * [Other Resources (worth your time)](#other-resources-worth-your-time)
     + [Valuable videos](#valuable-videos)
     * [Turn your theory into practice](#turn-your-theory-into-practice)
