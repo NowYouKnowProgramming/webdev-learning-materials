@@ -359,6 +359,7 @@ TypeScript Version **(recommended)**
 - [uidotdev - The Story of React](https://www.youtube.com/watch?v=Wm_xI7KntDs)
 - [uidotdev - The Story of Next.js](https://www.youtube.com/watch?v=BILxV_vrZO0)
 - [uidotdev - The Story of Concurrent React](https://www.youtube.com/watch?v=NZoRlVi3MjQ)
+- [Felix Gerschau - Form validation with React Hooks WITHOUT a library: The Complete Guide](https://felixgerschau.com/react-hooks-form-validation-typescript/)
 - 🇵🇱 [Przeprogramowani - Pięć pytań rekrutacyjnych z Reacta na 2022](https://www.youtube.com/watch?v=ObNaZr9frxY)
 - 🇵🇱 [Michał Taszycki - Architektura aplikacji w React.js – czyli poszukiwania Świętego Graala.](https://www.youtube.com/watch?v=eeJF8PdpOko)
 - 🇵🇱 Przeprogramowani - mini-seria ze wzorca State Machine (warte zobaczenia, bo daje szerszy obraz na to, jak można efektywniej zarządzać stanem w Reakcie):
