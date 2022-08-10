@@ -124,6 +124,8 @@ A list of learning materials for Web Development.
 
 </details>
 
+- [You Probably Don't Need Media Queries Anymore - how to build truly dynamic responsive websites](https://dev.to/kathryngrayson/you-probably-dont-need-media-queries-anymore-a4j)
+
 
 ## Git
 
