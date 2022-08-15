@@ -1,55 +1,59 @@
 # webdev-learning-materials
+
 A list of learning materials for Web Development.
 
 ## TABLE OF CONTENTS
-  * [Learning to Learn](#learning-to-learn)
-    + [Free](#free)
-    + [Paid](#paid)
-  * [HTML](#html)
-    + [Free](#free-1)
-  * [CSS](#css)
-    + [Free](#free-2)
-    + [Paid](#paid-1)
-    + [Additional content](#additional-content)
-  * [Git](#git)
-    + [Free](#free-3)
-    + [Additional content](#additional-content-1)
-  * [JavaScript](#javascript)
-    + [Free](#free-4)
-    + [Paid](#paid-2)
-    + [Additional content](#additional-content-2)
-  * [TypeScript](#typescript)
-    + [Free](#free-5)
-    + [Paid](#paid-3)
-    + [Additional content](#additional-content-3)
-  * [Clean Code](#clean-code)
-    + [Free](#free-6)
-    + [Paid](#paid-4)
-    + [Additional content](#additional-content-4)
-  * [Design Patterns](#design-patterns)
-    + [Free](#free-7)
-    + [Paid](#paid-5)
-    + [Additional content](#additional-content-5)
-  * [Node.js](#nodejs)
-    + [Free](#free-8)
-    + [Paid](#paid-6)
-    + [Additional content](#additional-content-6)
-  * [React](#react)
-    + [Free](#free-9)
-    + [Paid](#paid-7)
-    + [Additional content](#additional-content-7)
-  * [HR/Recruitment Resources](#hr--recruitment-resources)
-  * [Other Resources (worth your time)](#other-resources-worth-your-time)
-    + [Valuable videos](#valuable-videos)
-    * [Turn your theory into practice](#turn-your-theory-into-practice)
-      + [Test your skills](#test-your-skills)
-      + [Interesting tutorials to get you inspired](#interesting-tutorials-to-get-you-inspired)
-      + [Build your own project (better than cloning, ideally make it as a group project!):](#build-your-own-project-better-than-cloning-ideally-make-it-as-a-group-project)
-  * [Productivity tools](#productivity-tools)
-  * [Contributing](#contributing)
+
+- [Learning to Learn](#learning-to-learn)
+  - [Free](#free)
+  - [Paid](#paid)
+- [HTML](#html)
+  - [Free](#free-1)
+- [CSS](#css)
+  - [Free](#free-2)
+  - [Paid](#paid-1)
+  - [Additional content](#additional-content)
+- [Git](#git)
+  - [Free](#free-3)
+  - [Additional content](#additional-content-1)
+- [JavaScript](#javascript)
+  - [Free](#free-4)
+  - [Paid](#paid-2)
+  - [Additional content](#additional-content-2)
+- [TypeScript](#typescript)
+  - [Free](#free-5)
+  - [Paid](#paid-3)
+  - [Additional content](#additional-content-3)
+- [Clean Code](#clean-code)
+  - [Free](#free-6)
+  - [Paid](#paid-4)
+  - [Additional content](#additional-content-4)
+- [Design Patterns](#design-patterns)
+  - [Free](#free-7)
+  - [Paid](#paid-5)
+  - [Additional content](#additional-content-5)
+- [Node.js](#nodejs)
+  - [Free](#free-8)
+  - [Paid](#paid-6)
+  - [Additional content](#additional-content-6)
+- [React](#react)
+  - [Free](#free-9)
+  - [Paid](#paid-7)
+  - [Additional content](#additional-content-7)
+- [HR/Recruitment Resources](#hr--recruitment-resources)
+- [Other Resources (worth your time)](#other-resources-worth-your-time)
+  - [Valuable videos](#valuable-videos)
+  - [Turn your theory into practice](#turn-your-theory-into-practice)
+    - [Test your skills](#test-your-skills)
+    - [Interesting tutorials to get you inspired](#interesting-tutorials-to-get-you-inspired)
+    - [Build your own project (better than cloning, ideally make it as a group project!):](#build-your-own-project-better-than-cloning-ideally-make-it-as-a-group-project)
+- [Productivity tools](#productivity-tools)
+- [Contributing](#contributing)
 
 ## YouTube Channels / Blogs
+
 - [Fireship](https://www.youtube.com/c/Fireship)
+
 - [uidotdev (JS/React)](https://www.youtube.com/c/uidotdev/)
 - [Kevin Powell (HTML/CSS/JS)](https://www.youtube.com/kepowob)
 - [Kent C. Dodds (JS/React)](https://kentcdodds.com/blog)
@@ -59,41 +63,51 @@ A list of learning materials for Web Development.
 - 🇵🇱 [Jak zacząć programować? (HTML/CSS/JS)](https://www.youtube.com/c/Jakzacz%C4%85%C4%87programowa%C4%87)
 - 🇵🇱 [Przeprogramowani (JavaScript i nie tylko)](https://www.youtube.com/c/Przeprogramowani)
 
-
 ## Learning to Learn
 
 ### Free
+
 - [The Growth Mindset](https://www.youtube.com/watch?v=-71zdXCMU6A)
+
 - [Khan Academy - High school activities: Growth mindset](https://www.khanacademy.org/college-careers-more/learnstorm-growth-mindset-activities-us/high-school-activities/activity-1-the-truth-about-your-brain-hs-02/a/the-truth-about-your-brain-part-1-3?modal=1)
 - ["Your Theme"](https://www.youtube.com/watch?v=NVGuFdX5guE)
 - [Josh W. Comeau - How to learn stuff quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
 
 ### Paid
+
 - [Zero to Mastery - Learning to Learn](https://academy.zerotomastery.io/p/learning-to-learn-efficient-learning-zero-to-mastery-blueprint)
 
 ## HTML
 
 ### Free
+
 - [Codecademy - Learn HTML](https://www.codecademy.com/learn/learn-html)
+
 - [Minim - HTML for Absolute Beginners](https://www.youtube.com/playlist?list=PL4cTxE4s2XIYJL6uPQUwMt25M70gPl-O6)
 - 🇵🇱 [Jak zacząć programować? - Podstawy HTML + CSS w dwie godziny - kurs krok po kroku!](https://www.youtube.com/watch?v=opNgrPv3Qw8)
 
 ### Additional content
+
 - [Minim - When to Use Semantic HTML Elements Instead of Divs (part of the HTML for Absolute Beginners series)](https://www.youtube.com/watch?v=ZThq93Yuwd0)
+
 - [Web Dev Simplified - 5+ Must Know HTML Tags That Almost Nobody Knows](https://www.youtube.com/watch?v=iX_QyjdctsQ)
 
 ## CSS
 
 ### Free
+
 - [Codecademy - Learn CSS](https://www.codecademy.com/learn/learn-css)
+
 - [Codecademy - Intermediate CSS](https://www.codecademy.com/learn/learn-intermediate-css)
 
-
 ### Paid
+
 - [CSS for JavaScript Developers](https://css-for-js.dev/)
 
 ### Additional content
+
 - [Josh W. Comeau - The Surprising Truth About Pixels and Accessibility](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility)
+
 - [Josh W. Comeau - Secret Mechanisms of CSS [learn the "hidden" fundamentals that nobody told you about.]](https://www.youtube.com/watch?v=Xt1Cw4qM3Ec)
 - [Fireship - 100 CSS Pro Tips - Code this, NOT that!](https://youtu.be/Qhaz36TZG5Y)
 - [Fireship - 3 More Life-Changing CSS Tips](https://www.youtube.com/watch?v=JSURzPQnkl0)
@@ -107,10 +121,13 @@ A list of learning materials for Web Development.
 ## Git
 
 ### Free
+
 - 🇵🇱 [Overment - Kurs Git po polsku od podstaw](https://www.youtube.com/playlist?list=PLjHmWifVUNMKIGHmaGPVqSD-L6i1Zw-MH)
 
 ### Additional content
+
 - [List of git commands for different situations](https://ohshitgit.com/)
+
 - [Fireship - 13 Advanced (but useful) Git Techniques and Shortcuts](https://www.youtube.com/watch?v=ecK3EnyGD8o)
 - [Annie Sexton - Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go)
 - [How to learn Git slowly.](https://dev.to/samuelfaure/how-to-learn-git-slowly-38fa)
@@ -121,7 +138,9 @@ A list of learning materials for Web Development.
 ## JavaScript
 
 ### Free
+
 - [Academind - JavaScript Course for Beginners - Learn JavaScript from Scratch!](https://www.youtube.com/watch?v=2qDywOS7VAc)
+
 - [Codecademy - Learn JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
 - [Codecademy - Intermediate JavaScript](https://www.codecademy.com/learn/learn-intermediate-javascript)
 - 🇵🇱 [Jak zacząć programować? - Kurs JavaScript od zera](https://youtu.be/n-cW9HzpnRk)
@@ -134,12 +153,16 @@ A list of learning materials for Web Development.
 - 🇵🇱 [Jak zacząć programować? - Tutorial HTML, CSS i JavaScript, ale bez ściemy](https://www.youtube.com/watch?v=lfQmsYCDci8)
 
 ### Paid
+
 - [Academind - JavaScript - The Complete Guide (Beginner + Advanced)](https://acad.link/js)
+
 - [Dan Abramov - Just JavaScript (ebook)](https://justjavascript.com/)
 - 🇵🇱 [Kursy JS od Eduweb (polecam kursy od Overmenta - Adam Gospodarczyk)](https://eduweb.pl/wyszukiwarka?query=javascript)
 
 ### Additional content
-- [Jack Herrington - Javascript Arrays Made Easy Playlist by ](https://www.youtube.com/playlist?list=PLNqp92_EXZBJmAHWnJbVnXsl71hiHCrQh)
+
+- [Jack Herrington - Javascript Arrays Made Easy Playlist by](https://www.youtube.com/playlist?list=PLNqp92_EXZBJmAHWnJbVnXsl71hiHCrQh)
+
 - [Jack Herrington - Is JavaScript Spread Operator a Performance Killer?](https://www.youtube.com/watch?v=tcZbY-Q0TIE)
 - [Jack Herrington - JavaScript consts Aren't Constants - JavaScript Quick Fix](https://www.youtube.com/watch?v=5zwzyHqBFnA)
 - [Fireship - Async Await try-catch hell](https://www.youtube.com/shorts/ITogH7lJTyE)
@@ -158,50 +181,65 @@ A list of learning materials for Web Development.
 ## TypeScript
 
 ### Free
+
 - [Learn TypeScript](https://learntypescript.dev/)
+
 - [Academind - TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://www.youtube.com/watch?v=BwuLxPH8IDs)
 - [No BS TS Series by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
 - 🇵🇱 [Przeprogramowani - Seria Przeprogramowani.ts](https://www.youtube.com/playlist?list=PLfE0DpqEANZ0CQ9pCGlxGKPvYb1Sj6ybV)
 - 🇵🇱 [Jak zacząć programować? - Typescript - kurs podstaw 🔥 Tutorial krok po kroku!](https://www.youtube.com/watch?v=5CBZ6DymX0Y)
 
 ### Paid
+
 - [Academind - Understanding TypeScript](https://pro.academind.com/p/understanding-typescript)
+
 - 🇵🇱 [Kurs TS od Eduweb (Overment)](https://eduweb.pl/wyszukiwarka?query=typescript)
 - 🇵🇱 [Michał Miszczyszyn - Książka "TypeScript na poważnie"](https://typescriptnapowaznie.pl/)
 
 ### Additional content
+
 - [TypeScript tips and Tricks with Matt Pocock](https://www.youtube.com/watch?v=hBk4nV7q6-w)
+
 - [TypeScript Features to Avoid](https://www.executeprogram.com/blog/typescript-features-to-avoid)
 - [Jack Herrington - Fixing TypeScript's Blindspot: Runtime Typechecking](https://www.youtube.com/watch?v=rY_XqfSHock)
 - [Theo - ping.gg - You Might Be Using TypeScript Wrong... (how to use TypeScript the most effective way?)](https://www.youtube.com/watch?v=RmGHnYUqQ4k)
 - Convert JS objects to TypeScript (a tricky way to do it):
-    - [Transform JS object to JSON](https://transform.tools/js-object-to-json)
-    - [Then convert JSON to TypeScript](https://transform.tools/json-to-typescript)
+  - [Transform JS object to JSON](https://transform.tools/js-object-to-json)
+  - [Then convert JSON to TypeScript](https://transform.tools/json-to-typescript)
 - [TypeScript Error Translator (VS Code extension to understand TypeScript errors)](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
-
 
 ## Clean Code
 
 ### Free
+
 - [Uncle Martin's (Author of Clean Code Book) Lectures](https://www.youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
+
 - [Clean Code - JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
 - [Clean Code - TypeScript](https://github.com/labs42io/clean-code-typescript)
+
 ### Paid
+
 - [Academind - Clean Code](https://pro.academind.com/p/clean-code)
+
 ### Additional content
+
 - [10 Common JavaScript Clean Code Mistakes](https://www.youtube.com/watch?v=fHJC44PESIk)
+
 - [Kent C. Dodds - AHA Programming](https://youtu.be/wuVy7rwkCfc)
 - [What does abstraction mean in programming?](https://stackoverflow.com/questions/21220155/what-does-abstraction-mean-in-programming)
 
 ## Design Patterns
 
 ### Free
+
 - Jack Herrington - Design Patterns with TypeScript:
-    - [Factory Patterns](https://www.youtube.com/watch?v=-1YhP5IOBCI)
-    - [Pub/Sub Patterns](https://www.youtube.com/watch?v=f3Cn0CGytSQ)
-    - [Visitor and Iterator Patterns](https://www.youtube.com/watch?v=SZ2kAkMdAZE)
-    - [Command & Memento Patterns](https://www.youtube.com/watch?v=H2kxc_ZrSPI)
-    - [Proxy & Flyweight Patterns](https://www.youtube.com/watch?v=0vumsisnqwM)
+
+  - [Factory Patterns](https://www.youtube.com/watch?v=-1YhP5IOBCI)
+  - [Pub/Sub Patterns](https://www.youtube.com/watch?v=f3Cn0CGytSQ)
+  - [Visitor and Iterator Patterns](https://www.youtube.com/watch?v=SZ2kAkMdAZE)
+  - [Command & Memento Patterns](https://www.youtube.com/watch?v=H2kxc_ZrSPI)
+  - [Proxy & Flyweight Patterns](https://www.youtube.com/watch?v=0vumsisnqwM)
+
 - [Patterns.dev](https://www.patterns.dev/)
 - [Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
 - [Refactoring Guru - Refactoring: clean your code](https://refactoring.guru/refactoring)
@@ -213,7 +251,9 @@ A list of learning materials for Web Development.
 - [Refactoring Guru - Dive into Design Patterns](https://refactoring.guru/design-patterns)
 
 ### Additional content
+
 - [Fireship - 10 Design Patterns explained in 10 minutes](https://www.youtube.com/watch?v=tv-_1er1mWI)
+
 - [Continuous Delivery - Object-oriented programming (OOP) vs Functional Programming (FP)](https://www.youtube.com/watch?v=wyABTfR9UTU)
 - [Fireship - Object Oriented vs Functional Programming in TypeScript](https://www.youtube.com/watch?v=fsVL_xrYO0w)
 - [Traversy Media - 5 Design Patterns Every Engineer Should Know (with Jack Herrington)](https://www.youtube.com/watch?v=FLmBqI3IKMA)
@@ -228,23 +268,28 @@ A list of learning materials for Web Development.
 - 🇵🇱 [Przeprogramowani - Jak uczyć się wzorców projektowych na froncie? Odpowiedź dla Juniora, Mida i Seniora](https://www.youtube.com/watch?v=yiJlKWxk2jE)
 - 🇵🇱 [Przeprogramowani - SOLID i Open-Closed Principle w praktyce | Lepszy kod w 20 minut](https://www.youtube.com/watch?v=RWyiKjKmWPs)
 
-## Node.js 
+## Node.js
 
 ### Free
+
 - 🇵🇱 Jak zacząć programować? - mini-seria o Node.js i Express.js
-    - [Jak zacząć programować? - Backend - Podstawy w Node.js i Express](https://www.youtube.com/watch?v=Oc9hbOL0_nk)
-    - [Jak zacząć programować? - Backend w Node.js - PATCH, DELETE. Darmowy hosting na Heroku i Github pages](https://www.youtube.com/watch?v=TCjpRrIpZQ4)
+  - [Jak zacząć programować? - Backend - Podstawy w Node.js i Express](https://www.youtube.com/watch?v=Oc9hbOL0_nk)
+  - [Jak zacząć programować? - Backend w Node.js - PATCH, DELETE. Darmowy hosting na Heroku i Github pages](https://www.youtube.com/watch?v=TCjpRrIpZQ4)
 
 ### Paid
 
-### Additional content 
+### Additional content
+
 - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
+
 ## React
 
 ### Free
+
 **Kent C. Dodds - React Workshops (from Epic React)**
 
 JavaScript Version
+
 - [React Fundamentals](https://github.com/kentcdodds/react-fundamentals)
 - [React Hooks](https://github.com/kentcdodds/react-hooks)
 - [Advanced React Hooks](https://github.com/kentcdodds/advanced-react-hooks)
@@ -255,6 +300,7 @@ JavaScript Version
 - [Build an Epic React App (Bookshelf)](https://github.com/kentcdodds/bookshelf)
 
 TypeScript Version **(recommended)**
+
 - [React Fundamentals](https://github.com/Willaiem/react-fundamentals-typescript)
 - [React Hooks](https://github.com/Willaiem/react-hooks-typescript)
 
@@ -267,13 +313,17 @@ TypeScript Version **(recommended)**
 - [New React Docs (beta)](https://beta.reactjs.org/)
 - [React Framwork.dev - different React resources (books, videos, courses, podcasts) and more](https://react.framework.dev/)
 
-### Paid 
+### Paid
+
 - [Academind - React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
+
 - [Brad Schiff (LearnWebCode) - React For The Rest Of Us](https://www.udemy.com/course/react-for-the-rest-of-us/)
 - [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
 
 ### Additional content
+
 - [Brad Schiff (LearnWebCode) - What is React and what problems does it solve? (Vanilla JS vs React comparison)](https://www.youtube.com/watch?v=fZpINicCPRY)
+
 - [Kent C. Dodds. - JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
 - [Alex Kondov - Tao of React](https://alexkondov.com/tao-of-react/)
 - [Josh W. Comeau - Delightful React File/Directory Structure](https://www.joshwcomeau.com/react/file-structure/)
@@ -281,6 +331,8 @@ TypeScript Version **(recommended)**
 - [Screaming Architecture - Evolution of a React folder structure](https://dev.to/profydev/screaming-architecture-evolution-of-a-react-folder-structure-4g25)
 - [React TypeScript Cheetsheets](https://github.com/typescript-cheatsheets/react)
 - [Reddit Thread - What is the recommended way to load data for React 18?](https://www.reddit.com/r/reactjs/comments/vi6q6f/what_is_the_recommended_way_to_load_data_for/)
+- [Typing React useRef hook](https://claritydev.net/blog/typescript-typing-react-useref-hook/)
+
 <details>
 <summary>Advices from Dan Abramov (member of React Core Team)</summary>
 
@@ -321,7 +373,7 @@ TypeScript Version **(recommended)**
 - [Lydia Hallie - Advanced Rendering Patterns (what shortcuts like ISR, SSG and SSR really mean? )](https://www.youtube.com/watch?v=PN1HgvAOmi8)
 - [AppUnite - Vue's Slots Composition adapted to React - how and when to use it](https://appunite.com/blog/composition-known-as-slots-in-react)
 - [Conner Ardman - React Coding Interview Ft. Clément Mihailescu (build the wordle clone)](https://www.youtube.com/watch?v=5xf4_Kx7azg)
-    - Used API (if someone wants to recreate the task): https://api.frontendexpert.io/api/fe/wordle-words
+  - Used API (if someone wants to recreate the task): <https://api.frontendexpert.io/api/fe/wordle-words>
 - 🇵🇱 [Przeprogramowani - Pięć pytań rekrutacyjnych z Reacta na 2022](https://www.youtube.com/watch?v=ObNaZr9frxY)
 - 🇵🇱 [Michał Taszycki - Architektura aplikacji w React.js – czyli poszukiwania Świętego Graala.](https://www.youtube.com/watch?v=eeJF8PdpOko)
 - 🇵🇱 Przeprogramowani - mini-seria ze wzorca State Machine (warte zobaczenia, bo daje szerszy obraz na to, jak można efektywniej zarządzać stanem w Reakcie):
@@ -330,19 +382,22 @@ TypeScript Version **(recommended)**
   - [Przeprogramowani - Zarządzanie stanem z XState | Wzorzec State Machine #3](https://www.youtube.com/watch?v=AIN-_KgU4BQ)
 - 🇵🇱 [Krzysztof Jendrzyca - The Zen of React (jak utrzymywać czysty kod w Reakcie)](https://festiwal.devmastery.pl/zen/)
   - Realnie trwa z 40 minut, bo potem jest reklama kursu.
-  - https://thezenofreact.com/ - slajdy z powyższego wykładu.
+  - <https://thezenofreact.com/> - slajdy z powyższego wykładu.
   - Prelegent nigdzie nie powiedział, że po stronie trzeba poruszać się strzałkami (lewo/prawo).
 
 ## HR / Recruitment Resources
+
 - Make a nice looking resume:
-    - [FlowCV](https://flowcv.io/)
-    - [Resume Template in Figma](https://www.figma.com/community/file/1104429213755894357)
+
+  - [FlowCV](https://flowcv.io/)
+  - [Resume Template in Figma](https://www.figma.com/community/file/1104429213755894357)
+
 - [Jobscan - scan your resume and optimize it to match offers keywords](https://www.jobscan.co/)
 - [CV Duck - check your CV by experienced recruiters and get feedback](https://cvduck.pro/)
 - [Josh Fluke - Ignore Job Requirements & Apply Anyway!](https://www.youtube.com/watch?v=NaPezvkzl8U)
 - [Addy Osmani - About importance of soft skills](https://addyosmani.com/blog/software-engineering-soft-parts/)
 - [Technical Interview Guide for Busy People](https://www.techinterviewhandbook.org/)
-![Rough Guide to Frontend Interviews - image](https://media.discordapp.net/attachments/918032586809438258/933647593752363018/ekcpgo047q881.png)
+  ![Rough Guide to Frontend Interviews - image](https://media.discordapp.net/attachments/918032586809438258/933647593752363018/ekcpgo047q881.png)
 - [Dawid Mazur - Hiring from developer's point of view: Your GitHub profile](https://www.linkedin.com/feed/update/urn:li:activity:6900405038557339648)
 - [Jason Tu - How to get a job in a new industry without experience (interesting approach to this problem)](https://jasont.co/no-experience/)
 - [Fireship - How to NOT Fail a Technical Interview](https://www.youtube.com/watch?v=1t1_a1BZ04o)
@@ -351,11 +406,15 @@ TypeScript Version **(recommended)**
 - 🇵🇱 [Geekowojażer - Rekrutacja IT z perspektywy programisty seniora](https://www.geekowojazer.pl/rekrutacja-it-programista/)
 
 ## Other Resources (worth your time)
+
 - [web.dev - various resources about front-end from Google itself (responsive design, accessibility, optimazation, etc.)](https://web.dev/)
+
 - [Fullstack Open - learn to code fullstack apps with React, Node, TypeScript and more!](https://fullstackopen.com/)
 
-### Valuable videos:
+### Valuable videos
+
 - [ThePrimeagen - How do I create a side project (as a software enginner)?](https://www.youtube.com/watch?v=bKGy_eYnI3U)
+
 - [ThePrimeagen - How I Choose Side Projects (as a software enginner)](https://www.youtube.com/watch?v=KjjjQSSbhfU)
 - [ThePrimeagen - How I Became A Better Programmer](https://www.youtube.com/watch?v=cgXfWo42gig)
 - [Stefan Mischook - Should I Take a Break from Learning CSS? (when to take a break from learning anything)](https://www.youtube.com/watch?v=78tNu4f91oM)
@@ -374,16 +433,19 @@ TypeScript Version **(recommended)**
 - [The Digital CEO - Design tips for Front End Developers](https://youtu.be/XNJPHGWxLQA)
 - [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
 - [Kenny Gunderman - Should You Learn Native or Cross-Platform Mobile Development?](https://youtu.be/Mq_HS-o-v6o)
-- 🇵🇱 [Duzy w Maluchu - ZABRALI MI MALUCHA! JAK ZARABIAĆ 2500 ZŁ DZIENNIE? *Patologie branży IT](https://www.youtube.com/watch?v=aHffnGVK-Vs)
-    - Ciekawy podcast o branży IT, jak tytuł sugeruje - mówi o różnych patologiach, ale też wspomina o rekrutacji, jak najwięcej zarabiać, problemy z legacy code
+- 🇵🇱 [Duzy w Maluchu - ZABRALI MI MALUCHA! JAK ZARABIAĆ 2500 ZŁ DZIENNIE? \*Patologie branży IT](https://www.youtube.com/watch?v=aHffnGVK-Vs)
+  - Ciekawy podcast o branży IT, jak tytuł sugeruje - mówi o różnych patologiach, ale też wspomina o rekrutacji, jak najwięcej zarabiać, problemy z legacy code
 - 🇵🇱 [WDI 2022 - Cezary Walenciuk - Ogniste pytania rekrutacyjne dla WebDev. Uzupełnij wiedzę](https://www.youtube.com/watch?v=nCEEa3CY_m0)
 - 🇵🇱 [WDI 2021 - Konstanty Orzeszko - Jak straciłem 600 000 PLN w 5 lat?](https://www.youtube.com/watch?v=mGuSdLWV1pk)
-    - O tym, jak nie przepalać pieniędzy (na głupoty) jako programista i jak nimi mądrze zarządzać.
+  - O tym, jak nie przepalać pieniędzy (na głupoty) jako programista i jak nimi mądrze zarządzać.
 - 🇵🇱 [Przeprogramowani - Mini-seria o System Thinking (myślenie systemowe)](https://www.youtube.com/playlist?list=PLfE0DpqEANZ26E7uar_dMXid5UbZrElZ8)
 
-### Turn your theory into practice:
-#### Test your skills:
+### Turn your theory into practice
+
+#### Test your skills
+
 - [Frontend Practice - Recreate the existing pages](https://www.frontendpractice.com/)
+
 - [Chris Hansen - Master Frontend Development 💻 By Cloning These Websites 💯](https://www.dev.to/hyggedev/master-frontend-development-by-cloning-these-websites-1m08)
 - [Lydia Hallie - JavaScript Questions with answers](https://github.com/lydiahallie/javascript-questions)
 - [Frontend Mentor - improve your front-end skills by building different projects](https://www.frontendmentor.io/)
@@ -395,115 +457,130 @@ TypeScript Version **(recommended)**
 <summary>Real-world frontend technical questions:</summary>
 
 ### JavaScript
+
 - How this expression is called?
+
 ```js
 (function () {
-  console.log('Hello!')  
-})()
+	console.log('Hello!');
+})();
 ```
+
 - What are the differences between JavaScript and other programming languages such as C++ and PHP?
-- What are the key differences between ``var``, ``let`` and ``const``?
+
+- What are the key differences between `var`, `let` and `const`?
 - How do you handle asynchronous requests in JavaScript?
-- ``const`` vs ``Object.freeze`` - what are differences for arrays and objects?
+- `const` vs `Object.freeze` - what are differences for arrays and objects?
 - Based on this code:
+
 ```js
-const obj = {nested: {}}
+const obj = { nested: {} };
 
-const anotherObj = {...obj}
+const anotherObj = { ...obj };
 
-obj.nested.a = 1
+obj.nested.a = 1;
 ```
-Does the ``a`` property will be declared also in ``anotherObj`` and why? If yes, how you can prevent it?
+
+Does the `a` property will be declared also in `anotherObj` and why? If yes, how you can prevent it?
 
 - How you can iterate through the objects?
 - How you would describe hoisting?
 - How you would describe array/object mutation? It is a good practice or something to avoid?
-- Based on this code: 
+- Based on this code:
+
 ```js
 const result = (flag: boolean) => {
-  return new Promise((resolve, reject) => {
-    if (flag) {
-      resolve('success');
-    } else {
-      reject('error');
-    }
-  })
-}
+	return new Promise((resolve, reject) => {
+		if (flag) {
+			resolve('success');
+		} else {
+			reject('error');
+		}
+	});
+};
 
-const promise = result(true)
+const promise = result(true);
 
 promise
-  .then(r => {
-    // 1.
-    console.log(r)
+	.then((r) => {
+		// 1.
+		console.log(r);
 
-    return result(false)
-  })
-  .catch(e => {
-    // 2.
-    console.log(e)
+		return result(false);
+	})
+	.catch((e) => {
+		// 2.
+		console.log(e);
 
-    return 'fail'
-  })
-  .then(r => {
-    // 3.
-    console.log(r)
+		return 'fail';
+	})
+	.then((r) => {
+		// 3.
+		console.log(r);
 
-    return result(true)
-  })
-  .catch(e => {
-    // 4.
-    console.log(e)
-  })
+		return result(true);
+	})
+	.catch((e) => {
+		// 4.
+		console.log(e);
+	});
 ```
+
 What results will be displayed in console.log's and why?
 
-- Based on this code: 
+- Based on this code:
+
 ```js
 const timeoutAsync = (time) => {
-  return new Promise(resolve => {
-    const timeout = setTimeout(() => {
-      clearTimeout(timeout)
-      resolve(`Timeout resolved after ${time} milliseconds.`);
-    }, time);
-  });
+	return new Promise((resolve) => {
+		const timeout = setTimeout(() => {
+			clearTimeout(timeout);
+			resolve(`Timeout resolved after ${time} milliseconds.`);
+		}, time);
+	});
 };
 
 const timeouts = [timeoutAsync(9000), timeoutAsync(5500), timeoutAsync(1000)];
 
 // 1.
 timeouts.forEach(async (timeout) => {
-  const info = await timeout;
-  console.log(info);
-})
+	const info = await timeout;
+	console.log(info);
+});
 
 // 2.
 const timeoutsInfos = timeouts.reduce(async (promisedAcc, timeout) => {
-  const acc = await promisedAcc;
-  const info = await timeout;
-  console.log(info);
-  acc.push(info);
-  return acc;
-}, Promise.resolve([]))
+	const acc = await promisedAcc;
+	const info = await timeout;
+	console.log(info);
+	acc.push(info);
+	return acc;
+}, Promise.resolve([]));
 
 // 3.
 for await (const info of timeouts) {
-  console.log(info);
+	console.log(info);
 }
 ```
+
 What will be differences between those iterators? In which order the timeouts will be resolved and why?
 
 ### TypeScript
-- What are differences between ``type`` and ``interface``?
+
+- What are differences between `type` and `interface`?
+
 - How you can validate a data structure without using the third party validation library?
 - Which access modifiers allow property to be accessible only within the class?
 
 ## React
+
 - What is props?
-- Why you have to use ``className`` attribute instead of ``class``?
+
+- Why you have to use `className` attribute instead of `class`?
 - What will happen when a component in React component tree throws an error?
 - What are the rules of the React Hooks?
 - Given this following state:
+
 ```js
 {
   id: 0,
@@ -514,78 +591,93 @@ What will be differences between those iterators? In which order the timeouts wi
   }
 }
 ```
+
 what is the correct way to increment the age?
+
 - What is React Fragment and how they work?
 - Given this code:
+
 ```js
-const names = ['John', 'Jane', 'Mary', 'Bob']
+const names = ['John', 'Jane', 'Mary', 'Bob'];
 
 function RandomName() {
-  const [name, setName] = useState(name.at(0));
-  const changeName = () => {
-    const randomNameIndex = Math.floor(Math.random() * names.length);
-    setName(names[randomNameIndex]);
-  }
+	const [name, setName] = useState(name.at(0));
+	const changeName = () => {
+		const randomNameIndex = Math.floor(Math.random() * names.length);
+		setName(names[randomNameIndex]);
+	};
 
-  return (
-    <div>
-      <p>Current name: {name}</p>
-      <p>Previous name: {prevName}</p>
-      <button onClick={changeName}>Change name</button>
-    </div>
-  );
+	return (
+		<div>
+			<p>Current name: {name}</p>
+			<p>Previous name: {prevName}</p>
+			<button onClick={changeName}>Change name</button>
+		</div>
+	);
 }
-``` 
-How you can store the ``prevName`` value, so that it holds the previous value of ``name`` and is displayed properly in React?
-- Which data structures cannot be rendered in React?
-- What is ``React.memo`` and when you should use it?
+```
 
+How you can store the `prevName` value, so that it holds the previous value of `name` and is displayed properly in React?
+
+- Which data structures cannot be rendered in React?
+- What is `React.memo` and when you should use it?
 
 ### Other questions
+
 - Do you know any patterns from functional programming?
-- Since I mentioned this paradigm, based on this code: 
+
+- Since I mentioned this paradigm, based on this code:
+
 ```ts
 import { interval, OperatorFunction } from 'rxjs';
 import { take, map, filter } from 'rxjs/operators';
 
 const curry: (n: number) => (num: number) => number = (n) => {
-  return (num) => {
-    return num * n
-  }
-}
+	return (num) => {
+		return num * n;
+	};
+};
 
 const operator = (n: number): OperatorFunction<number, number> => {
-  return map((number: number) => number * n);
-}
+	return map((number: number) => number * n);
+};
 
 const increaseByOne = (n: number): number => n + 1;
 
 const number$ = interval(1000).pipe(map(increaseByOne));
 const obser1$ = number$.pipe(take(3));
-const obser2$ = number$.pipe(take(4), map((n: number): string => `Hello ${'!'.repeat(n - 1)}`));
+const obser2$ = number$.pipe(
+	take(4),
+	map((n: number): string => `Hello ${'!'.repeat(n - 1)}`)
+);
 const obser3$ = number$.pipe(take(5), map(curry(2)));
-const obser4$ = number$.pipe(take(4), filter((n: number) => n !== 3), operator(10));
+const obser4$ = number$.pipe(
+	take(4),
+	filter((n: number) => n !== 3),
+	operator(10)
+);
 
 obser1$.subscribe((value: number) => {
-  // 1.
-  console.log(value);
+	// 1.
+	console.log(value);
 });
 
 obser2$.subscribe((value: string) => {
-  // 2.
-  console.log(value);
+	// 2.
+	console.log(value);
 });
 
 obser3$.subscribe((value: number) => {
-  // 3.
-  console.log(value);
+	// 3.
+	console.log(value);
 });
 
 obser4$.subscribe((value: number) => {
-  // 4.
-  console.log(value);
+	// 4.
+	console.log(value);
 });
 ```
+
 What values will be console.log'ed from observables and why?
 
 - What do you think about testing, how are you doing it and what exactly you are testing?
@@ -599,21 +691,28 @@ What values will be console.log'ed from observables and why?
 
 1. Internship recruitment task
 
-- Create the function to calculate the balance in a specific category within the specified time period. 
+- Create the function to calculate the balance in a specific category within the specified time period.
 
 ```js
-function getBalanceByCategoryInPeriod(transactionsList, category, startTime, endTime) {
-  // ...
+function getBalanceByCategoryInPeriod(
+	transactionsList,
+	category,
+	startTime,
+	endTime
+) {
+	// ...
 }
 ```
 
 Parameters:
+
 - transactionsList: array of transactions
 - category: string
 - start time: Date
 - end time: Date
 
 Transaction object looks like this:
+
 ```js
 {
   id: 123,
@@ -628,16 +727,18 @@ Transaction object looks like this:
 - Create the function to find duplicated transactions.
 
 Sometimes when a customer gets charged, a duplicate transaction is created.
-We need to find those transactions so that they can be dealt with. 
+We need to find those transactions so that they can be dealt with.
 Everything about the transaction should be identical, except the transaction id and the time at which it occurred,
 as there can be up to a minute delay.
 
 ```js
 function findDuplicateTransactions(transactions) {
-  // ...
+	// ...
 }
 ```
-Parameters: 
+
+Parameters:
+
 - transactions: array of transactions
 
 Find all transactions that have the same sourceAccount, targetAccount, category, amount,
@@ -652,112 +753,115 @@ The groups should be sorted in ascending order of the first transaction in the g
 Example:
 
 Input:
+
 ```js
 [
-  {
-    id: 3,
-    sourceAccount: "A",
-    targetAccount: "B",
-    amount: 100,
-    category: "eating_out",
-    time: "2018-03-02T10:34:30.000Z",
-  },
-  {
-    id: 1,
-    sourceAccount: "A",
-    targetAccount: "B",
-    amount: 100,
-    category: "eating_out",
-    time: "2018-03-02T10:33:00.000Z",
-  },
-  {
-    id: 6,
-    sourceAccount: "A",
-    targetAccount: "C",
-    amount: 250,
-    category: "other",
-    time: "2018-03-02T10:33:05.000Z",
-  },
-  {
-    id: 4,
-    sourceAccount: "A",
-    targetAccount: "B",
-    amount: 100,
-    category: "eating_out",
-    time: "2018-03-02T10:36:00.000Z",
-  },
-  {
-    id: 2,
-    sourceAccount: "A",
-    targetAccount: "B",
-    amount: 100,
-    category: "eating_out",
-    time: "2018-03-02T10:33:50.000Z",
-  },
-  {
-    id: 5,
-    sourceAccount: "A",
-    targetAccount: "C",
-    amount: 250,
-    category: "other",
-    time: "2018-03-02T10:33:00.000Z",
-  },
+	{
+		id: 3,
+		sourceAccount: 'A',
+		targetAccount: 'B',
+		amount: 100,
+		category: 'eating_out',
+		time: '2018-03-02T10:34:30.000Z',
+	},
+	{
+		id: 1,
+		sourceAccount: 'A',
+		targetAccount: 'B',
+		amount: 100,
+		category: 'eating_out',
+		time: '2018-03-02T10:33:00.000Z',
+	},
+	{
+		id: 6,
+		sourceAccount: 'A',
+		targetAccount: 'C',
+		amount: 250,
+		category: 'other',
+		time: '2018-03-02T10:33:05.000Z',
+	},
+	{
+		id: 4,
+		sourceAccount: 'A',
+		targetAccount: 'B',
+		amount: 100,
+		category: 'eating_out',
+		time: '2018-03-02T10:36:00.000Z',
+	},
+	{
+		id: 2,
+		sourceAccount: 'A',
+		targetAccount: 'B',
+		amount: 100,
+		category: 'eating_out',
+		time: '2018-03-02T10:33:50.000Z',
+	},
+	{
+		id: 5,
+		sourceAccount: 'A',
+		targetAccount: 'C',
+		amount: 250,
+		category: 'other',
+		time: '2018-03-02T10:33:00.000Z',
+	},
 ];
 ```
 
 Output:
+
 ```js
 [
-  [
-    {
-      id: 1,
-      sourceAccount: "A",
-      targetAccount: "B",
-      amount: 100,
-      category: "eating_out",
-      time: "2018-03-02T10:33:00.000Z",
-    },
-    {
-      id: 2,
-      sourceAccount: "A",
-      targetAccount: "B",
-      amount: 100,
-      category: "eating_out",
-      time: "2018-03-02T10:33:50.000Z",
-    },
-    {
-      id: 3,
-      sourceAccount: "A",
-      targetAccount: "B",
-      amount: 100,
-      category: "eating_out",
-      time: "2018-03-02T10:34:30.000Z",
-    },
-  ],
-  [
-    {
-      id: 5,
-      sourceAccount: "A",
-      targetAccount: "C",
-      amount: 250,
-      category: "other",
-      time: "2018-03-02T10:33:00.000Z",
-    },
-    {
-      id: 6,
-      sourceAccount: "A",
-      targetAccount: "C",
-      amount: 250,
-      category: "other",
-      time: "2018-03-02T10:33:05.000Z",
-    },
-  ],
+	[
+		{
+			id: 1,
+			sourceAccount: 'A',
+			targetAccount: 'B',
+			amount: 100,
+			category: 'eating_out',
+			time: '2018-03-02T10:33:00.000Z',
+		},
+		{
+			id: 2,
+			sourceAccount: 'A',
+			targetAccount: 'B',
+			amount: 100,
+			category: 'eating_out',
+			time: '2018-03-02T10:33:50.000Z',
+		},
+		{
+			id: 3,
+			sourceAccount: 'A',
+			targetAccount: 'B',
+			amount: 100,
+			category: 'eating_out',
+			time: '2018-03-02T10:34:30.000Z',
+		},
+	],
+	[
+		{
+			id: 5,
+			sourceAccount: 'A',
+			targetAccount: 'C',
+			amount: 250,
+			category: 'other',
+			time: '2018-03-02T10:33:00.000Z',
+		},
+		{
+			id: 6,
+			sourceAccount: 'A',
+			targetAccount: 'C',
+			amount: 250,
+			category: 'other',
+			time: '2018-03-02T10:33:05.000Z',
+		},
+	],
 ];
 ```
 
 2. Create e-commerce app using the included design (only for desktop).
 
 Essentials:
+
 - Has to use Gatsby.js (or any other SSG framework)
 - Has to be pixel perfect.
 - Use SCSS/SASS.
@@ -768,6 +872,7 @@ Essentials:
 - App should be responsive.
 
 Optional:
+
 - Add the lightbox (create it yourself or use the NPM package), which opens, when clicked the image. Must have the option to move between the images (via the arrows).
 - Add a bar under the slide that marks the countdown time until the next slide is shown. It is supposed to be animated, and when it reaches 100% it shows the next slide.
 - Deploy the app on GitHub Pages / Netlify / Vercel / etc.
@@ -779,18 +884,21 @@ Pay attention to the file structure.
 Folders or components properly laid out. It will be an added advantage to pay attention to such elements as page loading speed, optimization of images, use of lazy loading, etc.
 
 As a design you can use:
-- https://dribbble.com/shots/15389208-Antic-Decoration-Landing-Page
-- https://dribbble.com/shots/15182337-BoConcept-e-Commerce-Slider
+
+- <https://dribbble.com/shots/15389208-Antic-Decoration-Landing-Page>
+- <https://dribbble.com/shots/15182337-BoConcept-e-Commerce-Slider>
 
 3. GitHub Issues App
 
 Essentials:
+
 - Use GitHub API - either the REST API or GraphQL API.
 - Use TypeScript.
 - Take care of code quality and clean code.
 - Use any JavaScript framework.
 
 Features:
+
 - App should search GitHub issues by username and repository name.
 - App should have search bar, results list and number of results.
 - On default it should display the default GitHub issues list response.
@@ -806,78 +914,88 @@ Features:
 3. Yet another variation of GitHub Issues App.
 
 Essentials:
+
 - Use GitHub API - either the REST API or GraphQL API.
-- Select any repo, which it should fetch the issues, ie. https://github.com/facebook/react
+- Select any repo, which it should fetch the issues, ie. <https://github.com/facebook/react>
 - You can use any third-party libraries.
 - Take care of code quality and clean code.
 - Use any architecture.
 - App should be responsive.
 
 Features:
+
 - Load and display the last 10 issues.
 - Implement the infinite scroll - when scrolled to the bottom, the app should fetch the next 5 issues.
 - Each "tile" should have a title, issue number and creation date.
 - When clicked, it should display the title, issue number, it's status (open/closed), creation date and it's body.
 - It should also display the issue rate counter (like on Stack Overflow) and have to possibility to increse/decrease it.
-- When the count is below ``-99`` or above ``99``, it should display ``99!!``, otherwise it should display the count.
+- When the count is below `-99` or above `99`, it should display `99!!`, otherwise it should display the count.
 - The count should be saved somewhere and still be available when the app is reloaded and the same issue will be open.
 
 Optional:
+
 - Local search engine.
 - Animations and transitions.
 
 4. Create the part of e-commerce app.
 
-- Use this API: https://jsonplaceholder.typicode.com/photos
+- Use this API: <https://jsonplaceholder.typicode.com/photos>
 - Has to be pixel perfect.
 - You can use Bootstrap, Material Design or any other component library.
 - App should be responsive.
 - TypeScript is recommended, but still optional.
 
 Main page:
+
 - Load and display all products.
 - On navbar:
-    - Search bar should filter the products by title.
-    - Next to search bar it should have two checkboxes - active and promo, that are acting as filters.
-    - Next to checkboxes it should have the Log In button - when clicked it should redirect to the login page.
+  - Search bar should filter the products by title.
+  - Next to search bar it should have two checkboxes - active and promo, that are acting as filters.
+  - Next to checkboxes it should have the Log In button - when clicked it should redirect to the login page.
 - Working pagination in certain way:
-    - When all pages are: n > 6
-        - When user is on the first or second page:
-            - 1,2,3 ... n-2, n-1, n
-        - When user is on third page:
-            - 2,3,4 ... n-2, n-1, n
-    - When all pages are: n < 6
-        - Present all pages like this:
-            - 1,2,3,4,5,6
+  - When all pages are: n > 6
+    - When user is on the first or second page:
+      - 1,2,3 ... n-2, n-1, n
+    - When user is on third page:
+      - 2,3,4 ... n-2, n-1, n
+  - When all pages are: n < 6
+    - Present all pages like this:
+      - 1,2,3,4,5,6
 - Handle the situation, when it couldn't find the products.
 
 Login page:
+
 - The only login and password that is valid is "admin" and "admin123!".
 - The "Forgot password" should do nothing.
 - Handle the situation, when the login or password is incorrect.
 - When the login is successful, it should redirect to the main page.
 - The Log in button is changed to the avatar icon - when clicked, it should display the dropdown with the "Log out" option.
-- When logout, the avatar icon is changed to the "Log in" button. 
+- When logout, the avatar icon is changed to the "Log in" button.
 - The log in should be persistant, even after the page is closed.
 
 Optional:
+
 - Write the unit tests.
 - Write the e2e tests.
 
 As a design you can use:
-- https://dribbble.com/shots/15389208-Antic-Decoration-Landing-Page
-- https://dribbble.com/shots/15117860-Syncrhomedics-Reference-Page
-- https://dribbble.com/shots/16634976-eCommerce-Cosmetic-Web-design
+
+- <https://dribbble.com/shots/15389208-Antic-Decoration-Landing-Page>
+- <https://dribbble.com/shots/15117860-Syncrhomedics-Reference-Page>
+- <https://dribbble.com/shots/16634976-eCommerce-Cosmetic-Web-design>
 
 </details>
 
+#### Interesting tutorials to get you inspired
 
-#### Interesting tutorials to get you inspired:
 - [TomDoesTech - Build a Blog with the T3 Stack (TypeScript, Next.js, tRPC, Prisma and more!)](https://www.youtube.com/watch?v=syEWlxVFUrY)
+
 - [Ben Awad - Fullstack Reddit Clone (TypeScript, React, GraphQL, Node.js, Postgres and more!)](https://www.youtube.com/watch?v=I6ypD7qv3Z8)
 
-#### Build your own project (better than cloning, ideally make it as a group project!):
+#### Build your own project (better than cloning, ideally make it as a group project!)
+
 - [8 beginner-friendly projects to create (the original title is a exaggeration, but they're fine when starting to learn front-end)](https://dev.to/madza/8-projects-to-build-to-master-your-front-end-skills-4gnc)
+
 - [Project Guidelines (to make your project easier to develop)](https://github.com/elsewhencode/project-guidelines)
 - The Code Review Pyramid:
 - ![The Code Review Pyramid](https://media.discordapp.net/attachments/920370741747277924/954270609527959562/image_from_ios.png)
@@ -885,12 +1003,15 @@ As a design you can use:
 - 🇵🇱 W jaki sposób podejść do tworzenia projektu? Interesujący komentarz z grupy na FB:
 - ![Komentarz dot. tworzenia projektu](./assets/misc/projekt.png)
 
-## Productivity tools:
+## Productivity tools
+
 - [You.com - interesting alternative to Google, which suggests code snippets, Stack Overflow answers or even YouTube videos](https://you.com/)
+
 - [Raindrop.io - manage your bookmarks way easier than you think](https://raindrop.io/)
 - [Notion - really amazing tool to make notes and organize your thoughts](https://notion.so/)
 - [Unsplash - free sources of pictures](https://unsplash.com/)
 
-## Contributing:
+## Contributing
+
 If you found something interesting, but it's not in the list, please open an issue or, even better, a pull request.
 😊 We will be happy to check it out and add it.
