@@ -190,6 +190,7 @@ A list of learning materials for Web Development.
 - 🇵🇱 [Przeprogramowani - Wydajny JavaScript - Promisy, setTimeout czy Web Workery?](https://www.youtube.com/watch?v=kNsE8EFLwdg)
 - 🇵🇱 [Przeprogramowani - Jak działa async/await w JavaScript?](https://www.youtube.com/watch?v=_dZsebSj7fI)
 - 🇵🇱 [Przeprogramowani - MODUŁY W JĘZYKU JAVASCRIPT - Module Pattern vs Common JS vs AMD vs ES Modules](https://www.youtube.com/watch?v=5upaxzBNbmQ)
+- 🇵🇱 [Przeprogramowani - Co musisz wiedzieć przed nauką frameworków React, Angular, Vue?](https://www.youtube.com/watch?v=G7_kEJsrrk4)
 
 ## TypeScript
 
