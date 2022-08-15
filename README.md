@@ -1007,6 +1007,7 @@ https://jsfiddle.net/mdh2c7xg/#
 
 #### Build your own project (better than cloning, ideally make it as a group project!):
 - [8 beginner-friendly projects to create (the original title is a exaggeration, but they're fine when starting to learn front-end)](https://dev.to/madza/8-projects-to-build-to-master-your-front-end-skills-4gnc)
+- [Scrimba - 10 fantastic programming project ideas for your portfolio (and where to find more)](https://youtu.be/DhER-6qkwIQ)
 - [Project Guidelines (to make your project easier to develop)](https://github.com/elsewhencode/project-guidelines)
 - The Code Review Pyramid:
 - ![The Code Review Pyramid](https://media.discordapp.net/attachments/920370741747277924/954270609527959562/image_from_ios.png)
