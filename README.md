@@ -230,6 +230,8 @@ A list of learning materials for Web Development.
 - [Kent C. Dodds - AHA Programming](https://youtu.be/wuVy7rwkCfc)
 - [What does abstraction mean in programming?](https://stackoverflow.com/questions/21220155/what-does-abstraction-mean-in-programming)
 - [Demeter’s Law: Don’t talk to strangers!](https://betterprogramming.pub/demeters-law-don-t-talk-to-strangers-87bb4af11694)
+- [5 Javascript Clean Coding Patterns To Enhance your Code](https://medium.com/arionkoder-engineering/5-javascript-clean-coding-patterns-to-enhance-your-code-cc205d8d1ab6)
+  - The second one does not includes the mutation. Correct one: ``[...arr].sort((a, b) => a - b)``
 
 ## Design Patterns
 
