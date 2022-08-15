@@ -130,6 +130,7 @@ A list of learning materials for Web Development.
 - [Dribbble - also find them here](https://dribbble.com/)
 - [UI Components Handbook - real-world examples of UI components](https://www.uiguideline.com/components)
 - [Design Systems - everything about this topic](https://www.designsystems.com/)
+- [Optimal Size and Spacing for Mobile Buttons](https://uxmovement.com/mobile/optimal-size-and-spacing-for-mobile-buttons/)
 
 
 
@@ -498,7 +499,6 @@ TypeScript Version **(recommended)**
 <img src="./assets/css/css_exercises_3_3.png" alt="css exercise 3/3">
 </details>
 
-- [Real Tough Candy - Project Ideas for Web Developers](https://github.com/RealToughCandy/project-ideas-for-web-developers)
 - 🇵🇱 [Localhost Academy - Zbiór zadań HTML, CSS, JS, React, itp.](https://github.com/Przemocny/zbior-zadan-html-css-js-react)
 
 <details>
