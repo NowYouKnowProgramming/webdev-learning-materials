@@ -38,6 +38,10 @@ A list of learning materials for Web Development.
     + [Free](#free-9)
     + [Paid](#paid-7)
     + [Additional content](#additional-content-7)
+  * [Next.js](#nextjs)
+    + [Free](#free-10)
+    + [Paid](#paid-8)
+    + [Additional content](#additional-content-9)
   * [HR/Recruitment Resources](#hr--recruitment-resources)
   * [Other Resources (worth your time)](#other-resources-worth-your-time)
     + [Valuable videos](#valuable-videos)
@@ -332,6 +336,21 @@ TypeScript Version **(recommended)**
   - Realnie trwa z 40 minut, bo potem jest reklama kursu.
   - https://thezenofreact.com/ - slajdy z powyższego wykładu.
   - Prelegent nigdzie nie powiedział, że po stronie trzeba poruszać się strzałkami (lewo/prawo).
+
+## Next.js
+
+### Free
+
+- [Next.js docs](https://nextjs.org/docs)
+
+### Paid
+
+- [Academind Next.js course Udemy](https://www.udemy.com/share/104cpi3@Oh4oUEJs8F2B6c3t54xvmnsosIt7uQiy_K1OtotWexANxEsNy_pYzliqECIW0dgGgg==/)
+
+### Additional content
+
+- [Migrating from create react app](https://nextjs.org/docs/migrating/from-create-react-app)
+- [FAQ](https://nextjs.org/docs/faq)
 
 ## HR / Recruitment Resources
 - Make a nice looking resume:
