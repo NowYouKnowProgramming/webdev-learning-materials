@@ -43,6 +43,8 @@ A list of learning materials for Web Development.
     + [Paid](#paid-8)
     + [Additional content](#additional-content-9)
   * [HR/Recruitment Resources](#hr--recruitment-resources)
+  * [Job Boards (find your dream job)](#job-boards-find-your-dream-job)
+  * [Learn English](#learn-english)
   * [Other Resources (worth your time)](#other-resources-worth-your-time)
     + [Valuable videos](#valuable-videos)
     * [Turn your theory into practice](#turn-your-theory-into-practice)
@@ -60,6 +62,10 @@ A list of learning materials for Web Development.
 - [Josh W. Comeau (CSS/JS)](https://www.joshwcomeau.com/)
 - [Matt Pocock (TypeScript)](https://www.youtube.com/channel/UCswG6FSbgZjbWtdf_hMLaow)
 - [DesignCode (Figma/React)](https://www.youtube.com/c/DesignCodeTeam)
+- [Web Dev Junkie (JS/React)](https://www.youtube.com/c/WebDevJunkie)
+- [Jack Herrington (JS/React)](https://www.youtube.com/c/JackHerrington)
+- [TomDoesTech (JS/React)](https://www.youtube.com/c/TomDoesTech)
+- [Oak Harbor Web Designs (builds real-world HTML/CSS/JS websites)](https://www.youtube.com/channel/UC6YEjppZo4Ep-8N54_nXFQg)
 - 🇵🇱 [Jak zacząć programować? (HTML/CSS/JS)](https://www.youtube.com/c/Jakzacz%C4%85%C4%87programowa%C4%87)
 - 🇵🇱 [Przeprogramowani (JavaScript i nie tylko)](https://www.youtube.com/c/Przeprogramowani)
 
@@ -71,6 +77,8 @@ A list of learning materials for Web Development.
 - [Khan Academy - High school activities: Growth mindset](https://www.khanacademy.org/college-careers-more/learnstorm-growth-mindset-activities-us/high-school-activities/activity-1-the-truth-about-your-brain-hs-02/a/the-truth-about-your-brain-part-1-3?modal=1)
 - ["Your Theme"](https://www.youtube.com/watch?v=NVGuFdX5guE)
 - [Josh W. Comeau - How to learn stuff quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
+- [An Approach to Continuous Learning](https://dev.to/abh1navv/an-approach-to-continuous-learning-30pk)
+- [Reddit Post - Most of you need to SLOW DOWN](https://www.reddit.com/r/learnprogramming/comments/vvsw0x/most_of_you_need_to_slow_down/)
 
 ### Paid
 - [Zero to Mastery - Learning to Learn](https://academy.zerotomastery.io/p/learning-to-learn-efficient-learning-zero-to-mastery-blueprint)
@@ -85,13 +93,15 @@ A list of learning materials for Web Development.
 ### Additional content
 - [Minim - When to Use Semantic HTML Elements Instead of Divs (part of the HTML for Absolute Beginners series)](https://www.youtube.com/watch?v=ZThq93Yuwd0)
 - [Web Dev Simplified - 5+ Must Know HTML Tags That Almost Nobody Knows](https://www.youtube.com/watch?v=iX_QyjdctsQ)
+- [HTML Reference](https://htmlreference.io/)
+- [Bartosz Zagrodzki - Do you know all input types?](https://www.zagrodzki.me/blog/do-you-know-all-input-types)
 
 ## CSS
 
 ### Free
 - [Codecademy - Learn CSS](https://www.codecademy.com/learn/learn-css)
 - [Codecademy - Intermediate CSS](https://www.codecademy.com/learn/learn-intermediate-css)
-
+- [web.dev - Learn CSS](https://web.dev/learn/css/)
 
 ### Paid
 - [CSS for JavaScript Developers](https://css-for-js.dev/)
@@ -99,7 +109,7 @@ A list of learning materials for Web Development.
 ### Additional content
 - [Josh W. Comeau - The Surprising Truth About Pixels and Accessibility](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility)
 - [Josh W. Comeau - Secret Mechanisms of CSS [learn the "hidden" fundamentals that nobody told you about.]](https://www.youtube.com/watch?v=Xt1Cw4qM3Ec)
-- [Fireship - 100 CSS Pro Tips - Code this, NOT that!](https://youtu.be/Qhaz36TZG5Y)
+- [Fireship - 10 CSS Pro Tips - Code this, NOT that!](https://youtu.be/Qhaz36TZG5Y)
 - [Fireship - 3 More Life-Changing CSS Tips](https://www.youtube.com/watch?v=JSURzPQnkl0)
 - [Defensive CSS - practical tips that helps in building "bullet-proof" UI interfaces](https://defensivecss.dev/)
 - [CSS Reference - visual guide for the most popular properties](https://cssreference.io/)
@@ -108,9 +118,30 @@ A list of learning materials for Web Development.
 - [CSS Tricks - My Dumbest CSS Mistakes](https://css-tricks.com/my-dumbest-css-mistakes/)
 - [Josh W. Comeau - You Don’t Need A UI Framework (how to build ui without using the third-party component library?)](https://www.smashingmagazine.com/2022/05/you-dont-need-ui-framework/)
 
+<details>
+<summary>Takeaways from CSS for JavaScript Developers:</summary>
+
+- Flex Basis / Flex Grow / Flex Shrink
+![Flex Basis / Flex Grow / Flex Shrink](./assets/css/flex_basis_grow_shrink.png)
+- Flex Shorthand
+![Flex Shorthand](./assets/css/flex_shorthand.png)
+
+</details>
+
+- [You Probably Don't Need Media Queries Anymore - how to build truly dynamic responsive websites](https://dev.to/kathryngrayson/you-probably-dont-need-media-queries-anymore-a4j)
+
+- [Godly -  find some web design inspirations](https://godly.website/)
+- [Dribbble - also find them here](https://dribbble.com/)
+- [UI Components Handbook - real-world examples of UI components](https://www.uiguideline.com/components)
+- [Design Systems - everything about this topic](https://www.designsystems.com/)
+- [Optimal Size and Spacing for Mobile Buttons](https://uxmovement.com/mobile/optimal-size-and-spacing-for-mobile-buttons/)
+
+
+
 ## Git
 
 ### Free
+- [BitBucket - Learn Git](https://www.atlassian.com/git/tutorials)
 - 🇵🇱 [Overment - Kurs Git po polsku od podstaw](https://www.youtube.com/playlist?list=PLjHmWifVUNMKIGHmaGPVqSD-L6i1Zw-MH)
 
 ### Additional content
@@ -121,6 +152,8 @@ A list of learning materials for Web Development.
 - [Write Git Commit Messages That Your Colleagues Will Love](https://dev.to/simeg/write-git-commit-messages-that-your-colleagues-will-love-1757)
 - [Conventional Commits - add a type of your commit to your messages](https://www.conventionalcommits.org/en/v1.0.0/)
 - [Undo wrong Git changes](https://dev.to/dailydevtips1/undo-wrong-git-changes-32mc)
+- [Please Start Writing Better Git Commits](https://tawdev.hashnode.dev/please-start-writing-better-git-commits)
+- 🇵🇱 [Conventional Commits czyli jak tworzyć epickie commity w git](https://highlab.pl/conventional-commits/)
 
 ## JavaScript
 
@@ -128,6 +161,7 @@ A list of learning materials for Web Development.
 - [Academind - JavaScript Course for Beginners - Learn JavaScript from Scratch!](https://www.youtube.com/watch?v=2qDywOS7VAc)
 - [Codecademy - Learn JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
 - [Codecademy - Intermediate JavaScript](https://www.codecademy.com/learn/learn-intermediate-javascript)
+- [Exercism - Learn JavaScript by doing exercises](https://exercism.org/tracks/javascript)
 - 🇵🇱 [Jak zacząć programować? - Kurs JavaScript od zera](https://youtu.be/n-cW9HzpnRk)
 - Overment - różne serie dot. JavaScriptu:
   - 🇵🇱 [Overment - ESNext Tutorial (ES6+)](https://www.youtube.com/playlist?list=PLjHmWifVUNMJbnpl8YlXRpyVyepcHa0cH)
@@ -135,7 +169,6 @@ A list of learning materials for Web Development.
   - 🇵🇱 [Overment - Jak działa Promise? Async await i wiele więcej](https://www.youtube.com/playlist?list=PLjHmWifVUNMLOfSdeSSEGgSXebPXL7Z3Q)
   - 🇵🇱 [Overment - Operator NOT oraz Array.reduce](https://www.youtube.com/playlist?list=PLjHmWifVUNMJHa4AJdjXoFQPA3UKyVzin)
   - 🇵🇱 [Overment - Programowanie funkcyjne (high order function, function composition, itp.) w JavaScript](https://www.youtube.com/playlist?list=PLjHmWifVUNMLR1Oz3WYK7XRLEY5LvSOPu)
-- 🇵🇱 [Jak zacząć programować? - Tutorial HTML, CSS i JavaScript, ale bez ściemy](https://www.youtube.com/watch?v=lfQmsYCDci8)
 
 ### Paid
 - [Academind - JavaScript - The Complete Guide (Beginner + Advanced)](https://acad.link/js)
@@ -143,7 +176,7 @@ A list of learning materials for Web Development.
 - 🇵🇱 [Kursy JS od Eduweb (polecam kursy od Overmenta - Adam Gospodarczyk)](https://eduweb.pl/wyszukiwarka?query=javascript)
 
 ### Additional content
-- [Jack Herrington - Javascript Arrays Made Easy Playlist by ](https://www.youtube.com/playlist?list=PLNqp92_EXZBJmAHWnJbVnXsl71hiHCrQh)
+- [Jack Herrington - Javascript Arrays Made Easy Playlist](https://www.youtube.com/playlist?list=PLNqp92_EXZBJmAHWnJbVnXsl71hiHCrQh)
 - [Jack Herrington - Is JavaScript Spread Operator a Performance Killer?](https://www.youtube.com/watch?v=tcZbY-Q0TIE)
 - [Jack Herrington - JavaScript consts Aren't Constants - JavaScript Quick Fix](https://www.youtube.com/watch?v=5zwzyHqBFnA)
 - [Fireship - Async Await try-catch hell](https://www.youtube.com/shorts/ITogH7lJTyE)
@@ -152,12 +185,17 @@ A list of learning materials for Web Development.
 - [Framework.dev - resources about JavaScript frameworks (books, videos, courses, podcasts), popular libraries and possibility of compare them and more](https://www.framework.dev/)
 - [TomDoesTech - 9 JavaScript Opinions That Will Make You Mad](https://www.youtube.com/watch?v=b9C8r5m-mj8)
 - [Jenn Creighton - Now and .then: Debugging Async JavaScript](https://www.youtube.com/watch?v=V-lu0YjJYdk)
+- [Fireship - JavaScript Pro Tips - Code This, NOT That](https://www.youtube.com/watch?v=Mus_vwhTCq0)
+- [Fireship - The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE)
+- [SimonDev - Pass by Value vs Reference in JavaScript](https://youtu.be/jxaxyvHo8ZM)
+- [uidotdev - The Story of Asynchronous JavaScript](https://www.youtube.com/watch?v=rivBfgaEyWQ)
 - 🇵🇱 [Localhost Academy - HOF (high order function), potęga metody Array.reduce i jej zastosowanie, jak przeszukiwać zagnieżdżone w sobie obiekty? (oglądać do 1:20:32)](https://www.youtube.com/watch?v=Y178v49NXik)
 - 🇵🇱 [Przeprogramowani - 7 najpopularniejszych błędów Junior JavaScript Developera](https://www.youtube.com/watch?v=tWzuQsoi6fA)
 - 🇵🇱 [Przeprogramowani - ESLint, Prettier i VS Code - Czysty JS z automatu](https://www.youtube.com/watch?v=u2yUxhzpht4)
 - 🇵🇱 [Przeprogramowani - Wydajny JavaScript - Promisy, setTimeout czy Web Workery?](https://www.youtube.com/watch?v=kNsE8EFLwdg)
 - 🇵🇱 [Przeprogramowani - Jak działa async/await w JavaScript?](https://www.youtube.com/watch?v=_dZsebSj7fI)
 - 🇵🇱 [Przeprogramowani - MODUŁY W JĘZYKU JAVASCRIPT - Module Pattern vs Common JS vs AMD vs ES Modules](https://www.youtube.com/watch?v=5upaxzBNbmQ)
+- 🇵🇱 [Przeprogramowani - Co musisz wiedzieć przed nauką frameworków React, Angular, Vue?](https://www.youtube.com/watch?v=G7_kEJsrrk4)
 
 ## TypeScript
 
@@ -165,6 +203,7 @@ A list of learning materials for Web Development.
 - [Learn TypeScript](https://learntypescript.dev/)
 - [Academind - TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://www.youtube.com/watch?v=BwuLxPH8IDs)
 - [No BS TS Series by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
+- [Exercism - Learn TypeScript by doing exercises](https://exercism.org/tracks/typescript)
 - 🇵🇱 [Przeprogramowani - Seria Przeprogramowani.ts](https://www.youtube.com/playlist?list=PLfE0DpqEANZ0CQ9pCGlxGKPvYb1Sj6ybV)
 - 🇵🇱 [Jak zacząć programować? - Typescript - kurs podstaw 🔥 Tutorial krok po kroku!](https://www.youtube.com/watch?v=5CBZ6DymX0Y)
 
@@ -196,6 +235,9 @@ A list of learning materials for Web Development.
 - [10 Common JavaScript Clean Code Mistakes](https://www.youtube.com/watch?v=fHJC44PESIk)
 - [Kent C. Dodds - AHA Programming](https://youtu.be/wuVy7rwkCfc)
 - [What does abstraction mean in programming?](https://stackoverflow.com/questions/21220155/what-does-abstraction-mean-in-programming)
+- [Demeter’s Law: Don’t talk to strangers!](https://betterprogramming.pub/demeters-law-don-t-talk-to-strangers-87bb4af11694)
+- [5 Javascript Clean Coding Patterns To Enhance your Code](https://medium.com/arionkoder-engineering/5-javascript-clean-coding-patterns-to-enhance-your-code-cc205d8d1ab6)
+  - The second one does not includes the mutation. Correct one: ``[...arr].sort((a, b) => a - b)``
 
 ## Design Patterns
 
@@ -208,6 +250,7 @@ A list of learning materials for Web Development.
     - [Proxy & Flyweight Patterns](https://www.youtube.com/watch?v=0vumsisnqwM)
 - [Patterns.dev](https://www.patterns.dev/)
 - [Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
+- [Anjana Vakil - Learning Functional Programming with JavaScript](https://youtu.be/e-5obm1G_FY)
 - [Refactoring Guru - Refactoring: clean your code](https://refactoring.guru/refactoring)
 - [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
 - [Alex Bespoyasov - Clean Architecture on Frontend](https://dev.to/bespoyasov/clean-architecture-on-frontend-4311)
@@ -222,6 +265,9 @@ A list of learning materials for Web Development.
 - [Fireship - Object Oriented vs Functional Programming in TypeScript](https://www.youtube.com/watch?v=fsVL_xrYO0w)
 - [Traversy Media - 5 Design Patterns Every Engineer Should Know (with Jack Herrington)](https://www.youtube.com/watch?v=FLmBqI3IKMA)
 - [Fireship - Test-Driven Development // Fun TDD Introduction with JavaScript](https://www.youtube.com/watch?v=Jv2uxzhPFl4)
+- [Jack Herrington - Micro-Frontends in Just 10 Minutes](https://www.youtube.com/watch?v=s_Fs4AXsTnA)
+- [Jack Herrington - Micro-Frontends: What, why and how](https://www.youtube.com/watch?v=w58aZjACETQ)
+- [Organized SCSS Folder Structures for Design Systems](https://blog.prototypr.io/organized-scss-folder-structures-for-design-systems-ecb861f1522c)
 - 🇵🇱 [Localhost Academy - Wzorce MVC + Seperation of Concerns w React - jak to wygląda i jak to zastosować w praktyce?](https://www.youtube.com/watch?v=3vs8KrNCsiQ)
 - 🇵🇱 [Localhost Academy - Obsługa błędów (error handling), walidacja kodu oraz dzielenie go na mniejsze części zgodnie z zasadami DRY i KISS (oglądać do 1:18:55)](https://www.youtube.com/watch?v=3VCwGdlr68M)
 - 🇵🇱 [Localhost Academy - Jak zadbać o strukturę folderów projektu? Jak rozbić problem na mniejsze, zrozumiałe części? Czym jest architektura i od czego ona zależy?](https://www.youtube.com/watch?v=Oycym206rTg)
@@ -326,6 +372,12 @@ TypeScript Version **(recommended)**
 - [AppUnite - Vue's Slots Composition adapted to React - how and when to use it](https://appunite.com/blog/composition-known-as-slots-in-react)
 - [Conner Ardman - React Coding Interview Ft. Clément Mihailescu (build the wordle clone)](https://www.youtube.com/watch?v=5xf4_Kx7azg)
     - Used API (if someone wants to recreate the task): https://api.frontendexpert.io/api/fe/wordle-words
+- [Web Dev Junkie - How you can use custom hooks to abstract your React code](https://www.youtube.com/watch?v=S2rzM9IQVdg)
+- [Web Dev Junkie - Refactoring and decoupling some React code (DRY, KISS, YAGNI, WET)](https://www.youtube.com/watch?v=lU9lzM3rt5w)
+- [uidotdev - The Story of React](https://www.youtube.com/watch?v=Wm_xI7KntDs)
+- [uidotdev - The Story of Next.js](https://www.youtube.com/watch?v=BILxV_vrZO0)
+- [uidotdev - The Story of Concurrent React](https://www.youtube.com/watch?v=NZoRlVi3MjQ)
+- [Felix Gerschau - Form validation with React Hooks WITHOUT a library: The Complete Guide](https://felixgerschau.com/react-hooks-form-validation-typescript/)
 - 🇵🇱 [Przeprogramowani - Pięć pytań rekrutacyjnych z Reacta na 2022](https://www.youtube.com/watch?v=ObNaZr9frxY)
 - 🇵🇱 [Michał Taszycki - Architektura aplikacji w React.js – czyli poszukiwania Świętego Graala.](https://www.youtube.com/watch?v=eeJF8PdpOko)
 - 🇵🇱 Przeprogramowani - mini-seria ze wzorca State Machine (warte zobaczenia, bo daje szerszy obraz na to, jak można efektywniej zarządzać stanem w Reakcie):
@@ -366,12 +418,35 @@ TypeScript Version **(recommended)**
 - [Jason Tu - How to get a job in a new industry without experience (interesting approach to this problem)](https://jasont.co/no-experience/)
 - [Fireship - How to NOT Fail a Technical Interview](https://www.youtube.com/watch?v=1t1_a1BZ04o)
 - [Josh W. Comeau - Building an Effective Dev Portfolio](https://www.joshwcomeau.com/effective-portfolio/download-book/)
+- Josh Fluke - Lying on resume (does it really a bad thing?):
+  - [Part 1 - Lying on your resume - The reality](https://youtu.be/6ufwxkurKKg)
+  - [Part 2 - The TRUTH about LYING on your resume..](https://youtu.be/90g8EMyIqeU)
+- [Reddit Post - Should I quit? (what to do when the job sucks)](https://www.reddit.com/r/reactjs/comments/vyrhsx/should_i_quit/)
+- [Web Dev Simplified - Can You Beat Me At This Interview?](https://youtu.be/ud8QZIdBxPw)
+- [Fireship - How to Land a 100K/yr Tech Job - 10 Strategies](https://www.youtube.com/watch?v=Xg9ihH15Uto)
 - 🇵🇱 [Localhost Academy - "Cała prawda" o rekrutacjach w branży IT - jak dostać pracę i "mroczny sekret rekruterów" (mocne) [zaczyna się od 27:45]](https://youtu.be/Mp7HTWZ6FyE?t=1665)
 - 🇵🇱 [Geekowojażer - Rekrutacja IT z perspektywy programisty seniora](https://www.geekowojazer.pl/rekrutacja-it-programista/)
+- 🇵🇱 [Programistyczny preworkout na rozmowy rekrutacyjne - 11 konceptów, które warto znać](https://app.minicoursegenerator.com/5RgSg_hWwEebgf1KuVnzFA/1)
+- 🇵🇱 [Just Geek IT - Co może zaskoczyć osoby wchodzące do branży IT?](https://geek.justjoin.it/co-moze-zaskoczyc-osoby-wchodzace-do-branzy-it)
+
+## Job Boards (find your dream job)
+- [LinkedIn](https://www.linkedin.com)
+- [JustJoinIT](https://justjoin.it/all/javascript)
+- [NoFluffJobs](https://nofluffjobs.com/pl/frontend)
+- [FB - Praca w IT dla Stażystów i Juniorów (IT Jobs for Intern/Junior)](https://www.facebook.com/groups/1561984417428846/)
+
+## Learn English
+- [Grammarly - a browser plugin to correct English grammar mistakes](https://www.grammarly.com/)
+- [Rememberry - a Chrome plugin which translates when text is selected](https://chrome.google.com/webstore/detail/rememberry-translate-and/dipiagiiohfljcicegpgffpbnjmgjcnf)
+- [Serenade.ai - really interesting tool to control VS Code / Chrome / etc. with English words](https://serenade.ai/)
+- 🇵🇱 [Diki - słownik angielsko-polski](http://diki.pl/)
+- 🇵🇱 [DeepL - dla mnie lepszy translator niż Google Translator](https://www.deepl.com/pl/translator)
 
 ## Other Resources (worth your time)
 - [web.dev - various resources about front-end from Google itself (responsive design, accessibility, optimazation, etc.)](https://web.dev/)
 - [Fullstack Open - learn to code fullstack apps with React, Node, TypeScript and more!](https://fullstackopen.com/)
+- [JetBrains Academy - Frontend Developer Path (learn HTML, CSS, JavaScript, React and more!)](https://hyperskill.org/tracks/5)
+
 
 ### Valuable videos:
 - [ThePrimeagen - How do I create a side project (as a software enginner)?](https://www.youtube.com/watch?v=bKGy_eYnI3U)
@@ -393,6 +468,7 @@ TypeScript Version **(recommended)**
 - [The Digital CEO - Design tips for Front End Developers](https://youtu.be/XNJPHGWxLQA)
 - [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
 - [Kenny Gunderman - Should You Learn Native or Cross-Platform Mobile Development?](https://youtu.be/Mq_HS-o-v6o)
+- [Ask Cloud Architech - Contributing to Open Source Can Change Your Life - Here’s How to Do It](https://www.youtube.com/watch?v=CML6vfKjQss)
 - 🇵🇱 [Duzy w Maluchu - ZABRALI MI MALUCHA! JAK ZARABIAĆ 2500 ZŁ DZIENNIE? *Patologie branży IT](https://www.youtube.com/watch?v=aHffnGVK-Vs)
     - Ciekawy podcast o branży IT, jak tytuł sugeruje - mówi o różnych patologiach, ale też wspomina o rekrutacji, jak najwięcej zarabiać, problemy z legacy code
 - 🇵🇱 [WDI 2022 - Cezary Walenciuk - Ogniste pytania rekrutacyjne dla WebDev. Uzupełnij wiedzę](https://www.youtube.com/watch?v=nCEEa3CY_m0)
@@ -407,7 +483,41 @@ TypeScript Version **(recommended)**
 - [Lydia Hallie - JavaScript Questions with answers](https://github.com/lydiahallie/javascript-questions)
 - [Frontend Mentor - improve your front-end skills by building different projects](https://www.frontendmentor.io/)
 - [BFE.dev - prepare for Front-End job interviews](https://bigfrontend.dev/)
-- [Wes Bos - JavaScript 30](https://javascript30.com/)
+- [Wes Bos - JavaScript 30 - build 30 small projects/apps](https://javascript30.com/)
+- [25 Extremely Modern Layouts Using CSS Grid✨ (try to recreate them!)](https://dev.to/preethi_dev/25-extremely-modern-layouts-using-css-grid-10ek)
+- Exercises from [CSS for JavaScript Developers](https://css-for-js.dev/) - all modules:
+  - [Huckleberry - the basics of CSS (flow layout, box model)](https://github.com/css-for-js/huckleberry)
+  - [Character Creator - position and overflow](https://github.com/css-for-js/character-creator)
+  - [Mini Component Library - create your own components (progress bar, select element and search input)](https://github.com/css-for-js/mini-component-library)
+
+   <details>
+    <summary>How these components could look like:</summary>
+    <img src="./assets/css/components.png" alt="progress bar, select element and search input">
+  </details>
+
+  - [Sole and Ankle - Flexbox](https://github.com/css-for-js/sole-and-ankle)
+  - [Sole and Ankle Revisited - responsive design](https://github.com/css-for-js/sole-and-ankle-revisited)
+  - [Unsprinkle - typography and images](https://github.com/css-for-js/unsprinkle)
+  
+  <details>
+    <summary>How this page looks like:</summary>
+    <img src="./assets/css/unsprinkle.png" alt="unsprinkle page">
+  </details>
+
+  - [New Grid Times - CSS Grid Layout](https://github.com/css-for-js/new-grid-times)
+    - [Design for this exercise](https://www.figma.com/file/BDdNhCeVLye5mFHHxQhkgE/New-Grid-Times?node-id=0%3A1)
+  - [Sole and Ankle Animated - animations](https://github.com/css-for-js/sole-and-ankle-animated)
+
+- [Florin Pop - App Ideas (from Beginners to Advanced)](https://github.com/florinpop17/app-ideas)
+- [30 seconds of interviews - HTML, CSS, JavaScript, React, Node and Security questions & answers](https://30secondsofinterviews.org/)
+
+<details>
+<summary>Practice 50+ CSS Problems (taken from <a href="https://twitter.com/swapnakpanda/status/1550832649828122625">https://twitter.com/swapnakpanda/status/1550832649828122625</a>):</summary>
+<img src="./assets/css/css_exercises_1_3.png" alt="css exercise 1/3">
+<img src="./assets/css/css_exercises_2_3.png" alt="css exercise 2/3">
+<img src="./assets/css/css_exercises_3_3.png" alt="css exercise 3/3">
+</details>
+
 - 🇵🇱 [Localhost Academy - Zbiór zadań HTML, CSS, JS, React, itp.](https://github.com/Przemocny/zbior-zadan-html-css-js-react)
 
 <details>
@@ -511,6 +621,17 @@ for await (const info of timeouts) {
 }
 ```
 What will be differences between those iterators? In which order the timeouts will be resolved and why?
+- What are types of storages in browser?
+- What will be result of ``{} === {}`` and why?
+- Based on this code: 
+```js
+const arr = [7, 1, 4, 3, 2];
+
+for (const elem of arr) {
+  setTimeout(() => console.log(elem), elem);
+}
+```
+In which order will be the logs displayed and why?
 
 ### TypeScript
 - What are differences between ``type`` and ``interface``?
@@ -558,9 +679,16 @@ function RandomName() {
 How you can store the ``prevName`` value, so that it holds the previous value of ``name`` and is displayed properly in React?
 - Which data structures cannot be rendered in React?
 - What is ``React.memo`` and when you should use it?
+- When do you use the ``useCallback`` hook and ``React.memo``?
+- Which methods of class components is combined the ``useEffect`` hook?
+- What hooks do you know and explain how do you use them?
 
+## CSS
+- What are the ways to center the container with two boxes?
+- What is the difference between ``em`` and ``rem``?
 
 ### Other questions
+- Do you know what is microfrontends? 
 - Do you know any patterns from functional programming?
 - Since I mentioned this paradigm, based on this code: 
 ```ts
@@ -610,6 +738,7 @@ What values will be console.log'ed from observables and why?
 - What do you think about testing, how are you doing it and what exactly you are testing?
 - Can you mention a few design patterns and how you can apply them?
 - Can you explain what is TDD, BDD and DDD? What are differences between them?
+- What are types of methods in REST API?
 
 </details>
 
@@ -888,19 +1017,29 @@ As a design you can use:
 - https://dribbble.com/shots/15117860-Syncrhomedics-Reference-Page
 - https://dribbble.com/shots/16634976-eCommerce-Cosmetic-Web-design
 
+5. Live-coding problem #1 - issue with too much rerendering of the same component (look at the console)
+(you have to do something with memoization inside of the App component)
+https://jsfiddle.net/mdh2c7xg/#
+
+6. [Live-coding problem #2 - how to fetch user from the GitHub API?](https://jsfiddle.net/dn8rqksL/)
 </details>
 
 
 #### Interesting tutorials to get you inspired:
 - [TomDoesTech - Build a Blog with the T3 Stack (TypeScript, Next.js, tRPC, Prisma and more!)](https://www.youtube.com/watch?v=syEWlxVFUrY)
 - [Ben Awad - Fullstack Reddit Clone (TypeScript, React, GraphQL, Node.js, Postgres and more!)](https://www.youtube.com/watch?v=I6ypD7qv3Z8)
+- [How to build a real-time Auction System with Socket.io and React.js](https://dev.to/novu/how-to-build-a-real-time-auction-system-with-socketio-and-reactjs-3ble)
+- 🇵🇱 [Jak zacząć programować? - Tutorial HTML, CSS i JavaScript, ale bez ściemy](https://www.youtube.com/watch?v=lfQmsYCDci8)
 
 #### Build your own project (better than cloning, ideally make it as a group project!):
 - [8 beginner-friendly projects to create (the original title is a exaggeration, but they're fine when starting to learn front-end)](https://dev.to/madza/8-projects-to-build-to-master-your-front-end-skills-4gnc)
+- [Scrimba - 10 fantastic programming project ideas for your portfolio (and where to find more)](https://youtu.be/DhER-6qkwIQ)
+- [Real Tough Candy - Project Ideas for Web Developers](https://github.com/RealToughCandy/project-ideas-for-web-developers)
 - [Project Guidelines (to make your project easier to develop)](https://github.com/elsewhencode/project-guidelines)
 - The Code Review Pyramid:
 - ![The Code Review Pyramid](https://media.discordapp.net/attachments/920370741747277924/954270609527959562/image_from_ios.png)
 - [Peter Lunch - How to Plan and Build a Programming Project - A Legitimate Guide for Beginners](https://www.peterlunch.com/blog/how-to-plan-and-build-a-programming-project)
+- [Keys to a well written README](https://medium.com/chingu/keys-to-a-well-written-readme-55c53d34fe6d)
 - 🇵🇱 W jaki sposób podejść do tworzenia projektu? Interesujący komentarz z grupy na FB:
 - ![Komentarz dot. tworzenia projektu](./assets/misc/projekt.png)
 
@@ -909,6 +1048,9 @@ As a design you can use:
 - [Raindrop.io - manage your bookmarks way easier than you think](https://raindrop.io/)
 - [Notion - really amazing tool to make notes and organize your thoughts](https://notion.so/)
 - [Unsplash - free sources of pictures](https://unsplash.com/)
+- [Emmet Cheetsheet - write HTML and CSS with ease](https://docs.emmet.io/cheat-sheet/)
+- [Greenshot - cool tool to make screenshot and measure pixels like on MacOS](https://getgreenshot.org/)
+- [Path Intellisense - a VS Code plugin that autocompletes paths](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
 ## Contributing:
 If you found something interesting, but it's not in the list, please open an issue or, even better, a pull request.
