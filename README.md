@@ -345,7 +345,7 @@ TypeScript Version **(recommended)**
 
 ### Paid
 
-- [Academind Next.js course Udemy](https://www.udemy.com/share/104cpi3@Oh4oUEJs8F2B6c3t54xvmnsosIt7uQiy_K1OtotWexANxEsNy_pYzliqECIW0dgGgg==/)
+- [Academind - Next.js & React - The Complete Guide (incl. Two Paths!)](https://www.udemy.com/share/104cpi3@Oh4oUEJs8F2B6c3t54xvmnsosIt7uQiy_K1OtotWexANxEsNy_pYzliqECIW0dgGgg==/)
 
 ### Additional content
 
