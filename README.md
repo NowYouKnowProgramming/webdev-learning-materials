@@ -57,24 +57,27 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+
 ## Clean Code
 
 ### Free
 - [Uncle Martin's (Author of Clean Code Book) Lectures](https://www.youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
 - [Clean Code - JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
 - [Clean Code - TypeScript](https://github.com/labs42io/clean-code-typescript)
+
 ### Paid
 - [Academind - Clean Code](https://pro.academind.com/p/clean-code)
 ### Additional content
 - [10 Common JavaScript Clean Code Mistakes](https://www.youtube.com/watch?v=fHJC44PESIk)
 - [Kent C. Dodds - AHA Programming](https://youtu.be/wuVy7rwkCfc)
 - [What does abstraction mean in programming?](https://stackoverflow.com/questions/21220155/what-does-abstraction-mean-in-programming)
+
 ## CSS
 
 ### Free
 - [Codecademy - Learn CSS](https://www.codecademy.com/learn/learn-css)
 - [Codecademy - Intermediate CSS](https://www.codecademy.com/learn/learn-intermediate-css)
-
+- [web.dev - Learn CSS](https://web.dev/learn/css/)
 
 ### Paid
 - [CSS for JavaScript Developers](https://css-for-js.dev/)
@@ -82,7 +85,7 @@
 ### Additional content
 - [Josh W. Comeau - The Surprising Truth About Pixels and Accessibility](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility)
 - [Josh W. Comeau - Secret Mechanisms of CSS [learn the "hidden" fundamentals that nobody told you about.]](https://www.youtube.com/watch?v=Xt1Cw4qM3Ec)
-- [Fireship - 100 CSS Pro Tips - Code this, NOT that!](https://youtu.be/Qhaz36TZG5Y)
+- [Fireship - 10 CSS Pro Tips - Code this, NOT that!](https://youtu.be/Qhaz36TZG5Y)
 - [Fireship - 3 More Life-Changing CSS Tips](https://www.youtube.com/watch?v=JSURzPQnkl0)
 - [Defensive CSS - practical tips that helps in building "bullet-proof" UI interfaces](https://defensivecss.dev/)
 - [CSS Reference - visual guide for the most popular properties](https://cssreference.io/)
@@ -106,7 +109,6 @@
 - [Alex Bespoyasov - Clean Architecture on Frontend](https://dev.to/bespoyasov/clean-architecture-on-frontend-4311)
 
 ### Paid
-
 - [Refactoring Guru - Dive into Design Patterns](https://refactoring.guru/design-patterns)
 
 ### Additional content
@@ -124,9 +126,11 @@
 - 🇵🇱 [Localhost Academy - 10 zasad w programowaniu, które warto znać. (oglądać do 1:12:29)](https://www.youtube.com/watch?v=-kRadcD5jRw)
 - 🇵🇱 [Przeprogramowani - Jak uczyć się wzorców projektowych na froncie? Odpowiedź dla Juniora, Mida i Seniora](https://www.youtube.com/watch?v=yiJlKWxk2jE)
 - 🇵🇱 [Przeprogramowani - SOLID i Open-Closed Principle w praktyce | Lepszy kod w 20 minut](https://www.youtube.com/watch?v=RWyiKjKmWPs)
+
 ## Git
 
 ### Free
+- [BitBucket - Learn Git](https://www.atlassian.com/git/tutorials)
 - 🇵🇱 [Overment - Kurs Git po polsku od podstaw](https://www.youtube.com/playlist?list=PLjHmWifVUNMKIGHmaGPVqSD-L6i1Zw-MH)
 
 ### Additional content
@@ -137,6 +141,7 @@
 - [Write Git Commit Messages That Your Colleagues Will Love](https://dev.to/simeg/write-git-commit-messages-that-your-colleagues-will-love-1757)
 - [Conventional Commits - add a type of your commit to your messages](https://www.conventionalcommits.org/en/v1.0.0/)
 - [Undo wrong Git changes](https://dev.to/dailydevtips1/undo-wrong-git-changes-32mc)
+
 ## HR / Recruitment Resources
 - Make a nice looking resume:
     - [FlowCV](https://flowcv.io/)
@@ -153,12 +158,14 @@
 - [Josh W. Comeau - Building an Effective Dev Portfolio](https://www.joshwcomeau.com/effective-portfolio/download-book/)
 - 🇵🇱 [Localhost Academy - "Cała prawda" o rekrutacjach w branży IT - jak dostać pracę i "mroczny sekret rekruterów" (mocne) [zaczyna się od 27:45]](https://youtu.be/Mp7HTWZ6FyE?t=1665)
 - 🇵🇱 [Geekowojażer - Rekrutacja IT z perspektywy programisty seniora](https://www.geekowojazer.pl/rekrutacja-it-programista/)
+
 ## HTML
 
 ### Free
 - [Codecademy - Learn HTML](https://www.codecademy.com/learn/learn-html)
 - [Minim - HTML for Absolute Beginners](https://www.youtube.com/playlist?list=PL4cTxE4s2XIYJL6uPQUwMt25M70gPl-O6)
 - 🇵🇱 [Jak zacząć programować? - Podstawy HTML + CSS w dwie godziny - kurs krok po kroku!](https://www.youtube.com/watch?v=opNgrPv3Qw8)
+
 
 ### Additional content
 - [Minim - When to Use Semantic HTML Elements Instead of Divs (part of the HTML for Absolute Beginners series)](https://www.youtube.com/watch?v=ZThq93Yuwd0)
@@ -169,6 +176,7 @@
 - [Academind - JavaScript Course for Beginners - Learn JavaScript from Scratch!](https://www.youtube.com/watch?v=2qDywOS7VAc)
 - [Codecademy - Learn JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
 - [Codecademy - Intermediate JavaScript](https://www.codecademy.com/learn/learn-intermediate-javascript)
+- [Exercism - Learn JavaScript by doing exercises](https://exercism.org/tracks/javascript)
 - 🇵🇱 [Jak zacząć programować? - Kurs JavaScript od zera](https://youtu.be/n-cW9HzpnRk)
 - Overment - różne serie dot. JavaScriptu:
   - 🇵🇱 [Overment - ESNext Tutorial (ES6+)](https://www.youtube.com/playlist?list=PLjHmWifVUNMJbnpl8YlXRpyVyepcHa0cH)
@@ -176,7 +184,6 @@
   - 🇵🇱 [Overment - Jak działa Promise? Async await i wiele więcej](https://www.youtube.com/playlist?list=PLjHmWifVUNMLOfSdeSSEGgSXebPXL7Z3Q)
   - 🇵🇱 [Overment - Operator NOT oraz Array.reduce](https://www.youtube.com/playlist?list=PLjHmWifVUNMJHa4AJdjXoFQPA3UKyVzin)
   - 🇵🇱 [Overment - Programowanie funkcyjne (high order function, function composition, itp.) w JavaScript](https://www.youtube.com/playlist?list=PLjHmWifVUNMLR1Oz3WYK7XRLEY5LvSOPu)
-- 🇵🇱 [Jak zacząć programować? - Tutorial HTML, CSS i JavaScript, ale bez ściemy](https://www.youtube.com/watch?v=lfQmsYCDci8)
 
 ### Paid
 - [Academind - JavaScript - The Complete Guide (Beginner + Advanced)](https://acad.link/js)
@@ -184,7 +191,7 @@
 - 🇵🇱 [Kursy JS od Eduweb (polecam kursy od Overmenta - Adam Gospodarczyk)](https://eduweb.pl/wyszukiwarka?query=javascript)
 
 ### Additional content
-- [Jack Herrington - Javascript Arrays Made Easy Playlist by ](https://www.youtube.com/playlist?list=PLNqp92_EXZBJmAHWnJbVnXsl71hiHCrQh)
+- [Jack Herrington - Javascript Arrays Made Easy Playlist](https://www.youtube.com/playlist?list=PLNqp92_EXZBJmAHWnJbVnXsl71hiHCrQh)
 - [Jack Herrington - Is JavaScript Spread Operator a Performance Killer?](https://www.youtube.com/watch?v=tcZbY-Q0TIE)
 - [Jack Herrington - JavaScript consts Aren't Constants - JavaScript Quick Fix](https://www.youtube.com/watch?v=5zwzyHqBFnA)
 - [Fireship - Async Await try-catch hell](https://www.youtube.com/shorts/ITogH7lJTyE)
@@ -193,12 +200,17 @@
 - [Framework.dev - resources about JavaScript frameworks (books, videos, courses, podcasts), popular libraries and possibility of compare them and more](https://www.framework.dev/)
 - [TomDoesTech - 9 JavaScript Opinions That Will Make You Mad](https://www.youtube.com/watch?v=b9C8r5m-mj8)
 - [Jenn Creighton - Now and .then: Debugging Async JavaScript](https://www.youtube.com/watch?v=V-lu0YjJYdk)
+- [Fireship - JavaScript Pro Tips - Code This, NOT That](https://www.youtube.com/watch?v=Mus_vwhTCq0)
+- [Fireship - The Async Await Episode I Promised](https://www.youtube.com/watch?v=vn3tm0quoqE)
+- [SimonDev - Pass by Value vs Reference in JavaScript](https://youtu.be/jxaxyvHo8ZM)
+- [uidotdev - The Story of Asynchronous JavaScript](https://www.youtube.com/watch?v=rivBfgaEyWQ)
 - 🇵🇱 [Localhost Academy - HOF (high order function), potęga metody Array.reduce i jej zastosowanie, jak przeszukiwać zagnieżdżone w sobie obiekty? (oglądać do 1:20:32)](https://www.youtube.com/watch?v=Y178v49NXik)
 - 🇵🇱 [Przeprogramowani - 7 najpopularniejszych błędów Junior JavaScript Developera](https://www.youtube.com/watch?v=tWzuQsoi6fA)
 - 🇵🇱 [Przeprogramowani - ESLint, Prettier i VS Code - Czysty JS z automatu](https://www.youtube.com/watch?v=u2yUxhzpht4)
 - 🇵🇱 [Przeprogramowani - Wydajny JavaScript - Promisy, setTimeout czy Web Workery?](https://www.youtube.com/watch?v=kNsE8EFLwdg)
 - 🇵🇱 [Przeprogramowani - Jak działa async/await w JavaScript?](https://www.youtube.com/watch?v=_dZsebSj7fI)
 - 🇵🇱 [Przeprogramowani - MODUŁY W JĘZYKU JAVASCRIPT - Module Pattern vs Common JS vs AMD vs ES Modules](https://www.youtube.com/watch?v=5upaxzBNbmQ)
+
 ## Learning to Learn
 
 ### Free
@@ -212,17 +224,15 @@
 ## Next.js
 
 ### Free
-
 - [Next.js docs](https://nextjs.org/docs)
 
 ### Paid
-
 - [Academind Next.js course Udemy](https://www.udemy.com/share/104cpi3@Oh4oUEJs8F2B6c3t54xvmnsosIt7uQiy_K1OtotWexANxEsNy_pYzliqECIW0dgGgg==/)
 
 ### Additional content
-
 - [Migrating from create react app](https://nextjs.org/docs/migrating/from-create-react-app)
 - [FAQ](https://nextjs.org/docs/faq)
+
 ## Node.js 
 
 ### Free
@@ -232,9 +242,12 @@
 
 ### Additional content 
 - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
+
 ## Other Resources (worth your time)
 - [web.dev - various resources about front-end from Google itself (responsive design, accessibility, optimazation, etc.)](https://web.dev/)
 - [Fullstack Open - learn to code fullstack apps with React, Node, TypeScript and more!](https://fullstackopen.com/)
+- [JetBrains Academy - Frontend Developer Path (learn HTML, CSS, JavaScript, React and more!)](https://hyperskill.org/tracks/5)
+
 
 ### Valuable videos:
 - [ThePrimeagen - How do I create a side project (as a software enginner)?](https://www.youtube.com/watch?v=bKGy_eYnI3U)
@@ -256,6 +269,7 @@
 - [The Digital CEO - Design tips for Front End Developers](https://youtu.be/XNJPHGWxLQA)
 - [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
 - [Kenny Gunderman - Should You Learn Native or Cross-Platform Mobile Development?](https://youtu.be/Mq_HS-o-v6o)
+- [Ask Cloud Architech - Contributing to Open Source Can Change Your Life - Here’s How to Do It](https://www.youtube.com/watch?v=CML6vfKjQss)
 - 🇵🇱 [Duzy w Maluchu - ZABRALI MI MALUCHA! JAK ZARABIAĆ 2500 ZŁ DZIENNIE? *Patologie branży IT](https://www.youtube.com/watch?v=aHffnGVK-Vs)
     - Ciekawy podcast o branży IT, jak tytuł sugeruje - mówi o różnych patologiach, ale też wspomina o rekrutacji, jak najwięcej zarabiać, problemy z legacy code
 - 🇵🇱 [WDI 2022 - Cezary Walenciuk - Ogniste pytania rekrutacyjne dla WebDev. Uzupełnij wiedzę](https://www.youtube.com/watch?v=nCEEa3CY_m0)
@@ -270,7 +284,41 @@
 - [Lydia Hallie - JavaScript Questions with answers](https://github.com/lydiahallie/javascript-questions)
 - [Frontend Mentor - improve your front-end skills by building different projects](https://www.frontendmentor.io/)
 - [BFE.dev - prepare for Front-End job interviews](https://bigfrontend.dev/)
-- [Wes Bos - JavaScript 30](https://javascript30.com/)
+- [Wes Bos - JavaScript 30 - build 30 small projects/apps](https://javascript30.com/)
+- [25 Extremely Modern Layouts Using CSS Grid✨ (try to recreate them!)](https://dev.to/preethi_dev/25-extremely-modern-layouts-using-css-grid-10ek)
+- Exercises from [CSS for JavaScript Developers](https://css-for-js.dev/) - all modules:
+  - [Huckleberry - the basics of CSS (flow layout, box model)](https://github.com/css-for-js/huckleberry)
+  - [Character Creator - position and overflow](https://github.com/css-for-js/character-creator)
+  - [Mini Component Library - create your own components (progress bar, select element and search input)](https://github.com/css-for-js/mini-component-library)
+
+   <details>
+    <summary>How these components could look like:</summary>
+    <img src="./assets/css/components.png" alt="progress bar, select element and search input">
+  </details>
+
+  - [Sole and Ankle - Flexbox](https://github.com/css-for-js/sole-and-ankle)
+  - [Sole and Ankle Revisited - responsive design](https://github.com/css-for-js/sole-and-ankle-revisited)
+  - [Unsprinkle - typography and images](https://github.com/css-for-js/unsprinkle)
+  
+  <details>
+    <summary>How this page looks like:</summary>
+    <img src="./assets/css/unsprinkle.png" alt="unsprinkle page">
+  </details>
+
+  - [New Grid Times - CSS Grid Layout](https://github.com/css-for-js/new-grid-times)
+    - [Design for this exercise](https://www.figma.com/file/BDdNhCeVLye5mFHHxQhkgE/New-Grid-Times?node-id=0%3A1)
+  - [Sole and Ankle Animated - animations](https://github.com/css-for-js/sole-and-ankle-animated)
+
+- [Florin Pop - App Ideas (from Beginners to Advanced)](https://github.com/florinpop17/app-ideas)
+- [30 seconds of interviews - HTML, CSS, JavaScript, React, Node and Security questions & answers](https://30secondsofinterviews.org/)
+
+<details>
+<summary>Practice 50+ CSS Problems (taken from <a href="https://twitter.com/swapnakpanda/status/1550832649828122625">https://twitter.com/swapnakpanda/status/1550832649828122625</a>):</summary>
+<img src="./assets/css/css_exercises_1_3.png" alt="css exercise 1/3">
+<img src="./assets/css/css_exercises_2_3.png" alt="css exercise 2/3">
+<img src="./assets/css/css_exercises_3_3.png" alt="css exercise 3/3">
+</details>
+
 - 🇵🇱 [Localhost Academy - Zbiór zadań HTML, CSS, JS, React, itp.](https://github.com/Przemocny/zbior-zadan-html-css-js-react)
 
 <details>
@@ -374,6 +422,17 @@ for await (const info of timeouts) {
 }
 ```
 What will be differences between those iterators? In which order the timeouts will be resolved and why?
+- What are types of storages in browser?
+- What will be result of ``{} === {}`` and why?
+- Based on this code: 
+```js
+const arr = [7, 1, 4, 3, 2];
+
+for (const elem of arr) {
+  setTimeout(() => console.log(elem), elem);
+}
+```
+In which order will be the logs displayed and why?
 
 ### TypeScript
 - What are differences between ``type`` and ``interface``?
@@ -421,9 +480,16 @@ function RandomName() {
 How you can store the ``prevName`` value, so that it holds the previous value of ``name`` and is displayed properly in React?
 - Which data structures cannot be rendered in React?
 - What is ``React.memo`` and when you should use it?
+- When do you use the ``useCallback`` hook and ``React.memo``?
+- Which methods of class components is combined the ``useEffect`` hook?
+- What hooks do you know and explain how do you use them?
 
+## CSS
+- What are the ways to center the container with two boxes?
+- What is the difference between ``em`` and ``rem``?
 
 ### Other questions
+- Do you know what is microfrontends? 
 - Do you know any patterns from functional programming?
 - Since I mentioned this paradigm, based on this code: 
 ```ts
@@ -473,6 +539,7 @@ What values will be console.log'ed from observables and why?
 - What do you think about testing, how are you doing it and what exactly you are testing?
 - Can you mention a few design patterns and how you can apply them?
 - Can you explain what is TDD, BDD and DDD? What are differences between them?
+- What are types of methods in REST API?
 
 </details>
 
@@ -751,19 +818,29 @@ As a design you can use:
 - https://dribbble.com/shots/15117860-Syncrhomedics-Reference-Page
 - https://dribbble.com/shots/16634976-eCommerce-Cosmetic-Web-design
 
+5. Live-coding problem #1 - issue with too much rerendering of the same component (look at the console)
+(you have to do something with memoization inside of the App component)
+https://jsfiddle.net/mdh2c7xg/#
+
+6. [Live-coding problem #2 - how to fetch user from the GitHub API?](https://jsfiddle.net/dn8rqksL/)
 </details>
 
 
 #### Interesting tutorials to get you inspired:
 - [TomDoesTech - Build a Blog with the T3 Stack (TypeScript, Next.js, tRPC, Prisma and more!)](https://www.youtube.com/watch?v=syEWlxVFUrY)
 - [Ben Awad - Fullstack Reddit Clone (TypeScript, React, GraphQL, Node.js, Postgres and more!)](https://www.youtube.com/watch?v=I6ypD7qv3Z8)
+- [How to build a real-time Auction System with Socket.io and React.js](https://dev.to/novu/how-to-build-a-real-time-auction-system-with-socketio-and-reactjs-3ble)
+- 🇵🇱 [Jak zacząć programować? - Tutorial HTML, CSS i JavaScript, ale bez ściemy](https://www.youtube.com/watch?v=lfQmsYCDci8)
 
 #### Build your own project (better than cloning, ideally make it as a group project!):
 - [8 beginner-friendly projects to create (the original title is a exaggeration, but they're fine when starting to learn front-end)](https://dev.to/madza/8-projects-to-build-to-master-your-front-end-skills-4gnc)
+- [Scrimba - 10 fantastic programming project ideas for your portfolio (and where to find more)](https://youtu.be/DhER-6qkwIQ)
+- [Real Tough Candy - Project Ideas for Web Developers](https://github.com/RealToughCandy/project-ideas-for-web-developers)
 - [Project Guidelines (to make your project easier to develop)](https://github.com/elsewhencode/project-guidelines)
 - The Code Review Pyramid:
 - ![The Code Review Pyramid](https://media.discordapp.net/attachments/920370741747277924/954270609527959562/image_from_ios.png)
 - [Peter Lunch - How to Plan and Build a Programming Project - A Legitimate Guide for Beginners](https://www.peterlunch.com/blog/how-to-plan-and-build-a-programming-project)
+- [Keys to a well written README](https://medium.com/chingu/keys-to-a-well-written-readme-55c53d34fe6d)
 - 🇵🇱 W jaki sposób podejść do tworzenia projektu? Interesujący komentarz z grupy na FB:
 - ![Komentarz dot. tworzenia projektu](materials\assets\misc\projekt.png)
 ## Productivity tools:
@@ -771,6 +848,7 @@ As a design you can use:
 - [Raindrop.io - manage your bookmarks way easier than you think](https://raindrop.io/)
 - [Notion - really amazing tool to make notes and organize your thoughts](https://notion.so/)
 - [Unsplash - free sources of pictures](https://unsplash.com/)
+
 ## React
 
 ### Free
