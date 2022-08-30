@@ -448,6 +448,9 @@ TypeScript Version **(recommended)**
 - [Fullstack Open - learn to code fullstack apps with React, Node, TypeScript and more!](https://fullstackopen.com/)
 - [JetBrains Academy - Frontend Developer Path (learn HTML, CSS, JavaScript, React and more!)](https://hyperskill.org/tracks/5)
 
+### Valuable articles:
+- [Reddit Post - Frontend (React) Developers: what tasks do you do on a daily basis?](https://www.reddit.com/r/reactjs/comments/wkv6g4/frontendreact_developers_what_tasks_do_you_do_on/)
+- [Atlassian - What is Agile?](https://www.atlassian.com/agile)
 
 ### Valuable videos:
 - [ThePrimeagen - How do I create a side project (as a software enginner)?](https://www.youtube.com/watch?v=bKGy_eYnI3U)
