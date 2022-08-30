@@ -230,6 +230,7 @@ A list of learning materials for Web Development.
 - [Uncle Martin's (Author of Clean Code Book) Lectures](https://www.youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
 - [Clean Code - JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
 - [Clean Code - TypeScript](https://github.com/labs42io/clean-code-typescript)
+- [Scrimba - Clean Code Tutorial](https://www.youtube.com/playlist?list=PLqYFXd9GTRVUyVv4Kw9cJAUS4vujkgvf7)
 ### Paid
 - [Academind - Clean Code](https://pro.academind.com/p/clean-code)
 ### Additional content
