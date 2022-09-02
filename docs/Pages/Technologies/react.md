@@ -40,6 +40,8 @@ TypeScript Version **(recommended)**
 - [Screaming Architecture - Evolution of a React folder structure](https://dev.to/profydev/screaming-architecture-evolution-of-a-react-folder-structure-4g25)
 - [React TypeScript Cheetsheets](https://github.com/typescript-cheatsheets/react)
 - [Reddit Thread - What is the recommended way to load data for React 18?](https://www.reddit.com/r/reactjs/comments/vi6q6f/what_is_the_recommended_way_to_load_data_for/)
+
+
 <details>
 <summary>Advices from Dan Abramov (member of React Core Team)</summary>
 
