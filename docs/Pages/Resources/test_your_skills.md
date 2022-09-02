@@ -13,7 +13,7 @@
 
    <details>
     <summary>How these components could look like:</summary>
-    <img src="../../assets/css/components.png" alt="progress bar, select element and search input">
+    <img src="../../assets/css/components.png" alt="progress bar, select element and search input" />
   </details>
 
   - [Sole and Ankle - Flexbox](https://github.com/css-for-js/sole-and-ankle)
@@ -22,7 +22,7 @@
   
   <details>
     <summary>How this page looks like:</summary>
-    <img src="../../assets/css/unsprinkle.png" alt="unsprinkle page">
+    <img src="../../assets/css/unsprinkle.png" alt="unsprinkle page" />
   </details>
 
   - [New Grid Times - CSS Grid Layout](https://github.com/css-for-js/new-grid-times)
@@ -35,9 +35,9 @@
 
 <details>
 <summary>Practice 50+ CSS Problems (taken from <a href="https://twitter.com/swapnakpanda/status/1550832649828122625">https://twitter.com/swapnakpanda/status/1550832649828122625</a>):</summary>
-<img src="../../assets/css/css_exercises_1_3.png" alt="css exercise 1/3">
-<img src="../../assets/css/css_exercises_2_3.png" alt="css exercise 2/3">
-<img src="../../assets/css/css_exercises_3_3.png" alt="css exercise 3/3">
+<img src="../../assets/css/css_exercises_1_3.png" alt="css exercise 1/3" />
+<img src="../../assets/css/css_exercises_2_3.png" alt="css exercise 2/3" />
+<img src="../../assets/css/css_exercises_3_3.png" alt="css exercise 3/3" />
 </details>
 
 <details>
@@ -542,4 +542,6 @@ As a design you can use:
 https://jsfiddle.net/mdh2c7xg/#
 
 6. [Live-coding problem #2 - how to fetch user from the GitHub API?](https://jsfiddle.net/dn8rqksL/)
+
+
 </details>
