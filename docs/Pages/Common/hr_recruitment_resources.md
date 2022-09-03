@@ -27,4 +27,4 @@
 - 🇵🇱 [Programistyczny preworkout na rozmowy rekrutacyjne - 11 konceptów, które warto znać](https://app.minicoursegenerator.com/5RgSg_hWwEebgf1KuVnzFA/1)
 - 🇵🇱 [Just Geek IT - Co może zaskoczyć osoby wchodzące do branży IT?](https://geek.justjoin.it/co-moze-zaskoczyc-osoby-wchodzace-do-branzy-it)
 - 🇵🇱 Jak odebrać informację zwrotną od rekrutera?
-<img src="../../assets/misc/pl_hr_response.png" alt="artykuł dot. informacji zwrotnej" />
+![artykuł dot. informacji zwrotnej](../../assets/misc/pl_hr_response.png)

@@ -1,4 +1,4 @@
-# Test your skills:
+# Test your skills
 - [Frontend Practice - Recreate the existing pages](https://www.frontendpractice.com/)
 - [Chris Hansen - Master Frontend Development 💻 By Cloning These Websites 💯](https://www.dev.to/hyggedev/master-frontend-development-by-cloning-these-websites-1m08)
 - [Lydia Hallie - JavaScript Questions with answers](https://github.com/lydiahallie/javascript-questions)
@@ -11,9 +11,11 @@
   - [Character Creator - position and overflow](https://github.com/css-for-js/character-creator)
   - [Mini Component Library - create your own components (progress bar, select element and search input)](https://github.com/css-for-js/mini-component-library)
 
-   <details>
+  <details>
     <summary>How these components could look like:</summary>
-    <img src="../../assets/css/components.png" alt="progress bar, select element and search input" />
+
+    ![progress bar, select element and search input](../../assets/css/components.png)
+
   </details>
 
   - [Sole and Ankle - Flexbox](https://github.com/css-for-js/sole-and-ankle)
@@ -22,7 +24,9 @@
   
   <details>
     <summary>How this page looks like:</summary>
-    <img src="../../assets/css/unsprinkle.png" alt="unsprinkle page" />
+
+    ![unsprinkle page](../../assets/css/unsprinkle.png)
+
   </details>
 
   - [New Grid Times - CSS Grid Layout](https://github.com/css-for-js/new-grid-times)
@@ -35,9 +39,11 @@
 
 <details>
 <summary>Practice 50+ CSS Problems (taken from <a href="https://twitter.com/swapnakpanda/status/1550832649828122625">https://twitter.com/swapnakpanda/status/1550832649828122625</a>):</summary>
-<img src="../../assets/css/css_exercises_1_3.png" alt="css exercise 1/3" />
-<img src="../../assets/css/css_exercises_2_3.png" alt="css exercise 2/3" />
-<img src="../../assets/css/css_exercises_3_3.png" alt="css exercise 3/3" />
+
+![css exercise 1/3](../../assets/css/css_exercises_1_3.png)
+![css exercise 2/3](../../assets/css/css_exercises_2_3.png)
+![css exercise 3/3](../../assets/css/css_exercises_3_3.png)
+
 </details>
 
 <details>
