@@ -103,6 +103,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  staticDirectories: ["static", "./docs/assets"]
 };
 
 module.exports = config;
