@@ -1,4 +1,4 @@
-# Build your own project (better than cloning, ideally make it as a group project!):
+# Build your own project (better than cloning; ideally make it as a group project!)
 - [8 beginner-friendly projects to create (the original title is a exaggeration, but they're fine when starting to learn front-end)](https://dev.to/madza/8-projects-to-build-to-master-your-front-end-skills-4gnc)
 - [7 Websites To Find Front End Projects For Your Portfolio](https://dev.to/moeminm/where-to-find-front-end-challenges-for-your-portfolio-23f0)
 - [Scrimba - 10 fantastic programming project ideas for your portfolio (and where to find more)](https://youtu.be/DhER-6qkwIQ)
