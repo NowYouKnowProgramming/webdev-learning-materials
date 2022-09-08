@@ -1,3 +1,5 @@
+
+
 # Web Development Learning Materials
 A list of learning materials for Web Development.
 
@@ -6,6 +8,22 @@ A list of learning materials for Web Development.
 ### Contributing
 If you found something interesting, but it's not in the list, please open an issue or, even better, a pull request.
 <p>😊 We will be happy to check it out and add it.</p>
+
+### Contributors
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+#### [How to add the contributor to the list](https://allcontributors.org/docs/en/bot/usage)
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ### Website
 
