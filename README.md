@@ -25,6 +25,7 @@ If you found something interesting, but it's not in the list, please open an iss
 <table>
   <tbody>
     <tr>
+      <td align="center"><a href="https://purpleblack.dev/"><img src="https://avatars.githubusercontent.com/u/55458485?v=4?s=100" width="100px;" alt=""/><br /><sub><b>prplblck</b></sub></a><br /><a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits?author=goodideagiver" title="Documentation">📖</a> <a href="#maintenance-goodideagiver" title="Maintenance">🚧</a></td>
       <td align="center"><a href="https://github.com/Willaiem"><img src="https://avatars.githubusercontent.com/u/25301582?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Damian Żygadło</b></sub></a><br /><a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits?author=Willaiem" title="Code">💻</a> <a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits?author=Willaiem" title="Documentation">📖</a> <a href="#infra-Willaiem" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
     </tr>
   </tobdy>

@@ -6,6 +6,16 @@
   "commit": false,
   "contributors": [
     {
+      "login": "goodideagiver",
+      "name": "prplblck",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55458485?v=4",
+      "profile": "https://purpleblack.dev/",
+      "contributions": [
+        "doc",
+        "maintenance"
+        ]
+      },
+      {
       "login": "Willaiem",
       "name": "Damian Żygadło",
       "avatar_url": "https://avatars.githubusercontent.com/u/25301582?v=4",
@@ -13,7 +23,7 @@
       "contributions": [
         "code",
         "doc",
-        "infra"
+        "infra",
       ]
     }
   ],
