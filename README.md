@@ -6,7 +6,7 @@
 # Web Development Learning Materials
 A list of learning materials for Web Development.
 
-## <a href="https://webdev-learning-materials.vercel.app/">Check the website here!</a>
+## <a href="https://bewebdev.tech/">Check the website here!</a>
     
 ### Contributing
 If you found something interesting, but it's not in the list, please open an issue or, even better, a pull request.
