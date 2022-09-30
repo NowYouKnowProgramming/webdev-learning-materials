@@ -10,6 +10,7 @@ Do you often feel like you are clicking your mouse too much in vscode? Materials
 
 - [Official Visual Studio Code custom snippets tutorial](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
 - [Official Visual Studio Code productivity tips](https://code.visualstudio.com/docs/introvideos/productivity)
+- [Emmet Cheetsheet - write HTML and CSS with ease](https://docs.emmet.io/cheat-sheet/)
 - Hotkeys Reference
 
   - [Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
