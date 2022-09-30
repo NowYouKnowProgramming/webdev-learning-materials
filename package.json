@@ -12,17 +12,21 @@
 		"astro": "astro"
 	},
 	"dependencies": {
+		"@algolia/client-search": "^4.13.1",
+		"@astrojs/preact": "^1.1.1",
+		"@astrojs/react": "^1.1.4",
+		"@docsearch/css": "^3.1.0",
+		"@docsearch/react": "^3.1.0",
+		"@types/node": "^18.0.0",
+		"@types/react": "^17.0.45",
+		"@types/react-dom": "^18.0.0",
 		"astro": "^1.4.0",
 		"preact": "^10.7.3",
 		"react": "^18.1.0",
-		"react-dom": "^18.1.0",
-		"@astrojs/react": "^1.1.4",
-		"@astrojs/preact": "^1.1.1",
-		"@algolia/client-search": "^4.13.1",
-		"@docsearch/css": "^3.1.0",
-		"@docsearch/react": "^3.1.0",
-		"@types/react": "^17.0.45",
-		"@types/node": "^18.0.0",
-		"@types/react-dom": "^18.0.0"
+		"react-dom": "^18.1.0"
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1",
+		"prettier-plugin-astro": "^0.5.5"
 	}
 }
