@@ -1,5 +1,136 @@
-<script is:inline>
-	// Redirect your homepage to the first page of documentation.
-	// If you have a landing page, remove this script and add it here!
-	window.location.pathname = `/en/introduction`;
-</script>
+---
+import Footer from '../components/Footer/Footer.astro';
+import HeadCommon from '../components/HeadCommon.astro';
+import Header from '../components/Header/Header.astro';
+
+import HeadSEO from '../components/HeadSEO.astro';
+import type { Frontmatter } from '../config';
+import * as CONFIG from '../config';
+
+export interface Props {
+	frontmatter: Frontmatter;
+	canonicalUrl: URL;
+}
+
+const frontmatter: Frontmatter = {
+	description: '',
+	title: 'bewebdev.tech - the best web development learning materials',
+	layout: '',
+};
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const currentPage = Astro.url.pathname;
+const currentFile = `src/pages${currentPage.replace(/\/$/, '')}.md`;
+---
+
+<html>
+	<head>
+		<HeadCommon />
+		<HeadSEO canonicalUrl={canonicalURL} frontmatter={frontmatter} />
+		<title>
+			{frontmatter.title ? `${frontmatter.title}` : CONFIG.SITE.title}
+		</title>
+	</head>
+	<style>
+		.docs-btn {
+			text-align: center;
+			z-index: 1;
+			text-decoration: none;
+			font-weight: bold;
+			display: grid;
+			width: fit-content;
+			place-items: center;
+			border: 0;
+			cursor: pointer;
+			will-change: box-shadow, transform;
+			background: radial-gradient(
+				100% 100% at 100% 0%,
+				#ff9ff9 0%,
+				#c16dbc 100%
+			);
+			box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+				0px 7px 13px -3px rgb(45 35 66 / 30%),
+				inset 0px -3px 0px rgb(58 65 111 / 50%);
+			padding: 0.7rem 2rem;
+			border-radius: 2rem;
+			color: #fff;
+			font-size: 18px;
+			text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+			transition: box-shadow 0.15s ease, transform 0.15s ease;
+		}
+		.docs-btn:hover {
+			box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+				0px 7px 13px -3px rgb(45 35 66 / 30%),
+				inset 0px -3px 0px rgb(58 65 111 / 50%);
+			transform: translateY(-2px);
+		}
+		.docs-btn:active {
+			box-shadow: 0 2px 4px rgb(45 35 66 / 40%),
+				0 7px 13px -3px rgb(45 35 66 / 30%),
+				inset 0 0 10px rgba(23, 26, 44, 0.744);
+			transform: translateY(2px);
+		}
+
+		main {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			flex: 1;
+			background-image: linear-gradient(to right, #f806b0, #007ef7);
+			position: relative;
+		}
+
+		h2 {
+			text-align: center;
+			z-index: 1;
+			text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 6px;
+		}
+
+		body {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.attribution {
+			text-align: center;
+		}
+
+		.puzzle {
+			max-height: 50%;
+			max-width: 90vw;
+			position: absolute;
+			z-index: 0;
+			aspect-ratio: 1596/1222;
+			animation: rotate 200s infinite linear;
+		}
+
+		@keyframes rotate {
+			from {
+				rotate: 0deg;
+			}
+			to {
+				rotate: 360deg;
+			}
+		}
+	</style>
+	<body>
+		<Header currentPage={currentPage} />
+		<main>
+			<h2>Web development learning materials</h2>
+			<a class='docs-btn' href='/en/introduction'
+				><span>Get to the docs</span>
+			</a>
+			<img
+				aria-hidden='true'
+				class='puzzle'
+				src='/images/misc/puzzle.webp'
+				alt=''
+			/>
+		</main>
+		<a class='attribution' href='http://www.freepik.com'
+			>Designed by pikisuperstar / Freepik</a
+		>
+		<Footer path={currentFile} />
+	</body>
+</html>
