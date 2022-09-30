@@ -61,6 +61,7 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Testing', link: 'en/Principles/testing' },
 			{ text: 'UI and UX', link: 'en/Principles/design_ui_ux' },
 		],
+		Software: [{ text: 'Visual Studio Code', link: 'en/Software/vscode' }],
 		Resources: [
 			{ text: 'Build your project', link: 'en/Resources/build_your_project' },
 			{ text: 'Test your skills', link: 'en/Resources/test_your_skills' },
