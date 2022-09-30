@@ -4,7 +4,7 @@ description: UI and UX
 layout: ../../../layouts/MainLayout.astro
 ---
 
-## Additional content:
+## Additional content
 
 - [Godly - find some web design inspirations](https://godly.website/)
 - [Dribbble - also find them here](https://dribbble.com/)

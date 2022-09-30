@@ -20,7 +20,7 @@ layout: ../../../layouts/MainLayout.astro
   <details>
     <summary>How these components could look like:</summary>
 
-  ![progress bar, select element and search input](../../assets/css/components.png)
+  ![progress bar, select element and search input](/images/css/components.png)
 
   </details>
 
@@ -31,7 +31,7 @@ layout: ../../../layouts/MainLayout.astro
   <details>
     <summary>How this page looks like:</summary>
 
-  ![unsprinkle page](../../assets/css/unsprinkle.png)
+  ![unsprinkle page](/images/css/unsprinkle.png)
 
   </details>
 
@@ -46,9 +46,9 @@ layout: ../../../layouts/MainLayout.astro
 <details>
 <summary>Practice 50+ CSS Problems (taken from <a href="https://twitter.com/swapnakpanda/status/1550832649828122625">https://twitter.com/swapnakpanda/status/1550832649828122625</a>):</summary>
 
-![css exercise 1/3](../../assets/css/css_exercises_1_3.png)
-![css exercise 2/3](../../assets/css/css_exercises_2_3.png)
-![css exercise 3/3](../../assets/css/css_exercises_3_3.png)
+![css exercise 1/3](/images/css/css_exercises_1_3.png)
+![css exercise 2/3](/images/css/css_exercises_2_3.png)
+![css exercise 3/3](/images/css/css_exercises_3_3.png)
 
 </details>
 

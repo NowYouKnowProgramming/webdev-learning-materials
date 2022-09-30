@@ -4,22 +4,28 @@ description: TypeScript
 layout: ../../../layouts/MainLayout.astro
 ---
 
-## Free
+## Free courses
 
 - [Learn TypeScript](https://learntypescript.dev/)
 - [Academind - TypeScript Course for Beginners - Learn TypeScript from Scratch!](https://www.youtube.com/watch?v=BwuLxPH8IDs)
 - [No BS TS Series by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBJYFrpEzdO2EapvU0GOJ09n)
 - [Exercism - Learn TypeScript by doing exercises](https://exercism.org/tracks/typescript)
 - [Matt Pocock - TypeScript exercises for beginners](https://github.com/total-typescript/beginners-typescript-tutorial)
-- 🇵🇱 [Przeprogramowani - Seria Przeprogramowani.ts](https://www.youtube.com/playlist?list=PLfE0DpqEANZ0CQ9pCGlxGKPvYb1Sj6ybV)
-- 🇵🇱 [Jak zacząć programować? - Typescript - kurs podstaw 🔥 Tutorial krok po kroku!](https://www.youtube.com/watch?v=5CBZ6DymX0Y)
 
-## Paid
+### Polish free courses
+
+- [Przeprogramowani - Seria Przeprogramowani.ts](https://www.youtube.com/playlist?list=PLfE0DpqEANZ0CQ9pCGlxGKPvYb1Sj6ybV)
+- [Jak zacząć programować? - Typescript - kurs podstaw 🔥 Tutorial krok po kroku!](https://www.youtube.com/watch?v=5CBZ6DymX0Y)
+
+## Paid courses
 
 - [Academind - Understanding TypeScript](https://pro.academind.com/p/understanding-typescript)
 - [Matt Pocock - Total TypeScript (for intermediate/advanced TypeScript developers)](https://totaltypescript.com/)
-- 🇵🇱 [Kurs TS od Eduweb (Overment)](https://eduweb.pl/wyszukiwarka?query=typescript)
-- 🇵🇱 [Michał Miszczyszyn - Książka "TypeScript na poważnie"](https://typescriptnapowaznie.pl/)
+
+### Polish paid courses
+
+- [Kurs TS od Eduweb (Overment)](https://eduweb.pl/wyszukiwarka?query=typescript)
+- [Michał Miszczyszyn - Książka "TypeScript na poważnie"](https://typescriptnapowaznie.pl/)
 
 ### Additional content
 

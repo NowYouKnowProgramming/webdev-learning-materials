@@ -13,6 +13,8 @@ layout: ../../../layouts/MainLayout.astro
 
 ## Paid
 
+- [Academind Node.js - The complete guide](https://www.udemy.com/share/101r4c3@fzxkOw8rhEO62wBNcgkMA_OXRXPbo9dbb3SY5Lp3K180ReyZAlYKV0t4pCNwb1KKuA==/)
+
 ## Additional content
 
 - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
