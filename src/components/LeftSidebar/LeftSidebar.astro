@@ -14,27 +14,34 @@ const langCode = getLanguageFromURL(currentPage);
 const sidebar = SIDEBAR[langCode];
 ---
 
-<nav aria-labelledby="grid-left">
-	<ul class="nav-groups">
-		{Object.entries(sidebar).map(([header, children]) => (
-			<li>
-				<div class="nav-group">
-					<h2>{header}</h2>
-					<ul>
-						{children.map((child) => {
-							const url = Astro.site?.pathname + child.link;
-							return (
-								<li class="nav-link">
-									<a href={url} aria-current={currentPageMatch === child.link ? 'page' : false}>
-										{child.text}
-									</a>
-								</li>
-							);
-						})}
-					</ul>
-				</div>
-			</li>
-		))}
+<nav aria-labelledby='grid-left'>
+	<ul class='nav-groups'>
+		{
+			Object.entries(sidebar).map(([header, children]) => (
+				<li>
+					<div class='nav-group'>
+						<h2>{header}</h2>
+						<ul>
+							{children.map((child) => {
+								const url = Astro.site?.pathname + child.link;
+								return (
+									<li class='nav-link'>
+										<a
+											href={url}
+											aria-current={
+												currentPageMatch === child.link ? 'page' : false
+											}
+										>
+											{child.text}
+										</a>
+									</li>
+								);
+							})}
+						</ul>
+					</div>
+				</li>
+			))
+		}
 	</ul>
 </nav>
 
@@ -55,7 +62,7 @@ const sidebar = SIDEBAR[langCode];
 
 	.nav-groups {
 		height: 100%;
-		padding: 2rem 0;
+		padding: 2rem 1rem;
 		overflow-x: visible;
 		overflow-y: auto;
 		max-height: 100vh;
@@ -90,10 +97,15 @@ const sidebar = SIDEBAR[langCode];
 		color: inherit;
 		text-decoration: none;
 		display: block;
+		transition: 0.3s;
+		border-radius: 5px;
+		width: calc(100% - 10px);
 	}
 
 	.nav-link a:hover,
 	.nav-link a:focus {
+		transition: 0.1s;
+		translate: 5px 0;
 		background-color: var(--theme-bg-hover);
 	}
 
