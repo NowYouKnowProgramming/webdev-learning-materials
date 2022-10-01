@@ -29,9 +29,9 @@ layout: ../../layouts/MainLayout.astro
 <summary>Takeaways from CSS for JavaScript Developers:</summary>
 
 Flex Basis / Flex Grow / Flex Shrink
-![Flex Basis / Flex Grow / Flex Shrink](/images/css/flex_basis_grow_shrink.png)
+![Flex Basis / Flex Grow / Flex Shrink](/images/css/flex_basis_grow_shrink.webp)
 Flex Shorthand
-![Flex Shorthand](/images/css/flex_shorthand.png)
+![Flex Shorthand](/images/css/flex_shorthand.webp)
 
 </details>
 
