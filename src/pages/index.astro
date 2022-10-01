@@ -169,13 +169,13 @@ const currentPage = Astro.url.pathname;
 				rotate: 360deg;
 			}
 		}
-
+    
 		@media (max-width: 768px) {
 			.puzzle {
 				opacity: 0.5;
 			}
 		}
-
+    
 		@media (min-width: 768px) {
 			.puzzle {
 				position: relative;
@@ -186,6 +186,7 @@ const currentPage = Astro.url.pathname;
 				flex-direction: row;
 			}
 		}
+    
 	</style>
 	<body>
 		<Header currentPage={currentPage} />
