@@ -21,12 +21,20 @@ const currentFile = `src/pages${currentPage.replace(/\/$/, '')}.md`;
 const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`;
 ---
 
-<html dir={frontmatter.dir ?? 'ltr'} lang={frontmatter.lang ?? 'en-us'} class="initial">
+<html
+	dir={frontmatter.dir ?? 'ltr'}
+	lang={frontmatter.lang ?? 'en-us'}
+	class='initial'
+>
 	<head>
 		<HeadCommon />
 		<HeadSEO frontmatter={frontmatter} canonicalUrl={canonicalURL} />
 		<title>
-			{frontmatter.title ? `${frontmatter.title} 🚀 ${CONFIG.SITE.title}` : CONFIG.SITE.title}
+			{
+				frontmatter.title
+					? `${frontmatter.title} - ${CONFIG.SITE.title}`
+					: CONFIG.SITE.title
+			}
 		</title>
 		<style>
 			body {
@@ -40,10 +48,9 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`;
 			.layout {
 				display: grid;
 				grid-auto-flow: column;
-				grid-template-columns: minmax(var(--gutter), 1fr) minmax(0, var(--max-width)) minmax(
-						var(--gutter),
-						1fr
-					);
+				grid-template-columns:
+					minmax(var(--gutter), 1fr) minmax(0, var(--max-width))
+					minmax(var(--gutter), 1fr);
 				overflow-x: hidden;
 			}
 
@@ -121,16 +128,20 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`;
 
 	<body>
 		<Header currentPage={currentPage} />
-		<main class="layout">
-			<aside id="grid-left" class="grid-sidebar" title="Site Navigation">
+		<main class='layout'>
+			<aside id='grid-left' class='grid-sidebar' title='Site Navigation'>
 				<LeftSidebar currentPage={currentPage} />
 			</aside>
-			<div id="grid-main">
-				<PageContent frontmatter={frontmatter} headings={headings} githubEditUrl={githubEditUrl}>
+			<div id='grid-main'>
+				<PageContent
+					frontmatter={frontmatter}
+					headings={headings}
+					githubEditUrl={githubEditUrl}
+				>
 					<slot />
 				</PageContent>
 			</div>
-			<aside id="grid-right" class="grid-sidebar" title="Table of Contents">
+			<aside id='grid-right' class='grid-sidebar' title='Table of Contents'>
 				<RightSidebar headings={headings} githubEditUrl={githubEditUrl} />
 			</aside>
 		</main>
