@@ -4,8 +4,8 @@ type Props = {
 	path: string;
 };
 const { path } = Astro.props as Props;
-const resolvedPath = `examples/docs/${path}`;
-const url = `https://api.github.com/repos/NowYouKnowProgramming/webdev-learning-materials/commits?path=${resolvedPath}`;
+const resolvedPath = `${path}`;
+const url = `https://api.github.com/repos/NowYouKnowProgramming/webdev-learning-materials/commits`;
 const commitsURL = `https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits/main/${resolvedPath}`;
 
 type Commit = {
