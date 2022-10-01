@@ -1,124 +1,190 @@
 ---
-import Footer from "../components/Footer/Footer.astro"
-import HeadCommon from "../components/HeadCommon.astro"
-import Header from "../components/Header/Header.astro"
+import Footer from '../components/Footer/Footer.astro';
+import HeadCommon from '../components/HeadCommon.astro';
+import Header from '../components/Header/Header.astro';
 
-import HeadSEO from "../components/HeadSEO.astro"
-import type { Frontmatter } from "../config"
-import * as CONFIG from "../config"
+import HeadSEO from '../components/HeadSEO.astro';
+import type { Frontmatter } from '../config';
+import * as CONFIG from '../config';
 
 export interface Props {
-  frontmatter: Frontmatter
-  canonicalUrl: URL
+	frontmatter: Frontmatter;
+	canonicalUrl: URL;
 }
 
 const frontmatter: Frontmatter = {
-  description: "",
-  title: "bewebdev.tech - the best web development learning materials",
-  layout: "",
-}
+	description: '',
+	title: 'bewebdev.tech - the best web development learning materials',
+	layout: '',
+};
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site)
-const currentPage = Astro.url.pathname
-const currentFile = `src/pages${currentPage.replace(/\/$/, "")}.md`
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const currentPage = Astro.url.pathname;
+const currentFile = `src/pages${currentPage.replace(/\/$/, '')}.md`;
 ---
 
 <html>
-  <head>
-    <HeadCommon />
-    <HeadSEO canonicalUrl={canonicalURL} frontmatter={frontmatter} />
-    <title>
-      {frontmatter.title ? `${frontmatter.title}` : CONFIG.SITE.title}
-    </title>
-  </head>
-  <style>
-    .docs-btn {
-      text-align: center;
-      z-index: 1;
-      text-decoration: none;
-      font-weight: bold;
-      display: grid;
-      width: fit-content;
-      place-items: center;
-      border: 0;
-      cursor: pointer;
-      will-change: box-shadow, transform;
-      background: radial-gradient(100% 100% at 100% 0%, #ff9ff9 0%, #c16dbc 100%);
-      box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
-        0px 7px 13px -3px rgb(45 35 66 / 30%),
-        inset 0px -3px 0px rgb(58 65 111 / 50%);
-      padding: 0.7rem 2rem;
-      border-radius: 2rem;
-      color: #fff;
-      font-size: 18px;
-      text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
-      transition: box-shadow 0.15s ease, transform 0.15s ease;
-    }
-    .docs-btn:hover {
-      box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
-        0px 7px 13px -3px rgb(45 35 66 / 30%),
-        inset 0px -3px 0px rgb(58 65 111 / 50%);
-      transform: translateY(-2px);
-    }
-    .docs-btn:active {
-      box-shadow: 0 2px 4px rgb(45 35 66 / 40%), 0 7px 13px -3px rgb(45 35 66 / 30%),
-        inset 0 0 10px rgba(23, 26, 44, 0.744);
-      transform: translateY(2px);
-    }
+	<head>
+		<HeadCommon />
+		<HeadSEO canonicalUrl={canonicalURL} frontmatter={frontmatter} />
+		<link
+			href='https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap'
+			rel='stylesheet'
+		/>
+		<title>
+			{frontmatter.title ? `${frontmatter.title}` : CONFIG.SITE.title}
+		</title>
+	</head>
+	<style>
+		.docs-btn {
+			font-size: 1.3rem;
+			background-color: white;
+			color: black;
+			font-weight: bold;
+			padding: 1rem 2rem;
+			border-radius: 8px;
+			text-decoration: none;
+			transition: box-shadow 0.15s ease, transform 0.15s ease;
+		}
+		.docs-btn:hover {
+			box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
+				0px 7px 13px -3px rgb(45 35 66 / 30%),
+				inset 0px -3px 0px rgb(58 65 111 / 50%);
+			transform: translateY(-2px);
+			opacity: 1;
+		}
+		.docs-btn:active {
+			box-shadow: 0 2px 4px rgb(45 35 66 / 40%),
+				0 7px 13px -3px rgb(45 35 66 / 30%),
+				inset 0 0 10px rgba(23, 26, 44, 0.744);
+			transform: translateY(2px);
+		}
 
-    main {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      flex: 1;
-      background-image: linear-gradient(to right, #f806b0, #007ef7);
-      position: relative;
-    }
+		.repo {
+			border: 2px white solid;
+			background-color: transparent;
+			color: white;
+		}
 
-    h2 {
-      text-align: center;
-      z-index: 1;
-      text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 6px;
-    }
+		main {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			flex: 1;
+			background-image: linear-gradient(to bottom, #1c1531, #f806b0);
+			position: relative;
+			overflow-x: hidden;
+		}
 
-    body {
-      display: flex;
-      flex-direction: column;
-    }
+		h2 {
+			text-align: center;
+			z-index: 1;
+			font-family: 'Work Sans', sans-serif;
+			font-size: clamp(2rem, 5vw, 3.5rem);
+			color: white;
+		}
 
-    .attribution {
-      text-align: center;
-    }
+		body {
+			display: flex;
+			flex-direction: column;
+		}
 
-    .puzzle {
-      max-height: 50%;
-      max-width: 90vw;
-      position: absolute;
-      z-index: 0;
-      aspect-ratio: 1596/1222;
-      animation: rotate 200s infinite linear;
-    }
+		.attribution {
+			text-align: center;
+		}
 
-    @keyframes rotate {
-      from {
-        rotate: 0deg;
-      }
-      to {
-        rotate: 360deg;
-      }
-    }
-  </style>
-  <body>
-    <Header currentPage={currentPage} />
-    <main>
-      <h2>Web development learning materials</h2>
-      <a class="docs-btn" href="/introduction"><span>Get to the docs</span></a>
-      <img aria-hidden="true" class="puzzle" src="/images/misc/puzzle.webp" alt="" />
-    </main>
-    <a class="attribution" href="http://www.freepik.com"
-      >Designed by pikisuperstar / Freepik</a
-    >
-    <Footer path={currentFile} />
-  </body>
+		.links {
+			margin-top: 2rem;
+			display: flex;
+			align-items: center;
+			gap: 1rem;
+			flex-wrap: wrap;
+		}
+
+		.links a {
+			flex: 1;
+			white-space: nowrap;
+		}
+
+		.puzzle {
+			max-height: 50%;
+			max-width: 90vw;
+			position: absolute;
+			z-index: 0;
+			aspect-ratio: 1596/1222;
+			animation: rotate 200s infinite linear;
+		}
+
+		.content {
+			z-index: 1;
+			width: min(500px, 95vw);
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.content p {
+			color: white;
+		}
+
+		footer {
+			background-color: #f806b0;
+			text-align: center;
+		}
+
+		@keyframes rotate {
+			from {
+				rotate: 0deg;
+			}
+			to {
+				rotate: 360deg;
+			}
+		}
+
+		@media (min-width: 768px) {
+			.puzzle {
+				position: relative;
+				width: 500px;
+			}
+
+			main {
+				flex-direction: row;
+			}
+		}
+	</style>
+	<body>
+		<Header currentPage={currentPage} />
+		<main>
+			<div class='content'>
+				<h2>Web development learning materials</h2>
+				<p>Carefully selected, verified, up to date</p>
+				<div class='links'>
+					<a class='docs-btn' href='/introduction'
+						><span>Get to the docs</span>
+					</a>
+					<a
+						class='docs-btn repo'
+						href='https://github.com/NowYouKnowProgramming/webdev-learning-materials'
+						rel='noopener noreferrer'
+						target='_blank'
+						><span>Repository</span>
+					</a>
+				</div>
+			</div>
+			<img
+				aria-hidden='true'
+				class='puzzle'
+				src='/images/misc/puzzle.webp'
+				alt=''
+			/>
+		</main>
+		<footer>
+			<a class='attribution' href='http://www.freepik.com'
+				>Landing page image by pikisuperstar / Freepik</a
+			>
+		</footer>
+	</body>
 </html>
