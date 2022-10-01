@@ -1,5 +1,4 @@
 ---
-import Footer from '../components/Footer/Footer.astro';
 import HeadCommon from '../components/HeadCommon.astro';
 import Header from '../components/Header/Header.astro';
 
@@ -20,7 +19,6 @@ const frontmatter: Frontmatter = {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const currentPage = Astro.url.pathname;
-const currentFile = `src/pages${currentPage.replace(/\/$/, '')}.md`;
 ---
 
 <html>
@@ -36,6 +34,13 @@ const currentFile = `src/pages${currentPage.replace(/\/$/, '')}.md`;
 		</title>
 	</head>
 	<style>
+		.docs-btn,
+		.docs-btn:active,
+		.docs-btn:hover,
+		.docs-btn:focus {
+			text-decoration: none;
+		}
+
 		.docs-btn {
 			font-size: 1.3rem;
 			background-color: white;
@@ -43,21 +48,42 @@ const currentFile = `src/pages${currentPage.replace(/\/$/, '')}.md`;
 			font-weight: bold;
 			padding: 1rem 2rem;
 			border-radius: 8px;
-			text-decoration: none;
+
 			transition: box-shadow 0.15s ease, transform 0.15s ease;
 		}
 		.docs-btn:hover {
-			box-shadow: 0px 2px 4px rgb(45 35 66 / 40%),
-				0px 7px 13px -3px rgb(45 35 66 / 30%),
-				inset 0px -3px 0px rgb(58 65 111 / 50%);
+			box-shadow: rgba(0, 0, 0, 0.23) 0 2px 5px, rgb(255, 255, 255) 0 4px 0;
 			transform: translateY(-2px);
 			opacity: 1;
 		}
 		.docs-btn:active {
 			box-shadow: 0 2px 4px rgb(45 35 66 / 40%),
 				0 7px 13px -3px rgb(45 35 66 / 30%),
-				inset 0 0 10px rgba(23, 26, 44, 0.744);
+				inset 0 5px 5px rgba(23, 26, 44, 0.344);
 			transform: translateY(2px);
+		}
+
+		.docs-btn span {
+			position: relative;
+		}
+
+		.docs-btn span::before {
+			content: '';
+			position: absolute;
+			bottom: -2px;
+			left: 0;
+			width: 0%;
+			height: 2px;
+			background-color: black;
+			transition: 0.2s;
+		}
+
+		.docs-btn:hover span::before {
+			width: 100%;
+		}
+
+		.docs-btn.repo span::before {
+			background-color: white !important;
 		}
 
 		.repo {
@@ -143,7 +169,13 @@ const currentFile = `src/pages${currentPage.replace(/\/$/, '')}.md`;
 				rotate: 360deg;
 			}
 		}
-
+    
+		@media (max-width: 768px) {
+			.puzzle {
+				opacity: 0.5;
+			}
+		}
+    
 		@media (min-width: 768px) {
 			.puzzle {
 				position: relative;
@@ -154,6 +186,7 @@ const currentFile = `src/pages${currentPage.replace(/\/$/, '')}.md`;
 				flex-direction: row;
 			}
 		}
+    
 	</style>
 	<body>
 		<Header currentPage={currentPage} />
