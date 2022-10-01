@@ -1,15 +1,19 @@
-
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # Web Development Learning Materials
+
 A list of learning materials for Web Development.
 
 ## <a href="https://bewebdev.tech/">Check the website here!</a>
-    
+
 ### Contributing
+
 If you found something interesting, but it's not in the list, please open an issue or, even better, a pull request.
+
 <p>😊 We will be happy to check it out and add it.</p>
 
 ### Website
@@ -59,5 +63,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-#### [How to add the contributor to the list](https://allcontributors.org/docs/en/bot/usage)
+### [How to add the contributor to the list](https://allcontributors.org/docs/en/bot/usage)
+
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

@@ -1,0 +1,36 @@
+---
+import HeadCommon from '../components/HeadCommon.astro';
+
+import HeadSEO from '../components/HeadSEO.astro';
+import LandingPage from '../components/LandingPage/LandingPage.astro';
+import type { Frontmatter } from '../config';
+import * as CONFIG from '../config';
+
+export interface Props {
+	frontmatter: Frontmatter;
+	canonicalUrl: URL;
+}
+
+const frontmatter: Frontmatter = {
+	description: '',
+	title: 'bewebdev.tech - the best web development learning materials',
+	layout: '',
+};
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<html>
+	<head>
+		<HeadCommon />
+		<HeadSEO canonicalUrl={canonicalURL} frontmatter={frontmatter} />
+		<link
+			href='https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap'
+			rel='stylesheet'
+		/>
+		<title>
+			{frontmatter.title ? `${frontmatter.title}` : CONFIG.SITE.title}
+		</title>
+	</head>
+	<LandingPage />
+</html>
