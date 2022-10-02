@@ -3,10 +3,11 @@ import Header from '../Header/Header.astro';
 import LandingPageFooter from './LandingPageFooter.astro';
 import LandingPageLinks from './LandingPageLinks.astro';
 const currentPage = Astro.url.pathname;
+import { Promo } from './Promo/Promo';
 ---
 
 <style>
-	main {
+	.welcome {
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -15,6 +16,13 @@ const currentPage = Astro.url.pathname;
 		background-image: linear-gradient(to bottom, #1c1531, #f806b0);
 		position: relative;
 		overflow-x: hidden;
+		min-height: 91vh;
+	}
+
+	main {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
 	}
 
 	h2 {
@@ -78,7 +86,7 @@ const currentPage = Astro.url.pathname;
 			width: 500px;
 		}
 
-		main {
+		.welcome {
 			flex-direction: row;
 		}
 	}
@@ -86,17 +94,20 @@ const currentPage = Astro.url.pathname;
 <body>
 	<Header currentPage={currentPage} />
 	<main>
-		<div class='content'>
-			<h2>Web development learning materials</h2>
-			<p>Carefully selected, verified, up to date</p>
-			<LandingPageLinks />
+		<div class='welcome'>
+			<div class='content'>
+				<h2>Web development learning materials</h2>
+				<p>Carefully selected, verified, up to date</p>
+				<LandingPageLinks />
+			</div>
+			<img
+				aria-hidden='true'
+				class='puzzle'
+				src='/images/misc/puzzle.webp'
+				alt=''
+			/>
 		</div>
-		<img
-			aria-hidden='true'
-			class='puzzle'
-			src='/images/misc/puzzle.webp'
-			alt=''
-		/>
+		<LandingPageFooter />
+		<Promo />
 	</main>
-	<LandingPageFooter />
 </body>
