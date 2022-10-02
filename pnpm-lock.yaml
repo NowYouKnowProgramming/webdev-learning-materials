@@ -15,6 +15,7 @@ specifiers:
   prettier-plugin-astro: ^0.5.5
   react: ^18.1.0
   react-dom: ^18.1.0
+  react-just-parallax: ^3.1.14
 
 dependencies:
   '@algolia/client-search': 4.14.2
@@ -29,6 +30,7 @@ dependencies:
   preact: 10.11.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-just-parallax: 3.1.14_react@18.2.0
 
 devDependencies:
   prettier: 2.7.1
@@ -1860,6 +1862,12 @@ packages:
       fetch-blob: 3.2.0
     dev: false
 
+  /framesync/6.1.0:
+    resolution: {integrity: sha512-aBX+hdWAvwiJYeQlFLY2533VxeL6OEu71CAgV4GGKksrj6+dE6i7K86WSSiRBEARCoJn5bFqffhg4l07eA27tg==}
+    dependencies:
+      tslib: 2.4.0
+    dev: false
+
   /fs.realpath/1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: false
@@ -2314,6 +2322,10 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       p-locate: 5.0.0
+    dev: false
+
+  /lodash.debounce/4.0.8:
+    resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
     dev: false
 
   /log-symbols/5.1.0:
@@ -3163,6 +3175,16 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-just-parallax/3.1.14_react@18.2.0:
+    resolution: {integrity: sha512-lKW9a0/ocA1Phw/SElCC+RMdXqGBxRujPu0bsRZydMmqXj858fNPWcpwTl8j+wkek0SuerqULYpOXbySXXNKdg==}
+    peerDependencies:
+      react: '>=16.8 || ^17.0.0 || ^18.0.0'
+    dependencies:
+      framesync: 6.1.0
+      lodash.debounce: 4.0.8
+      react: 18.2.0
     dev: false
 
   /react/18.2.0:
