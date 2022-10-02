@@ -201,11 +201,6 @@ a > code::before {
 	border-radius: var(--border-radius);
 }
 
-a:hover,
-a:focus {
-	text-decoration: underline;
-}
-
 a:focus {
 	outline: 2px solid currentColor;
 	outline-offset: 0.25em;
