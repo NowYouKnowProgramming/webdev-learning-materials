@@ -47,10 +47,10 @@ const ParallaxCard = ({
 				{children}
 			</div>
 			<div className={classes.imgContainer}>
-				<ScrollParallax strength={0.05}>
+				<ScrollParallax strength={0.01}>
 					<img src={imageSrc.src} alt={imageSrc.alt} />
 				</ScrollParallax>
-				<ScrollParallax isAbsolutelyPositioned strength={0.1}>
+				<ScrollParallax isAbsolutelyPositioned strength={0.03}>
 					{iconSrc && Icons}
 				</ScrollParallax>
 			</div>

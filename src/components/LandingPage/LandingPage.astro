@@ -1,5 +1,6 @@
 ---
 import Header from '../Header/Header.astro';
+import LandingImageAttribution from './LandingImageAttribution.astro';
 import LandingPageFooter from './LandingPageFooter.astro';
 import LandingPageLinks from './LandingPageLinks.astro';
 const currentPage = Astro.url.pathname;
@@ -23,6 +24,7 @@ import { Promo } from './Promo/Promo';
 		flex: 1;
 		display: flex;
 		flex-direction: column;
+		overflow: hidden;
 	}
 
 	h2 {
@@ -107,7 +109,8 @@ import { Promo } from './Promo/Promo';
 				alt=''
 			/>
 		</div>
-		<LandingPageFooter />
+		<LandingImageAttribution />
 		<Promo client:only='react' />
 	</main>
+	<LandingPageFooter />
 </body>
