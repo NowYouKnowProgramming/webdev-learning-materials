@@ -42,7 +42,7 @@ const ParallaxCard = ({
 
 	return (
 		<div className={[classes.root, rootElementDirectionCss].join(' ')}>
-			<div>
+			<div className={classes.text}>
 				<h3>{title}</h3>
 				{children}
 			</div>
