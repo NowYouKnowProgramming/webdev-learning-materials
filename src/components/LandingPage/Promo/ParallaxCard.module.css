@@ -1,0 +1,85 @@
+.root {
+	display: flex;
+	gap: 2rem;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 3rem;
+	align-items: center;
+	flex-basis: 200px;
+}
+
+.root > div {
+	flex: 1;
+}
+
+.imgContainer {
+	position: relative;
+	height: auto;
+	width: 800px;
+	aspect-ratio: 4/3;
+}
+
+.imgContainer img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 1rem;
+	max-height: 50vh;
+}
+
+.left {
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.right {
+	flex-direction: row-reverse;
+	flex-wrap: wrap-reverse;
+}
+
+.icon {
+	position: absolute;
+	width: 15%;
+	aspect-ratio: 1/1;
+	object-fit: scale-down;
+	z-index: 100;
+}
+
+.icon::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgba(0, 0, 0, 0.334);
+	width: 100%;
+	height: 100%;
+	filter: blur(10px);
+	z-index: 99;
+}
+
+.icon img {
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+	position: relative;
+}
+
+.iconOne {
+	top: 0;
+	left: 0;
+	transform: translate3d(20%, -21%, 0);
+}
+
+.iconTwo {
+	top: 0;
+	right: 0;
+	transform: translate3d(20%, 24%, 0) scale(0.8);
+}
+
+.iconThree {
+	bottom: 0;
+	left: 30%;
+	transform: translate3d(-50%, 24%, 0) scale(1.5);
+}

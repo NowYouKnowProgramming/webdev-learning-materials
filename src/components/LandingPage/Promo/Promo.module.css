@@ -4,8 +4,8 @@
 	background-color: white;
 	display: flex;
 	flex-direction: column;
-	gap: 5rem;
-	height: 500px;
+	gap: 7rem;
+	padding-top: 10rem;
 }
 
 .container {
