@@ -30,8 +30,7 @@
 .imgContainer img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
-	border-radius: 1rem;
+	object-fit: scale-down;
 	max-height: 50vh;
 }
 
@@ -62,18 +61,21 @@
 	top: 0;
 	left: 0;
 	transform: translate3d(20%, -21%, 0);
+	rotate: 10deg;
 }
 
 .iconTwo {
 	top: 0;
 	right: 0;
 	transform: translate3d(20%, 24%, 0) scale(0.8);
+	rotate: -20deg;
 }
 
 .iconThree {
 	bottom: 0;
 	left: 30%;
-	transform: translate3d(-50%, 24%, 0) scale(1.5);
+	transform: translate3d(-50%, 24%, 0) scale(1.5) rotate(30deg);
+	rotate: -20deg;
 }
 
 .right .iconOne {
