@@ -8,6 +8,30 @@ const currentPage = Astro.url.pathname;
 import { Promo } from './Promo/Promo';
 ---
 
+
+<body>
+	<Header currentPage={currentPage} />
+	<main>
+		<div class='welcome'>
+			<div class='content'>
+				<h2>The best way to learn web development</h2>
+				<p>Carefully selected, verified, up to date</p>
+				<LandingPageLinks />
+			</div>
+			<img
+				aria-hidden='true'
+				class='puzzle'
+				src='/images/misc/puzzle.webp'
+				alt=''
+			/>
+		</div>
+		<Promo client:only='react' />
+		<Comparison/>
+	</main>
+	<LandingImageAttribution />
+	<LandingPageFooter />
+</body>
+
 <style>
 	.welcome {
 		display: flex;
@@ -94,25 +118,3 @@ import { Promo } from './Promo/Promo';
 		}
 	}
 </style>
-<body>
-	<Header currentPage={currentPage} />
-	<main>
-		<div class='welcome'>
-			<div class='content'>
-				<h2>The best way to learn web development</h2>
-				<p>Carefully selected, verified, up to date</p>
-				<LandingPageLinks />
-			</div>
-			<img
-				aria-hidden='true'
-				class='puzzle'
-				src='/images/misc/puzzle.webp'
-				alt=''
-			/>
-		</div>
-		<LandingImageAttribution />
-		<Promo client:only='react' />
-		<Comparison/>
-	</main>
-	<LandingPageFooter />
-</body>
