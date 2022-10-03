@@ -39,7 +39,8 @@ import { Promo } from './Promo/Promo';
 		justify-content: center;
 		flex-direction: column;
 		flex: 1;
-		background-image: linear-gradient(to bottom, #1c1531, #f806b0);
+		/* background-image: linear-gradient(to bottom, #1c1531, #f806b0); */
+		
 		position: relative;
 		overflow-x: hidden;
 		min-height: 91vh;
@@ -50,7 +51,9 @@ import { Promo } from './Promo/Promo';
 		display: flex;
 		flex-direction: column;
 		overflow: hidden;
+
 	}
+
 
 	h2 {
 		text-align: center;
@@ -63,6 +66,11 @@ import { Promo } from './Promo/Promo';
 	body {
 		display: flex;
 		flex-direction: column;
+				background-image: linear-gradient(to bottom,#1c1531 4%,transparent 30%),radial-gradient(
+			circle at 15% 15%,
+			#f806b0 0%,
+			#1c1531 70%
+		);
 	}
 
 	.attribution {
