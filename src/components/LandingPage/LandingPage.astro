@@ -3,6 +3,7 @@ import Header from '../Header/Header.astro';
 import LandingImageAttribution from './LandingImageAttribution.astro';
 import LandingPageFooter from './LandingPageFooter.astro';
 import LandingPageLinks from './LandingPageLinks.astro';
+import Comparison from './Promo/Comparison.astro';
 const currentPage = Astro.url.pathname;
 import { Promo } from './Promo/Promo';
 ---
@@ -111,6 +112,7 @@ import { Promo } from './Promo/Promo';
 		</div>
 		<LandingImageAttribution />
 		<Promo client:only='react' />
+		<Comparison/>
 	</main>
 	<LandingPageFooter />
 </body>
