@@ -15,7 +15,7 @@ export const data: PromoData[] = [
 			'https://img.icons8.com/emoji/12x/exclamation-question-mark-emoji.png',
 		imageSrc: {
 			alt: 'jquery code example',
-			src: 'https://www.devopsschool.com/blog/wp-content/uploads/2022/03/jquery.png',
+			src: 'https://ouch-cdn2.icons8.com/7VvFyC515Y1E1JaSOZBcvEq2iUjaKaojSlBhtCHHmRA/rs:fit:608:456/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvMzU2/LzdjYjEyM2Q1LWQz/NjItNDI3NS1iYjk5/LWNiMDE2Zjk3ODQ3/ZS5zdmc.png',
 		},
 		description:
 			'When starting out with web development, it can be difficult to know where to start. When searching JavaScript problem solutions online, you often are faced with a sea of jQuery code, which is a library that is no longer used in modern web development.',
