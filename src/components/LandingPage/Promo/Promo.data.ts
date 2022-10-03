@@ -12,7 +12,7 @@ export const data: PromoData[] = [
 	{
 		title: 'Are you tired of wrong answers?',
 		iconSrc:
-			'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Red_x.svg/480px-Red_x.svg.png',
+			'https://img.icons8.com/emoji/12x/exclamation-question-mark-emoji.png',
 		imageSrc: {
 			alt: 'jquery code example',
 			src: 'https://www.devopsschool.com/blog/wp-content/uploads/2022/03/jquery.png',
@@ -21,7 +21,7 @@ export const data: PromoData[] = [
 			'When starting out with web development, it can be difficult to know where to start. When searching JavaScript problem solutions online, you often are faced with a sea of jQuery code, which is a library that is no longer used in modern web development.',
 	},
 	{
-		title: 'Learn only what you need to',
+		title: 'Find what you need to learn',
 		iconSrc: 'https://images.emojiterra.com/google/android-11/512px/1f9e0.png',
 		imageSrc: {
 			alt: 'jquery code example',
@@ -32,8 +32,7 @@ export const data: PromoData[] = [
 	},
 	{
 		title: 'Together we can build a better web',
-		iconSrc:
-			'https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/star_2b50.png',
+		iconSrc: 'https://images.emojiterra.com/google/android-10/512px/2699.png',
 		imageSrc: {
 			alt: 'jquery code example',
 			src: 'https://www.mrwebsmith.com/wp-content/uploads/2021/02/OSM-dev-top-updated-img.png',

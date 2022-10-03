@@ -1,6 +1,7 @@
 /** @jsxImportSource react */
 
 import ParallaxCard from './ParallaxCard';
+import { ParallaxPuzzle } from './ParallaxPuzzle';
 import { data } from './Promo.data';
 import classes from './Promo.module.css';
 
@@ -23,5 +24,10 @@ export const Promo = () => {
 		);
 	});
 
-	return <div className={classes.root}>{Cards}</div>;
+	return (
+		<div className={classes.root}>
+			<ParallaxPuzzle />
+			{Cards}
+		</div>
+	);
 };

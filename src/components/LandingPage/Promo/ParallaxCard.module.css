@@ -14,7 +14,6 @@
 .text {
 	position: relative;
 	z-index: 200;
-	text-shadow: black 2px 2px 22px;
 }
 
 .root > div {
@@ -71,11 +70,32 @@
 	rotate: -20deg;
 }
 
+.root:nth-child(4) .icon img {
+	animation: rotate 35s infinite linear;
+}
+
+.root:nth-child(4) .icon:nth-child(2) img {
+	animation: rotate 25s infinite linear reverse;
+}
+
+.root:nth-child(4) .icon:nth-child(3) img {
+	animation: rotate 85s infinite linear;
+}
+
 .iconThree {
 	bottom: 0;
 	left: 30%;
-	transform: translate3d(-50%, 24%, 0) scale(1.5) rotate(30deg);
-	rotate: -20deg;
+	transform: translate3d(-50%, 24%, 0) scale(1.5);
+	rotate: -35deg;
+}
+
+@keyframes rotate {
+	0% {
+		rotate: 0deg;
+	}
+	100% {
+		rotate: 360deg;
+	}
 }
 
 .right .iconOne {
