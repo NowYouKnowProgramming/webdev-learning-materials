@@ -1,13 +1,13 @@
 ---
 import Header from '../Header/Header.astro';
 import LandingImageAttribution from './LandingImageAttribution.astro';
+import LandingPageEndingCTA from './LandingPageEndingCTA.astro';
 import LandingPageFooter from './LandingPageFooter.astro';
 import LandingPageLinks from './LandingPageLinks.astro';
 import Comparison from './Promo/Comparison.astro';
 const currentPage = Astro.url.pathname;
 import { Promo } from './Promo/Promo';
 ---
-
 
 <body>
 	<Header currentPage={currentPage} />
@@ -26,103 +26,97 @@ import { Promo } from './Promo/Promo';
 			/>
 		</div>
 		<Promo client:only='react' />
-		<Comparison/>
+		<Comparison />
 	</main>
+	<LandingPageEndingCTA />
 	<LandingImageAttribution />
 	<LandingPageFooter />
-</body>
-
-<style>
-	.welcome {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		flex-direction: column;
-		flex: 1;
-		/* background-image: linear-gradient(to bottom, #1c1531, #f806b0); */
-		
-		position: relative;
-		overflow-x: hidden;
-		min-height: 91vh;
-	}
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		overflow: hidden;
-
-	}
-
-
-	h2 {
-		text-align: center;
-		z-index: 1;
-		font-family: 'Inter', sans-serif;
-		font-size: clamp(2rem, 5vw, 3.5rem);
-		color: white;
-	}
-
-	body {
-		display: flex;
-		flex-direction: column;
-				background-image: linear-gradient(to bottom,#1c1531 4%,transparent 30%),radial-gradient(
-			circle at 15% 15%,
-			#f806b0 0%,
-			#1c1531 70%
-		);
-	}
-
-	.attribution {
-		text-align: center;
-	}
-
-	.puzzle {
-		max-height: 50%;
-		max-width: 90vw;
-		position: absolute;
-		z-index: 0;
-		aspect-ratio: 1596/1222;
-		animation: rotate 200s infinite linear;
-	}
-
-	.content {
-		z-index: 1;
-		width: min(500px, 95vw);
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.content p {
-		color: white;
-	}
-
-	@keyframes rotate {
-		from {
-			rotate: 0deg;
-		}
-		to {
-			rotate: 360deg;
-		}
-	}
-
-	@media (max-width: 768px) {
-		.puzzle {
-			opacity: 0.5;
-		}
-	}
-
-	@media (min-width: 768px) {
-		.puzzle {
-			position: relative;
-			width: 500px;
-		}
-
+	<style>
 		.welcome {
-			flex-direction: row;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+			flex: 1;
+
+			position: relative;
+			overflow-x: hidden;
+			min-height: 91vh;
 		}
-	}
-</style>
+
+		main {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			overflow: hidden;
+		}
+
+		h2 {
+			text-align: center;
+			z-index: 1;
+			font-family: 'Inter', sans-serif;
+			font-size: clamp(2rem, 5vw, 3.5rem);
+			color: white;
+		}
+
+		body {
+			display: flex;
+			flex-direction: column;
+			background-image: linear-gradient(to bottom, #1c1531 4%, transparent 30%),
+				radial-gradient(circle at 15% 15%, #f806b0 0%, #1c1531 70%);
+		}
+
+		.attribution {
+			text-align: center;
+		}
+
+		.puzzle {
+			max-height: 50%;
+			max-width: 90vw;
+			position: absolute;
+			z-index: 0;
+			aspect-ratio: 1596/1222;
+			animation: rotate 200s infinite linear;
+		}
+
+		.content {
+			z-index: 1;
+			width: min(500px, 95vw);
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.content p {
+			color: white;
+		}
+
+		@keyframes rotate {
+			from {
+				rotate: 0deg;
+			}
+			to {
+				rotate: 360deg;
+			}
+		}
+
+		@media (max-width: 768px) {
+			.puzzle {
+				opacity: 0.5;
+			}
+		}
+
+		@media (min-width: 768px) {
+			.puzzle {
+				position: relative;
+				width: 500px;
+			}
+
+			.welcome {
+				flex-direction: row;
+			}
+		}
+	</style>
+</body>

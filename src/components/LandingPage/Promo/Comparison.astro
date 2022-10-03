@@ -1,79 +1,80 @@
 ---
 type ComparisonData = {
-  name: string;
-  downside: string;
-  icon: string;
-}
+	name: string;
+	downside: string;
+	icon: string;
+};
 
-const comparisonData:ComparisonData[] = [
-  {
-    name: 'Bootcamp',
-    downside: 'Expensive',
-    icon: '🏫'
-    
-  },
-  {
-    name: 'Freecodecamp',
-    downside: 'Time consuming',
-    icon: '👨‍💻'
-  },
-  {
-    name: 'Bewebdev.tech',
-    downside: 'Great for everyone!',
-    icon: '👍'
-  }
+const comparisonData: ComparisonData[] = [
+	{
+		name: 'Bootcamp',
+		downside: 'Expensive',
+		icon: '🏫',
+	},
+	{
+		name: 'Freecodecamp',
+		downside: 'Time consuming',
+		icon: '👨‍💻',
+	},
+	{
+		name: 'Bewebdev.tech',
+		downside: 'Great for everyone!',
+		icon: '👍',
+	},
 ];
 ---
 
-
-<div class="main-container">
-  <ul>
-    {comparisonData.map(data => (
-      <li class="side-by-side">
-        <div >
-          <h3>{data.name}</h3>
-          <p>{data.downside}</p>
-        </div>
-        <div class="icon">{data.icon}</div>
-      </li>
-    ))}
-  </ul>
+<div class='main-container'>
+	<ul>
+		{
+			comparisonData.map((data) => (
+				<li class='side-by-side'>
+					<div>
+						<h3>{data.name}</h3>
+						<p>{data.downside}</p>
+					</div>
+					<div class='icon'>{data.icon}</div>
+				</li>
+			))
+		}
+	</ul>
 </div>
 
 <style>
-  .icon {
-    font-size: 5rem;
-  }
+	.icon {
+		font-size: 5rem;
+	}
 
-  .main-container {
-    max-width: 1200px;
-    width: min(90vw,100%);
-    margin: 7rem auto;
-    position: relative;
-    z-index: 100;
-  }
+	.main-container {
+		max-width: 1200px;
+		width: min(90vw, 100%);
+		margin: 9rem auto;
+		margin-top: 13rem;
+		position: relative;
+		z-index: 100;
+	}
 
-  .side-by-side {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    align-items: center;
-  }
+	.side-by-side {
+		display: flex;
+		justify-content: space-between;
+		gap: 1rem;
+		align-items: center;
+	}
 
-  ul {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
-    grid-auto-rows: 1fr;
-    grid-gap: 3rem;
-  }
-  li {
-    background-image: linear-gradient(45deg, #a31077, #342366);
-    padding: 1rem;
-    border-radius: 1rem;
-  }
-  h3 {
-    margin: 0;
-  }
+	ul {
+		list-style: none;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+		grid-auto-rows: 1fr;
+		grid-gap: 3rem;
+	}
+	li {
+		background-image: linear-gradient(45deg, #a31077, #342366);
+		padding: 1rem;
+		border-radius: 1rem;
+	}
+	h3 {
+		margin: 0;
+	}
 </style>
