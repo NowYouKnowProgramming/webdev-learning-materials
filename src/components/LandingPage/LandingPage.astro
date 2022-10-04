@@ -1,6 +1,5 @@
 ---
 import Header from '../Header/Header.astro';
-import LandingImageAttribution from './LandingImageAttribution.astro';
 import LandingPageEndingCTA from './LandingPageEndingCTA.astro';
 import LandingPageFooter from './LandingPageFooter.astro';
 import LandingPageLinks from './LandingPageLinks.astro';
@@ -27,8 +26,8 @@ import { Promo } from './Promo/Promo';
 		</div>
 		<Promo client:only='react' />
 		<Comparison />
+		<LandingPageEndingCTA />
 	</main>
-	<LandingPageEndingCTA />
 	<LandingPageFooter />
 	<style>
 		.welcome {

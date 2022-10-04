@@ -5,15 +5,16 @@ import DocsBtn from './DocsBtn.astro';
 <div class='root'>
 	<div class='text'>
 		<h2>Are you ready to learn?</h2>
-		<DocsBtn href='/introduction' text='Get to the docs' />
+		<DocsBtn href='/introduction' text='Go to the docs' />
 	</div>
 	<div class='bottom-grad' aria-hidden='true'></div>
 </div>
 
 <style>
 	.root {
-		margin: 5rem auto;
-		margin-bottom: 10rem;
+		margin: 0 auto;
+		padding-top: 5rem;
+		padding-bottom: 10rem;
 		max-width: 1200px;
 		width: min(100%, 90vw);
 		display: grid;
@@ -28,7 +29,12 @@ import DocsBtn from './DocsBtn.astro';
 	}
 
 	.text h2 {
+		text-shadow: rgba(0, 0, 0, 0.399) 0 -15px 10px;
 		margin-bottom: 3rem;
+	}
+
+	DocsBtn {
+		box-shadow: rgba(0, 0, 0, 0.818) 0 -25px 10px;
 	}
 
 	.bottom-grad {
@@ -37,22 +43,26 @@ import DocsBtn from './DocsBtn.astro';
 		aspect-ratio: 1/1;
 		width: 100vw;
 		background-image: radial-gradient(
-			ellipse at bottom,
-			#a40303 0%,
+			ellipse at center,
+			#a4030379 0%,
 			rgba(255, 255, 255, 0) 70%
 		);
 		position: absolute;
 		z-index: 10;
-		bottom: -235%;
-		right: -80%;
+		top: 80%;
+		left: 50%;
+		width: 100%;
+		transform: translate(-50%, -50%);
+		pointer-events: none;
+		user-select: none;
 	}
 
 	@media screen and (max-width: 600px) {
 		.bottom-grad {
-			bottom: -100%;
-			right: 0;
-			width: 100%;
-			opacity: 0.4;
+			top: 50%;
+			left: 50%;
+			width: 200%;
+			transform: translate(-50%, -50%);
 		}
 	}
 </style>
