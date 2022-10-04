@@ -8,6 +8,16 @@ const currentPage = Astro.url.pathname;
 import { Promo } from './Promo/Promo';
 ---
 
+<style is:global>
+	header {
+		background-color: transparent;
+	}
+
+	body {
+		--theme-text: #fff;
+	}
+</style>
+
 <body>
 	<Header currentPage={currentPage} />
 	<main>
