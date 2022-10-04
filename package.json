@@ -13,6 +13,7 @@
 	},
 	"dependencies": {
 		"@algolia/client-search": "^4.13.1",
+		"@astrojs/mdx": "^0.11.3",
 		"@astrojs/preact": "^1.1.1",
 		"@astrojs/react": "^1.1.4",
 		"@docsearch/css": "^3.1.0",
@@ -23,7 +24,9 @@
 		"astro": "^1.4.0",
 		"preact": "^10.7.3",
 		"react": "^18.1.0",
-		"react-dom": "^18.1.0"
+		"react-dom": "^18.1.0",
+		"react-just-parallax": "^3.1.14",
+		"react-use-observer": "^2.2.4"
 	},
 	"devDependencies": {
 		"prettier": "^2.7.1",

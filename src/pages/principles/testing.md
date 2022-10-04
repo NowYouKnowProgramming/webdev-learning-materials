@@ -63,6 +63,7 @@ export default defineConfig({
 
 ### End to end testing
 
+- [circleci.com - What is end to end testing by Jacob Schmitt](https://circleci.com/blog/what-is-end-to-end-testing/#c-consent-modal)
 - [Cypress - Documentation](https://docs.cypress.io/)
 
 ### Testing principles

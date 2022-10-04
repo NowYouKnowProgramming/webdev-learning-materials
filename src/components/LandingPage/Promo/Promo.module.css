@@ -1,0 +1,24 @@
+.root {
+	background-size: 400% 100%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 7rem;
+	padding-top: 10rem;
+}
+
+.container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.paragraph {
+	z-index: 100;
+	scale: 2;
+	background-color: black;
+	position: absolute;
+	bottom: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
