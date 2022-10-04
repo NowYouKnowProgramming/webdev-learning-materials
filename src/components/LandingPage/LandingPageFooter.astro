@@ -1,16 +1,53 @@
+---
+import LandingImageAttribution from './LandingImageAttribution.astro';
+---
+
 <footer>
-  <a target="_blank" class="attribution" href="http://www.freepik.com"
-    >Landing page image by pikisuperstar / Freepik</a
-  >
+	<h2 class='sr-only'>Footer links</h2>
+	<ul>
+		<li>
+			<a
+				href='https://github.com/NowYouKnowProgramming/webdev-learning-materials'
+				target='_blank'
+				rel='noopener noreferrer'>Repo</a
+			>
+		</li>
+		<li>
+			<a
+				href='https://github.com/NowYouKnowProgramming/webdev-learning-materials/graphs/contributors'
+				target='_blank'
+				rel='noopener noreferrer'>Contributors</a
+			>
+		</li>
+		<li>
+			<a
+				href='https://github.com/NowYouKnowProgramming/webdev-learning-materials/issues'
+				target='_blank'
+				rel='noopener noreferrer'>Suggest an improvement</a
+			>
+		</li>
+	</ul>
+	<LandingImageAttribution />
 </footer>
 
 <style>
-  footer {
-    background-color: #f806b0;
-    text-align: center;
-  }
-
-  footer a {
-    color: black;
-  }
+	footer {
+		background-color: #000;
+		color: #fff;
+		padding: 20px;
+		z-index: 2137;
+		position: relative;
+	}
+	footer ul {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	footer ul li {
+		display: inline-block;
+		margin-right: 20px;
+	}
+	footer ul li a {
+		color: #fff;
+	}
 </style>
