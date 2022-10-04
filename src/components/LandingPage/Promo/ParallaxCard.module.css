@@ -16,7 +16,11 @@
 	z-index: 200;
 }
 
-.root > div {
+.text * {
+	color: white;
+}
+
+.root>div {
 	flex: 1 1 200px;
 }
 
@@ -93,6 +97,7 @@
 	0% {
 		rotate: 0deg;
 	}
+
 	100% {
 		rotate: 360deg;
 	}
