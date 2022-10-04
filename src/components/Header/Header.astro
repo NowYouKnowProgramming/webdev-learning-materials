@@ -19,9 +19,13 @@ const lang = getLanguageFromURL(currentPage);
 <header>
 	<SkipToContent />
 	<nav class='nav-wrapper' title='Top Navigation'>
-		<div class='menu-toggle'>
-			<SidebarToggle client:idle />
-		</div>
+		{
+			currentPage !== '/' && (
+				<div class='menu-toggle'>
+					<SidebarToggle client:idle />
+				</div>
+			)
+		}
 		<div class='logo flex'>
 			<a href='/'>
 				<AstroLogo size={40} />
