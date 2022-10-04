@@ -3,6 +3,7 @@ import HeadCommon from '../components/HeadCommon.astro';
 
 import HeadSEO from '../components/HeadSEO.astro';
 import LandingPage from '../components/LandingPage/LandingPage.astro';
+import LandingSEO from '../components/LandingPage/LandingSEO.astro';
 import type { Frontmatter } from '../config';
 import * as CONFIG from '../config';
 
@@ -16,14 +17,12 @@ const frontmatter: Frontmatter = {
 	title: 'bewebdev.tech - the best web development learning materials',
 	layout: '',
 };
-
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <html>
 	<head>
 		<HeadCommon />
-		<HeadSEO canonicalUrl={canonicalURL} frontmatter={frontmatter} />
+		<LandingSEO />
 		<link
 			href='https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap'
 			rel='stylesheet'

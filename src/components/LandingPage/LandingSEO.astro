@@ -1,0 +1,23 @@
+---
+const META_IMG_URL = 'https://bewebdev.tech/metaimage.webp';
+const URL = 'https://bewebdev.tech/';
+const DESCRIPTION =
+	'We’ve done the work for you. We’ve collected the best resources and put them in one place.';
+const TITLE = 'bewebdev.tech - The best way to learn web development';
+---
+
+<title>{TITLE}</title>
+<meta name='title' content={TITLE} />
+<meta name='description' content={DESCRIPTION} />
+
+<meta property='og:type' content='website' />
+<meta property='og:url' content={URL} />
+<meta property='og:title' content={TITLE} />
+<meta property='og:description' content={DESCRIPTION} />
+<meta property='og:image' content={META_IMG_URL} />
+
+<meta property='twitter:card' content='summary_large_image' />
+<meta property='twitter:url' content={URL} />
+<meta property='twitter:title' content={TITLE} />
+<meta property='twitter:description' content={DESCRIPTION} />
+<meta property='twitter:image' content={META_IMG_URL} />
