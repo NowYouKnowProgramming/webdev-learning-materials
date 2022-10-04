@@ -3,8 +3,11 @@ import DocsBtn from './DocsBtn.astro';
 ---
 
 <div class='root'>
-	<h2>Are you ready to learn?</h2>
-	<DocsBtn href='/introduction' text='Get to the docs' />
+	<div class='text'>
+		<h2>Are you ready to learn?</h2>
+		<DocsBtn href='/introduction' text='Get to the docs' />
+	</div>
+	<div class='bottom-grad' aria-hidden='true'></div>
 </div>
 
 <style>
@@ -15,5 +18,41 @@ import DocsBtn from './DocsBtn.astro';
 		width: min(100%, 90vw);
 		display: grid;
 		place-items: center;
+		position: relative;
+	}
+
+	.text {
+		text-align: center;
+		position: relative;
+		z-index: 200;
+	}
+
+	.text h2 {
+		margin-bottom: 3rem;
+	}
+
+	.bottom-grad {
+		content: '';
+		display: block;
+		aspect-ratio: 1/1;
+		width: 100vw;
+		background-image: radial-gradient(
+			ellipse at bottom,
+			#a40303 0%,
+			rgba(255, 255, 255, 0) 70%
+		);
+		position: absolute;
+		z-index: 10;
+		bottom: -235%;
+		right: -80%;
+	}
+
+	@media screen and (max-width: 600px) {
+		.bottom-grad {
+			bottom: -100%;
+			right: 0;
+			width: 100%;
+			opacity: 0.4;
+		}
 	}
 </style>
