@@ -8,15 +8,11 @@ export interface Props {
 
 const { frontmatter, canonicalUrl } = Astro.props as Props;
 const formattedContentTitle = `${frontmatter.title} 🌐 ${SITE.title}`;
-const imageSrc = frontmatter.image?.src ?? OPEN_GRAPH.image.src;
-const canonicalImageSrc = new URL(imageSrc, Astro.site);
 const imageAlt = frontmatter.image?.alt ?? OPEN_GRAPH.image.alt;
 
 const META_IMG_URL = 'https://bewebdev.tech/metaimage.webp';
 
-const DESCRIPTION = frontmatter.description
-	? frontmatter.description + ' learning materials'
-	: SITE.description;
+const DESCRIPTION = frontmatter.description ?? SITE.description;
 ---
 
 <!-- Page Metadata -->
@@ -30,7 +26,6 @@ const DESCRIPTION = frontmatter.description
 	property='og:locale'
 	content={frontmatter.ogLocale ?? SITE.defaultLanguage}
 />
-<meta property='og:image' content={canonicalImageSrc} />
 <meta property='og:image:alt' content={imageAlt} />
 <meta name='description' property='og:description' content={DESCRIPTION} />
 <meta property='og:site_name' content={SITE.title} />
@@ -40,7 +35,7 @@ const DESCRIPTION = frontmatter.description
 <meta name='twitter:site' content={OPEN_GRAPH.twitter} />
 <meta name='twitter:title' content={formattedContentTitle} />
 <meta name='twitter:description' content={DESCRIPTION} />
-<meta name='twitter:image' content={canonicalImageSrc} />
+
 <meta name='twitter:image:alt' content={imageAlt} />
 
 <meta property='og:image' content={META_IMG_URL} />
