@@ -1,6 +1,6 @@
 export const SITE = {
 	title: 'bewebdev.tech',
-	description: 'Web development learning materials',
+	description: 'The best way to learn web development',
 	defaultLanguage: 'en_US',
 };
 
@@ -11,7 +11,7 @@ export const OPEN_GRAPH = {
 			'astro logo on a starry expanse of space,' +
 			' with a purple saturn-like planet floating in the right foreground',
 	},
-	twitter: 'astrodotbuild',
+	twitter: 'bewebdev.tech',
 };
 
 // This is the type of the frontmatter you put in the docs markdown files.
@@ -73,15 +73,15 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Other tutorials', link: 'resources/tutorials' },
 		],
 		Technologies: [
-			{ text: 'CSS', link: 'technologies/css' },
-			{ text: 'Git', link: 'technologies/git' },
 			{ text: 'HTML', link: 'technologies/html' },
+			{ text: 'CSS', link: 'technologies/css' },
 			{ text: 'JavaScript', link: 'technologies/javascript' },
-			{ text: 'Next.js', link: 'technologies/nextjs' },
-			{ text: 'Node.js', link: 'technologies/nodejs' },
-			{ text: 'React', link: 'technologies/react' },
-			{ text: 'Redux', link: 'technologies/redux' },
 			{ text: 'TypeScript', link: 'technologies/typescript' },
+			{ text: 'React', link: 'technologies/react' },
+			{ text: 'Git', link: 'technologies/git' },
+			{ text: 'Node.js', link: 'technologies/nodejs' },
+			{ text: 'Next.js', link: 'technologies/nextjs' },
+			{ text: 'Redux', link: 'technologies/redux' },
 		],
 	},
 };
