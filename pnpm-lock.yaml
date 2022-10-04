@@ -16,6 +16,8 @@ specifiers:
   prettier-plugin-astro: ^0.5.5
   react: ^18.1.0
   react-dom: ^18.1.0
+  react-just-parallax: ^3.1.14
+  react-use-observer: ^2.2.4
 
 dependencies:
   '@algolia/client-search': 4.14.2
@@ -31,6 +33,8 @@ dependencies:
   preact: 10.11.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-just-parallax: 3.1.14_react@18.2.0
+  react-use-observer: 2.2.4_biqbaboplfbrettd7655fr4n2y
 
 devDependencies:
   prettier: 2.7.1
@@ -1337,6 +1341,10 @@ packages:
     resolution: {integrity: sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==}
     dev: false
 
+  /dom-walk/0.1.2:
+    resolution: {integrity: sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==}
+    dev: false
+
   /dset/3.1.2:
     resolution: {integrity: sha512-g/M9sqy3oHe477Ar4voQxWtaPIFw1jTdKZuomOjhCcBx9nHUNn0pu6NopuFFrTh/TRZIKEj+76vLWFu9BNKk+Q==}
     engines: {node: '>=4'}
@@ -1894,6 +1902,10 @@ packages:
     resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
     dev: false
 
+  /fast-deep-equal/3.1.3:
+    resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
+    dev: false
+
   /fast-glob/3.2.12:
     resolution: {integrity: sha512-DVj4CQIYYow0BlaelwK1pHl5n5cRSJfM60UA0zK891sVInoPri2Ekj7+e1CT3/3qxXenpI+nBBmQAcJPJgaj4w==}
     engines: {node: '>=8.6.0'}
@@ -1982,6 +1994,12 @@ packages:
       fetch-blob: 3.2.0
     dev: false
 
+  /framesync/6.1.0:
+    resolution: {integrity: sha512-aBX+hdWAvwiJYeQlFLY2533VxeL6OEu71CAgV4GGKksrj6+dE6i7K86WSSiRBEARCoJn5bFqffhg4l07eA27tg==}
+    dependencies:
+      tslib: 2.4.0
+    dev: false
+
   /fs.realpath/1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
     dev: false
@@ -2048,6 +2066,13 @@ packages:
       roarr: 2.15.4
       semver: 7.3.7
       serialize-error: 7.0.1
+    dev: false
+
+  /global/4.4.0:
+    resolution: {integrity: sha512-wv/LAoHdRE3BeTGz53FAamhGlPLhlssK45usmGFThIi4XqnBmjKQ16u+RNbP7WvigRZDxUsM0J3gcQ5yicaL0w==}
+    dependencies:
+      min-document: 2.19.0
+      process: 0.11.10
     dev: false
 
   /globals/11.12.0:
@@ -2464,6 +2489,10 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       p-locate: 5.0.0
+    dev: false
+
+  /lodash.debounce/4.0.8:
+    resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
     dev: false
 
   /log-symbols/5.1.0:
@@ -3076,6 +3105,12 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
+  /min-document/2.19.0:
+    resolution: {integrity: sha512-9Wy1B3m3f66bPPmU5hdA4DR4PB2OfDU/+GS3yAB7IQozE3tqXaVv2zOjgla7MEGSRv95+ILmOuvhLkOK6wJtCQ==}
+    dependencies:
+      dom-walk: 0.1.2
+    dev: false
+
   /minimatch/3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
     dependencies:
@@ -3392,6 +3427,11 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
+  /process/0.11.10:
+    resolution: {integrity: sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==}
+    engines: {node: '>= 0.6.0'}
+    dev: false
+
   /prompts/2.4.2:
     resolution: {integrity: sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==}
     engines: {node: '>= 6'}
@@ -3416,6 +3456,29 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-just-parallax/3.1.14_react@18.2.0:
+    resolution: {integrity: sha512-lKW9a0/ocA1Phw/SElCC+RMdXqGBxRujPu0bsRZydMmqXj858fNPWcpwTl8j+wkek0SuerqULYpOXbySXXNKdg==}
+    peerDependencies:
+      react: '>=16.8 || ^17.0.0 || ^18.0.0'
+    dependencies:
+      framesync: 6.1.0
+      lodash.debounce: 4.0.8
+      react: 18.2.0
+    dev: false
+
+  /react-use-observer/2.2.4_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-F+mfMeYZRBpaqYlrbco2XbYatcw+Mry6JK2AB2tTYMftL+Iig05e2FWqzTRhYsqyREiblvHwpbe5o/6YcHd0Gw==}
+    engines: {node: '>=8', npm: '>=5'}
+    peerDependencies:
+      react: '>= 16.8'
+      react-dom: '>= 16.8'
+    dependencies:
+      fast-deep-equal: 3.1.3
+      global: 4.4.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react/18.2.0:
