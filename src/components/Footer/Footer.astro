@@ -1,5 +1,6 @@
 ---
 import AvatarList from './AvatarList.astro';
+import FooterCommonLinksList from './FooterCommonLinksList.astro';
 type Props = {
 	path: string;
 };
@@ -8,6 +9,7 @@ const { path } = Astro.props as Props;
 
 <footer>
 	<AvatarList path={path} />
+	<FooterCommonLinksList />
 </footer>
 
 <style>
@@ -15,5 +17,9 @@ const { path } = Astro.props as Props;
 		margin-top: auto;
 		padding: 2rem;
 		border-top: 3px solid var(--theme-divider);
+		display: flex;
+		flex-direction: row;
+		gap: 1rem;
+		align-items: center;
 	}
 </style>

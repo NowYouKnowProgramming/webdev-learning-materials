@@ -1,32 +1,11 @@
 ---
+import FooterCommonLinksList from '../Footer/FooterCommonLinksList.astro';
 import LandingImageAttribution from './LandingImageAttribution.astro';
 ---
 
 <footer>
 	<h2 class='sr-only'>Footer links</h2>
-	<ul>
-		<li>
-			<a
-				href='https://github.com/NowYouKnowProgramming/webdev-learning-materials'
-				target='_blank'
-				rel='noopener noreferrer'>Repo</a
-			>
-		</li>
-		<li>
-			<a
-				href='https://github.com/NowYouKnowProgramming/webdev-learning-materials/graphs/contributors'
-				target='_blank'
-				rel='noopener noreferrer'>Contributors</a
-			>
-		</li>
-		<li>
-			<a
-				href='https://github.com/NowYouKnowProgramming/webdev-learning-materials/issues'
-				target='_blank'
-				rel='noopener noreferrer'>Suggest an improvement</a
-			>
-		</li>
-	</ul>
+	<FooterCommonLinksList />
 	<LandingImageAttribution />
 </footer>
 

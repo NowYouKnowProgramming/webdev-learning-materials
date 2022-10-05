@@ -91,7 +91,7 @@ body {
 	--theme-accent-opacity: 0.15;
 	--theme-accent: hsla(var(--color-blue), 1);
 	--theme-text-accent: hsla(var(--color-yellow), 1);
-	--theme-divider: hsla(var(--color-gray-10), 1);
+	--theme-divider: hsla(var(--color-gray-30), 1);
 	--theme-text: hsla(var(--color-gray-90), 1);
 	--theme-text-light: hsla(var(--color-gray-80), 1);
 	--theme-bg-accent: #c16dbc;

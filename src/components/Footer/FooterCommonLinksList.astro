@@ -1,0 +1,45 @@
+---
+type FooterLink = {
+	name: string;
+	href: string;
+};
+
+const footerLinks: FooterLink[] = [
+	{
+		name: 'Visit repository',
+		href: 'https://github.com/NowYouKnowProgramming/webdev-learning-materials',
+	},
+	{
+		name: 'Suggest an improvement',
+		href: 'https://github.com/NowYouKnowProgramming/webdev-learning-materials/issues',
+	},
+	{
+		name: 'Contributors',
+		href: 'https://github.com/NowYouKnowProgramming/webdev-learning-materials/graphs/contributors',
+	},
+];
+---
+
+<ul>
+	{
+		footerLinks.map((link) => (
+			<li>
+				<a rel='noopener noreferrer' target='_blank' href={link.href}>
+					{link.name}
+				</a>
+			</li>
+		))
+	}
+</ul>
+
+<style>
+	ul {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+	ul li a {
+		color: var(--theme-text);
+	}
+</style>
