@@ -1,6 +1,6 @@
 ---
 title: Learn English
-description: English materials
+description: English learning materials and tools
 layout: ../../layouts/MainLayout.astro
 ---
 

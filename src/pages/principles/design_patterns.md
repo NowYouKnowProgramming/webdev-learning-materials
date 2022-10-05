@@ -1,23 +1,23 @@
 ---
 title: Design patterns
-description: Design patterns
+description: Using design patterns while developing can guide you into avoiding problems that many developers encountered before. Write maintainable code and learn what to use in which scenario
 layout: ../../layouts/MainLayout.astro
 ---
 
 ## Free
 
+- [Patterns.dev - React and JavaScript patterns](https://www.patterns.dev/)
+- [Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
+- [Anjana Vakil - Learning Functional Programming with JavaScript](https://youtu.be/e-5obm1G_FY)
+- [Refactoring Guru - Refactoring: clean your code](https://refactoring.guru/refactoring)
+- [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
+- [Alex Bespoyasov - Clean Architecture on Frontend](https://dev.to/bespoyasov/clean-architecture-on-frontend-4311)
 - Jack Herrington - Design Patterns with TypeScript:
   - [Factory Patterns](https://www.youtube.com/watch?v=-1YhP5IOBCI)
   - [Pub/Sub Patterns](https://www.youtube.com/watch?v=f3Cn0CGytSQ)
   - [Visitor and Iterator Patterns](https://www.youtube.com/watch?v=SZ2kAkMdAZE)
   - [Command & Memento Patterns](https://www.youtube.com/watch?v=H2kxc_ZrSPI)
   - [Proxy & Flyweight Patterns](https://www.youtube.com/watch?v=0vumsisnqwM)
-- [Patterns.dev](https://www.patterns.dev/)
-- [Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide)
-- [Anjana Vakil - Learning Functional Programming with JavaScript](https://youtu.be/e-5obm1G_FY)
-- [Refactoring Guru - Refactoring: clean your code](https://refactoring.guru/refactoring)
-- [Refactoring Guru - Design Patterns](https://refactoring.guru/design-patterns)
-- [Alex Bespoyasov - Clean Architecture on Frontend](https://dev.to/bespoyasov/clean-architecture-on-frontend-4311)
 
 ## Paid
 

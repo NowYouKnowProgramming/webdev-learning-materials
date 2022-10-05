@@ -1,6 +1,6 @@
 ---
-title: Other tutorials
-description: Other tutorials
+title: Build a complete project
+description: Learn how to build your own project from scratch. Step by step tutorials on how to build complete apps. T3 Stack, Fullstack apps, React apps and more
 layout: ../../layouts/MainLayout.astro
 ---
 

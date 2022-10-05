@@ -1,6 +1,6 @@
 ---
 title: TypeScript
-description: All materials to learn about TypeScript.
+description: All materials to learn about TypeScript. Free courses, paid courses and more!
 layout: ../../layouts/MainLayout.astro
 ---
 

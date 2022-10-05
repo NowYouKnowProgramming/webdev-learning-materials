@@ -1,6 +1,6 @@
 ---
 title: Redux
-description: Redux
+description: Redux learning materials. Redux toolkit, Redux with TypeScript and more!
 layout: ../../layouts/MainLayout.astro
 ---
 

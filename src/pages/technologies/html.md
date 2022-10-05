@@ -1,6 +1,6 @@
 ---
 title: HTML
-description: HTML
+description: Useful materials about HTML. Free HTML courses, and must know facts
 layout: ../../layouts/MainLayout.astro
 ---
 

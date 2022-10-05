@@ -63,14 +63,17 @@ export const SIDEBAR: Sidebar = {
 		],
 		Software: [{ text: 'Visual Studio Code', link: 'software/vscode' }],
 		Resources: [
-			{ text: 'Build your project', link: 'resources/build_your_project' },
+			{
+				text: 'Project ideas and planning',
+				link: 'resources/build_your_project',
+			},
+			{ text: 'Build a complete project', link: 'resources/complete_project' },
 			{ text: 'Test your skills', link: 'resources/test_your_skills' },
 			{
-				text: 'YouTube channels and blogs',
-				link: 'resources/youtube_channels_blogs',
+				text: 'Content creators',
+				link: 'resources/content_creators',
 			},
 			{ text: 'Other resources', link: 'resources/other_resources' },
-			{ text: 'Other tutorials', link: 'resources/tutorials' },
 		],
 		Technologies: [
 			{ text: 'HTML', link: 'technologies/html' },
