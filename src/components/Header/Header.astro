@@ -14,13 +14,15 @@ type Props = {
 
 const { currentPage } = Astro.props as Props;
 const lang = getLanguageFromURL(currentPage);
+
+const currentPageIsRoot = currentPage === '/';
 ---
 
 <header>
 	<SkipToContent />
 	<nav class='nav-wrapper' title='Top Navigation'>
 		{
-			currentPage !== '/' && (
+			!currentPageIsRoot && (
 				<div class='menu-toggle'>
 					<SidebarToggle client:idle />
 				</div>
@@ -29,7 +31,16 @@ const lang = getLanguageFromURL(currentPage);
 		<div class='logo flex'>
 			<a href='/'>
 				<AstroLogo size={40} />
-				<h1>{CONFIG.SITE.title ?? 'Documentation'}</h1>
+				{
+					currentPageIsRoot && (
+						<h1 class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</h1>
+					)
+				}
+				{
+					!currentPageIsRoot && (
+						<p class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</p>
+					)
+				}
 			</a>
 		</div>
 		<div style='flex-grow: 1;'></div>
@@ -80,17 +91,17 @@ const lang = getLanguageFromURL(currentPage);
 		font-weight: bold;
 	}
 
-	.logo a {
+	.logo * {
 		transition: color 100ms ease-out;
-		color: var(--theme-text);
+		color: var(--theme-text) !important;
 	}
 
-	.logo a:hover,
-	.logo a:focus {
-		color: var(--theme-text-accent);
+	.logo *:hover,
+	.logo *:focus {
+		color: var(--theme-text-accent) !important;
 	}
 
-	.logo h1 {
+	.logo .title-main {
 		display: none;
 		font: inherit;
 		color: inherit;
