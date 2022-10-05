@@ -1,6 +1,6 @@
 ---
 title: Web development learning materials
-description: Docs intro
+description: Welcome to bewebdev the best place to find useful knowledge about web development
 layout: ../layouts/MainLayout.astro
 ---
 

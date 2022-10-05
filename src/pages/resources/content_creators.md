@@ -1,6 +1,6 @@
 ---
-title: YouTube channels and blogs
-description: YouTube channels and blogs
+title: Content creators
+description: Best sources to seek further knowledge, videos you might want to watch in your spare time, technical blogs and podcasts
 layout: ../../layouts/MainLayout.astro
 ---
 
@@ -39,4 +39,4 @@ layout: ../../layouts/MainLayout.astro
 ### Podcasts in Polish
 
 - [Better Software Design - Mateusz Gil](https://open.spotify.com/show/0QCDOJNUWnJkaq73FasfkY?si=5e2eb79aeda64cd2)
-- [Na Podsłuchu - Niebezpiecznik.pl](https://open.spotify.com/show/5MxNt9v6eCH4xxSFqRY1oS?si=99f81ac0867a47e7)
+- [Na Podsłuchu - Niebezpiecznik.pl (Cyberbezpieczeństwo)](https://open.spotify.com/show/5MxNt9v6eCH4xxSFqRY1oS?si=99f81ac0867a47e7)

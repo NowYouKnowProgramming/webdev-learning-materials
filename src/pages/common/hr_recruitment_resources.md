@@ -1,6 +1,6 @@
 ---
 title: HR / Recruitment Resources
-description: HR / Recruitment Resources
+description: What you need to know about recruitment processes while applying for developer jobs
 layout: ../../layouts/MainLayout.astro
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: React
-description: React
+description: Useful materials about React. Hooks, React + TypeScript, best practices, testing and more.
 layout: ../../layouts/MainLayout.astro
 ---
 
@@ -131,6 +131,7 @@ Screenshots
 ### React testing
 
 - [Jack Herrington - TypeScript/React Testing: Components, Hooks, Custom Hooks, Redux and Zustand](https://www.youtube.com/watch?v=bvdHVxqjv80)
+- [More about React testing in our dedicated docs section - bewebdev.tech](https://bewebdev.tech/principles/testing)
 
 ### Performance in React
 

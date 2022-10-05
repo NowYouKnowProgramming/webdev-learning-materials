@@ -1,6 +1,6 @@
 ---
-title: Testing learning materials
-description: Testing
+title: Testing materials
+description: Free and paid testing courses. Learn Jest, Cypress and Vitest. React testing, unit testing, integration testing, E2E testing and more
 layout: ../../layouts/MainLayout.astro
 ---
 

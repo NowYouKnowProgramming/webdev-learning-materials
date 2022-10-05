@@ -1,6 +1,6 @@
 ---
 title: Job Boards (find your dream job)
-description: Job Boards (find your dream job)
+description: Online job boards for developers and other IT positions
 layout: ../../layouts/MainLayout.astro
 ---
 

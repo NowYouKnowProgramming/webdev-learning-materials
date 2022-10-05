@@ -1,6 +1,6 @@
 ---
 title: Learning to learn
-description: Learning to learn
+description: All these learning materials out there are great, but how to utilize them in best possible way. Best advices about learning stuff
 layout: ../../layouts/MainLayout.astro
 ---
 

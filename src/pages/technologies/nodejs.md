@@ -1,6 +1,6 @@
 ---
 title: Node.js
-description: Node.js
+description: All materials to learn about Node.js
 layout: ../../layouts/MainLayout.astro
 ---
 

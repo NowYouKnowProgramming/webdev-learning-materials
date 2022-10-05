@@ -1,6 +1,6 @@
 ---
 title: Other resources
-description: Other resources
+description: Valuable materials that you should check out
 layout: ../../layouts/MainLayout.astro
 ---
 

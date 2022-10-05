@@ -1,6 +1,6 @@
 ---
 title: UI and UX
-description: UI and UX
+description: User interface and user experience relevant materials for frontend developers. Learn what you need to know about theese topic as a developer
 layout: ../../layouts/MainLayout.astro
 ---
 

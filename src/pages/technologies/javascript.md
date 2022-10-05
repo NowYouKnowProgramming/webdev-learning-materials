@@ -1,6 +1,6 @@
 ---
 title: JavaScript
-description: JavaScript
+description: Useful materials about JavaScript. Free courses, paid courses, async JavaScript, tools for developping in JavaScript and more
 layout: ../../layouts/MainLayout.astro
 ---
 

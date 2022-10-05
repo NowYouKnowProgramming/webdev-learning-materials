@@ -1,6 +1,6 @@
 ---
 title: Git materials
-description: Git materials
+description: Useful materials about git. Learn what you need to know about git. Write good commit messages, git workflow, necessary commands for git
 layout: ../../layouts/MainLayout.astro
 ---
 

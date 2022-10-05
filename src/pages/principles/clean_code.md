@@ -1,6 +1,6 @@
 ---
 title: Clean code
-description: Clean code
+description: Best practices to write easy to read and maintainable code. Write code that works on computers and humans can understand
 layout: ../../layouts/MainLayout.astro
 ---
 
