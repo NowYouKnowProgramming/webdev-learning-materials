@@ -50,7 +50,10 @@ export const SIDEBAR: Sidebar = {
 		Start: [{ text: 'Introduction', link: 'introduction' }],
 		Common: [
 			{ text: 'English', link: 'common/english' },
-			{ text: 'HR', link: 'common/hr_recruitment_resources' },
+			{
+				text: 'HR and job seeking tips',
+				link: 'common/hr_recruitment_resources',
+			},
 			{ text: 'Job boards', link: 'common/job_boards' },
 			{ text: 'Learning to learn', link: 'common/learning_to_learn' },
 			{ text: 'Productivity', link: 'common/productivity' },
