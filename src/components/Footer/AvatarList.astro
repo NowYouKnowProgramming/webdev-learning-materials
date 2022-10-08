@@ -1,4 +1,6 @@
 ---
+import { unknownToError } from '../../utils/unknownToError';
+
 // fetch all commits for just this page's path
 type Props = {
 	path: string;
@@ -9,13 +11,13 @@ const url = `https://api.github.com/repos/NowYouKnowProgramming/webdev-learning-
 const commitsURL = `https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits/main/${resolvedPath}`;
 
 type Commit = {
-	author: {
+	author?: {
 		id: string;
 		login: string;
 	};
 };
 
-async function getCommits(url: string) {
+async function getCommits(url: string): Promise<Commit[]> {
 	try {
 		const token = import.meta.env.SNOWPACK_PUBLIC_GITHUB_TOKEN ?? 'hello';
 		if (!token) {
@@ -43,20 +45,26 @@ async function getCommits(url: string) {
 			);
 		}
 
-		return data as Commit[];
+		return data;
 	} catch (e) {
+		const error = unknownToError(e);
+
 		console.warn(`[error]  /src/components/AvatarList.astro 
-    ${(e as any)?.message ?? e}`);
-		return [] as Commit[];
+    ${error.message ?? error}`);
+		return [];
 	}
 }
 
 function removeDups(arr: Commit[]) {
-	const map = new Map<string, Commit['author']>();
+	const map = new Map<string, NonNullable<Commit['author']>>();
 
 	for (let item of arr) {
-		const author = item.author;
 		// Deduplicate based on author.id
+		const author = item.author;
+		const isBot = author?.login.endsWith('[bot]');
+
+		if (!author || isBot) continue;
+
 		map.set(author.id, { login: author.login, id: author.id });
 	}
 
