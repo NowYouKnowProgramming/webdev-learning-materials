@@ -1,36 +1,36 @@
 {
-  "files": [
-    "README.md"
-  ],
-  "imageSize": 100,
-  "commit": false,
-  "contributors": [
-    {
-      "login": "goodideagiver",
-      "name": "prplblck",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55458485?v=4",
-      "profile": "https://purpleblack.dev/",
-      "contributions": [
-        "doc",
-        "maintenance"
-        ]
+   "files":[
+      "README.md"
+   ],
+   "imageSize":100,
+   "commit":false,
+   "contributors":[
+      {
+         "login":"goodideagiver",
+         "name":"prplblck",
+         "avatar_url":"https://avatars.githubusercontent.com/u/55458485?v=4",
+         "profile":"https://purpleblack.dev/",
+         "contributions":[
+            "doc",
+            "maintenance"
+         ]
       },
       {
-      "login": "Willaiem",
-      "name": "Damian Żygadło",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25301582?v=4",
-      "profile": "https://github.com/Willaiem",
-      "contributions": [
-        "code",
-        "doc",
-        "infra",
-      ]
-    }
-  ],
-  "contributorsPerLine": 7,
-  "projectName": "webdev-learning-materials",
-  "projectOwner": "NowYouKnowProgramming",
-  "repoType": "github",
-  "repoHost": "https://github.com",
-  "skipCi": true
+         "login":"Willaiem",
+         "name":"Damian Żygadło",
+         "avatar_url":"https://avatars.githubusercontent.com/u/25301582?v=4",
+         "profile":"https://github.com/Willaiem",
+         "contributions":[
+            "code",
+            "doc",
+            "infra"
+         ]
+      }
+   ],
+   "contributorsPerLine":7,
+   "projectName":"webdev-learning-materials",
+   "projectOwner":"NowYouKnowProgramming",
+   "repoType":"github",
+   "repoHost":"https://github.com",
+   "skipCi":true
 }
