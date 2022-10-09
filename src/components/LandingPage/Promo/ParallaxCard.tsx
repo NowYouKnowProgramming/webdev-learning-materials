@@ -1,20 +1,21 @@
 /** @jsxImportSource react */
 
-import { ScrollParallax } from 'react-just-parallax';
-import classes from './ParallaxCard.module.css';
+import { ScrollParallax } from 'react-just-parallax'
+import { FloatingIcons } from './FloatingIcons/FloatingIcons'
+import classes from './ParallaxCard.module.css'
 
 type Image = {
-	src: string;
-	alt: string;
-};
+	src: string
+	alt: string
+}
 
 type Props = {
-	title: string;
-	children: React.ReactNode;
-	imageSrc: Image;
-	iconSrc: string | undefined;
-	direction?: 'childrenLeft' | 'childrenRight';
-};
+	title: string
+	children: React.ReactNode
+	imageSrc: Image
+	iconSrc: string | undefined
+	direction?: 'childrenLeft' | 'childrenRight'
+}
 
 const ParallaxCard = ({
 	children,
@@ -24,21 +25,15 @@ const ParallaxCard = ({
 	title,
 }: Props) => {
 	const rootElementDirectionCss =
-		direction === 'childrenLeft' ? classes.left : classes.right;
+		direction === 'childrenLeft' ? classes.left : classes.right
 
-	const Icons =
-		!!iconSrc &&
-		['One', 'Two', 'Three'].map((icon, index) => {
-			const iconKey = `icon${icon}`;
+	const hasIcons = !!iconSrc
 
-			const iconCss = `${classes.icon} ${classes[iconKey]}`;
-
-			return (
-				<div className={iconCss} key={index + iconKey}>
-					<img src={iconSrc} alt='' aria-hidden='true' />
-				</div>
-			);
-		});
+	const floatingIconClassNames: string[] = [
+		classes.iconOne!,
+		classes.iconTwo!,
+		classes.iconThree!,
+	]
 
 	return (
 		<div className={[classes.root, rootElementDirectionCss].join(' ')}>
@@ -50,16 +45,14 @@ const ParallaxCard = ({
 				<ScrollParallax lerpEase={0.03} strength={0.03}>
 					<img src={imageSrc.src} alt={imageSrc.alt} />
 				</ScrollParallax>
-				<ScrollParallax
-					shouldPause
-					lerpEase={0.02}
-					isAbsolutelyPositioned
-					strength={0.07}
-				>
-					{iconSrc && Icons}
-				</ScrollParallax>
+				{hasIcons && (
+					<FloatingIcons
+						iconSrc={iconSrc}
+						classNames={floatingIconClassNames}
+					/>
+				)}
 			</div>
 		</div>
-	);
-};
-export default ParallaxCard;
+	)
+}
+export default ParallaxCard
