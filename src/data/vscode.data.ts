@@ -119,4 +119,4 @@ export const configForGitMessageExtenstion = `
 },
 "vscodeGitCommit.template": [
 "{type}: {action}{scope}{what_was_done}\n\n{why_it_was_done}{breaking}"
-]`;
+]`

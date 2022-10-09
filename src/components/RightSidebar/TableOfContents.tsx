@@ -1,34 +1,34 @@
-import type { FunctionalComponent } from 'preact';
-import { useState, useEffect, useRef } from 'preact/hooks';
-import type { MarkdownHeading } from 'astro';
+import type { FunctionalComponent } from 'preact'
+import { useState, useEffect, useRef } from 'preact/hooks'
+import type { MarkdownHeading } from 'astro'
 
 type ItemOffsets = {
-	id: string;
-	topOffset: number;
-};
+	id: string
+	topOffset: number
+}
 
 const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 	headings = [],
 }) => {
-	const itemOffsets = useRef<ItemOffsets[]>([]);
+	const itemOffsets = useRef<ItemOffsets[]>([])
 	// FIXME: Not sure what this state is doing. It was never set to anything truthy.
-	const [activeId] = useState<string>('');
+	const [activeId] = useState<string>('')
 	useEffect(() => {
 		const getItemOffsets = () => {
-			const titles = document.querySelectorAll('article :is(h1, h2, h3, h4)');
+			const titles = document.querySelectorAll('article :is(h1, h2, h3, h4)')
 			itemOffsets.current = Array.from(titles).map((title) => ({
 				id: title.id,
 				topOffset: title.getBoundingClientRect().top + window.scrollY,
-			}));
-		};
+			}))
+		}
 
-		getItemOffsets();
-		window.addEventListener('resize', getItemOffsets);
+		getItemOffsets()
+		window.addEventListener('resize', getItemOffsets)
 
 		return () => {
-			window.removeEventListener('resize', getItemOffsets);
-		};
-	}, []);
+			window.removeEventListener('resize', getItemOffsets)
+		}
+	}, [])
 
 	return (
 		<>
@@ -54,7 +54,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 					))}
 			</ul>
 		</>
-	);
-};
+	)
+}
 
-export default TableOfContents;
+export default TableOfContents

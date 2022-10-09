@@ -20,7 +20,7 @@
 	color: white;
 }
 
-.root>div {
+.root > div {
 	flex: 1 1 200px;
 }
 
@@ -44,8 +44,6 @@
 .right {
 	flex-direction: row-reverse;
 }
-
-
 
 .iconOne {
 	top: 0;
