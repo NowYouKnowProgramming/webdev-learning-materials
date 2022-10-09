@@ -1,12 +1,12 @@
 type PromoData = {
 	imageSrc: {
-		src: string;
-		alt: string;
-	};
-	title: string;
-	iconSrc?: string;
-	description: string;
-};
+		src: string
+		alt: string
+	}
+	title: string
+	iconSrc?: string
+	description: string
+}
 
 export const data: PromoData[] = [
 	{
@@ -40,4 +40,4 @@ export const data: PromoData[] = [
 		description:
 			'Use materials from this site to learn how to build a website. You can contribute to our project by adding new resources, or by helping us improve the site. Go to our GitHub page to learn more.',
 	},
-];
+]

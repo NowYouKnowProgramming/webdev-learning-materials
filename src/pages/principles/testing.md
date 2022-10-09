@@ -49,8 +49,8 @@ layout: ../../layouts/MainLayout.astro
 #### Import modules for testing as globals in config
 
 ```js
-import { defineConfig } from 'vite';
-import { svelte } from '@sveltejs/vite-plugin-svelte';
+import { defineConfig } from 'vite'
+import { svelte } from '@sveltejs/vite-plugin-svelte'
 
 export default defineConfig({
 	plugins: [svelte({ hot: !process.env.VITEST })],
@@ -58,7 +58,7 @@ export default defineConfig({
 		globals: true,
 		environment: 'jsdom',
 	},
-});
+})
 ```
 
 ### End to end testing
