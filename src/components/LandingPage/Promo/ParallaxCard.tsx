@@ -43,10 +43,8 @@ const ParallaxCard = ({
 	return (
 		<div className={[classes.root, rootElementDirectionCss].join(' ')}>
 			<div className={classes.text}>
-				<ScrollParallax strength={0.01}>
-					<h3>{title}</h3>
-					{children}
-				</ScrollParallax>
+				<h3>{title}</h3>
+				{children}
 			</div>
 			<div className={classes.imgContainer}>
 				<ScrollParallax lerpEase={0.03} strength={0.03}>
