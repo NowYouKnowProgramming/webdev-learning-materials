@@ -13,9 +13,9 @@
       "contributions": [
         "doc",
         "maintenance"
-        ]
-      },
-      {
+      ]
+    },
+    {
       "login": "Willaiem",
       "name": "Damian Żygadło",
       "avatar_url": "https://avatars.githubusercontent.com/u/25301582?v=4",
@@ -23,7 +23,16 @@
       "contributions": [
         "code",
         "doc",
-        "infra",
+        "infra"
+      ]
+    },
+    {
+      "login": "Aksa12",
+      "name": "Aksa12",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41188167?v=4",
+      "profile": "https://github.com/Aksa12",
+      "contributions": [
+        "maintenance"
       ]
     }
   ],
@@ -32,5 +41,6 @@
   "projectOwner": "NowYouKnowProgramming",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
