@@ -20,4 +20,4 @@ layout: ../../layouts/MainLayout.astro
 ### Rendering in NextJs
 
 - [What is Rendering? - Docs](https://nextjs.org/learn/foundations/how-nextjs-works/rendering)
-- [SSR vs. SSG vs. ISR vs. CSR- YouTube](https://www.youtube.com/watch?v=mWytwmxLKmo)
+- [SSR vs. SSG vs. ISR vs. CSR - YouTube](https://www.youtube.com/watch?v=mWytwmxLKmo)
