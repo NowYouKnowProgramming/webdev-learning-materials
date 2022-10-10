@@ -4,7 +4,7 @@ import classes from './ParallaxPuzzle.module.css'
 
 import { ScrollParallax } from 'react-just-parallax'
 
-const src = '/public/images/promo/4puzzle.png'
+const src = '/images/promo/4puzzle.png'
 
 export const ParallaxPuzzle = () => {
 	return (
