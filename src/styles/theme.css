@@ -7,6 +7,12 @@
 		'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco,
 		'Courier New', Courier, monospace;
 
+	--bewebdev-pink: #f806b0;
+	--bewebdev-pink-saturated: #a31077;
+	--bewebdev-purple: #1c1531;
+	--bewebdev-purple-saturated: #342366;
+	--bewebdev-red: #a4030379;
+
 	/*
    * Variables with --color-base prefix define
    * the hue, and saturation values to be used for
@@ -88,6 +94,11 @@ body {
 
 :root.theme-dark {
 	color-scheme: dark;
+	--bewebdev-pink: #f806b0;
+	--bewebdev-purple: #1c1531;
+	--bewebdev-red: #a4030379;
+
+
 	--theme-accent-opacity: 0.15;
 	--theme-accent: hsla(var(--color-blue), 1);
 	--theme-text-accent: hsla(var(--color-yellow), 1);
