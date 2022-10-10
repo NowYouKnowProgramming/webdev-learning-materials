@@ -1,11 +1,11 @@
 ---
-import Header from '../Header/Header.astro';
-import LandingPageEndingCTA from './LandingPageEndingCTA.astro';
-import LandingPageFooter from './LandingPageFooter.astro';
-import LandingPageLinks from './LandingPageLinks.astro';
-import Comparison from './Promo/Comparison.astro';
-const currentPage = Astro.url.pathname;
-import { Promo } from './Promo/Promo';
+import Header from '../Header/Header.astro'
+import LandingPageEndingCTA from './LandingPageEndingCTA.astro'
+import LandingPageFooter from './LandingPageFooter.astro'
+import LandingPageLinks from './LandingPageLinks.astro'
+import Comparison from './Promo/Comparison.astro'
+const currentPage = Astro.url.pathname
+import { Promo } from './Promo/Promo'
 ---
 
 <body>
@@ -32,7 +32,7 @@ import { Promo } from './Promo/Promo';
 
 	<style>
 		* {
-			color: white;
+			color: var(--theme-text);
 		}
 
 		.welcome {
@@ -59,14 +59,22 @@ import { Promo } from './Promo/Promo';
 			z-index: 1;
 			font-family: 'Inter', sans-serif;
 			font-size: clamp(2rem, 5vw, 3.5rem);
-			color: white;
+			color: var(--theme-text);
 		}
 
 		body {
 			display: flex;
 			flex-direction: column;
-			background-image: linear-gradient(to bottom, #1c1531 4%, transparent 30%),
-				radial-gradient(circle at 15% 15%, #f806b0 0%, #1c1531 70%);
+			background-image: linear-gradient(
+					to bottom,
+					var(--bewebdev-purple) 4%,
+					transparent 30%
+				),
+				radial-gradient(
+					circle at 15% 15%,
+					var(--bewebdev-pink) 0%,
+					var(--bewebdev-purple) 70%
+				);
 			overflow-x: hidden;
 		}
 
@@ -94,7 +102,7 @@ import { Promo } from './Promo/Promo';
 		}
 
 		.content p {
-			color: white;
+			color: var(--theme-text);
 		}
 
 		@keyframes rotate {
@@ -132,7 +140,7 @@ import { Promo } from './Promo/Promo';
 		}
 
 		body {
-			--theme-text: #fff;
+			--theme-text: white;
 		}
 	</style>
 </body>

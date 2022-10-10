@@ -17,10 +17,10 @@
 }
 
 .text * {
-	color: white;
+	color: var(--theme-text);
 }
 
-.root > div {
+.root>div {
 	flex: 1 1 200px;
 }
 

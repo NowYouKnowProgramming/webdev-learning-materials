@@ -7,18 +7,19 @@
 	background-color: var(--theme-code-inline-bg);
 }
 
-.theme-toggle > label:focus-within {
+.theme-toggle>label:focus-within {
 	outline: 2px solid transparent;
 	box-shadow: 0 0 0 0.08em var(--theme-accent), 0 0 0 0.12em white;
 }
 
-.theme-toggle > label {
+.theme-toggle>label {
 	color: var(--theme-code-inline-text);
 	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	opacity: 0.5;
+	padding: 3px;
 }
 
 .theme-toggle .checked {
