@@ -23,11 +23,14 @@
 		"@types/react-dom": "^18.0.0",
 		"astro": "^1.4.0",
 		"astro-compress": "^1.0.11",
+		"autoprefixer": "^10.4.12",
+		"postcss": "^8.1.0",
 		"preact": "^10.7.3",
 		"react": "^18.1.0",
 		"react-dom": "^18.1.0",
 		"react-just-parallax": "^3.1.14",
-		"react-use-observer": "^2.2.4"
+		"react-use-observer": "^2.2.4",
+		"rollup": ">=2"
 	},
 	"devDependencies": {
 		"prettier": "^2.7.1",
