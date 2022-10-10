@@ -13,8 +13,8 @@ export const data: PromoData[] = [
 		title: 'Are you tired of wrong answers?',
 		iconSrc: '/images/promo/emoji/exclamation-question.png',
 		imageSrc: {
-			alt: '404 error',
-			src: '/images/promo/404error.png',
+			alt: 'Person with a laptop holding their head with left hand with a sore expression on their face',
+			src: '/images/promo/Headache.png',
 		},
 		description:
 			'When starting out with web development, it can be difficult to know where to start. When searching JavaScript problem solutions online, you often are faced with a sea of jQuery code, which is a library that is no longer used in modern web development.',
