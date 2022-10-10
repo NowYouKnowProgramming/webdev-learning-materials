@@ -16,3 +16,4 @@ layout: ../../layouts/MainLayout.astro
 
 - [Migrating from create react app](https://nextjs.org/docs/migrating/from-create-react-app)
 - [FAQ](https://nextjs.org/docs/faq)
+- [Rendering Differences comparison](https://www.youtube.com/watch?v=mWytwmxLKmo)
