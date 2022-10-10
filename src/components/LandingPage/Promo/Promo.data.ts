@@ -21,6 +21,7 @@ export const data: PromoData[] = [
 	},
 	{
 		title: 'Find what you need to learn',
+
 		iconSrc: '/images/promo/emoji/brain.png',
 		imageSrc: {
 			alt: 'person programming',
