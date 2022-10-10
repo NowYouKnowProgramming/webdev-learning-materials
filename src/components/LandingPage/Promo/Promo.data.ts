@@ -11,8 +11,7 @@ type PromoData = {
 export const data: PromoData[] = [
 	{
 		title: 'Are you tired of wrong answers?',
-		iconSrc:
-			'https://img.icons8.com/emoji/12x/exclamation-question-mark-emoji.png',
+		iconSrc: '/public/images/promo/emoji/exclamation-question.png',
 		imageSrc: {
 			alt: '404 error',
 			src: '/images/promo/404error.png',
@@ -22,7 +21,7 @@ export const data: PromoData[] = [
 	},
 	{
 		title: 'Find what you need to learn',
-		iconSrc: 'https://images.emojiterra.com/google/android-11/512px/1f9e0.png',
+		iconSrc: '/public/images/promo/emoji/brain.png',
 		imageSrc: {
 			alt: 'person programming',
 			src: '/images/promo/Programming-amico.png',
@@ -32,7 +31,7 @@ export const data: PromoData[] = [
 	},
 	{
 		title: 'Together we can build a better web',
-		iconSrc: 'https://images.emojiterra.com/google/android-10/512px/2699.png',
+		iconSrc: '/public/images/promo/emoji/cog.png',
 		imageSrc: {
 			alt: 'Two peole with a laptop, coputer and a smartphone and a globe in the center surrounded by a net of icons',
 			src: '/images/promo/online.png',
