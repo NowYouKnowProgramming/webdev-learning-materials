@@ -26,6 +26,13 @@
 :root {
 	--user-font-scale: 1rem - 16px;
 	--max-width: calc(100% - 1rem);
+	--z-negative: -1;
+	--z-base: 0;
+	--z-elevated: 1;
+	--z-elevated-higher: 10;
+	--z-floating-base: 100;
+	--z-floating-elevated: 200;
+	--z-floating-highest: 300;
 	--overlay-high: 2137;
 	--overlay-higher: 2138;
 }

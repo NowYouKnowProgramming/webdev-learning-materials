@@ -1,17 +1,19 @@
 ---
 type Props = {
-	text: string;
-	isExternal?: boolean;
-	classes?: string;
-	href: string;
-};
+	text: string
+	isExternal?: boolean
+	classes?: string
+	href: string
+	title: string
+}
 
-const { text, href, isExternal, classes }: Props = Astro.props;
+const { text, href, isExternal, classes, title }: Props = Astro.props
 
-const css = `docs-btn ${classes ? classes : 'test'}`;
+const css = `docs-btn ${classes ? classes : 'test'}`
 ---
 
 <a
+	title={title}
 	class={css}
 	href={href}
 	rel={isExternal ? 'noopener noreferrer' : ''}

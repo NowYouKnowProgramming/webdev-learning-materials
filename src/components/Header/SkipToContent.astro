@@ -1,8 +1,10 @@
 ---
-type Props = {};
+type Props = {}
 ---
 
-<a href="#article" class="sr-only focus:not-sr-only skiplink"><span>Skip to Content</span></a>
+<a href='#article' class='sr-only focus:not-sr-only skiplink'
+	><span>Skip to Content</span>
+</a>
 
 <style>
 	.skiplink,
@@ -14,7 +16,7 @@ type Props = {};
 		top: 0;
 		left: 0;
 		right: 0;
-		z-index: 9;
+		z-index: var(--z-elevated-higher);
 		display: block;
 		text-align: center;
 		background-color: var(--theme-text-accent);

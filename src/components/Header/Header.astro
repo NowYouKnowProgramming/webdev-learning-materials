@@ -1,21 +1,21 @@
 ---
-import { getLanguageFromURL, KNOWN_LANGUAGE_CODES } from '../../languages';
-import * as CONFIG from '../../config';
-import AstroLogo from './AstroLogo.astro';
-import SkipToContent from './SkipToContent.astro';
-import SidebarToggle from './SidebarToggle';
-import LanguageSelect from './LanguageSelect';
-import Search from './Search';
-import ThemeToggle from '../RightSidebar/ThemeToggleButton';
+import { getLanguageFromURL, KNOWN_LANGUAGE_CODES } from '../../languages'
+import * as CONFIG from '../../config'
+import AstroLogo from './AstroLogo.astro'
+import SkipToContent from './SkipToContent.astro'
+import SidebarToggle from './SidebarToggle'
+import LanguageSelect from './LanguageSelect'
+import Search from './Search'
+import ThemeToggle from '../RightSidebar/ThemeToggleButton'
 
 type Props = {
-	currentPage: string;
-};
+	currentPage: string
+}
 
-const { currentPage } = Astro.props as Props;
-const lang = getLanguageFromURL(currentPage);
+const { currentPage } = Astro.props as Props
+const lang = getLanguageFromURL(currentPage)
 
-const currentPageIsRoot = currentPage === '/';
+const currentPageIsRoot = currentPage === '/'
 ---
 
 <header>
@@ -58,7 +58,7 @@ const currentPageIsRoot = currentPage === '/';
 
 <style>
 	header {
-		z-index: 2137;
+		z-index: var(--overlay-high);
 		height: var(--theme-navbar-height);
 		width: 100%;
 		background-color: var(--theme-navbar-bg);
@@ -127,7 +127,7 @@ const currentPageIsRoot = currentPage === '/';
 		.logo {
 			width: auto;
 			margin: 0;
-			z-index: 0;
+			z-index: var(--z-base);
 		}
 
 		.logo .title-main {
@@ -148,7 +148,7 @@ const currentPageIsRoot = currentPage === '/';
 	.search-item {
 		display: none;
 		position: relative;
-		z-index: 10;
+		z-index: var(--z-elevated-higher);
 		flex-grow: 1;
 		padding-right: 0.7rem;
 		display: flex;

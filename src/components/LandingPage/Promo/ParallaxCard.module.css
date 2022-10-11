@@ -13,7 +13,7 @@
 
 .text {
 	position: relative;
-	z-index: 200;
+	z-index: var(--z-floating-base);
 }
 
 .text * {

@@ -1,0 +1,57 @@
+---
+import ComparisonCard, {
+	Props as ComparisonCardProps,
+} from './ComparisonCard.astro'
+
+const comparisonData: ComparisonCardProps[] = [
+	{
+		name: 'Bootcamp',
+		downside: 'Expensive',
+		icon: '💸',
+	},
+	{
+		name: 'Freecodecamp',
+		downside: 'Time consuming',
+		icon: '⌛',
+	},
+	{
+		name: 'Bewebdev.tech',
+		downside: 'Great for everyone!',
+		icon: '🤩',
+	},
+]
+---
+
+<div class='main-container'>
+	<ul>
+		{
+			comparisonData.map((data) => (
+				<ComparisonCard
+					downside={data.downside}
+					icon={data.icon}
+					name={data.name}
+				/>
+			))
+		}
+	</ul>
+</div>
+
+<style>
+	.main-container {
+		max-width: 1200px;
+		width: min(90vw, 100%);
+		margin: 9rem auto;
+		margin-top: 13rem;
+		position: relative;
+		z-index: var(--z-floating-base);
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+		grid-auto-rows: 1fr;
+		grid-gap: 3rem;
+	}
+</style>
