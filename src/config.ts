@@ -56,7 +56,6 @@ export const SIDEBAR: Sidebar = {
 			},
 			{ text: 'Job boards', link: 'common/job_boards' },
 			{ text: 'Learning to learn', link: 'common/learning_to_learn' },
-			{ text: 'Productivity', link: 'common/productivity' },
 		],
 		Principles: [
 			{ text: 'Design patterns', link: 'principles/design_patterns' },
@@ -64,7 +63,10 @@ export const SIDEBAR: Sidebar = {
 			{ text: 'Testing', link: 'principles/testing' },
 			{ text: 'UI and UX', link: 'principles/design_ui_ux' },
 		],
-		Software: [{ text: 'Visual Studio Code', link: 'software/vscode' }],
+		Software: [
+			{ text: 'Visual Studio Code', link: 'software/vscode' },
+			{ text: 'Other tools', link: 'software/other_tools' },
+		],
 		Resources: [
 			{
 				text: 'Project ideas and planning',

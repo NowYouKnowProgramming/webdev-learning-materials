@@ -1,8 +1,11 @@
+in
+
 /** Style Algolia */
 :root {
 	--docsearch-primary-color: var(--theme-accent);
 	--docsearch-logo-color: var(--theme-text);
 }
+
 .search-input {
 	flex-grow: 1;
 	box-sizing: border-box;
@@ -27,18 +30,22 @@
 	transition-property: border-color, color;
 	-webkit-font-smoothing: antialiased;
 }
+
 .search-input:hover,
 .search-input:focus {
 	color: var(--theme-text);
 	border-color: var(--theme-text-light);
 }
+
 .search-input:hover::placeholder,
 .search-input:focus::placeholder {
 	color: var(--theme-text-light);
 }
+
 .search-input::placeholder {
 	color: var(--theme-text-light);
 }
+
 .search-hint {
 	position: absolute;
 	top: 7px;
@@ -76,5 +83,5 @@
 }
 
 .DocSearch-Container {
-	z-index: 2140;
+	z-index: var(--overlay-higher);
 }

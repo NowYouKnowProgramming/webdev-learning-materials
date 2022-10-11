@@ -1,9 +1,9 @@
 ---
 type ComparisonData = {
-	name: string;
-	downside: string;
-	icon: string;
-};
+	name: string
+	downside: string
+	icon: string
+}
 
 const comparisonData: ComparisonData[] = [
 	{
@@ -21,7 +21,7 @@ const comparisonData: ComparisonData[] = [
 		downside: 'Great for everyone!',
 		icon: '🤩',
 	},
-];
+]
 ---
 
 <div class='main-container'>
@@ -70,13 +70,17 @@ const comparisonData: ComparisonData[] = [
 		grid-gap: 3rem;
 	}
 	li {
-		background-image: linear-gradient(45deg, #a31077, #342366);
+		background-image: linear-gradient(
+			45deg,
+			var(--bewebdev-pink-saturated),
+			var(--bewebdev-purple-saturated)
+		);
 		padding: 1rem;
 		border-radius: 1rem;
 	}
 
 	li * {
-		color: white;
+		color: var(--theme-text);
 	}
 
 	h3 {
