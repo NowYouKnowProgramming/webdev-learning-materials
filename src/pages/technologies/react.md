@@ -85,7 +85,7 @@ layout: ../../layouts/MainLayout.astro
 - [AppUnite - Vue's Slots Composition adapted to React - how and when to use it](https://appunite.com/blog/composition-known-as-slots-in-react)
 - [Theo - ping.gg - Your Folder Structure Hurt Me (reaction to Web Dev Simplified's folder structure video + from 11:06 shows and explain folder structure in his projects)](https://www.youtube.com/watch?v=86i8ZODqMlI)
 
-#### PL
+#### Principles for React in Polish
 
 - [Michał Taszycki - Architektura aplikacji w React.js – czyli poszukiwania Świętego Graala.](https://www.youtube.com/watch?v=eeJF8PdpOko)
 - [Krzysztof Jendrzyca - The Zen of React (jak utrzymywać czysty kod w Reakcie)](https://festiwal.devmastery.pl/zen/)
