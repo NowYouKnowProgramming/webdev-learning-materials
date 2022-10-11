@@ -8,6 +8,59 @@ import { Promo } from './Promo/Promo'
 import WelcomeSection from './WelcomeSection/WelcomeSection.astro'
 ---
 
+<style>
+	* {
+		color: var(--theme-text);
+	}
+
+	main {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		overflow: hidden;
+	}
+
+	h2 {
+		text-align: center;
+		z-index: var(--z-elevated);
+		font-family: 'Inter', sans-serif;
+		font-size: clamp(2rem, 5vw, 3.5rem);
+		color: var(--theme-text);
+	}
+
+	body {
+		display: flex;
+		flex-direction: column;
+		background-image: linear-gradient(
+				to bottom,
+				var(--bewebdev-purple) 4%,
+				transparent 30%
+			),
+			radial-gradient(
+				circle at 15% 15%,
+				var(--bewebdev-pink) 0%,
+				var(--bewebdev-purple) 70%
+			);
+		overflow-x: hidden;
+	}
+
+	.attribution {
+		text-align: center;
+	}
+</style>
+
+<style is:global>
+	header {
+		background-color: rgba(255, 255, 255, 0);
+		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(10px);
+	}
+
+	body {
+		--theme-text: white;
+	}
+</style>
+
 <body>
 	<Header currentPage={currentPage} />
 	<main>
@@ -17,57 +70,4 @@ import WelcomeSection from './WelcomeSection/WelcomeSection.astro'
 		<LandingPageEndingCTA />
 	</main>
 	<LandingPageFooter />
-
-	<style>
-		* {
-			color: var(--theme-text);
-		}
-
-		main {
-			flex: 1;
-			display: flex;
-			flex-direction: column;
-			overflow: hidden;
-		}
-
-		h2 {
-			text-align: center;
-			z-index: var(--z-elevated);
-			font-family: 'Inter', sans-serif;
-			font-size: clamp(2rem, 5vw, 3.5rem);
-			color: var(--theme-text);
-		}
-
-		body {
-			display: flex;
-			flex-direction: column;
-			background-image: linear-gradient(
-					to bottom,
-					var(--bewebdev-purple) 4%,
-					transparent 30%
-				),
-				radial-gradient(
-					circle at 15% 15%,
-					var(--bewebdev-pink) 0%,
-					var(--bewebdev-purple) 70%
-				);
-			overflow-x: hidden;
-		}
-
-		.attribution {
-			text-align: center;
-		}
-	</style>
-
-	<style is:global>
-		header {
-			background-color: rgba(255, 255, 255, 0);
-			backdrop-filter: blur(10px);
-			-webkit-backdrop-filter: blur(10px);
-		}
-
-		body {
-			--theme-text: white;
-		}
-	</style>
 </body>
