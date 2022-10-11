@@ -1,0 +1,33 @@
+---
+import DocsBtn from '../DocsBtn.astro'
+---
+
+<div class='links'>
+	<DocsBtn
+		title='bewebdev.tech docs'
+		href='/introduction'
+		text='Get to the docs'
+	/>
+	<DocsBtn
+		title='bewebdev.tech GitHub'
+		href='https://github.com/NowYouKnowProgramming/webdev-learning-materials'
+		text='Repository'
+		isExternal
+		classes='repo'
+	/>
+</div>
+
+<style>
+	.links {
+		margin-top: 2rem;
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		flex-wrap: wrap;
+	}
+
+	.links a {
+		flex: 1;
+		white-space: nowrap;
+	}
+</style>

@@ -1,0 +1,80 @@
+---
+import MainLinks from './MainLinks.astro'
+---
+
+<div class='welcome'>
+	<div class='content'>
+		<h2>The best way to learn web development</h2>
+		<p>Carefully selected, verified, up to date</p>
+		<MainLinks />
+	</div>
+	<img
+		aria-hidden='true'
+		class='puzzle'
+		src='/images/misc/puzzle.webp'
+		alt=''
+	/>
+</div>
+
+<style>
+	.welcome {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		flex: 1;
+
+		position: relative;
+		overflow-x: hidden;
+		min-height: 91vh;
+	}
+
+	.puzzle {
+		max-height: 50%;
+		max-width: 90vw;
+		position: absolute;
+		z-index: var(--z-base);
+		aspect-ratio: 1596/1222;
+		animation: rotate 200s infinite linear;
+	}
+
+	.content {
+		z-index: var(--z-elevated);
+		width: min(500px, 95vw);
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.content p {
+		color: var(--theme-text);
+	}
+
+	@keyframes rotate {
+		from {
+			rotate: 0deg;
+		}
+		to {
+			rotate: 360deg;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.puzzle {
+			opacity: 0.5;
+		}
+	}
+
+	@media (min-width: 768px) {
+		.puzzle {
+			position: relative;
+			width: 500px;
+		}
+
+		.welcome {
+			flex-direction: row;
+		}
+	}
+</style>

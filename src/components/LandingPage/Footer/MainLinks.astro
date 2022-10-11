@@ -1,10 +1,15 @@
 ---
-import DocsBtn from './DocsBtn.astro';
+import DocsBtn from '../DocsBtn.astro'
 ---
 
 <div class='links'>
-	<DocsBtn href='/introduction' text='Get to the docs' />
 	<DocsBtn
+		title='bewebdev.tech introduction'
+		href='/introduction'
+		text='Get to the docs'
+	/>
+	<DocsBtn
+		title='GitHub bewebdev.tech repository'
 		href='https://github.com/NowYouKnowProgramming/webdev-learning-materials'
 		text='Repository'
 		isExternal
