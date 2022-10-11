@@ -112,9 +112,9 @@ layout: ../../layouts/MainLayout.astro
 Screenshots
 </summary>
 
-![First advice about the React fetching](/images/react/react-fetching-1_3.png)
-![Second advice about the React fetching](/images/react/react-fetching-2_3.png)
-![Third advice about the React fetching](/images/react/react-fetching-3_3.png)
+<img src="/images/react/react-fetching-1_3.webp" alt="First advice about the React fetching" loading="lazy">
+<img src="/images/react/react-fetching-2_3.webp" alt="Second advice about the React fetching" loading="lazy">
+<img src="/images/react/react-fetching-3_3.webp" alt="Third advice about the React fetching" loading="lazy">
 
 </details>
 
