@@ -1,30 +1,39 @@
 ---
 type FooterLink = {
-	name: string;
-	href: string;
-};
+	name: string
+	href: string
+	title: string
+}
 
 const footerLinks: FooterLink[] = [
 	{
 		name: 'Visit repository',
 		href: 'https://github.com/NowYouKnowProgramming/webdev-learning-materials',
+		title: 'GitHub repository of bewebdev.tech',
 	},
 	{
 		name: 'Suggest an improvement',
 		href: 'https://github.com/NowYouKnowProgramming/webdev-learning-materials/issues',
+		title: 'GitHub Issues section for bewebdev.tech',
 	},
 	{
 		name: 'Contributors',
 		href: 'https://github.com/NowYouKnowProgramming/webdev-learning-materials/graphs/contributors',
+		title: 'All contributors of bewebdev.tech on GitHub',
 	},
-];
+]
 ---
 
 <ul>
 	{
 		footerLinks.map((link) => (
 			<li>
-				<a rel='noopener noreferrer' target='_blank' href={link.href}>
+				<a
+					title={link.title}
+					rel='noopener noreferrer'
+					target='_blank'
+					href={link.href}
+				>
 					{link.name}
 				</a>
 			</li>
