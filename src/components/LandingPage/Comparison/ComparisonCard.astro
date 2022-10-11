@@ -10,7 +10,7 @@ const { name, downside, icon }: Props = Astro.props
 
 <li class='side-by-side'>
 	<div>
-		<h3 class='card-title'>{name}</h3>
+		<p class='card-title'>{name}</p>
 		<p>{downside}</p>
 	</div>
 	<div class='icon'>{icon}</div>
@@ -40,6 +40,8 @@ const { name, downside, icon }: Props = Astro.props
 
 	.card-title {
 		margin: 0;
+		font-size: 1.8rem;
+		font-weight: bold;
 	}
 
 	.icon {
