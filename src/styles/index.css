@@ -141,6 +141,10 @@ ul li {
 	line-height: 1.5;
 }
 
+section ul li {
+	line-height: 2.2;
+}
+
 small,
 .text_small {
 	font-size: 0.833rem;
