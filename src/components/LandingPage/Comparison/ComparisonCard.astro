@@ -1,0 +1,48 @@
+---
+export type Props = {
+	name: string
+	downside: string
+	icon: string
+}
+
+const { name, downside, icon }: Props = Astro.props
+---
+
+<li class='side-by-side'>
+	<div>
+		<h3 class='card-title'>{name}</h3>
+		<p>{downside}</p>
+	</div>
+	<div class='icon'>{icon}</div>
+</li>
+
+<style>
+	.side-by-side {
+		display: flex;
+		justify-content: space-between;
+		gap: 1rem;
+		align-items: center;
+	}
+
+	li {
+		background-image: linear-gradient(
+			45deg,
+			var(--bewebdev-pink-saturated),
+			var(--bewebdev-purple-saturated)
+		);
+		padding: 1rem;
+		border-radius: 1rem;
+	}
+
+	li * {
+		color: var(--theme-text);
+	}
+
+	.card-title {
+		margin: 0;
+	}
+
+	.icon {
+		font-size: 5rem;
+	}
+</style>
