@@ -1,0 +1,9 @@
+.root {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  user-select: none;
+  pointer-events: none;
+  filter: drop-shadow(0 0 10px gold);
+}
