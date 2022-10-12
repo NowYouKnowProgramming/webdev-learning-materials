@@ -1,6 +1,6 @@
 /** @jsxImportSource react */
 
-import { MouseParallax, ScrollParallax } from 'react-just-parallax'
+import { ScrollParallax } from 'react-just-parallax'
 import classes from './Star.module.css'
 
 type Props = {
