@@ -34,3 +34,4 @@ layout: ../../layouts/MainLayout.astro
 - [List of git commands for different situations](https://ohshitgit.com/)
 - [How to learn Git slowly.](https://dev.to/samuelfaure/how-to-learn-git-slowly-38fa)
 - [Undo wrong Git changes](https://dev.to/dailydevtips1/undo-wrong-git-changes-32mc)
+- [Oh My Git! Game about learning Git](https://ohmygit.org/)
