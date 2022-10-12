@@ -46,11 +46,13 @@
 @font-face {
 	font-family: 'ReemKufiInk';
 	src: url('/fonts/ReemKufiInk-Regular.ttf');
+	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Inter';
 	src: url('/fonts/Inter-Regular.ttf');
+	font-display: swap;
 }
 
 body {
@@ -137,6 +139,10 @@ p,
 ul li {
 	font-family: 'ReemKufiInk', sans-serif;
 	line-height: 1.5;
+}
+
+section ul li {
+	line-height: 2.2;
 }
 
 small,

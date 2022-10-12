@@ -1,10 +1,8 @@
 ---
-import { getLanguageFromURL, KNOWN_LANGUAGE_CODES } from '../../languages'
 import * as CONFIG from '../../config'
 import AstroLogo from './AstroLogo.astro'
 import SkipToContent from './SkipToContent.astro'
 import SidebarToggle from './SidebarToggle'
-import LanguageSelect from './LanguageSelect'
 import Search from './Search'
 import ThemeToggle from '../RightSidebar/ThemeToggleButton'
 
@@ -13,7 +11,6 @@ type Props = {
 }
 
 const { currentPage } = Astro.props as Props
-const lang = getLanguageFromURL(currentPage)
 
 const currentPageIsRoot = currentPage === '/'
 ---
@@ -43,12 +40,6 @@ const currentPageIsRoot = currentPage === '/'
 				}
 			</a>
 		</div>
-		<div style='flex-grow: 1;'></div>
-		{
-			KNOWN_LANGUAGE_CODES.length > 1 && (
-				<LanguageSelect lang={lang} client:idle />
-			)
-		}
 		<div class='search-item'>
 			<Search client:idle />
 		</div>
