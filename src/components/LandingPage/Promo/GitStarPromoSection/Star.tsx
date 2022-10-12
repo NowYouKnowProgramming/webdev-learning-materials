@@ -1,6 +1,6 @@
 /** @jsxImportSource react */
 
-import { MouseParallax } from 'react-just-parallax'
+import { MouseParallax, ScrollParallax } from 'react-just-parallax'
 import classes from './Star.module.css'
 
 type Props = {
@@ -10,12 +10,11 @@ type Props = {
 
 export const Star = ({ style, strength = 0.05 }: Props) => {
 	return (
-		<MouseParallax
+		<ScrollParallax
 			isAbsolutelyPositioned
-			strength={strength / 4}
+			strength={strength / 2}
 			enableOnTouchDevice={false}
 			shouldPause={true}
-			shouldResetPosition={true}
 		>
 			<img
 				className={classes.root}
@@ -24,6 +23,6 @@ export const Star = ({ style, strength = 0.05 }: Props) => {
 				alt=''
 				aria-hidden='true'
 			/>
-		</MouseParallax>
+		</ScrollParallax>
 	)
 }

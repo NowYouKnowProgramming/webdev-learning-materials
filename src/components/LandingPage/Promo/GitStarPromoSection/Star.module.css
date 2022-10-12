@@ -7,3 +7,9 @@
   pointer-events: none;
   filter: drop-shadow(0 0 10px gold);
 }
+
+@media (max-width: 768px) {
+  .root {
+    opacity: .3;
+  }
+}

@@ -12,6 +12,7 @@
 
 .textContainer {
   z-index: var(--z-floating-base);
+  position: relative;
 }
 
 
@@ -47,15 +48,16 @@
 .button:focus {
   animation: pulse .8s;
   box-shadow: 0 0 2em 2em rgb(255 255 255 / 0%);
-  --hover: var(--bewebdev-pink-saturated);
+  --hover: gold;
   scale: 0.98;
+  background-color: var(--bewebdev-purple-saturated);
 }
 
 
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 var(--bewebdev-pink-saturated);
+    box-shadow: 0 0 0 0 gold;
   }
 }
 
