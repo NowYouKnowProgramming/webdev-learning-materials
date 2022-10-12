@@ -6,6 +6,7 @@ import Comparison from './Comparison/Comparison.astro'
 const currentPage = Astro.url.pathname
 import { Promo } from './Promo/Promo'
 import WelcomeSection from './WelcomeSection/WelcomeSection.astro'
+import { GitStarPromoSection } from './Promo/GitStarPromoSection/GitStarPromoSection'
 ---
 
 <style>
@@ -67,6 +68,7 @@ import WelcomeSection from './WelcomeSection/WelcomeSection.astro'
 		<WelcomeSection />
 		<Promo client:only='react' />
 		<Comparison />
+		<GitStarPromoSection client:only='react' />
 		<LandingPageEndingCTA />
 	</main>
 	<LandingPageFooter />
