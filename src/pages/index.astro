@@ -18,7 +18,7 @@ const frontmatter: Frontmatter = {
 }
 ---
 
-<html>
+<html dir={frontmatter.dir ?? 'ltr'} lang={frontmatter.lang ?? 'en'}>
 	<head>
 		<HeadCommon />
 		<LandingSEO />

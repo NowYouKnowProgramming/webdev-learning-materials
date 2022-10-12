@@ -1,18 +1,18 @@
 ---
-import { SITE, OPEN_GRAPH, Frontmatter } from '../config';
+import { SITE, OPEN_GRAPH, Frontmatter } from '../config'
 
 export interface Props {
-	frontmatter: Frontmatter;
-	canonicalUrl: URL;
+	frontmatter: Frontmatter
+	canonicalUrl: URL
 }
 
-const { frontmatter, canonicalUrl } = Astro.props as Props;
-const formattedContentTitle = `${frontmatter.title} 🌐 ${SITE.title}`;
-const imageAlt = frontmatter.image?.alt ?? OPEN_GRAPH.image.alt;
+const { frontmatter, canonicalUrl } = Astro.props as Props
+const formattedContentTitle = `${frontmatter.title} 🌐 ${SITE.title}`
+const imageAlt = frontmatter.image?.alt ?? OPEN_GRAPH.image.alt
 
-const META_IMG_URL = 'https://bewebdev.tech/metaimage.webp';
+const META_IMG_URL = 'https://bewebdev.tech/metaimage.webp'
 
-const DESCRIPTION = frontmatter.description ?? SITE.description;
+const DESCRIPTION = frontmatter.description ?? SITE.description
 ---
 
 <!-- Page Metadata -->

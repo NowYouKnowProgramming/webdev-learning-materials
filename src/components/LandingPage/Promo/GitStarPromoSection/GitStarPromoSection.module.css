@@ -15,7 +15,6 @@
   position: relative;
 }
 
-
 .sectionTitle {
   text-align: center;
   margin: 0 auto;
@@ -53,8 +52,6 @@
   scale: 0.98;
   background-color: var(--bewebdev-purple-saturated);
 }
-
-
 
 @keyframes pulse {
   0% {

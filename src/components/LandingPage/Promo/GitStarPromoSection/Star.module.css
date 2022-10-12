@@ -1,24 +1,24 @@
 .root {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  user-select: none;
-  pointer-events: none;
-  filter: drop-shadow(0 0 15px rgba(255, 217, 0, 0));
-  transition: filter 2s, scale 2s;
-  transform-origin: 10% 15%;
-  width: 60px;
-  height: 60px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	user-select: none;
+	pointer-events: none;
+	filter: drop-shadow(0 0 15px rgba(255, 217, 0, 0));
+	transition: filter 2s, scale 2s;
+	transform-origin: 10% 15%;
+	width: 60px;
+	height: 60px;
 }
 
 .strongGlow {
-  filter: drop-shadow(0 0 20px rgba(255, 217, 0, 0.443));
-  transition-delay: .2s;
+	filter: drop-shadow(0 0 20px rgba(255, 217, 0, 0.443));
+	transition-delay: 0.2s;
 }
 
 @media (max-width: 768px) {
-  .root {
-    opacity: .3;
-  }
+	.root {
+		opacity: 0.3;
+	}
 }

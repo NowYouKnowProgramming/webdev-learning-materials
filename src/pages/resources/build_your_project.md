@@ -21,7 +21,7 @@ layout: ../../layouts/MainLayout.astro
 - [Localhost Academy - Jak planować zbudowanie projektu, aby się nie zgubić i wiedzieć, co robić dalej?](https://www.youtube.com/watch?v=wNO1hL6v0Ng)
 - [Notatki z tego wykładu](https://regal-vertebra-c76.notion.site/2020-08-06-Burza-m-zg-w-odno-nie-nowej-aplikacji-XNotes-w-metodyce-BDD-2020-09-16-Om-wienie-p-020d6c12e6fc4f1a9bd7781fdb26883d)
   W jaki sposób podejść do tworzenia projektu? Interesujący komentarz z grupy na FB:
-- ![Komentarz dot. tworzenia projektu](/images/misc/projekt.png)
+- ![Komentarz dot. tworzenia projektu](/images/misc/projekt.webp)
 
 ## Code review tips
 
