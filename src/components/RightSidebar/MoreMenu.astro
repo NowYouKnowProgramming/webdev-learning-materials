@@ -1,5 +1,6 @@
 ---
 import * as CONFIG from '../../config'
+import GitHubStarLink from '../GitHubStarLink/GitHubStarLink.astro'
 
 type Props = {
 	editHref: string
@@ -60,12 +61,20 @@ const showMoreSection = CONFIG.COMMUNITY_INVITE_URL
 					</svg>
 					<span>Contribute to the project</span>
 				</a>
-			</li>
+				</li>
+				<li class={`heading-link depth-2 git-btn`}>
+					<GitHubStarLink />
+				</li>
 		)
 	}
 </ul>
 
 <style>
+	.git-btn {
+		display: flex;
+		align-items: center;
+	}
+
 	.edit-on-github {
 		text-decoration: none;
 		font: inherit;
