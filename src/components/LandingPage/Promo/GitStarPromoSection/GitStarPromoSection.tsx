@@ -10,6 +10,15 @@ import { Stars } from './Stars'
 
 export const GitStarPromoSection = () => {
 	const [starCount, setStarCount] = useState(0)
+	const [isHoveredOver, setIsHoveredOver] = useState(false)
+
+	const handleHoverOver = () => {
+		setIsHoveredOver(true)
+	}
+
+	const handleHoverOut = () => {
+		setIsHoveredOver(false)
+	}
 
 	useEffect(() => {
 		const stars = getStarFromLocalStorage()
@@ -28,6 +37,8 @@ export const GitStarPromoSection = () => {
 			<div className={classes.textContainer}>
 				<h2 className={classes.sectionTitle}>Give us a ⭐ on GitHub</h2>
 				<a
+					onMouseOver={handleHoverOver}
+					onMouseOut={handleHoverOut}
 					className={classes.button}
 					href='https://github.com/NowYouKnowProgramming/webdev-learning-materials'
 				>
@@ -41,7 +52,7 @@ export const GitStarPromoSection = () => {
 					)}
 				</a>
 			</div>
-			<Stars />
+			<Stars shouldGlow={isHoveredOver} />
 		</div>
 	)
 }

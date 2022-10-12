@@ -2,7 +2,11 @@
 
 import { Star } from './Star'
 
-export const Stars = () => {
+type Props = {
+	shouldGlow: boolean
+}
+
+export const Stars = ({ shouldGlow }: Props) => {
 	return (
 		<>
 			<Star
@@ -11,6 +15,7 @@ export const Stars = () => {
 					left: '10%',
 				}}
 				strength={0.05}
+				shouldGlow={shouldGlow}
 			/>
 			<Star
 				style={{
@@ -18,6 +23,7 @@ export const Stars = () => {
 					left: '60%',
 				}}
 				strength={0.03}
+				shouldGlow={shouldGlow}
 			/>
 			<Star
 				style={{
@@ -25,6 +31,7 @@ export const Stars = () => {
 					left: '50%',
 				}}
 				strength={0.05}
+				shouldGlow={shouldGlow}
 			/>
 			<Star
 				style={{
@@ -32,6 +39,7 @@ export const Stars = () => {
 					left: '15%',
 				}}
 				strength={0.05}
+				shouldGlow={shouldGlow}
 			/>
 			<Star
 				style={{
@@ -39,6 +47,7 @@ export const Stars = () => {
 					left: '55%',
 				}}
 				strength={0.05}
+				shouldGlow={shouldGlow}
 			/>
 			<Star
 				style={{
@@ -46,6 +55,7 @@ export const Stars = () => {
 					top: '68%',
 				}}
 				strength={0.18}
+				shouldGlow={shouldGlow}
 			/>
 			<Star
 				style={{
@@ -53,6 +63,7 @@ export const Stars = () => {
 					top: '80%',
 				}}
 				strength={0.14}
+				shouldGlow={shouldGlow}
 			/>
 			<Star
 				style={{
@@ -60,6 +71,7 @@ export const Stars = () => {
 					top: '30%',
 				}}
 				strength={0.07}
+				shouldGlow={shouldGlow}
 			/>
 			<Star
 				style={{
@@ -67,6 +79,7 @@ export const Stars = () => {
 					top: '70%',
 				}}
 				strength={0.03}
+				shouldGlow={shouldGlow}
 			/>
 			<Star
 				style={{
@@ -74,6 +87,7 @@ export const Stars = () => {
 					top: '50%',
 				}}
 				strength={0.09}
+				shouldGlow={shouldGlow}
 			/>
 			<Star
 				style={{
@@ -81,6 +95,7 @@ export const Stars = () => {
 					top: '10%',
 				}}
 				strength={0.03}
+				shouldGlow={shouldGlow}
 			/>
 		</>
 	)

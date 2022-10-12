@@ -20,6 +20,7 @@
   text-align: center;
   margin: 0 auto;
   margin-bottom: 2rem;
+  transition: text-shadow .5s;
 }
 
 .button {
