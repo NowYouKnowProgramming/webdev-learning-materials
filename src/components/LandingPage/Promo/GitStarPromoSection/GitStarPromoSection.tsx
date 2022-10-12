@@ -6,8 +6,6 @@ import { getStarFromLocalStorage } from './getStarFromLocalStorage'
 import classes from './GitStarPromoSection.module.css'
 import { Stars } from './Stars'
 
-//TODO add stars floating moving on mouse move
-
 export const GitStarPromoSection = () => {
 	const [starCount, setStarCount] = useState(0)
 	const [isHoveredOver, setIsHoveredOver] = useState(false)
