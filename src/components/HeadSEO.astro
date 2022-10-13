@@ -7,7 +7,7 @@ export interface Props {
 }
 
 const { frontmatter, canonicalUrl } = Astro.props as Props
-const formattedContentTitle = `${frontmatter.title} 🌐 ${SITE.title}`
+const formattedContentTitle = `${frontmatter.title} 🧩 ${SITE.title}`
 const imageAlt = frontmatter.image?.alt ?? OPEN_GRAPH.image.alt
 
 const META_IMG_URL = 'https://bewebdev.tech/metaimage.webp'
