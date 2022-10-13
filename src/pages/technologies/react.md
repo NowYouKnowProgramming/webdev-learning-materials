@@ -176,6 +176,7 @@ Screenshots
 ### React recruitment materials
 
 - [Conner Ardman - React Coding Interview Ft. Clément Mihailescu (build the wordle clone)](https://www.youtube.com/watch?v=5xf4_Kx7azg)
+  - [Used API (if someone wants to recreate the task)](https://api.frontendexpert.io/api/fe/wordle-words)
 
 #### Polish recruitment materials
 
@@ -183,7 +184,7 @@ Screenshots
 
 ### Other React materials
 
-- [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM) [Used API (if someone wants to recreate the task)](https://api.frontendexpert.io/api/fe/wordle-words)
+- [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
 - [uidotdev - The Story of React](https://www.youtube.com/watch?v=Wm_xI7KntDs)
 - [uidotdev - The Story of Next.js](https://www.youtube.com/watch?v=BILxV_vrZO0)
 - [uidotdev - The Story of Concurrent React](https://www.youtube.com/watch?v=NZoRlVi3MjQ)
