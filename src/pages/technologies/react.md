@@ -14,6 +14,9 @@ layout: ../../layouts/MainLayout.astro
 
 #### JavaScript Version
 
+<details>
+<summary>List of materials</summary>
+
 - [React Fundamentals](https://github.com/kentcdodds/react-fundamentals)
 - [React Hooks](https://github.com/kentcdodds/react-hooks)
 - [Advanced React Hooks](https://github.com/kentcdodds/advanced-react-hooks)
@@ -23,10 +26,17 @@ layout: ../../layouts/MainLayout.astro
 - [React Suspence](https://github.com/kentcdodds/react-suspense)
 - [Build an Epic React App (Bookshelf)](https://github.com/kentcdodds/bookshelf)
 
+</details>
+
 #### TypeScript Version **(recommended)**
+
+<details>
+<summary>List of materials</summary>
 
 - [React Fundamentals](https://github.com/Willaiem/react-fundamentals-typescript)
 - [React Hooks](https://github.com/Willaiem/react-hooks-typescript)
+
+</details>
 
 #### Other React tutorials
 
