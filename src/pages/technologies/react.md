@@ -186,7 +186,6 @@ Screenshots
 
 - [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
 - [uidotdev - The Story of React](https://www.youtube.com/watch?v=Wm_xI7KntDs)
-- [uidotdev - The Story of Next.js](https://www.youtube.com/watch?v=BILxV_vrZO0)
 - [uidotdev - The Story of Concurrent React](https://www.youtube.com/watch?v=NZoRlVi3MjQ)
 
 #### Other Polish mateirals

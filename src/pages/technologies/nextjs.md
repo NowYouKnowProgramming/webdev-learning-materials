@@ -16,6 +16,7 @@ layout: ../../layouts/MainLayout.astro
 
 - [Migrating from create react app](https://nextjs.org/docs/migrating/from-create-react-app)
 - [FAQ](https://nextjs.org/docs/faq)
+- [uidotdev - The Story of Next.js](https://www.youtube.com/watch?v=BILxV_vrZO0)
 
 ### Rendering in NextJs
 
