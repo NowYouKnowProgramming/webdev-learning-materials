@@ -56,6 +56,7 @@ layout: ../../layouts/MainLayout.astro
 
 #### Custom hooks
 
+- [useHooks - Easy to understand React Hook recipes by ui.dev](https://usehooks.com/)
 - [Felix Gerschau - Form validation with React Hooks WITHOUT a library: The Complete Guide](https://felixgerschau.com/react-hooks-form-validation-typescript/)
 - [Web Dev Junkie - How you can use custom hooks to abstract your React code](https://www.youtube.com/watch?v=S2rzM9IQVdg)
 
@@ -91,7 +92,7 @@ layout: ../../layouts/MainLayout.astro
 #### Principles for React in Polish
 
 - [Michał Taszycki - Architektura aplikacji w React.js – czyli poszukiwania Świętego Graala.](https://www.youtube.com/watch?v=eeJF8PdpOko)
-- [Krzysztof Jendrzyca - The Zen of React (jak utrzymywać czysty kod w Reakcie)](https://festiwal.devmastery.pl/zen/)
+- [Krzysztof Jendrzyca - The Zen of React (jak utrzymywać czysty kod w React)](https://festiwal.devmastery.pl/zen/)
 
 ##### Przeprogramowani - mini-seria ze wzorca State Machine
 
@@ -99,7 +100,7 @@ layout: ../../layouts/MainLayout.astro
 - [Przeprogramowani - Jak zastosować State Machine w praktyce? | Wzorzec State Machine #2](https://www.youtube.com/watch?v=XRUFIQgOXJQ)
 - [Przeprogramowani - Zarządzanie stanem z XState | Wzorzec State Machine #3](https://www.youtube.com/watch?v=AIN-_KgU4BQ)
 
-  _Warte zobaczenia, bo daje szerszy obraz na to, jak można efektywniej zarządzać stanem w Reakcie._
+  _Warte zobaczenia, bo daje szerszy obraz na to, jak można efektywniej zarządzać stanem w React._
   _Trwa około 40 minut._
 
 [Slajdy z powyższego wykładu](https://thezenofreact.com/) po stronie trzeba poruszać się strzałkami (lewo/prawo).
@@ -140,14 +141,21 @@ Screenshots
 
 - [Jack Herrington - Mastering React Batch Updating](https://www.youtube.com/watch?v=MlDTHzK1vKI)
 - [React is slow, what now?](https://nosleepjavascript.com/react-performance/)
-- [Kent C. Dodds - Memoization and React](https://epicreact.dev/memoization-and-react/)
-- [Kent C. Dodds - When to useMemo and useCallback.](https://kentcdodds.com/blog/usememo-and-usecallback)
 - [Web Dev Junkie - How to implement the MVC pattern in React (very interesting approach to this problem)](https://www.youtube.com/watch?v=LIlTrgVz4QA)
 - [Lydia Hallie - Advanced Rendering Patterns (what shortcuts like ISR, SSG and SSR really mean? )](https://www.youtube.com/watch?v=PN1HgvAOmi8)
+
+#### About useMemo and useCallback
+
+- [Kent C. Dodds - Memoization and React](https://epicreact.dev/memoization-and-react/)
+- [Kent C. Dodds - When to useMemo and useCallback.](https://kentcdodds.com/blog/usememo-and-usecallback)
+- [Demystifying React Hooks: useCallback and useMemo - dev.to](https://dev.to/milu_franz/demystifying-react-hooks-usecallback-and-usememo-1a8j)
+- [Learn useMemo In 10 Minutes - YouTube: Web Dev Simplified](https://www.youtube.com/watch?v=THL1OPn72vo)
+- [Learn useCallback In 8 Minutes - YouTube: Web Dev Simplified](https://www.youtube.com/watch?v=_AyFP5s69N4)
 
 ### React libraries
 
 - [Best React Libraries to Use](https://www.reddit.com/r/reactjs/comments/vxklim/best_react_libraries_to_use_in_2022/)
+- [Animations In React - Framer-Motion Tutorial - YouTube: PedroTech](https://www.youtube.com/watch?v=GOuwOI-WSkE)
 
 ### Debugging React apps
 
@@ -161,7 +169,7 @@ Screenshots
 
 #### Polish recruitment materials
 
-- 🇵🇱 [Przeprogramowani - Pięć pytań rekrutacyjnych z Reacta na 2022](https://www.youtube.com/watch?v=ObNaZr9frxY)
+- [Przeprogramowani - Pięć pytań rekrutacyjnych z Reacta na 2022](https://www.youtube.com/watch?v=ObNaZr9frxY)
 
 ### Other React materials
 
@@ -172,4 +180,4 @@ Screenshots
 
 #### Other Polish mateirals
 
-- [Zarządzanie stanem bez serwera w Reakcie (jak zarządzać złożonym stanem w Reakcie) - Bartosz Cytrowski](https://festiwal.devmastery.pl/stan/)
+- [Zarządzanie stanem bez serwera w React (jak zarządzać złożonym stanem w React) - Bartosz Cytrowski](https://festiwal.devmastery.pl/stan/)
