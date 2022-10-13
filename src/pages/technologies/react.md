@@ -4,6 +4,10 @@ description: Useful materials about React. Hooks, React + TypeScript, best pract
 layout: ../../layouts/MainLayout.astro
 ---
 
+## Start here
+
+- [New React Docs (beta)](https://beta.reactjs.org/)
+
 ## Free
 
 ### Kent C. Dodds - React Workshops (from Epic React)
@@ -30,7 +34,6 @@ layout: ../../layouts/MainLayout.astro
 - [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
 - [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
 - [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
-- [New React Docs (beta)](https://beta.reactjs.org/)
 - [React Framwork.dev - different React resources (books, videos, courses, podcasts) and more](https://react.framework.dev/)
 
 ## Paid
