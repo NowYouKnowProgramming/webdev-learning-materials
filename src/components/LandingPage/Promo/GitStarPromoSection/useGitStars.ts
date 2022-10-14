@@ -21,7 +21,7 @@ export const useGitStars = () => {
 		}
 	}, [])
 
-	const hasStarsToDisplay = starCount !== 0 && !isNaN(starCount)
+	const hasStarsToDisplay = starCount !== 0 && Number.isFinite(starCount)
 
 	return {
 		starCount,
