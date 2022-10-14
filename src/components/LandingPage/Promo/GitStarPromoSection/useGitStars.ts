@@ -10,12 +10,12 @@ export const useGitStars = () => {
 			const localStorageStarCount = getStarFromLocalStorage()
 			if (localStorageStarCount !== null) {
 				setStarCount(localStorageStarCount.starCount)
+				return
 			}
-			if (localStorageStarCount === null) {
-				getStarCount().then((count) => {
-					setStarCount(count)
-				})
-			}
+
+			getStarCount().then((count) => {
+				setStarCount(count)
+			})
 		} catch (error) {
 			setStarCount(0)
 		}
