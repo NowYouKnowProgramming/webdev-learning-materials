@@ -6,7 +6,7 @@
 	user-select: none;
 	pointer-events: none;
 	filter: drop-shadow(0 0 15px rgba(255, 217, 0, 0));
-	transition: filter 2s, scale 2s;
+	transition: filter 2s, scale 1.2s;
 	transform-origin: 10% 15%;
 	width: 60px;
 	height: 60px;
