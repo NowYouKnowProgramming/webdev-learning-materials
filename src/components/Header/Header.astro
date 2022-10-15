@@ -13,6 +13,11 @@ type Props = {
 const { currentPage } = Astro.props as Props
 
 const currentPageIsRoot = currentPage === '/'
+
+const {ALGOLIA} = CONFIG
+const {apiKey,appId,indexName} = ALGOLIA
+
+const algoliaIsSetUp = indexName && appId && apiKey
 ---
 
 <header>
@@ -40,9 +45,9 @@ const currentPageIsRoot = currentPage === '/'
 				}
 			</a>
 		</div>
-		<div class='search-item'>
+		{algoliaIsSetUp&& <div class='search-item'>
 			<Search client:idle />
-		</div>
+		</div>}
 		<ThemeToggle client:visible />
 	</nav>
 </header>
