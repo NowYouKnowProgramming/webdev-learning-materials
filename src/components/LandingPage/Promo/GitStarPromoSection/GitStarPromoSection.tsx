@@ -1,34 +1,13 @@
 /** @jsxImportSource react */
 
-import { useEffect, useState } from 'react'
-import { getStarCount } from './getStarCount'
-import { getStarFromLocalStorage } from './getStarFromLocalStorage'
 import classes from './GitStarPromoSection.module.css'
 import { Stars } from './Stars'
+import { useGitStars } from './useGitStars'
+import { useStarsHover } from './useStarsHover'
 
 export const GitStarPromoSection = () => {
-	const [starCount, setStarCount] = useState(0)
-	const [isHoveredOver, setIsHoveredOver] = useState(false)
-
-	const handleHoverOver = () => {
-		setIsHoveredOver(true)
-	}
-
-	const handleHoverOut = () => {
-		setIsHoveredOver(false)
-	}
-
-	useEffect(() => {
-		const stars = getStarFromLocalStorage()
-		if (stars !== null) {
-			setStarCount(stars.starCount)
-		}
-		if (stars === null) {
-			getStarCount().then((count) => {
-				setStarCount(count)
-			})
-		}
-	}, [])
+	const { starCount, hasStars } = useGitStars()
+	const { handleHoverOut, handleHoverOver, isHoveredOver } = useStarsHover()
 
 	return (
 		<div className={classes.root}>
@@ -41,12 +20,11 @@ export const GitStarPromoSection = () => {
 					href='https://github.com/NowYouKnowProgramming/webdev-learning-materials'
 				>
 					<span className={classes.textInButton}>Star</span>
-					{!!starCount && (
-						<>
-							<span className={classes.separator} aria-hidden='true' />
-
-							<span className={classes.textInButton}>{starCount}</span>
-						</>
+					<span className={classes.separator} aria-hidden='true' />
+					{hasStars ? (
+						<span className={classes.textInButton}>{starCount}</span>
+					) : (
+						'😎'
 					)}
 				</a>
 			</div>
