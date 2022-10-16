@@ -149,7 +149,7 @@ Screenshots
 
 ### React Portals
 
-- [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
+- [Theo - ping.gg - how to use React Portals and why?](https://www.youtube.com/watch?v=IgJcK0SbiLM)
 
 ### React testing
 
