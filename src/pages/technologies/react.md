@@ -143,9 +143,9 @@ Screenshots
 
 - [Jack Herrington - Mastering React Context: Do you NEED a state manager?](https://www.youtube.com/watch?v=MpdFj8MEuJA)
 
-### React Memo
+### React Portals
 
-- [Jack Herrington - Mastering React Memo](https://www.youtube.com/watch?v=DEPwA3mv_R8)
+- [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
 
 ### React testing
 
