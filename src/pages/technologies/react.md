@@ -108,6 +108,7 @@ layout: ../../layouts/MainLayout.astro
 
 - [Michał Taszycki - Architektura aplikacji w React.js – czyli poszukiwania Świętego Graala.](https://www.youtube.com/watch?v=eeJF8PdpOko)
 - [Krzysztof Jendrzyca - The Zen of React (jak utrzymywać czysty kod w React)](https://festiwal.devmastery.pl/zen/)
+- [Michał Taszycki - Legacy React - czyli jak zrobić refactoring i nie stracić pracy!](https://www.youtube.com/watch?v=92fvMwBrHGA)
 
 ##### Przeprogramowani - mini-seria ze wzorca State Machine
 
