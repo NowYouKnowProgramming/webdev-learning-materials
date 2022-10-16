@@ -1,8 +1,10 @@
 ---
-import MainLinks from './MainLinks.astro'
+import MainLinks from './MainLinks.astro';
 ---
 
-<div class='welcome'>
+
+
+<div class={`welcome first-join`}>
 	<div class='content'>
 		<h2>The best way to learn web development</h2>
 		<p>Carefully selected, verified, up to date</p>
@@ -16,7 +18,7 @@ import MainLinks from './MainLinks.astro'
 	/>
 </div>
 
-<style>
+<style lang="scss">
 	.welcome {
 		display: flex;
 		align-items: center;
@@ -35,7 +37,7 @@ import MainLinks from './MainLinks.astro'
 		position: absolute;
 		z-index: var(--z-base);
 		aspect-ratio: 1596/1222;
-		animation: rotate 200s infinite linear;
+		animation: rotate 200s infinite linear var(--appear-time);
 	}
 
 	.content {
@@ -48,6 +50,20 @@ import MainLinks from './MainLinks.astro'
 		justify-content: center;
 	}
 
+	@media (prefers-reduced-motion:no-preference) {
+		.first-join {
+			--appear-time: 2s;
+
+			.content {
+				animation: 1s slide-appear .5s backwards;
+			}
+
+			.puzzle {
+				animation: rotate 200s infinite linear var(--appear-time), rotate-appear var(--appear-time);
+			}
+		}
+	}
+
 	.content p {
 		color: var(--theme-text);
 	}
@@ -58,6 +74,29 @@ import MainLinks from './MainLinks.astro'
 		}
 		to {
 			rotate: 360deg;
+		}
+	}
+
+	@keyframes rotate-appear {
+		from {
+			scale: .9;
+			rotate: -30deg;
+			opacity: 0;
+			translate: 0 5%;
+		}
+		to {
+			scale: 1;
+		}
+	}
+
+	@keyframes slide-appear {
+		from {
+			translate: 0 5%;
+			opacity: 0;
+		}
+		to {
+			translate: 0 0;
+			opacity: 1;
 		}
 	}
 
