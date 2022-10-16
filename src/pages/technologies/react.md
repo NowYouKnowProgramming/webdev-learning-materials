@@ -165,13 +165,22 @@ Screenshots
 - [Optimizing performance in a React application](https://blog.logrocket.com/5-react-performance-optimization-techniques/)
 - [Modus - How to optimize a React.js app bundle performance to load under 3s](https://www.youtube.com/watch?v=j8NJc60H294)
 
-#### About useMemo and useCallback
+### Memoization in React
 
 - [Kent C. Dodds - Memoization and React](https://epicreact.dev/memoization-and-react/)
+- [Ben Awad - How to use memo in React to Optimize Renders](https://www.youtube.com/watch?v=o-alRbk_zP0)
+
+#### useCallback and useMemo
+
 - [Kent C. Dodds - When to useMemo and useCallback.](https://kentcdodds.com/blog/usememo-and-usecallback)
 - [Demystifying React Hooks: useCallback and useMemo](https://dev.to/milu_franz/demystifying-react-hooks-usecallback-and-usememo-1a8j)
 - [Web Dev Simplified - Learn useMemo In 10 Minutes](https://www.youtube.com/watch?v=THL1OPn72vo)
 - [Web Dev Simplified- Learn useCallback In 8 Minutes](https://www.youtube.com/watch?v=_AyFP5s69N4)
+
+#### React.memo
+
+- [Jack Herrington - Mastering React Memo](https://www.youtube.com/watch?v=DEPwA3mv_R8)
+- [Dmitri Pavlutin - Use React.memo() wisely](https://dmitripavlutin.com/use-react-memo-wisely/)
 
 ### React libraries
 
