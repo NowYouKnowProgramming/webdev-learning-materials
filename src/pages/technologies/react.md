@@ -89,20 +89,23 @@ layout: ../../layouts/MainLayout.astro
 
 - [Josh W. Comeau - Delightful React File/Directory Structure](https://www.joshwcomeau.com/react/file-structure/)
 - [Screaming Architecture - Evolution of a React folder structure](https://dev.to/profydev/screaming-architecture-evolution-of-a-react-folder-structure-4g25)
+- [Richard Oliver Bray - How to structure files in large React projects](https://www.youtube.com/watch?v=1uQ9j8ynQlM)
+- [Tania Rascia - React Architecture: How to Structure and Organize a React Application](https://www.taniarascia.com/react-architecture-directory-structure/)
+- [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
+- [Theo - ping.gg - Your Folder Structure Hurt Me (reaction to Web Dev Simplified's folder structure video + from 11:06 shows and explain folder structure in his projects)](https://www.youtube.com/watch?v=86i8ZODqMlI)
+- [React project structure for scale: decomposition, layers and hierarchy](https://www.developerway.com/posts/react-project-structure)
 
 ### Principles for React
 
+- [Traversy Media - 5 Pro-Level React Do's & Don'ts with Jack Herrington](https://www.youtube.com/watch?v=4FhJkX18fS8)
 - [Alex Kondov - Tao of React](https://alexkondov.com/tao-of-react/)
 - [Web Dev Junkie - Refactoring and decoupling some React code (DRY, KISS, YAGNI, WET)](https://www.youtube.com/watch?v=lU9lzM3rt5w)
-- [React project structure for scale: decomposition, layers and hierarchy](https://www.developerway.com/posts/react-project-structure)
 - [Fireship - 10 React Antipatterns to Avoid - Code This, Not That!](https://www.youtube.com/watch?v=b0IZo2Aho9Y&t=275s)
 - [React Philosophies - what you need to know, when writing the React code?](https://github.com/mithi/react-philosophies)
-- [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
 - [Applying SOLID principles in React](https://medium.com/dailyjs/applying-solid-principles-in-react-14905d9c5377)
-- [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
 - [Kent C. Dodds - Inversion of Control](https://kentcdodds.com/blog/inversion-of-control)
 - [AppUnite - Vue's Slots Composition adapted to React - how and when to use it](https://appunite.com/blog/composition-known-as-slots-in-react)
-- [Theo - ping.gg - Your Folder Structure Hurt Me (reaction to Web Dev Simplified's folder structure video + from 11:06 shows and explain folder structure in his projects)](https://www.youtube.com/watch?v=86i8ZODqMlI)
+- [Tips for Writing Better React Code](https://javascript.plainenglish.io/tips-for-writing-better-react-code-ceb49e929001)
 
 #### Principles for React in Polish
 
