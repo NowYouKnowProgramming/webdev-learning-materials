@@ -162,14 +162,16 @@ Screenshots
 - [React is slow, what now?](https://nosleepjavascript.com/react-performance/)
 - [Web Dev Junkie - How to implement the MVC pattern in React (very interesting approach to this problem)](https://www.youtube.com/watch?v=LIlTrgVz4QA)
 - [Lydia Hallie - Advanced Rendering Patterns (what shortcuts like ISR, SSG and SSR really mean? )](https://www.youtube.com/watch?v=PN1HgvAOmi8)
+- [Optimizing performance in a React application](https://blog.logrocket.com/5-react-performance-optimization-techniques/)
+- [Modus - How to optimize a React.js app bundle performance to load under 3s](https://www.youtube.com/watch?v=j8NJc60H294)
 
 #### About useMemo and useCallback
 
 - [Kent C. Dodds - Memoization and React](https://epicreact.dev/memoization-and-react/)
 - [Kent C. Dodds - When to useMemo and useCallback.](https://kentcdodds.com/blog/usememo-and-usecallback)
-- [Demystifying React Hooks: useCallback and useMemo - dev.to](https://dev.to/milu_franz/demystifying-react-hooks-usecallback-and-usememo-1a8j)
-- [Learn useMemo In 10 Minutes - YouTube: Web Dev Simplified](https://www.youtube.com/watch?v=THL1OPn72vo)
-- [Learn useCallback In 8 Minutes - YouTube: Web Dev Simplified](https://www.youtube.com/watch?v=_AyFP5s69N4)
+- [Demystifying React Hooks: useCallback and useMemo](https://dev.to/milu_franz/demystifying-react-hooks-usecallback-and-usememo-1a8j)
+- [Web Dev Simplified - Learn useMemo In 10 Minutes](https://www.youtube.com/watch?v=THL1OPn72vo)
+- [Web Dev Simplified- Learn useCallback In 8 Minutes](https://www.youtube.com/watch?v=_AyFP5s69N4)
 
 ### React libraries
 
