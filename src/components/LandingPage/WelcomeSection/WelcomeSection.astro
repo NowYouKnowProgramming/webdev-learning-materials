@@ -37,7 +37,7 @@ import MainLinks from './MainLinks.astro';
 		position: absolute;
 		z-index: var(--z-base);
 		aspect-ratio: 1596/1222;
-		animation: rotate 200s infinite linear var(--appear-time);
+		animation: rotate 200s infinite linear;
 	}
 
 	.content {
@@ -117,3 +117,13 @@ import MainLinks from './MainLinks.astro';
 		}
 	}
 </style>
+
+<script is:inline>
+	const firstJoin = localStorage.getItem('firstJoin')
+	if (firstJoin === 'false') {
+		const welcomeSection =  document.querySelector('.first-join')
+		welcomeSection.classList.remove('first-join')
+	} else {
+		localStorage.setItem('firstJoin','false')
+	}
+</script>
