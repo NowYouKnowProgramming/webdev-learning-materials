@@ -4,24 +4,38 @@
   - [Character Creator - position and overflow](https://github.com/css-for-js/character-creator)
   - [Mini Component Library - create your own components (progress bar, select element and search input)](https://github.com/css-for-js/mini-component-library)
 
+<<<<<<< HEAD
     - <details>
 
       <summary>How these components could look like:</summary>
 
       <img src="/images/css/components.webp" alt="progress bar, select element and search input" loading="lazy" />
 
+=======
+    - <details> <summary>How these components could look like:</summary>
+
+      <img src="/images/css/components.webp" alt="progress bar, select element and search input" loading="lazy" />
+
+>>>>>>> 36277be (Refactor: replace the markdown images with the lazyloading ones (+ ui improvement))
       </details>
 
   - [Sole and Ankle - Flexbox](https://github.com/css-for-js/sole-and-ankle)
   - [Sole and Ankle Revisited - responsive design](https://github.com/css-for-js/sole-and-ankle-revisited)
   - [Unsprinkle - typography and images](https://github.com/css-for-js/unsprinkle)
 
+<<<<<<< HEAD
     - <details>
 
       <summary>How this page looks like:</summary>
 
       <img src="/images/css/unsprinkle.webp" alt="unsprinkle page" loading="lazy" />
 
+=======
+    - <details> <summary>How this page looks like:</summary>
+
+      <img src="/images/css/unsprinkle.webp" alt="unsprinkle page" loading="lazy" />
+
+>>>>>>> 36277be (Refactor: replace the markdown images with the lazyloading ones (+ ui improvement))
       </details>
 
   - [New Grid Times - CSS Grid Layout](https://github.com/css-for-js/new-grid-times)
