@@ -192,6 +192,8 @@ Screenshots
 - [Bartosz Szczeciński - Intro to debugging ReactJS applications](https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
 - [Web Dev Junkie - Tips and Tricks for Debugging React Applications](https://www.youtube.com/watch?v=UXDAp0ILOwg)
 - [Kent C. Dodds - React DevTools](https://kentcdodds.com/blog/react-devtools)
+- [How To Debug React Components Using React Developer Tools](https://www.digitalocean.com/community/tutorials/how-to-debug-react-components-using-react-developer-tools)
+
 ### Animations
 
 #### React-Spring
