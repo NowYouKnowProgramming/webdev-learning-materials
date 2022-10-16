@@ -192,6 +192,19 @@ Screenshots
 - [Bartosz Szczeciński - Intro to debugging ReactJS applications](https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
 - [Web Dev Junkie - Tips and Tricks for Debugging React Applications](https://www.youtube.com/watch?v=UXDAp0ILOwg)
 - [Kent C. Dodds - React DevTools](https://kentcdodds.com/blog/react-devtools)
+### Animations
+
+#### React-Spring
+
+- [The basics of React-Spring](https://react-spring.dev/basics#basics)
+- [BiteSize Academy - How to animate mount and unmount of a react component?](https://www.youtube.com/watch?v=kT6yYSwK1oA)
+
+#### Framer Motion
+
+- [The introduction of Framer Motion](https://www.framer.com/docs/introduction/)
+- [CodeSnap - Framer Motion | Page Transitions in React](https://www.youtube.com/watch?v=YxLMAk2H3ns)
+- [Fireship - Springy Animated Modals // Framer Motion & React Tutorial for Beginners](https://www.youtube.com/watch?v=SuqU904ZHA4)
+- [PedroTech - Animations In React - Framer-Motion Tutorial](https://www.youtube.com/watch?v=GOuwOI-WSkE)
 
 ### React recruitment materials
 
