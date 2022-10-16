@@ -113,7 +113,7 @@ layout: ../../layouts/MainLayout.astro
 - [Krzysztof Jendrzyca - The Zen of React (jak utrzymywać czysty kod w React)](https://festiwal.devmastery.pl/zen/)
 - [Michał Taszycki - Legacy React - czyli jak zrobić refactoring i nie stracić pracy!](https://www.youtube.com/watch?v=92fvMwBrHGA)
 
-##### Przeprogramowani - mini-seria ze wzorca State Machine
+#### Przeprogramowani - mini-seria ze wzorca State Machine
 
 - [Przeprogramowani - Jak NIE zarządzać stanem komponentów? | Wzorzec State Machine #1](https://www.youtube.com/watch?v=R-Bmdlk-hJY)
 - [Przeprogramowani - Jak zastosować State Machine w praktyce? | Wzorzec State Machine #2](https://www.youtube.com/watch?v=XRUFIQgOXJQ)
@@ -160,7 +160,6 @@ Screenshots
 
 - [Jack Herrington - Mastering React Batch Updating](https://www.youtube.com/watch?v=MlDTHzK1vKI)
 - [React is slow, what now?](https://nosleepjavascript.com/react-performance/)
-- [Web Dev Junkie - How to implement the MVC pattern in React (very interesting approach to this problem)](https://www.youtube.com/watch?v=LIlTrgVz4QA)
 - [Lydia Hallie - Advanced Rendering Patterns (what shortcuts like ISR, SSG and SSR really mean? )](https://www.youtube.com/watch?v=PN1HgvAOmi8)
 - [Optimizing performance in a React application](https://blog.logrocket.com/5-react-performance-optimization-techniques/)
 - [Modus - How to optimize a React.js app bundle performance to load under 3s](https://www.youtube.com/watch?v=j8NJc60H294)
@@ -185,7 +184,6 @@ Screenshots
 ### React libraries
 
 - [Best React Libraries to Use](https://www.reddit.com/r/reactjs/comments/vxklim/best_react_libraries_to_use_in_2022/)
-- [Animations In React - Framer-Motion Tutorial - YouTube: PedroTech](https://www.youtube.com/watch?v=GOuwOI-WSkE)
 
 ### Debugging React apps
 
@@ -219,7 +217,7 @@ Screenshots
 
 ### Other React materials
 
-- [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
+- [Web Dev Junkie - How to implement the MVC pattern in React (very interesting approach to this problem)](https://www.youtube.com/watch?v=LIlTrgVz4QA)
 - [uidotdev - The Story of React](https://www.youtube.com/watch?v=Wm_xI7KntDs)
 - [uidotdev - The Story of Concurrent React](https://www.youtube.com/watch?v=NZoRlVi3MjQ)
 
