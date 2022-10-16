@@ -64,6 +64,10 @@ layout: ../../layouts/MainLayout.astro
 - [Jack Herrington - Common React Mistakes: useEffect - Part 2](https://www.youtube.com/watch?v=F-0SZ_TicXA)
 - [React Docs - You Might Not Need an Effect (when to use the useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
 
+#### About useState hook
+
+- [Jack Herrington - useState: Asynchronous or what?](https://www.youtube.com/watch?v=RAJD4KpX8LA)
+
 #### Custom hooks
 
 - [useHooks - Easy to understand React Hook recipes by ui.dev](https://usehooks.com/)
