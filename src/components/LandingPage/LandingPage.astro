@@ -66,9 +66,9 @@ import { GitStarPromoSection } from './Promo/GitStarPromoSection/GitStarPromoSec
 	<Header currentPage={currentPage} />
 	<main>
 		<WelcomeSection />
-		<Promo client:only='react' />
+		<Promo client:load />
 		<Comparison />
-		<GitStarPromoSection client:only='react' />
+		<GitStarPromoSection client:load />
 		<LandingPageEndingCTA />
 	</main>
 	<LandingPageFooter />
