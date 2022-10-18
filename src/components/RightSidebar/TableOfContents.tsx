@@ -35,7 +35,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 			<h2 className='heading'>On this page</h2>
 			<ul>
 				<li
-					className={`heading-link depth-2 ${
+					className={`heading-link ${
 						activeId === 'overview' ? 'active' : ''
 					}`.trim()}
 				>
