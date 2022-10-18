@@ -73,11 +73,11 @@ nav ul {
 	padding: 0;
 }
 
-.content > section > * + * {
+.content>section>*+* {
 	margin-top: 1.25rem;
 }
 
-.content > section > :first-child {
+.content>section> :first-child {
 	margin-top: 0;
 }
 
@@ -88,7 +88,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'ReemKufiInk', sans-serif;
+	font-family: 'Inter', sans-serif;
 	margin-bottom: 1rem;
 	font-weight: bold;
 	line-height: 1;
@@ -138,7 +138,7 @@ p,
 }
 
 ul li {
-	font-family: 'ReemKufiInk', sans-serif;
+	font-family: 'Inter', sans-serif;
 	line-height: 1.5;
 }
 
@@ -159,50 +159,50 @@ a {
 	gap: 0.5rem;
 }
 
-article > section :is(ul, ol) > * + * {
+article>section :is(ul, ol)>*+* {
 	margin-top: 0.75rem;
 }
 
-article > section nav :is(ul, ol) > * + * {
+article>section nav :is(ul, ol)>*+* {
 	margin-top: inherit;
 }
 
-article > section li > :is(p, pre, blockquote):not(:first-child) {
+article>section li> :is(p, pre, blockquote):not(:first-child) {
 	margin-top: 1rem;
 }
 
-article > section :is(ul, ol) {
+article>section :is(ul, ol) {
 	padding-left: 1em;
 }
 
-article > section nav :is(ul, ol) {
+article>section nav :is(ul, ol) {
 	padding-left: inherit;
 }
 
-article > section nav {
+article>section nav {
 	margin-top: 1rem;
 	margin-bottom: 2rem;
 }
 
-article > section ::marker {
+article>section ::marker {
 	font-weight: bold;
 	color: var(--theme-text-light);
 }
 
-article > section iframe {
+article>section iframe {
 	width: 100%;
 	height: auto;
 	aspect-ratio: 16 / 9;
 }
 
-a > code {
+a>code {
 	position: relative;
 	color: var(--theme-text-accent);
 	background: transparent;
 	text-underline-offset: var(--padding-block);
 }
 
-a > code::before {
+a>code::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -242,11 +242,11 @@ code {
 	word-break: break-word;
 }
 
-pre.astro-code > code {
+pre.astro-code>code {
 	all: unset;
 }
 
-pre > code {
+pre>code {
 	font-size: 1em;
 }
 
@@ -381,7 +381,6 @@ h2.heading {
 	display: inline-flex;
 	gap: 0.5em;
 	width: 100%;
-	padding: 0.15em 0 0.15em 0;
 }
 
 .heading-link.depth-3 {
@@ -389,7 +388,11 @@ h2.heading {
 }
 
 .heading-link.depth-4 {
-	padding-left: 3rem;
+	padding-left: 3.2rem;
+}
+
+.heading-link.depth-5 {
+	padding-left: 5rem;
 }
 
 .heading-link a {
