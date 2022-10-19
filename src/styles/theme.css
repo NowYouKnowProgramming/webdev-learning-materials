@@ -68,6 +68,12 @@
 
 :root {
 	color-scheme: light;
+	--bewebdev-pink: hsl(318, 30%, 80%);
+	--bewebdev-pink-saturated: hsl(318, 92%, 75%);
+	--bewebdev-purple: hsl(255, 20%, 64%);
+	--bewebdev-purple-saturated: hsl(255, 79%, 67%);
+	--bewebdev-red: hsla(0, 96%, 53%, 0.475);
+
 	--theme-accent: hsla(var(--color-blue), 1);
 	--theme-text-accent: hsla(var(--color-blue), 1);
 	--theme-text-accent-visited: var(--bewebdev-red);
@@ -99,7 +105,9 @@ body {
 :root.theme-dark {
 	color-scheme: dark;
 	--bewebdev-pink: #f806b0;
+	--bewebdev-pink-saturated: #a31077;
 	--bewebdev-purple: #1c1531;
+	--bewebdev-purple-saturated: #342366;
 	--bewebdev-red: #a4030379;
 
 	--theme-accent-opacity: 0.15;
