@@ -92,7 +92,7 @@
 		"{type}: {action}{what_was_done}\n\n{why_it_was_done}{breaking}"
 	],
 	"[astro]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "astro-build.astro-vscode"
 	},
 	"prettier.documentSelectors": ["**/*.astro"]
 }
