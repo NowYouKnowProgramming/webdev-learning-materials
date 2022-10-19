@@ -67,6 +67,7 @@
 
 :root {
 	color-scheme: light;
+<<<<<<< HEAD
 
 	--docs-btn-bg: hsl(300, 53%, 29%);
 
@@ -74,6 +75,12 @@
 	--bewebdev-pink-saturated: hsl(318, 92%, 100%);
 	--bewebdev-purple: hsl(255, 20%, 100%);
 	--bewebdev-purple-saturated: hsl(255, 79%, 95%);
+=======
+	--bewebdev-pink: hsl(318, 30%, 80%);
+	--bewebdev-pink-saturated: hsl(318, 92%, 75%);
+	--bewebdev-purple: hsl(255, 20%, 64%);
+	--bewebdev-purple-saturated: hsl(255, 79%, 67%);
+>>>>>>> 3366256 (WIP colors)
 	--bewebdev-red: hsla(0, 96%, 53%, 0.475);
 
 	--theme-accent: hsla(var(--color-blue), 1);
