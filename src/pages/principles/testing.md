@@ -14,7 +14,7 @@ layout: ../../layouts/MainLayout.astro
 - Speeding up QA time
 - In a very large codebases you cannot predict or test manually if your change in code will break something, automated testing helps with checking if your changes are valid
 
-[Video explanation of theese points](https://youtu.be/tit8PecSH70?t=115)
+[Video explanation](https://youtu.be/tit8PecSH70?t=115)
 
 ### Structure of a test
 
