@@ -45,14 +45,20 @@
 }
 
 @font-face {
-	font-family: 'ReemKufiInk';
-	src: url('/fonts/ReemKufiInk-Regular.ttf');
+	font-family: 'Inter';
+	src: url('/fonts/Inter-Regular.ttf');
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Inter';
-	src: url('/fonts/Inter-Regular.ttf');
+	font-family: 'Nunito Italic';
+	src: url('/fonts/Nunito-Italic-VariableFont_wght.ttf');
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Nunito';
+	src: url('/fonts/Nunito-VariableFont_wght.ttf');
 	font-display: swap;
 }
 
@@ -60,7 +66,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	font-family: var(--font-body);
+	font-family: var(--font-serious);
 	font-size: 1rem;
 	font-size: clamp(0.9rem, 0.75rem + 0.375vw + var(--user-font-scale), 1rem);
 	line-height: 1.5;
@@ -88,7 +94,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Inter', sans-serif;
+	font-family: var(--font-serious);
 	margin-bottom: 1rem;
 	font-weight: bold;
 	line-height: 1;

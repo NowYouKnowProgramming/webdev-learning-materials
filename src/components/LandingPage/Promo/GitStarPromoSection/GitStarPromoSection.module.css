@@ -27,7 +27,6 @@
   font-size: 1.3rem;
   background-color: white;
   color: var(--hover);
-  font-weight: bold;
   padding: 0 2rem;
   border-radius: 8px;
   text-decoration: none;
@@ -38,6 +37,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   transition: .2s ease-in-out;
+  font-family: var(--font-special);
+  font-weight: bold;
 }
 
 .button .textInButton {
