@@ -12,20 +12,21 @@ layout: ../../layouts/MainLayout.astro
 - Increase confidence in application
 - Testing can serve as documentation
 - Speeding up QA time
+- In a very large codebases you cannot predict or test manually if your change in code will break something, automated testing helps with checking if your changes are valid
 
 [Video explanation of theese points](https://youtu.be/tit8PecSH70?t=115)
 
 ### Structure of a test
 
-- Arrange - set up the test data, test conditions, and test environment
-- Act - run logic that should be tested (eg. execute function), click a button
-- Assert - compare the expected result with the actual result
+- **Arrange** - set up the test data, test conditions, and test environment
+- **Act** - run logic that should be tested (eg. execute function), click a button
+- **Assert** - compare the expected result with the actual result
 
 ### Types of tests
 
-- Unit tests - testing an isolated function
-- Integration tests - testing a component that uses other components, testing things _working_ together
-- End to end tests - testing user interaction with UI
+- **Unit** tests - testing an isolated function
+- **Integration** tests - testing a component that uses other components, testing things _working_ together
+- **End to end** tests - testing user interaction with UI
 
 ## Free courses
 
