@@ -36,7 +36,7 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 					: CONFIG.SITE.title
 			}
 		</title>
-		<style>
+		<style lang='scss'>
 			body {
 				width: 100%;
 				display: grid;
@@ -123,9 +123,26 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 					list-style: none !important;
 					padding: 0;
 					li {
-						a {
-							padding: 5px 0;
+						li {
+							padding-left: 0.5rem;
+							margin-bottom: 0;
+							&::before {
+								content: '- ';
+							}
 						}
+						a {
+							text-decoration: none;
+							padding: 5px 0;
+							transition: 0.2s;
+							&:hover {
+								color: var(--theme-accent);
+							}
+
+							&::before {
+								content: '🔗 ';
+							}
+						}
+						margin-bottom: 1.6rem;
 					}
 				}
 			}

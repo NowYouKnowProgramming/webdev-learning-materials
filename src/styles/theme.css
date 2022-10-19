@@ -68,7 +68,8 @@
 
 :root {
 	color-scheme: light;
-	--theme-accent: hsla(var(--color-blue), 1);
+	--color-blue: var(--color-base-blue), 41%;
+	--theme-accent: hsla(var(--color-red), 1);
 	--theme-text-accent: hsla(var(--color-blue), 1);
 	--theme-text-accent-visited: var(--bewebdev-red);
 	--theme-accent-opacity: 0.15;
