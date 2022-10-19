@@ -4,6 +4,29 @@ description: Free and paid testing courses. Learn Jest, Cypress and Vitest. Reac
 layout: ../../layouts/MainLayout.astro
 ---
 
+## Testing introduction
+
+### Why testing is important
+
+- Catch bugs before they appear in production
+- Increase confidence in application
+- Testing can serve as documentation
+- Speeding up QA time
+
+[Video explanation of theese points](https://youtu.be/tit8PecSH70?t=115)
+
+### Structure of a test
+
+- Arrange - set up the test data, test conditions, and test environment
+- Act - run logic that should be tested (eg. execute function), click a button
+- Assert - compare the expected result with the actual result
+
+### Types of tests
+
+- Unit tests - testing an isolated function
+- Integration tests - testing a component that uses other components, testing things _working_ together
+- End to end tests - testing user interaction with UI
+
 ## Free courses
 
 - [Net Ninja - React Testing Library tutorial series](https://www.youtube.com/watch?v=7dTTFW7yACQ&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ)
@@ -36,9 +59,9 @@ layout: ../../layouts/MainLayout.astro
 
 - [Testing React Applications with Jest by Joyce Echessa - auth0.com](https://auth0.com/blog/testing-react-applications-with-jest/)
 
-### [Vitest](https://vitest.dev/): an alternative to Jest
+### Vitest an alternative to Jest
 
-#### Why choose Vitest?
+#### Why choose Vitest
 
 - built in typescript support
 - chai and jest compatible assertions
@@ -78,18 +101,6 @@ export default defineConfig({
 - [Fireship - Test-Driven Development // Fun TDD Introduction with JavaScript](https://www.youtube.com/watch?v=Jv2uxzhPFl4)
 - [Jack Herrington - Test Driven Development: The best way to code that I almost never use](https://www.youtube.com/watch?v=EH9Suo_J4Ks)
 - [Kent C. Dodds - AHA Testing (how to test wisely)](https://kentcdodds.com/blog/aha-testing)
-
-#### Structure of a test
-
-- Arrange - set up the test data, test conditions, and test environment
-- Act - run logic that should be tested (eg. execute function), click a button
-- Assert - compare the expected result with the actual result
-
-#### Types of tests
-
-- Unit tests - testing an isolated function
-- Integration tests - testing a component that uses other components, testing things _working_ together
-- End to end tests - testing user interaction with UI
 
 ### Other testing materials
 
