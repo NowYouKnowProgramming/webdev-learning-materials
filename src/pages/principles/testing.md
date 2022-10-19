@@ -28,6 +28,21 @@ layout: ../../layouts/MainLayout.astro
 - **Integration** tests - testing a component that uses other components, testing things _working_ together
 - **End to end** tests - testing user interaction with UI
 
+### How to pick elements to test
+
+Test element selectors from best to worst, you want to test your application in a way the user is interacting with it.
+
+- Accessible by **Everyone**
+  - getByRole
+  - getByLabelText
+  - getByPlaceholderText
+  - getByText
+- Accesible by **Screen readers**
+  - getByAltText
+  - getByTitle
+- **Last resort** methods (if it's not possible to use other means)
+  = getByTestId
+
 ## Free courses
 
 - [Net Ninja - React Testing Library tutorial series](https://www.youtube.com/watch?v=7dTTFW7yACQ&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ)
