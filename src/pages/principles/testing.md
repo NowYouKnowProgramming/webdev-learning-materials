@@ -31,7 +31,6 @@ layout: ../../layouts/MainLayout.astro
 ## Free courses
 
 - [Net Ninja - React Testing Library tutorial series](https://www.youtube.com/watch?v=7dTTFW7yACQ&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ)
-- [Traversy Media - React Testing Crash Course](https://www.youtube.com/watch?v=OVNjsIto9xM)
 - [Jack Herrington - Testing with Jest and Wallaby](https://www.youtube.com/watch?v=FC5gM49xQPE)
 - [Jack Herrington - TypeScript/React Testing: Components, Hooks, Custom Hooks, Redux and Zustand](https://www.youtube.com/watch?v=bvdHVxqjv80)
 
