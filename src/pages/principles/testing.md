@@ -13,12 +13,17 @@ layout: ../../layouts/MainLayout.astro
 
 ### Polish free courses
 
+  <details>
+  <summary>Frontlive - Jest & React Testing Library: seria kursów na blogu</summary>
+
 - [Frontlive - Testowanie JS - podstawy](https://frontlive.pl/blog/podstawy-testowania)
 - [Frontlive - Jest - pierwszy test](https://frontlive.pl/blog/jest-pierwszy-test)
 - [Frontlive - Jest - mock functions](https://frontlive.pl/blog/jest-mockowanie)
 - [Frontlive - React Testing Library - podstawy](https://frontlive.pl/blog/react-testing-library-podstawy)
 - [Frontlive - React Testing Library - testy w praktyce](https://frontlive.pl/blog/react-testing-library-testy-w-praktyce)
 - [Frontlive - React Testing Library - Mock Service Worker](https://frontlive.pl/blog/react-testing-library-msw)
+
+</details>
 
 ## Paid courses
 
