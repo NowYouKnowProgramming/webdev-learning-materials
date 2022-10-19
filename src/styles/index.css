@@ -128,22 +128,9 @@ h5 {
 	font-size: 1rem;
 }
 
-.content ul {
-	line-height: 1.1em;
-}
-
 p,
 .content ul {
 	color: var(--theme-text-light);
-}
-
-ul li {
-	font-family: 'Inter', sans-serif;
-	line-height: 1.5;
-}
-
-section ul li {
-	line-height: 2.2;
 }
 
 small,
