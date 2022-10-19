@@ -9,7 +9,7 @@ type Props = {
 
 const { text, href, isExternal, classes, title }: Props = Astro.props
 
-const css = `docs-btn ${classes ? classes : 'test'}`
+const css = `docs-btn ${classes ? classes : ''}`
 ---
 
 <a
@@ -21,7 +21,7 @@ const css = `docs-btn ${classes ? classes : 'test'}`
 	><span>{text}</span>
 </a>
 
-<style>
+<style lang='scss'>
 	.docs-btn,
 	.docs-btn:active,
 	.docs-btn:hover,
@@ -38,49 +38,45 @@ const css = `docs-btn ${classes ? classes : 'test'}`
 		border-radius: 8px;
 		flex: 1;
 		white-space: nowrap;
-		transition: cubic-bezier(0.17, 0.67, 0.11, 0.98) 0.3s 0.2s;
+		transition: cubic-bezier(0.17, 0.67, 0.11, 0.98) 0.3s;
 		font-family: var(--font-special);
-	}
-	.docs-btn:hover {
-		box-shadow: rgba(0, 0, 0, 0.23) 0 2px 5px, rgb(255, 255, 255) 0 4px 0;
-		transform: translateY(-2px);
-		opacity: 1;
-		transition-delay: 0;
-	}
-	.docs-btn:active {
-		transition-delay: 0;
-		box-shadow: 0 2px 4px rgb(45 35 66 / 40%),
-			0 7px 13px -3px rgb(45 35 66 / 30%),
-			inset 0 5px 5px rgba(23, 26, 44, 0.344);
-		transform: translateY(2px);
-	}
+		&:hover {
+			box-shadow: rgba(0, 0, 0, 0.23) 0 2px 5px, rgb(255, 255, 255) 0 4px 0;
+			transform: translateY(-2px);
+			opacity: 1;
+			span::before {
+				width: 100%;
+			}
+		}
 
-	.docs-btn span {
-		position: relative;
-	}
+		&.repo {
+			border: 2px white solid;
+			background-color: transparent;
+			color: white;
+			span::before {
+				background-color: white;
+			}
+		}
 
-	.docs-btn span::before {
-		content: '';
-		position: absolute;
-		bottom: -2px;
-		left: 0;
-		width: 0%;
-		height: 2px;
-		background-color: black;
-		transition: 0.2s;
-	}
-
-	.docs-btn:hover span::before {
-		width: 100%;
-	}
-
-	.docs-btn.repo span::before {
-		background-color: white !important;
-	}
-
-	.docs-btn.repo {
-		border: 2px white solid;
-		background-color: transparent;
-		color: white;
+		&:active {
+			box-shadow: 0 2px 4px rgb(45 35 66 / 40%),
+				0 7px 13px -3px rgb(45 35 66 / 30%),
+				inset 0 5px 5px rgba(23, 26, 44, 0.344);
+			transform: translateY(2px);
+		}
+		span {
+			position: relative;
+			&::before {
+				content: '';
+				position: absolute;
+				bottom: -4px;
+				left: 0;
+				width: 0%;
+				height: 4px;
+				border-radius: 2px;
+				background-color: black;
+				transition: 0.2s;
+			}
+		}
 	}
 </style>
