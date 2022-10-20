@@ -23,7 +23,7 @@ layout: ../../layouts/MainLayout.astro
 - [Advanced React Patterns](https://github.com/kentcdodds/advanced-react-patterns)
 - [React Performance](https://github.com/kentcdodds/react-performance)
 - [Testing React Apps](https://github.com/kentcdodds/testing-react-apps)
-- [React Suspence](https://github.com/kentcdodds/react-suspense)
+- [React Suspense](https://github.com/kentcdodds/react-suspense)
 - [Build an Epic React App (Bookshelf)](https://github.com/kentcdodds/bookshelf)
 
 </details>
