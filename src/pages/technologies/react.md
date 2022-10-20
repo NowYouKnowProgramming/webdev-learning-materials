@@ -23,7 +23,7 @@ layout: ../../layouts/MainLayout.astro
 - [Advanced React Patterns](https://github.com/kentcdodds/advanced-react-patterns)
 - [React Performance](https://github.com/kentcdodds/react-performance)
 - [Testing React Apps](https://github.com/kentcdodds/testing-react-apps)
-- [React Suspence](https://github.com/kentcdodds/react-suspense)
+- [React Suspense](https://github.com/kentcdodds/react-suspense)
 - [Build an Epic React App (Bookshelf)](https://github.com/kentcdodds/bookshelf)
 
 </details>
@@ -44,7 +44,7 @@ layout: ../../layouts/MainLayout.astro
 - [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
 - [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
 - [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
-- [React Framwork.dev - different React resources (books, videos, courses, podcasts) and more](https://react.framework.dev/)
+- [React Framework.dev - different React resources (books, videos, courses, podcasts) and more](https://react.framework.dev/)
 
 ## Paid
 

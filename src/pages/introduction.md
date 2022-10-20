@@ -12,7 +12,7 @@ Have you ever experienced frustration when browsing learning materials about web
 
 These docs are what you've been searching for!
 
-We've carefully picked materials from the internet and gathered usefull knowledge, so nobody would loose time to browse between 10 years old outdated JQuery solutions on Stackoverflow.
+We've carefully picked materials from the internet and gathered useful knowledge, so nobody would loose time to browse between 10 years old outdated JQuery solutions on Stackoverflow.
 
 ## Contributing
 

@@ -185,7 +185,7 @@ Essentials:
 
 Optional:
 
-- Add the lightbox (create it yourself or use the NPM package), which opens, when clicked the image. Must have the option to move between the images (via the arrows).
+- Add the "lightbox" (create it yourself or use the NPM package), which opens, when clicked the image. Must have the option to move between the images (via the arrows).
 - Add a bar under the slide that marks the countdown time until the next slide is shown. It is supposed to be animated, and when it reaches 100% it shows the next slide.
 - Deploy the app on GitHub Pages / Netlify / Vercel / etc.
 - Connect the WordPress to Gatsby and send the contact form data to it.
@@ -240,7 +240,7 @@ Features:
 - Implement the infinite scroll - when scrolled to the bottom, the app should fetch the next 5 issues.
 - Each "tile" should have a title, issue number and creation date.
 - When clicked, it should display the title, issue number, it's status (open/closed), creation date and it's body.
-- It should also display the issue rate counter (like on Stack Overflow) and have to possibility to increse/decrease it.
+- It should also display the issue rate counter (like on Stack Overflow) and have to possibility to increase/decrease it.
 - When the count is below `-99` or above `99`, it should display `99!!`, otherwise it should display the count.
 - The count should be saved somewhere and still be available when the app is reloaded and the same issue will be open.
 
@@ -283,7 +283,7 @@ Login page:
 - When the login is successful, it should redirect to the main page.
 - The Log in button is changed to the avatar icon - when clicked, it should display the dropdown with the "Log out" option.
 - When logout, the avatar icon is changed to the "Log in" button.
-- The log in should be persistant, even after the page is closed.
+- The log in should be persistent, even after the page is closed.
 
 Optional:
 
