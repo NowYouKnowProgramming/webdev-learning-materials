@@ -102,7 +102,6 @@ const currentPageMatch = currentPage.endsWith('/')
 	.nav-link a:hover,
 	.nav-link a:focus {
 		transition: 0.1s;
-		translate: 5px 0;
 		background-color: var(--theme-bg-hover);
 	}
 
@@ -121,6 +120,6 @@ const currentPageMatch = currentPage.endsWith('/')
 
 <style is:global>
 	:root.theme-dark .nav-link a[aria-current='page'] {
-		color: hsla(var(--color-base-white), 100%, 1);
+		color: var(--theme-bg);
 	}
 </style>
