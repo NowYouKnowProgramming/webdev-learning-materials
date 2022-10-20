@@ -31,7 +31,7 @@ layout: ../../layouts/MainLayout.astro
 
 - [TypeScript tips and Tricks with Matt Pocock](https://www.youtube.com/watch?v=hBk4nV7q6-w)
 - [TypeScript Features to Avoid](https://www.executeprogram.com/blog/typescript-features-to-avoid)
-- [Jack Herrington - Fixing TypeScript's Blindspot: Runtime Typechecking](https://www.youtube.com/watch?v=rY_XqfSHock)
+- [Jack Herrington - Fixing TypeScript's Blind spot: Runtime Typechecking](https://www.youtube.com/watch?v=rY_XqfSHock)
 - [Theo - ping.gg - You Might Be Using TypeScript Wrong... (how to use TypeScript the most effective way?)](https://www.youtube.com/watch?v=RmGHnYUqQ4k)
 - Convert JS objects to TypeScript (a tricky way to do it):
   - [Transform JS object to JSON](https://transform.tools/js-object-to-json)
