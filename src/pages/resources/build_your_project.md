@@ -1,6 +1,6 @@
 ---
 title: Project ideas and planning
-description: Do you want to build your own project but dont't know where to start? List of project ideas and recources that will help you in deciding what to build next
+description: Do you want to build your own project but don't know where to start? List of project ideas and resources that will help you in deciding what to build next
 layout: ../../layouts/MainLayout.astro
 ---
 

@@ -22,6 +22,7 @@ layout: ../../layouts/MainLayout.astro
 - [Kent C. Dodds (JS/React)](https://kentcdodds.com/blog)
 - [Josh W. Comeau (CSS/JS)](https://www.joshwcomeau.com/)
 - [Oak Harbor Web Designs (builds real-world HTML/CSS/JS websites)](https://www.youtube.com/channel/UC6YEjppZo4Ep-8N54_nXFQg)
+- [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
 
 ### Podcasts
 

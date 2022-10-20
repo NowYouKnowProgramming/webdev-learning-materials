@@ -36,9 +36,7 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 					: CONFIG.SITE.title
 			}
 		</title>
-		<style>
-
-
+		<style lang='scss'>
 			body {
 				width: 100%;
 				display: grid;
@@ -111,14 +109,76 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 				}
 			}
 		</style>
-		<style is:global>
+		<style is:global lang='scss'>
 			.layout > * {
 				width: 100%;
 				height: 100%;
 			}
 
-			.main-section a:visited {
-				color: var(--theme-text-accent-visited);
+			.main-section {
+				@keyframes fadeInDown {
+					0% {
+						opacity: 0;
+						transform: translateY(-1.25em);
+					}
+					100% {
+						opacity: 1;
+						transform: translateY(0);
+					}
+				}
+				details[open] {
+					animation-name: fadeInDown;
+					animation-duration: 0.5s;
+				}
+				details {
+					summary {
+						transition: 0.2s;
+						padding: 10px;
+						border-radius: 8px;
+
+						user-select: none;
+						&:hover {
+							background-color: var(--theme-text-accent);
+							color: var(--theme-bg);
+							cursor: pointer;
+						}
+					}
+
+					&[open] {
+						summary {
+							margin-bottom: 10px;
+						}
+					}
+				}
+				a:visited {
+					color: var(--theme-text-accent-visited);
+				}
+				ul {
+					list-style: none !important;
+					padding: 0;
+					li {
+						li {
+							padding-left: 0.5rem;
+							margin-bottom: 0;
+							&::before {
+								content: '- ';
+							}
+						}
+						a {
+							text-decoration: none;
+							padding: 5px 0;
+							transition: 0.2s;
+							&:hover {
+								color: var(--theme-accent);
+							}
+
+							&::before {
+								content: '🔗 ';
+							}
+						}
+						margin-bottom: 1.6rem;
+					}
+				}
 			}
 
 			.mobile-sidebar-toggle {

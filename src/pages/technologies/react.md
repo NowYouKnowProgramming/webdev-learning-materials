@@ -23,7 +23,7 @@ layout: ../../layouts/MainLayout.astro
 - [Advanced React Patterns](https://github.com/kentcdodds/advanced-react-patterns)
 - [React Performance](https://github.com/kentcdodds/react-performance)
 - [Testing React Apps](https://github.com/kentcdodds/testing-react-apps)
-- [React Suspence](https://github.com/kentcdodds/react-suspense)
+- [React Suspense](https://github.com/kentcdodds/react-suspense)
 - [Build an Epic React App (Bookshelf)](https://github.com/kentcdodds/bookshelf)
 
 </details>
@@ -44,7 +44,7 @@ layout: ../../layouts/MainLayout.astro
 - [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
 - [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
 - [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
-- [React Framwork.dev - different React resources (books, videos, courses, podcasts) and more](https://react.framework.dev/)
+- [React Framework.dev - different React resources (books, videos, courses, podcasts) and more](https://react.framework.dev/)
 
 ## Paid
 
@@ -64,9 +64,14 @@ layout: ../../layouts/MainLayout.astro
 - [Jack Herrington - Common React Mistakes: useEffect - Part 2](https://www.youtube.com/watch?v=F-0SZ_TicXA)
 - [React Docs - You Might Not Need an Effect (when to use the useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
 
+#### About useState hook
+
+- [Jack Herrington - useState: Asynchronous or what?](https://www.youtube.com/watch?v=RAJD4KpX8LA)
+
 #### Custom hooks
 
 - [useHooks - Easy to understand React Hook recipes by ui.dev](https://usehooks.com/)
+- [useHooks-ts - custom React hooks written in TypeScript](https://usehooks-ts.com/)
 - [Felix Gerschau - Form validation with React Hooks WITHOUT a library: The Complete Guide](https://felixgerschau.com/react-hooks-form-validation-typescript/)
 - [Web Dev Junkie - How you can use custom hooks to abstract your React code](https://www.youtube.com/watch?v=S2rzM9IQVdg)
 
@@ -84,25 +89,29 @@ layout: ../../layouts/MainLayout.astro
 
 - [Josh W. Comeau - Delightful React File/Directory Structure](https://www.joshwcomeau.com/react/file-structure/)
 - [Screaming Architecture - Evolution of a React folder structure](https://dev.to/profydev/screaming-architecture-evolution-of-a-react-folder-structure-4g25)
+- [Richard Oliver Bray - How to structure files in large React projects](https://www.youtube.com/watch?v=1uQ9j8ynQlM)
+- [Tania Rascia - React Architecture: How to Structure and Organize a React Application](https://www.taniarascia.com/react-architecture-directory-structure/)
+- [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
+- [Theo - ping.gg - Your Folder Structure Hurt Me (reaction to Web Dev Simplified's folder structure video + from 11:06 shows and explain folder structure in his projects)](https://www.youtube.com/watch?v=86i8ZODqMlI)
+- [React project structure for scale: decomposition, layers and hierarchy](https://www.developerway.com/posts/react-project-structure)
 
 ### Principles for React
 
+- [Traversy Media - 5 Pro-Level React Do's & Don'ts with Jack Herrington](https://www.youtube.com/watch?v=4FhJkX18fS8)
 - [Alex Kondov - Tao of React](https://alexkondov.com/tao-of-react/)
 - [Web Dev Junkie - Refactoring and decoupling some React code (DRY, KISS, YAGNI, WET)](https://www.youtube.com/watch?v=lU9lzM3rt5w)
-- [React project structure for scale: decomposition, layers and hierarchy](https://www.developerway.com/posts/react-project-structure)
 - [Fireship - 10 React Antipatterns to Avoid - Code This, Not That!](https://www.youtube.com/watch?v=b0IZo2Aho9Y&t=275s)
 - [React Philosophies - what you need to know, when writing the React code?](https://github.com/mithi/react-philosophies)
-- [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
 - [Applying SOLID principles in React](https://medium.com/dailyjs/applying-solid-principles-in-react-14905d9c5377)
-- [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
 - [Kent C. Dodds - Inversion of Control](https://kentcdodds.com/blog/inversion-of-control)
 - [AppUnite - Vue's Slots Composition adapted to React - how and when to use it](https://appunite.com/blog/composition-known-as-slots-in-react)
-- [Theo - ping.gg - Your Folder Structure Hurt Me (reaction to Web Dev Simplified's folder structure video + from 11:06 shows and explain folder structure in his projects)](https://www.youtube.com/watch?v=86i8ZODqMlI)
+- [Tips for Writing Better React Code](https://javascript.plainenglish.io/tips-for-writing-better-react-code-ceb49e929001)
 
 #### Principles for React in Polish
 
 - [Michał Taszycki - Architektura aplikacji w React.js – czyli poszukiwania Świętego Graala.](https://www.youtube.com/watch?v=eeJF8PdpOko)
 - [Krzysztof Jendrzyca - The Zen of React (jak utrzymywać czysty kod w React)](https://festiwal.devmastery.pl/zen/)
+- [Michał Taszycki - Legacy React - czyli jak zrobić refactoring i nie stracić pracy!](https://www.youtube.com/watch?v=92fvMwBrHGA)
 
 ##### Przeprogramowani - mini-seria ze wzorca State Machine
 
@@ -138,9 +147,9 @@ Screenshots
 
 - [Jack Herrington - Mastering React Context: Do you NEED a state manager?](https://www.youtube.com/watch?v=MpdFj8MEuJA)
 
-### React Memo
+### React Portals
 
-- [Jack Herrington - Mastering React Memo](https://www.youtube.com/watch?v=DEPwA3mv_R8)
+- [Theo - ping.gg - how to use React Portals and why?](https://www.youtube.com/watch?v=IgJcK0SbiLM)
 
 ### React testing
 
@@ -151,27 +160,51 @@ Screenshots
 
 - [Jack Herrington - Mastering React Batch Updating](https://www.youtube.com/watch?v=MlDTHzK1vKI)
 - [React is slow, what now?](https://nosleepjavascript.com/react-performance/)
-- [Web Dev Junkie - How to implement the MVC pattern in React (very interesting approach to this problem)](https://www.youtube.com/watch?v=LIlTrgVz4QA)
 - [Lydia Hallie - Advanced Rendering Patterns (what shortcuts like ISR, SSG and SSR really mean? )](https://www.youtube.com/watch?v=PN1HgvAOmi8)
+- [Optimizing performance in a React application](https://blog.logrocket.com/5-react-performance-optimization-techniques/)
+- [Modus - How to optimize a React.js app bundle performance to load under 3s](https://www.youtube.com/watch?v=j8NJc60H294)
 
-#### About useMemo and useCallback
+### Memoization in React
 
 - [Kent C. Dodds - Memoization and React](https://epicreact.dev/memoization-and-react/)
+- [Ben Awad - How to use memo in React to Optimize Renders](https://www.youtube.com/watch?v=o-alRbk_zP0)
+
+#### useCallback and useMemo
+
 - [Kent C. Dodds - When to useMemo and useCallback.](https://kentcdodds.com/blog/usememo-and-usecallback)
-- [Demystifying React Hooks: useCallback and useMemo - dev.to](https://dev.to/milu_franz/demystifying-react-hooks-usecallback-and-usememo-1a8j)
-- [Learn useMemo In 10 Minutes - YouTube: Web Dev Simplified](https://www.youtube.com/watch?v=THL1OPn72vo)
-- [Learn useCallback In 8 Minutes - YouTube: Web Dev Simplified](https://www.youtube.com/watch?v=_AyFP5s69N4)
+- [Demystifying React Hooks: useCallback and useMemo](https://dev.to/milu_franz/demystifying-react-hooks-usecallback-and-usememo-1a8j)
+- [Web Dev Simplified - Learn useMemo In 10 Minutes](https://www.youtube.com/watch?v=THL1OPn72vo)
+- [Web Dev Simplified- Learn useCallback In 8 Minutes](https://www.youtube.com/watch?v=_AyFP5s69N4)
+
+#### React.memo
+
+- [Jack Herrington - Mastering React Memo](https://www.youtube.com/watch?v=DEPwA3mv_R8)
+- [Dmitri Pavlutin - Use React.memo() wisely](https://dmitripavlutin.com/use-react-memo-wisely/)
 
 ### React libraries
 
 - [Best React Libraries to Use](https://www.reddit.com/r/reactjs/comments/vxklim/best_react_libraries_to_use_in_2022/)
-- [Animations In React - Framer-Motion Tutorial - YouTube: PedroTech](https://www.youtube.com/watch?v=GOuwOI-WSkE)
 
 ### Debugging React apps
 
 - [Bartosz Szczeciński - Intro to debugging ReactJS applications](https://medium.com/@baphemot/intro-to-debugging-reactjs-applications-67cf7a50b3dd)
 - [Web Dev Junkie - Tips and Tricks for Debugging React Applications](https://www.youtube.com/watch?v=UXDAp0ILOwg)
 - [Kent C. Dodds - React DevTools](https://kentcdodds.com/blog/react-devtools)
+- [How To Debug React Components Using React Developer Tools](https://www.digitalocean.com/community/tutorials/how-to-debug-react-components-using-react-developer-tools)
+
+### Animations
+
+#### React-Spring
+
+- [The basics of React-Spring](https://react-spring.dev/basics#basics)
+- [BiteSize Academy - How to animate mount and unmount of a react component?](https://www.youtube.com/watch?v=kT6yYSwK1oA)
+
+#### Framer Motion
+
+- [The introduction of Framer Motion](https://www.framer.com/docs/introduction/)
+- [CodeSnap - Framer Motion | Page Transitions in React](https://www.youtube.com/watch?v=YxLMAk2H3ns)
+- [Fireship - Springy Animated Modals // Framer Motion & React Tutorial for Beginners](https://www.youtube.com/watch?v=SuqU904ZHA4)
+- [PedroTech - Animations In React - Framer-Motion Tutorial](https://www.youtube.com/watch?v=GOuwOI-WSkE)
 
 ### React recruitment materials
 
@@ -184,7 +217,7 @@ Screenshots
 
 ### Other React materials
 
-- [Theo - ping.gg - This React Feature BREAKS THE RULES??? 😱 (how to use React Portals and why?)](https://www.youtube.com/watch?v=IgJcK0SbiLM)
+- [Web Dev Junkie - How to implement the MVC pattern in React (very interesting approach to this problem)](https://www.youtube.com/watch?v=LIlTrgVz4QA)
 - [uidotdev - The Story of React](https://www.youtube.com/watch?v=Wm_xI7KntDs)
 - [uidotdev - The Story of Concurrent React](https://www.youtube.com/watch?v=NZoRlVi3MjQ)
 
