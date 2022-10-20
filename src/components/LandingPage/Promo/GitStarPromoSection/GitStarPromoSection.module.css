@@ -19,24 +19,24 @@
   text-align: center;
   margin: 0 auto;
   margin-bottom: 2rem;
-  transition: text-shadow .5s;
+  transition: text-shadow 0.5s;
 }
 
 .button {
-  --hover: black;
+  --hover: var(--theme-bg);
+
   font-size: 1.3rem;
-  background-color: white;
+  background-color: var(--docs-btn-bg);
   color: var(--hover);
   padding: 0 2rem;
   border-radius: 8px;
   text-decoration: none;
-  display: flex;
   width: fit-content;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
-  transition: .2s ease-in-out;
+  transition: 0.2s cubic-bezier(0.25, 1, 0.5, 1);
   font-family: var(--font-special);
   font-weight: bold;
 }
@@ -47,11 +47,9 @@
 
 .button:hover,
 .button:focus {
-  animation: pulse .8s;
+  animation: pulse 0.8s;
   box-shadow: 0 0 2em 2em rgb(255 255 255 / 0%);
-  --hover: var(--gold-color);
-  scale: 0.98;
-  background-color: var(--bewebdev-purple-saturated);
+  scale: 0.95;
 }
 
 @keyframes pulse {
@@ -65,5 +63,5 @@
   width: 1px;
   height: 2.3rem;
   display: block;
-  transition: background-color .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }

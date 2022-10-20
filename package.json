@@ -36,6 +36,8 @@
 	"devDependencies": {
 		"prettier": "^2.7.1",
 		"prettier-plugin-astro": "^0.5.5",
-		"sass": "^1.55.0"
+		"sass": "^1.55.0",
+		"stylelint": "^14.14.0",
+		"stylelint-config-standard": "^29.0.0"
 	}
 }

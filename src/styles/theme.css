@@ -68,8 +68,16 @@
 
 :root {
 	color-scheme: light;
-	--color-blue: var(--color-base-blue), 41%;
-	--theme-accent: hsla(var(--color-red), 1);
+
+	--docs-btn-bg: hsl(300, 53%, 29%);
+
+	--bewebdev-pink: hsl(318, 30%, 100%);
+	--bewebdev-pink-saturated: hsl(318, 92%, 100%);
+	--bewebdev-purple: hsl(255, 20%, 100%);
+	--bewebdev-purple-saturated: hsl(255, 79%, 95%);
+	--bewebdev-red: hsla(0, 96%, 53%, 0.475);
+
+	--theme-accent: hsla(var(--color-blue), 1);
 	--theme-text-accent: hsla(var(--color-blue), 1);
 	--theme-text-accent-visited: var(--bewebdev-red);
 	--theme-accent-opacity: 0.15;
@@ -99,8 +107,13 @@ body {
 
 :root.theme-dark {
 	color-scheme: dark;
+
+	--docs-btn-bg: white;
+
 	--bewebdev-pink: #f806b0;
+	--bewebdev-pink-saturated: #a31077;
 	--bewebdev-purple: #1c1531;
+	--bewebdev-purple-saturated: #342366;
 	--bewebdev-red: #a4030379;
 
 	--theme-accent-opacity: 0.15;

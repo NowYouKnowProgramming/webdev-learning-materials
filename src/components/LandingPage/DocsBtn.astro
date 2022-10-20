@@ -31,8 +31,8 @@ const css = `docs-btn ${classes ? classes : ''}`
 
 	.docs-btn {
 		font-size: 1.3rem;
-		background-color: white;
-		color: black;
+		background-color: var(--docs-btn-bg);
+		color: var(--theme-bg);
 		font-weight: bold;
 		padding: 1rem 2rem;
 		border-radius: 8px;
@@ -41,7 +41,7 @@ const css = `docs-btn ${classes ? classes : ''}`
 		transition: cubic-bezier(0.17, 0.67, 0.11, 0.98) 0.3s;
 		font-family: var(--font-special);
 		&:hover {
-			box-shadow: rgba(0, 0, 0, 0.23) 0 2px 5px, rgb(255, 255, 255) 0 4px 0;
+			box-shadow: rgba(0, 0, 0, 0.23) 0 2px 5px, var(--docs-btn-bg) 0 4px 0;
 			transform: translateY(-2px);
 			opacity: 1;
 			span::before {
@@ -50,11 +50,11 @@ const css = `docs-btn ${classes ? classes : ''}`
 		}
 
 		&.repo {
-			border: 2px white solid;
+			border: 2px var(--docs-btn-bg) solid;
 			background-color: transparent;
-			color: white;
+			color: var(--docs-btn-bg);
 			span::before {
-				background-color: white;
+				background-color: var(--docs-btn-bg);
 			}
 		}
 
@@ -74,7 +74,7 @@ const css = `docs-btn ${classes ? classes : ''}`
 				width: 0%;
 				height: 4px;
 				border-radius: 2px;
-				background-color: black;
+				background-color: var(--theme-bg);
 				transition: 0.2s;
 			}
 		}
