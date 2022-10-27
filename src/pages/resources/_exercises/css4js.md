@@ -16,7 +16,6 @@
   - [Sole and Ankle Revisited - responsive design](https://github.com/css-for-js/sole-and-ankle-revisited)
   - [Unsprinkle - typography and images](https://github.com/css-for-js/unsprinkle)
 
-
     - <details>
 
       <summary>How this page looks like:</summary>
