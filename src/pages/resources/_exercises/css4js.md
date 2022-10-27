@@ -4,7 +4,9 @@
   - [Character Creator - position and overflow](https://github.com/css-for-js/character-creator)
   - [Mini Component Library - create your own components (progress bar, select element and search input)](https://github.com/css-for-js/mini-component-library)
 
-    - <details> <summary>How these components could look like:</summary>
+    - <details>
+
+      <summary>How these components could look like:</summary>
 
       <img src="/images/css/components.webp" alt="progress bar, select element and search input" loading="lazy" />
 
@@ -14,7 +16,10 @@
   - [Sole and Ankle Revisited - responsive design](https://github.com/css-for-js/sole-and-ankle-revisited)
   - [Unsprinkle - typography and images](https://github.com/css-for-js/unsprinkle)
 
-    - <details> <summary>How this page looks like:</summary>
+
+    - <details>
+
+      <summary>How this page looks like:</summary>
 
       <img src="/images/css/unsprinkle.webp" alt="unsprinkle page" loading="lazy" />
 
