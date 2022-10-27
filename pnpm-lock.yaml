@@ -3,7 +3,6 @@ lockfileVersion: 5.4
 specifiers:
   '@algolia/client-search': ^4.13.1
   '@astrojs/mdx': ^0.11.3
-  '@astrojs/partytown': ^1.0.1
   '@astrojs/preact': ^1.1.1
   '@astrojs/react': ^1.1.4
   '@astrojs/sitemap': ^1.0.0
@@ -31,7 +30,6 @@ specifiers:
 dependencies:
   '@algolia/client-search': 4.14.2
   '@astrojs/mdx': 0.11.3_rollup@2.78.1
-  '@astrojs/partytown': 1.0.1
   '@astrojs/preact': 1.1.1_preact@10.11.0
   '@astrojs/react': 1.1.4_biqbaboplfbrettd7655fr4n2y
   '@astrojs/sitemap': 1.0.0
@@ -272,13 +270,6 @@ packages:
       micromark-util-types: 1.0.2
       uvu: 0.5.6
       vfile-message: 3.1.2
-    dev: false
-
-  /@astrojs/partytown/1.0.1:
-    resolution: {integrity: sha512-JVmKwQa2aWMAmz3tkNHtg5hw7gOTI6ROyFIYcUQtN6j8aysEiWKnt4xzz67RvDWId1h7sIde87UeH+4YoEyGug==}
-    dependencies:
-      '@builder.io/partytown': 0.7.1
-      mrmime: 1.0.1
     dev: false
 
   /@astrojs/preact/1.1.1_preact@10.11.0:
@@ -572,11 +563,6 @@ packages:
       '@babel/helper-string-parser': 7.18.10
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
-    dev: false
-
-  /@builder.io/partytown/0.7.1:
-    resolution: {integrity: sha512-hvu2gG9NDtCa5aoL4JkvDe3E5SegXlHAkhtA+Az96uTtFA0PYuEPjDYGiayGTkZuRKUmxetebWjIFgSDNdlBOw==}
-    hasBin: true
     dev: false
 
   /@csstools/selector-specificity/2.0.2_zurzgjffv23ohtxa7nq7nizuja:
