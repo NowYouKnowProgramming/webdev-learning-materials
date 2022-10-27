@@ -1,4 +1,5 @@
 import mdx from '@astrojs/mdx'
+import partytown from '@astrojs/partytown'
 import preact from '@astrojs/preact'
 import react from '@astrojs/react'
 import compress from 'astro-compress'
