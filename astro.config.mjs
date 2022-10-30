@@ -1,8 +1,8 @@
-import { defineConfig } from 'astro/config'
+import mdx from '@astrojs/mdx'
 import preact from '@astrojs/preact'
 import react from '@astrojs/react'
-import mdx from '@astrojs/mdx'
 import compress from 'astro-compress'
+import { defineConfig } from 'astro/config'
 
 import sitemap from '@astrojs/sitemap'
 
