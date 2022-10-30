@@ -31,21 +31,25 @@ import '../styles/theme.css'
 
 <!-- Google tag (gtag.js) -->
 <script type='text/partytown'>
-	;(function (i, s, o, g, r, a, m) {
-		i['GoogleAnalyticsObject'] = r
-		;(i[r] =
-			i[r] ||
+	;(function () {
+		window.gtag =
+			window.gtag ||
 			function () {
-				;(i[r].q = i[r].q || []).push(arguments)
-			}),
-			(i[r].l = 1 * new Date())
-		;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
-		a.async = 1
-		a.src = g
-		m.parentNode.insertBefore(a, m)
-	})(window, document, 'script', './analytics.js', 'gtag')
+				dataLayer.push(arguments)
+			}
 
-	gtag('js', new Date())
+		window['GoogleAnalyticsObject'] = 'gtag'
 
-	gtag('config', 'G-76TJGCMRYN')
+		window.gtag('js', new Date())
+
+		window.gtag('config', 'G-76TJGCMRYN')
+
+		const script = document.createElement('script')
+		script.async = 1
+		script.src = './analytics.js'
+
+		const tag = document.getElementsByTagName('script')[0]
+
+		tag.parentNode.insertBefore(script, tag)
+	})()
 </script>
