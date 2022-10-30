@@ -17,7 +17,6 @@
 		"@astrojs/preact": "^1.1.1",
 		"@astrojs/react": "^1.1.4",
 		"@astrojs/sitemap": "^1.0.0",
-		"@builder.io/partytown": "^0.7.1",
 		"@docsearch/css": "^3.1.0",
 		"@docsearch/react": "^3.1.0",
 		"@types/node": "^18.0.0",
