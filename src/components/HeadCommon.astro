@@ -30,26 +30,13 @@ import '../styles/theme.css'
 </script>
 
 <!-- Google tag (gtag.js) -->
-<script type='text/partytown'>
-	;(function () {
-		window.gtag =
-			window.gtag ||
-			function () {
-				dataLayer.push(arguments)
-			}
-
-		window['GoogleAnalyticsObject'] = 'gtag'
-
-		window.gtag('js', new Date())
-
-		window.gtag('config', 'G-76TJGCMRYN')
-
-		const script = document.createElement('script')
-		script.async = 1
-		script.src = './analytics.js'
-
-		const tag = document.getElementsByTagName('script')[0]
-
-		tag.parentNode.insertBefore(script, tag)
-	})()
+<script async src='https://www.googletagmanager.com/gtag/js?id=G-76TJGCMRYN'
+></script>
+<script is:inline>
+	window.dataLayer = window.dataLayer || []
+	function gtag() {
+		dataLayer.push(arguments)
+	}
+	gtag('js', new Date())
+	gtag('config', 'G-76TJGCMRYN')
 </script>
