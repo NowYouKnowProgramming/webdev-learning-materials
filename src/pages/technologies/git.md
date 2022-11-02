@@ -29,6 +29,13 @@ layout: ../../layouts/MainLayout.astro
 - [Fireship - 13 Advanced (but useful) Git Techniques and Shortcuts](https://www.youtube.com/watch?v=ecK3EnyGD8o)
 - [Annie Sexton - Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go)
 
+### Quick tips for Git
+
+- [How to Update a Fork in Git - medium](https://medium.com/@sahoosunilkumar/how-to-update-a-fork-in-git-95a7daadc14e)
+- [Turn around your Git mistakes in 17 ways - quick fixes for common mistakes](https://dev.to/smitterhane/turn-around-your-git-mistakes-in-17-ways-2mn1)
+- [How to remove commits from a pull request - stackoverflow](https://stackoverflow.com/questions/36168839/how-to-remove-commits-from-a-pull-request)
+- [Delete branches that have been merged - stackoverflow](https://stackoverflow.com/questions/6127328/how-do-i-delete-all-git-branches-which-have-been-merged/6127884#6127884)
+
 ### Other
 
 - [List of git commands for different situations](https://ohshitgit.com/)
