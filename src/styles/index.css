@@ -35,7 +35,7 @@
 	--z-floating-highest: 300;
 	--overlay-high: 2137;
 	--overlay-higher: 2138;
-	--gold-color: hsl(51, 100%, 50%);
+	--gold-color: hsl(51deg 100% 50%);
 }
 
 @media (min-width: 50em) {
@@ -45,20 +45,20 @@
 }
 
 @font-face {
-	font-family: 'Inter';
-	src: url('/fonts/Inter-Regular.ttf');
+	font-family: Inter;
+	src: url('/fonts/Inter-Regular.woff2');
 	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Nunito Italic';
-	src: url('/fonts/Nunito-Italic-VariableFont_wght.ttf');
+	src: url('/fonts/Nunito-Italic-VariableFont_wght.woff2');
 	font-display: swap;
 }
 
 @font-face {
-	font-family: 'Nunito';
-	src: url('/fonts/Nunito-VariableFont_wght.ttf');
+	font-family: Nunito;
+	src: url('/fonts/Nunito-VariableFont_wght.woff2');
 	font-display: swap;
 }
 
@@ -79,11 +79,11 @@ nav ul {
 	padding: 0;
 }
 
-.content>section>*+* {
+.content > section > * + * {
 	margin-top: 1.25rem;
 }
 
-.content>section> :first-child {
+.content > section > :first-child {
 	margin-top: 0;
 }
 
@@ -134,7 +134,6 @@ h5 {
 	font-size: 1rem;
 }
 
-
 @media (max-width: 800px) {
 	h1 {
 		font-size: 2.6rem;
@@ -176,50 +175,50 @@ a {
 	gap: 0.5rem;
 }
 
-article>section :is(ul, ol)>*+* {
+article > section :is(ul, ol) > * + * {
 	margin-top: 0.75rem;
 }
 
-article>section nav :is(ul, ol)>*+* {
+article > section nav :is(ul, ol) > * + * {
 	margin-top: inherit;
 }
 
-article>section li> :is(p, pre, blockquote):not(:first-child) {
+article > section li > :is(p, pre, blockquote):not(:first-child) {
 	margin-top: 1rem;
 }
 
-article>section :is(ul, ol) {
+article > section :is(ul, ol) {
 	padding-left: 1em;
 }
 
-article>section nav :is(ul, ol) {
+article > section nav :is(ul, ol) {
 	padding-left: inherit;
 }
 
-article>section nav {
+article > section nav {
 	margin-top: 1rem;
 	margin-bottom: 2rem;
 }
 
-article>section ::marker {
+article > section ::marker {
 	font-weight: bold;
 	color: var(--theme-text-light);
 }
 
-article>section iframe {
+article > section iframe {
 	width: 100%;
 	height: auto;
 	aspect-ratio: 16 / 9;
 }
 
-a>code {
+a > code {
 	position: relative;
 	color: var(--theme-text-accent);
 	background: transparent;
 	text-underline-offset: var(--padding-block);
 }
 
-a>code::before {
+a > code::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -233,7 +232,7 @@ a>code::before {
 }
 
 a:focus {
-	outline: 2px solid currentColor;
+	outline: 2px solid currentcolor;
 	outline-offset: 0.25em;
 }
 
@@ -259,25 +258,26 @@ code {
 	word-break: break-word;
 }
 
-pre.astro-code>code {
+pre.astro-code > code {
 	all: unset;
 }
 
-pre>code {
+pre > code {
 	font-size: 1em;
 }
 
 table,
 pre {
 	position: relative;
+
 	--padding-block: 1rem;
 	--padding-inline: 2rem;
+
 	padding: var(--padding-block) var(--padding-inline);
 	padding-right: calc(var(--padding-inline) * 2);
 	margin-left: calc(var(--padding-inline) * -1);
 	margin-right: calc(var(--padding-inline) * -1);
 	font-family: var(--font-mono);
-
 	line-height: 1.5;
 	font-size: 0.85em;
 	overflow-y: hidden;
@@ -320,6 +320,7 @@ blockquote code {
 @media (min-width: 37.75em) {
 	pre {
 		--padding-inline: 1.25rem;
+
 		border-radius: 8px;
 		margin-left: 0;
 		margin-right: 0;
@@ -345,10 +346,7 @@ img {
 }
 
 button {
-	display: flex;
-	align-items: center;
 	justify-items: center;
-	gap: 0.25em;
 	padding: 0.33em 0.67em;
 	border: 0;
 	background: var(--theme-bg);
@@ -383,7 +381,7 @@ h2.heading {
 
 .heading-link:focus-within {
 	color: var(--theme-text-light);
-	border-left-color: hsla(var(--color-gray-40), 1);
+	border-left-color: hsl(var(--color-gray-40) 1);
 }
 
 .heading-link svg {
