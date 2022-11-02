@@ -48,6 +48,7 @@ export const SIDEBAR: Sidebar = {
 		},
 		{ text: 'Job boards', link: 'common/job_boards' },
 		{ text: 'Learning to learn', link: 'common/learning_to_learn' },
+		{ text: 'Programmer POV', link: 'common/programmer_pov' },
 	],
 	Principles: [
 		{ text: 'Design patterns', link: 'principles/design_patterns' },
@@ -57,6 +58,7 @@ export const SIDEBAR: Sidebar = {
 	],
 	Software: [
 		{ text: 'Visual Studio Code', link: 'software/vscode' },
+		{ text: 'Vim', link: 'software/vim' },
 		{ text: 'Other tools', link: 'software/other_tools' },
 	],
 	Resources: [
