@@ -14,8 +14,18 @@ layout: ../../layouts/MainLayout.astro
 
 ## Productivity
 
-- [Notion - really amazing tool to make notes and organize your thoughts](https://notion.so/)
 - [Raindrop.io - manage your bookmarks way easier than you think](https://raindrop.io/)
+
+## Notes taking
+
+- [Obsidian.md - powerful and extensible knowledge base that works on top of your local folder of plain text files](https://obsidian.md/)
+- [Notion - really amazing tool to make notes and organize your thoughts](https://notion.so/)
+
+## Diagrams
+
+- [Drawio - free app for diagrams](https://drawio-app.com/)
+- [Excalidraw - draw diagrams by hand fast](https://excalidraw.com/)
+- [Lucidchart - intelligent diagramming application](https://www.lucidchart.com/pages)
 
 ## Screenshots
 

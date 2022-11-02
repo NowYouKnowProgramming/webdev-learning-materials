@@ -6,6 +6,7 @@ layout: ../../layouts/MainLayout.astro
 
 ## Free
 
+- [How To Learn Any New Programming Skill Fast - YouTube: Web Dev Simplified](https://youtu.be/CJJtA1NTqN4)
 - [The Growth Mindset](https://www.youtube.com/watch?v=-71zdXCMU6A)
 - [Khan Academy - High school activities: Growth mindset](https://www.khanacademy.org/college-careers-more/learnstorm-growth-mindset-activities-us/high-school-activities/activity-1-the-truth-about-your-brain-hs-02/a/the-truth-about-your-brain-part-1-3?modal=1)
 - ["Your Theme"](https://www.youtube.com/watch?v=NVGuFdX5guE)
@@ -16,3 +17,7 @@ layout: ../../layouts/MainLayout.astro
 ## Paid
 
 - [Zero to Mastery - Learning to Learn](https://academy.zerotomastery.io/p/learning-to-learn-efficient-learning-zero-to-mastery-blueprint)
+
+## How to take notes when learning
+
+- [Personal project notes - Obsidian template](https://codex.erisianrite.com/System/Templates/Personal+Project+Template)
