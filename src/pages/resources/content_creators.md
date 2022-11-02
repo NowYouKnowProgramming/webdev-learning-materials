@@ -1,6 +1,6 @@
 ---
-title: Content creators
-description: Best sources to seek further knowledge, videos you might want to watch in your spare time, technical blogs and podcasts
+title: Content creators and websites
+description: Best sources to seek further knowledge, videos you might want to watch, technical blogs, podcasts and websites
 layout: ../../layouts/MainLayout.astro
 ---
 
@@ -16,13 +16,15 @@ layout: ../../layouts/MainLayout.astro
 - [Web Dev Junkie (JS/React)](https://www.youtube.com/c/WebDevJunkie)
 - [Jack Herrington (JS/React)](https://www.youtube.com/c/JackHerrington)
 - [TomDoesTech (JS/React)](https://www.youtube.com/c/TomDoesTech)
+- [Code 2020 (VSCode/JS)](https://www.youtube.com/c/Code2020/videos)
 
-### Blogs
+### Blogs and websites
 
 - [Kent C. Dodds (JS/React)](https://kentcdodds.com/blog)
 - [Josh W. Comeau (CSS/JS)](https://www.joshwcomeau.com/)
 - [Oak Harbor Web Designs (builds real-world HTML/CSS/JS websites)](https://www.youtube.com/channel/UC6YEjppZo4Ep-8N54_nXFQg)
 - [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
+- [web.dev - various resources about front-end from Google itself (responsive design, accessibility, optimization, etc.)](https://web.dev/)
 
 ### Podcasts
 

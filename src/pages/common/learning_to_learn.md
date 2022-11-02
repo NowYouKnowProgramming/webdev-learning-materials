@@ -21,3 +21,14 @@ layout: ../../layouts/MainLayout.astro
 ## How to take notes when learning
 
 - [Personal project notes - Obsidian template](https://codex.erisianrite.com/System/Templates/Personal+Project+Template)
+
+## Plan your learning
+
+- [Roadmap.sh - a starting point to learn code](https://roadmap.sh/)
+- [JetBrains Academy - Frontend Developer Path (learn HTML, CSS, JavaScript, React and more!)](https://hyperskill.org/tracks/5)
+
+## Tips from pros
+
+- [ThePrimeagen - How I Became A Better Programmer](https://www.youtube.com/watch?v=cgXfWo42gig)
+- [Stefan Mischook - Should I Take a Break from Learning CSS? (when to take a break from learning anything)](https://www.youtube.com/watch?v=78tNu4f91oM)- [Fireship - How to "Google It" like a Senior Software Engineer](https://www.youtube.com/watch?v=cEBkvm0-rg0)
+- [Fireship - How to "Google It" like a Senior Software Engineer](https://www.youtube.com/watch?v=cEBkvm0-rg0)
