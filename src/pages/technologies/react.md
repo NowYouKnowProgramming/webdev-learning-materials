@@ -8,14 +8,24 @@ layout: ../../layouts/MainLayout.astro
 
 - [New React Docs (beta)](https://beta.reactjs.org/)
 
-## Free
+## Free React courses
 
-### Kent C. Dodds - React Workshops (from Epic React)
+- [Introduction to React by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe)
+- [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
+- [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
+- [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
+- [React Framework.dev - different React resources (books, videos, courses, podcasts) and more](https://react.framework.dev/)
+
+## Paid React courses
+
+- [Academind - React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
+- [Brad Schiff (LearnWebCode) - React For The Rest Of Us](https://www.udemy.com/course/react-for-the-rest-of-us/)
+- [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
+<details>
+
+<summary>Kent C. Dodds - Source files from Epic React course (free)</summary>
 
 #### JavaScript Version
-
-<details>
-<summary>List of materials</summary>
 
 - [React Fundamentals](https://github.com/kentcdodds/react-fundamentals)
 - [React Hooks](https://github.com/kentcdodds/react-hooks)
@@ -26,31 +36,12 @@ layout: ../../layouts/MainLayout.astro
 - [React Suspense](https://github.com/kentcdodds/react-suspense)
 - [Build an Epic React App (Bookshelf)](https://github.com/kentcdodds/bookshelf)
 
-</details>
-
 #### TypeScript Version **(recommended)**
-
-<details>
-<summary>List of materials</summary>
 
 - [React Fundamentals](https://github.com/Willaiem/react-fundamentals-typescript)
 - [React Hooks](https://github.com/Willaiem/react-hooks-typescript)
 
 </details>
-
-#### Other React tutorials
-
-- [Introduction to React by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe)
-- [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
-- [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
-- [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
-- [React Framework.dev - different React resources (books, videos, courses, podcasts) and more](https://react.framework.dev/)
-
-## Paid
-
-- [Academind - React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
-- [Brad Schiff (LearnWebCode) - React For The Rest Of Us](https://www.udemy.com/course/react-for-the-rest-of-us/)
-- [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
 
 ## Additional content
 
