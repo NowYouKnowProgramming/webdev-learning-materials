@@ -18,7 +18,7 @@ layout: ../../layouts/MainLayout.astro
 
 <details>
 
-<summary>Kent C. Dodds - Source files from Epic React course (free)</summary>
+<summary>Kent C. Dodds - Free Workshops from Epic React course (free)</summary>
 
 #### JavaScript Version
 
