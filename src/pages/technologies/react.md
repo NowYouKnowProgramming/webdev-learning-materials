@@ -16,11 +16,6 @@ layout: ../../layouts/MainLayout.astro
 - [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
 - [React Framework.dev - different React resources (books, videos, courses, podcasts) and more](https://react.framework.dev/)
 
-## Paid React courses
-
-- [Academind - React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
-- [Brad Schiff (LearnWebCode) - React For The Rest Of Us](https://www.udemy.com/course/react-for-the-rest-of-us/)
-- [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
 <details>
 
 <summary>Kent C. Dodds - Source files from Epic React course (free)</summary>
@@ -42,6 +37,12 @@ layout: ../../layouts/MainLayout.astro
 - [React Hooks](https://github.com/Willaiem/react-hooks-typescript)
 
 </details>
+
+## Paid React courses
+
+- [Academind - React - The Complete Guide (incl Hooks, React Router, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
+- [Brad Schiff (LearnWebCode) - React For The Rest Of Us](https://www.udemy.com/course/react-for-the-rest-of-us/)
+- [Kent C. Dodds - Epic React (if you need the video format + solutions + bonus content)](https://epicreact.dev/)
 
 ## Additional content
 
