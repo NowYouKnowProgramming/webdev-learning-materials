@@ -4,7 +4,7 @@ description: All these learning materials out there are great, but how to utiliz
 layout: ../../layouts/MainLayout.astro
 ---
 
-## Free
+## Free courses about efficient learning
 
 - [How To Learn Any New Programming Skill Fast - YouTube: Web Dev Simplified](https://youtu.be/CJJtA1NTqN4)
 - [The Growth Mindset](https://www.youtube.com/watch?v=-71zdXCMU6A)
@@ -14,17 +14,17 @@ layout: ../../layouts/MainLayout.astro
 - [An Approach to Continuous Learning](https://dev.to/abh1navv/an-approach-to-continuous-learning-30pk)
 - [Reddit Post - Most of you need to SLOW DOWN](https://www.reddit.com/r/learnprogramming/comments/vvsw0x/most_of_you_need_to_slow_down/)
 
-## Paid
+## Paid courses about efficient learning
 
 - [Zero to Mastery - Learning to Learn](https://academy.zerotomastery.io/p/learning-to-learn-efficient-learning-zero-to-mastery-blueprint)
 
 ## How to take notes when learning
 
-- [Personal project notes - Obsidian template](https://codex.erisianrite.com/System/Templates/Personal+Project+Template)
+- [Personal project notes - Obsidian template for notes taking](https://codex.erisianrite.com/System/Templates/Personal+Project+Template)
 
 ## Plan your learning
 
-- [Roadmap.sh - a starting point to learn code](https://roadmap.sh/)
+- [Roadmap.sh - a starting point to learn code, roadmaps, guides and other educational content to help guide the developers in picking up the path and guide their learnings](https://roadmap.sh/)
 - [JetBrains Academy - Frontend Developer Path (learn HTML, CSS, JavaScript, React and more!)](https://hyperskill.org/tracks/5)
 
 ## Tips from pros

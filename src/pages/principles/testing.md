@@ -43,15 +43,16 @@ Test element selectors from best to worst, you want to test your application in 
 - **Last resort** methods (if it's not possible to use other means)
   = getByTestId
 
-## Free courses
+## Free testing courses
 
 - [Net Ninja - React Testing Library tutorial series](https://www.youtube.com/watch?v=7dTTFW7yACQ&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ)
 - [Jack Herrington - Testing with Jest and Wallaby](https://www.youtube.com/watch?v=FC5gM49xQPE)
 - [Jack Herrington - TypeScript/React Testing: Components, Hooks, Custom Hooks, Redux and Zustand](https://www.youtube.com/watch?v=bvdHVxqjv80)
 
-### Polish free courses
+### Free Polish testing courses
 
   <details>
+
   <summary>Frontlive - Jest & React Testing Library: seria kursów na blogu</summary>
 
 - [Frontlive - Testowanie JS - podstawy](https://frontlive.pl/blog/podstawy-testowania)
@@ -63,15 +64,16 @@ Test element selectors from best to worst, you want to test your application in 
 
 </details>
 
-## Paid courses
+## Paid testing courses
 
 - [Academind - JavaScript Unit Testing - The Practical Guide](https://www.udemy.com/course/javascript-unit-testing-the-practical-guide/)
 - [Kent C. Dodds - Testing JavaScript](https://testingjavascript.com/)
 
-## Additional content
+## More about testing
 
-### Jest
+### Jest JavaScript Testing Framework
 
+- [Jest documentation](https://jestjs.io/docs/getting-started)
 - [Testing React Applications with Jest by Joyce Echessa - auth0.com](https://auth0.com/blog/testing-react-applications-with-jest/)
 
 ### Vitest an alternative to Jest
@@ -119,7 +121,7 @@ What to test? Why test? Which type of test to write?
 - [Jack Herrington - Test Driven Development: The best way to code that I almost never use](https://www.youtube.com/watch?v=EH9Suo_J4Ks)
 - [Kent C. Dodds - AHA Testing (how to test wisely)](https://kentcdodds.com/blog/aha-testing)
 
-### Other testing materials
+### Other materials about testing
 
 - [Kent C. Dodds - Confidently Shipping Code (why you should learn testing)](https://kentcdodds.com/blog/confidently-shipping-code)
 - [Theo - ping.gg - Does unit testing makes sense?](https://www.youtube.com/watch?v=ZGKGb109-I4)

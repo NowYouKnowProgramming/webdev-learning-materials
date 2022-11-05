@@ -4,18 +4,18 @@ description: Best practices to write easy to read and maintainable code. Write c
 layout: ../../layouts/MainLayout.astro
 ---
 
-## Free
+## Free clean code courses
 
 - [Uncle Martin's (Author of Clean Code Book) Lectures](https://www.youtube.com/playlist?list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
 - [Clean Code - JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
 - [Clean Code - TypeScript](https://github.com/labs42io/clean-code-typescript)
 - [Scrimba - Clean Code Tutorial](https://www.youtube.com/playlist?list=PLqYFXd9GTRVUyVv4Kw9cJAUS4vujkgvf7)
 
-## Paid
+## Paid clean code courses
 
 - [Academind - Clean Code](https://pro.academind.com/p/clean-code)
 
-## Additional content
+## Additional content about clean code
 
 - [10 Common JavaScript Clean Code Mistakes](https://www.youtube.com/watch?v=fHJC44PESIk)
 - [Kent C. Dodds - AHA Programming](https://youtu.be/wuVy7rwkCfc)
