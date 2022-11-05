@@ -117,9 +117,15 @@ Our template for this extension
 
 [Explanation why you might need this extension: Git materials - bewebdev.tech](https://bewebdev.tech/technologies/git#write-good-commit-messages)
 
-import { configForGitMessageExtenstion } from '../../data/vscode.data.ts'
+import {
+	configForGitMessageExtenstion,
+	confingTemplateMessage,
+} from '../../data/vscode.data.ts'
 
 <details>
-	<summary>View our template</summary>
+	<summary>View our template for Git Commit Message extension</summary>
+	<p>Git commit template</p>
+	<pre class='astro-code'>{confingTemplateMessage}</pre>
+	<p>Variables for git commit template</p>
 	<pre class='astro-code'>{configForGitMessageExtenstion}</pre>
 </details>
