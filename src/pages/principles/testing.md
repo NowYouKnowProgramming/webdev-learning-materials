@@ -9,14 +9,15 @@ layout: ../../layouts/MainLayout.astro
 ### Why testing is important
 
 - Catch bugs before they appear in production
-- Increase confidence in application
+- Testing forces you to write cleaner code, because clean code is easier to test
+- Increase confidence in application (making sure your changes are not breaking code in other places)
 - Testing can serve as documentation
 - Speeding up QA time
-- In a very large codebases you cannot predict or test manually if your change in code will break something, automated testing helps with checking if your changes are valid
+- In a very large codebase you cannot predict or test manually if your change in code will break something, automated testing helps with checking if your changes are valid
 
 [Video explanation](https://youtu.be/tit8PecSH70?t=115)
 
-### Structure of a test
+### Structure of a test, the AAA pattern
 
 - **Arrange** - set up the test data, test conditions, and test environment
 - **Act** - run logic that should be tested (eg. execute function), click a button
@@ -28,6 +29,20 @@ layout: ../../layouts/MainLayout.astro
 - **Integration** tests - testing a component that uses other components, testing things _working_ together
 - **End to end** tests - testing user interaction with UI
 
+### What to test and not to test?
+
+#### Don't test
+
+- External libraries
+- External API's
+- Your backend code when testing frontend code
+- Above can be summarized with: don't test code you have no possibility of fixing
+
+#### You should test
+
+- Code that you have written in current project
+- Only one thing or feature per test example: input validation
+
 ### How to pick elements to test
 
 Test element selectors from best to worst, you want to test your application in a way the user is interacting with it.
@@ -37,7 +52,7 @@ Test element selectors from best to worst, you want to test your application in 
   - getByLabelText
   - getByPlaceholderText
   - getByText
-- Accesible by **Screen readers**
+- Accessible by **Screen readers**
   - getByAltText
   - getByTitle
 - **Last resort** methods (if it's not possible to use other means)
