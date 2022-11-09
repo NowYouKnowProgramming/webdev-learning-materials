@@ -39,48 +39,50 @@ export const ALGOLIA = {
 export type Sidebar = Record<string, { text: string; link: string }[]>
 
 export const SIDEBAR: Sidebar = {
-  Start: [{ text: 'Introduction', link: 'introduction' }],
-  Common: [
-    { text: 'English', link: 'common/english' },
-    {
-      text: 'HR and job seeking tips',
-      link: 'common/hr_recruitment_resources',
-    },
-    { text: 'Job boards', link: 'common/job_boards' },
-    { text: 'Learning to learn', link: 'common/learning_to_learn' },
-  ],
-  Principles: [
-    { text: 'Design patterns', link: 'principles/design_patterns' },
-    { text: 'Clean code', link: 'principles/clean_code' },
-    { text: 'Testing', link: 'principles/testing' },
-    { text: 'UI and UX', link: 'principles/design_ui_ux' },
-  ],
-  Software: [
-    { text: 'Visual Studio Code', link: 'software/vscode' },
-    { text: 'Other tools', link: 'software/other_tools' },
-  ],
-  Resources: [
-    {
-      text: 'Project ideas and planning',
-      link: 'resources/build_your_project',
-    },
-    { text: 'Build a complete project', link: 'resources/complete_project' },
-    { text: 'Test your skills', link: 'resources/test_your_skills' },
-    {
-      text: 'Content creators',
-      link: 'resources/content_creators',
-    },
-    { text: 'Other resources', link: 'resources/other_resources' },
-  ],
-  Technologies: [
-    { text: 'HTML', link: 'technologies/html' },
-    { text: 'CSS', link: 'technologies/css' },
-    { text: 'JavaScript', link: 'technologies/javascript' },
-    { text: 'TypeScript', link: 'technologies/typescript' },
-    { text: 'React', link: 'technologies/react' },
-    { text: 'Git', link: 'technologies/git' },
-    { text: 'Node.js', link: 'technologies/nodejs' },
-    { text: 'Next.js', link: 'technologies/nextjs' },
-    { text: 'Redux', link: 'technologies/redux' },
-  ],
+	Start: [{ text: 'Introduction', link: 'introduction' }],
+	Common: [
+		{ text: 'English', link: 'common/english' },
+		{
+			text: 'HR and job seeking tips',
+			link: 'common/hr_recruitment_resources',
+		},
+		{ text: 'Job boards', link: 'common/job_boards' },
+		{ text: 'Learning to learn', link: 'common/learning_to_learn' },
+		{ text: 'Programmer POV', link: 'common/programmer_pov' },
+	],
+	Principles: [
+		{ text: 'Design patterns', link: 'principles/design_patterns' },
+		{ text: 'Clean code', link: 'principles/clean_code' },
+		{ text: 'Testing', link: 'principles/testing' },
+		{ text: 'UI and UX', link: 'principles/design_ui_ux' },
+	],
+	Software: [
+		{ text: 'Visual Studio Code', link: 'software/vscode' },
+		{ text: 'Vim', link: 'software/vim' },
+		{ text: 'Other tools', link: 'software/other_tools' },
+	],
+	Resources: [
+		{
+			text: 'Project ideas and planning',
+			link: 'resources/build_your_project',
+		},
+		{ text: 'Build a complete project', link: 'resources/complete_project' },
+		{ text: 'Test your skills', link: 'resources/test_your_skills' },
+		{
+			text: 'Content creators',
+			link: 'resources/content_creators',
+		},
+		{ text: 'Other resources', link: 'resources/other_resources' },
+	],
+	Technologies: [
+		{ text: 'HTML', link: 'technologies/html' },
+		{ text: 'CSS', link: 'technologies/css' },
+		{ text: 'JavaScript', link: 'technologies/javascript' },
+		{ text: 'TypeScript', link: 'technologies/typescript' },
+		{ text: 'React', link: 'technologies/react' },
+		{ text: 'Git', link: 'technologies/git' },
+		{ text: 'Node.js', link: 'technologies/nodejs' },
+		{ text: 'Next.js', link: 'technologies/nextjs' },
+		{ text: 'Redux', link: 'technologies/redux' },
+	],
 }

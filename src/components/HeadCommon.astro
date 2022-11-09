@@ -1,6 +1,8 @@
 ---
 import '../styles/index.css'
 import '../styles/theme.css'
+
+const experimentalOptions = { fetchpriority: 'high' }
 ---
 
 <!-- Global Metadata -->
@@ -11,6 +13,31 @@ import '../styles/theme.css'
 <link rel='icon' type='image/svg+xml' href='/favicon.ico' />
 
 <link rel='sitemap' href='/sitemap.xml' />
+
+<!-- Fonts -->
+<link
+	rel='preload'
+	href='/fonts/Nunito-Italic-VariableFont_wght.woff2'
+	as='font'
+	type='font/woff2'
+	{...experimentalOptions}
+/>
+
+<link
+	rel='preload'
+	href='/fonts/Nunito-VariableFont_wght.woff2'
+	as='font'
+	type='font/woff2'
+	{...experimentalOptions}
+/>
+
+<link
+	rel='preload'
+	href='/fonts/Inter-Regular.woff2'
+	as='font'
+	type='font/woff2'
+	{...experimentalOptions}
+/>
 
 <!-- Scrollable a11y code helper -->
 <script src='/make-scrollable-code-focusable.js' is:inline></script>

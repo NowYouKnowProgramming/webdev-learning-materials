@@ -9,14 +9,15 @@ layout: ../../layouts/MainLayout.astro
 ### Why testing is important
 
 - Catch bugs before they appear in production
-- Increase confidence in application
+- Testing forces you to write cleaner code, because clean code is easier to test
+- Increase confidence in application (making sure your changes are not breaking code in other places)
 - Testing can serve as documentation
 - Speeding up QA time
-- In a very large codebases you cannot predict or test manually if your change in code will break something, automated testing helps with checking if your changes are valid
+- In a very large codebase you cannot predict or test manually if your change in code will break something, automated testing helps with checking if your changes are valid
 
 [Video explanation](https://youtu.be/tit8PecSH70?t=115)
 
-### Structure of a test
+### Structure of a test, the AAA pattern
 
 - **Arrange** - set up the test data, test conditions, and test environment
 - **Act** - run logic that should be tested (eg. execute function), click a button
@@ -28,6 +29,20 @@ layout: ../../layouts/MainLayout.astro
 - **Integration** tests - testing a component that uses other components, testing things _working_ together
 - **End to end** tests - testing user interaction with UI
 
+### What to test and not to test?
+
+#### Don't test
+
+- External libraries
+- External API's
+- Your backend code when testing frontend code
+- Above can be summarized with: don't test code you have no possibility of fixing
+
+#### You should test
+
+- Code that you have written in current project
+- Only one thing or feature per test example: input validation
+
 ### How to pick elements to test
 
 Test element selectors from best to worst, you want to test your application in a way the user is interacting with it.
@@ -37,21 +52,22 @@ Test element selectors from best to worst, you want to test your application in 
   - getByLabelText
   - getByPlaceholderText
   - getByText
-- Accesible by **Screen readers**
+- Accessible by **Screen readers**
   - getByAltText
   - getByTitle
 - **Last resort** methods (if it's not possible to use other means)
   = getByTestId
 
-## Free courses
+## Free testing courses
 
 - [Net Ninja - React Testing Library tutorial series](https://www.youtube.com/watch?v=7dTTFW7yACQ&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ)
 - [Jack Herrington - Testing with Jest and Wallaby](https://www.youtube.com/watch?v=FC5gM49xQPE)
 - [Jack Herrington - TypeScript/React Testing: Components, Hooks, Custom Hooks, Redux and Zustand](https://www.youtube.com/watch?v=bvdHVxqjv80)
 
-### Polish free courses
+### Free Polish testing courses
 
   <details>
+
   <summary>Frontlive - Jest & React Testing Library: seria kursów na blogu</summary>
 
 - [Frontlive - Testowanie JS - podstawy](https://frontlive.pl/blog/podstawy-testowania)
@@ -63,15 +79,16 @@ Test element selectors from best to worst, you want to test your application in 
 
 </details>
 
-## Paid courses
+## Paid testing courses
 
 - [Academind - JavaScript Unit Testing - The Practical Guide](https://www.udemy.com/course/javascript-unit-testing-the-practical-guide/)
 - [Kent C. Dodds - Testing JavaScript](https://testingjavascript.com/)
 
-## Additional content
+## More about testing
 
-### Jest
+### Jest JavaScript Testing Framework
 
+- [Jest documentation](https://jestjs.io/docs/getting-started)
 - [Testing React Applications with Jest by Joyce Echessa - auth0.com](https://auth0.com/blog/testing-react-applications-with-jest/)
 
 ### Vitest an alternative to Jest
@@ -119,7 +136,7 @@ What to test? Why test? Which type of test to write?
 - [Jack Herrington - Test Driven Development: The best way to code that I almost never use](https://www.youtube.com/watch?v=EH9Suo_J4Ks)
 - [Kent C. Dodds - AHA Testing (how to test wisely)](https://kentcdodds.com/blog/aha-testing)
 
-### Other testing materials
+### Other materials about testing
 
 - [Kent C. Dodds - Confidently Shipping Code (why you should learn testing)](https://kentcdodds.com/blog/confidently-shipping-code)
 - [Theo - ping.gg - Does unit testing makes sense?](https://www.youtube.com/watch?v=ZGKGb109-I4)

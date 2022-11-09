@@ -57,5 +57,6 @@ layout: ../../layouts/MainLayout.astro
 - [Geekowojażer - Rekrutacja IT z perspektywy programisty seniora](https://www.geekowojazer.pl/rekrutacja-it-programista/)
 - [Programistyczny preworkout na rozmowy rekrutacyjne - 11 konceptów, które warto znać](https://app.minicoursegenerator.com/5RgSg_hWwEebgf1KuVnzFA/1)
 - [Just Geek IT - Co może zaskoczyć osoby wchodzące do branży IT?](https://geek.justjoin.it/co-moze-zaskoczyc-osoby-wchodzace-do-branzy-it)
+- [WDI 2022 - Cezary Walenciuk - Ogniste pytania rekrutacyjne dla WebDev. Uzupełnij wiedzę](https://www.youtube.com/watch?v=nCEEa3CY_m0)
 - Jak odebrać informację zwrotną od rekrutera?
   ![artykuł dot. informacji zwrotnej](/images/misc/pl_hr_response.webp)
