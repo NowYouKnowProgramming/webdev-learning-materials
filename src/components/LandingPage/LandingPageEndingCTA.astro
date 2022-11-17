@@ -29,7 +29,6 @@ import DocsBtn from './DocsBtn.astro'
 	}
 
 	.text h2 {
-		text-shadow: rgba(0, 0, 0, 0.399) 0 -15px 10px;
 		margin-bottom: 3rem;
 	}
 
@@ -37,16 +36,23 @@ import DocsBtn from './DocsBtn.astro'
 		box-shadow: rgba(0, 0, 0, 0.818) 0 -25px 10px;
 	}
 
+	@media screen and (max-width: 600px) {
+		.bottom-grad {
+			top: 50%;
+			left: 50%;
+			width: 200%;
+			transform: translate(-50%, -50%);
+		}
+	}
+</style>
+
+<style is:global lang='scss'>
 	.bottom-grad {
 		content: '';
 		display: block;
 		aspect-ratio: 1/1;
 		width: 100vw;
-		background-image: radial-gradient(
-			ellipse at center,
-			var(--bewebdev-red) 0%,
-			rgba(255, 255, 255, 0) 70%
-		);
+
 		position: absolute;
 		z-index: var(--z-elevated-higher);
 		top: 80%;
@@ -57,12 +63,16 @@ import DocsBtn from './DocsBtn.astro'
 		user-select: none;
 	}
 
-	@media screen and (max-width: 600px) {
+	html.theme-dark {
+		.text h2 {
+			text-shadow: rgba(0, 0, 0, 0.399) 0 -15px 10px;
+		}
 		.bottom-grad {
-			top: 50%;
-			left: 50%;
-			width: 200%;
-			transform: translate(-50%, -50%);
+			background-image: radial-gradient(
+				ellipse at center,
+				var(--bewebdev-red) 0%,
+				rgba(255, 255, 255, 0) 70%
+			);
 		}
 	}
 </style>
