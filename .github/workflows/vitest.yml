@@ -22,7 +22,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "pnpm"
-      #- run: pnpm run build --if-present
-      - name: Execute Unit tests
       - run: pnpm install
-	    - run: pnpm run test
+      - run: pnpm run test
