@@ -14,7 +14,7 @@ jobs:
       with:
         node-version: 16
     - name: Install dependencies
-      run: pnpm install
+    - run: pnpm install
     - name: Execute Unit tests
     - run: pnpm ci
       - run: pnpm test
