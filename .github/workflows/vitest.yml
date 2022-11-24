@@ -13,8 +13,6 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         node-version: 16
-    - name: Install dependencies
-    - run: pnpm install
     - name: Execute Unit tests
     - run: pnpm ci
       - run: pnpm test
