@@ -2,8 +2,8 @@ export type StarsInStorage = {
 	starCount: number
 	timestamp: number
 }
-const HOUR_IN_MILISECONDS = 3600000
-const MAX_DATA_OLD_MILISECONDS = HOUR_IN_MILISECONDS
+const HOUR_IN_MILLISECONDS = 3600000
+const MAX_DATA_OLD_MILLISECONDS = HOUR_IN_MILLISECONDS / 2
 
 const verifyStarObject = (starData: any): boolean => {
 	const starCountExist = Object.hasOwn(starData, 'starCount')
@@ -19,7 +19,7 @@ const verifyStarObject = (starData: any): boolean => {
 }
 
 const verifyTimestamp = (timestamp: number): boolean =>
-	Date.now() - timestamp < MAX_DATA_OLD_MILISECONDS
+	Date.now() - timestamp < MAX_DATA_OLD_MILLISECONDS
 
 export const getStarFromLocalStorage = (): null | StarsInStorage => {
 	const savedStars = localStorage.getItem('starCount')
