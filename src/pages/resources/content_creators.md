@@ -25,6 +25,8 @@ layout: ../../layouts/MainLayout.astro
 - [Oak Harbor Web Designs (builds real-world HTML/CSS/JS websites)](https://www.youtube.com/channel/UC6YEjppZo4Ep-8N54_nXFQg)
 - [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
 - [web.dev - various resources about front-end from Google itself (responsive design, accessibility, optimization, etc.)](https://web.dev/)
+- [React Round Up](https://topenddevs.com/podcasts/react-round-up)
+- [The React Show](https://www.thereactshow.com/)
 
 ### Podcasts
 
