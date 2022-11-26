@@ -184,6 +184,14 @@ Screenshots
 - [Kent C. Dodds - React DevTools](https://kentcdodds.com/blog/react-devtools)
 - [How To Debug React Components Using React Developer Tools](https://www.digitalocean.com/community/tutorials/how-to-debug-react-components-using-react-developer-tools)
 
+### How React works under the hood
+
+- [Reconciliation - React docs](https://reactjs.org/docs/reconciliation.html)
+- [What is Diffing Algorithm? - geeksforgeeks](https://www.geeksforgeeks.org/what-is-diffing-algorithm/)
+- [Virtual DOM and Internals](https://reactjs.org/docs/faq-internals.html)
+- [React fiber architecture](https://github.com/acdlite/react-fiber-architecture)
+- [How does React work – deep dive into the React framework - The Software House](https://tsh.io/blog/how-does-react-work/)
+
 ### Animations
 
 #### React-Spring
