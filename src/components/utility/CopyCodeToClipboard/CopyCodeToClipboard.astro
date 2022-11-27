@@ -1,0 +1,55 @@
+<style lang='scss' is:global>
+	.code-wrapper {
+		display: flex;
+		justify-content: flex-end;
+		position: absolute;
+		right: 16px;
+	}
+
+	.copy-button {
+		transition: background-color 0.2s, color 0.2s;
+		cursor: pointer;
+		padding: 0.8rem 1.8rem;
+	}
+
+	.success {
+		background-color: var(--theme-text-accent);
+		color: var(--theme-bg);
+		animation: button-success 0.2s ease-in-out;
+	}
+
+	@keyframes button-success {
+		0% {
+			transform: scale(1);
+		}
+		20% {
+			transform: scale(1.1);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+</style>
+
+<script>
+	import {
+		createCopyButton,
+		createCopyButtonWrapper,
+		handleCopyButtonClick,
+	} from './helpers'
+
+	const codeSnippet = [
+		...document.querySelectorAll('.astro-code'),
+	] as HTMLElement[]
+
+	codeSnippet.forEach((block) => {
+		const wrapper = createCopyButtonWrapper()
+		const button = createCopyButton()
+		wrapper.appendChild(button)
+		block.prepend(wrapper)
+
+		button.addEventListener('click', () =>
+			handleCopyButtonClick(button, block.innerText)
+		)
+	})
+</script>
