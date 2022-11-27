@@ -2,7 +2,6 @@
 	.code-wrapper {
 		display: flex;
 		justify-content: flex-end;
-		position: absolute;
 		right: 16px;
 	}
 
@@ -10,6 +9,7 @@
 		transition: background-color 0.2s, color 0.2s;
 		cursor: pointer;
 		padding: 0.8rem 1.8rem;
+		font-weight: bold;
 	}
 
 	.success {
@@ -38,11 +38,11 @@
 		handleCopyButtonClick,
 	} from './helpers'
 
-	const codeSnippet = [
+	const codeSnippets = [
 		...document.querySelectorAll('.astro-code'),
 	] as HTMLElement[]
 
-	codeSnippet.forEach((block) => {
+	codeSnippets.forEach((block) => {
 		const wrapper = createCopyButtonWrapper()
 		const button = createCopyButton()
 		wrapper.appendChild(button)
