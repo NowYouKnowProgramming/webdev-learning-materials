@@ -136,7 +136,12 @@ What to test? Why test? Which type of test to write?
 - [Jack Herrington - Test Driven Development: The best way to code that I almost never use](https://www.youtube.com/watch?v=EH9Suo_J4Ks)
 - [Kent C. Dodds - AHA Testing (how to test wisely)](https://kentcdodds.com/blog/aha-testing)
 
+### Test driven development
+
+- [prowe214 - Write failing tests before writing code - medium.com](https://prowe214.medium.com/test-driven-development-and-why-your-tests-should-fail-2c615a92142e)
+
 ### Other materials about testing
 
 - [Kent C. Dodds - Confidently Shipping Code (why you should learn testing)](https://kentcdodds.com/blog/confidently-shipping-code)
 - [Theo - ping.gg - Does unit testing makes sense?](https://www.youtube.com/watch?v=ZGKGb109-I4)
+- [prowe214 - How to describe your tests for humans - medium.com](https://prowe214.medium.com/unit-tests-more-readable-describe-it-statements-in-protractor-jasmine-3810b07a6ac5)
