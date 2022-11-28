@@ -8,6 +8,7 @@ import LeftSidebar from '../components/LeftSidebar/LeftSidebar.astro'
 import PageContent from '../components/PageContent/PageContent.astro'
 import RightSidebar from '../components/RightSidebar/RightSidebar.astro'
 import CopyCodeToClipboard from '../components/utility/CopyCodeToClipboard/CopyCodeToClipboard.astro'
+import HeadingLinksCopyToClipboard from '../components/utility/HeadingLinksCopyToClipboard/HeadingLinksCopyToClipboard.astro'
 
 import * as CONFIG from '../config'
 
@@ -215,5 +216,6 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 		</main>
 		<Footer path={currentFile} />
 		<CopyCodeToClipboard />
+		<HeadingLinksCopyToClipboard />
 	</body>
 </html>
