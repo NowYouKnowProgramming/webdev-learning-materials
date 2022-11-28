@@ -15,9 +15,9 @@ export const handleCopyButtonClick = async (
 	button: HTMLButtonElement,
 	text: string
 ) => {
-	const buttonTextsAfterClick = ['Copied', 'Error']
-	const buttonCurrentText = button.innerText
-	if (buttonTextsAfterClick.includes(buttonCurrentText)) return
+	const textsAfterClick = ['Copied', 'Error']
+	const currentText = button.innerText
+	if (textsAfterClick.includes(currentText)) return
 
 	try {
 		await navigator.clipboard.writeText(text)

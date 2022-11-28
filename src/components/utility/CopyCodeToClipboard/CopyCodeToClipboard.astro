@@ -39,8 +39,8 @@
 	} from './helpers'
 
 	const codeSnippets = [
-		...document.querySelectorAll('.astro-code'),
-	] as HTMLElement[]
+		...document.querySelectorAll<HTMLElement>('.astro-code'),
+	]
 
 	codeSnippets.forEach((block) => {
 		const wrapper = createCopyButtonWrapper()
