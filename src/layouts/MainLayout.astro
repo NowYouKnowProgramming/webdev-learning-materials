@@ -1,13 +1,16 @@
 ---
-import HeadCommon from '../components/HeadCommon.astro'
-import HeadSEO from '../components/HeadSEO.astro'
-import Header from '../components/Header/Header.astro'
-import PageContent from '../components/PageContent/PageContent.astro'
-import LeftSidebar from '../components/LeftSidebar/LeftSidebar.astro'
-import RightSidebar from '../components/RightSidebar/RightSidebar.astro'
-import * as CONFIG from '../config'
 import type { MarkdownHeading } from 'astro'
 import Footer from '../components/Footer/Footer.astro'
+import HeadCommon from '../components/HeadCommon.astro'
+import Header from '../components/Header/Header.astro'
+import HeadSEO from '../components/HeadSEO.astro'
+import LeftSidebar from '../components/LeftSidebar/LeftSidebar.astro'
+import PageContent from '../components/PageContent/PageContent.astro'
+import RightSidebar from '../components/RightSidebar/RightSidebar.astro'
+import CopyCodeToClipboard from '../components/utility/CopyCodeToClipboard/CopyCodeToClipboard.astro'
+import HeadingLinksCopyToClipboard from '../components/utility/HeadingLinksCopyToClipboard/HeadingLinksCopyToClipboard.astro'
+
+import * as CONFIG from '../config'
 
 type Props = {
 	frontmatter: CONFIG.Frontmatter
@@ -212,5 +215,7 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 			</aside>
 		</main>
 		<Footer path={currentFile} />
+		<CopyCodeToClipboard />
+		<HeadingLinksCopyToClipboard />
 	</body>
 </html>

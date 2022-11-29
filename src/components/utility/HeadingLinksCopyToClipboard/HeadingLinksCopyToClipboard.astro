@@ -1,0 +1,39 @@
+<style is:global lang='scss'>
+	.heading-wrapper {
+		display: flex;
+		align-items: center;
+		margin-bottom: 1rem;
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			margin: 0;
+			width: fit-content;
+		}
+
+		button.heading-copy {
+			opacity: 0;
+			transition: opacity 0.2s ease-in-out;
+			cursor: pointer;
+			width: 42px;
+			height: 42px;
+		}
+		&:hover {
+			button.heading-copy {
+				opacity: 1;
+			}
+		}
+	}
+</style>
+
+<script>
+	import { createHeadingWithButton, getHeadingsFromDocument } from './helpers'
+
+	const headings = getHeadingsFromDocument()
+
+	headings.forEach((heading) =>
+		heading.replaceWith(createHeadingWithButton(heading))
+	)
+</script>
