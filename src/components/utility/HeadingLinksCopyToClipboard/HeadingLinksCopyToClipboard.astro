@@ -3,8 +3,6 @@
 		display: flex;
 		align-items: center;
 		margin-bottom: 1rem;
-		flex-wrap: wrap;
-		gap: 1em;
 		h1,
 		h2,
 		h3,
@@ -19,6 +17,8 @@
 			opacity: 0;
 			transition: opacity 0.2s ease-in-out;
 			cursor: pointer;
+			width: 42px;
+			height: 42px;
 		}
 		&:hover {
 			button.heading-copy {
@@ -29,11 +29,11 @@
 </style>
 
 <script>
-	import { createHeadingWrapper, getHeadingsFromDocument } from './helpers'
+	import { createHeadingWithButton, getHeadingsFromDocument } from './helpers'
 
 	const headings = getHeadingsFromDocument()
 
 	headings.forEach((heading) =>
-		heading.replaceWith(createHeadingWrapper(heading))
+		heading.replaceWith(createHeadingWithButton(heading))
 	)
 </script>
