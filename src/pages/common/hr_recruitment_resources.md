@@ -40,8 +40,7 @@ layout: ../../layouts/MainLayout.astro
 
 ## Different approaches to job seeking
 
-- [Part 1 - Lying on your resume - The reality](https://youtu.be/6ufwxkurKKg)
-- [Part 2 - The TRUTH about LYING on your resume..](https://youtu.be/90g8EMyIqeU)
+- [If you're too honest, it's harder for you to get a job](https://youtu.be/6ufwxkurKKg)
 - [Fireship - How to Land a 100K/yr Tech Job - 10 Strategies](https://www.youtube.com/watch?v=Xg9ihH15Uto)
 - [Reddit Post - How to find companies that are looking for entry/junior developers?](https://www.reddit.com/r/cscareerquestions/comments/wy8za7/how_to_find_companies_with_a_low_barbarrier_of/)
 - [How I got my first job as a developer by making simple projects seem big](https://dev.to/yuridevat/how-i-got-my-first-job-as-a-developer-by-making-simple-projects-seem-big-48oi)
