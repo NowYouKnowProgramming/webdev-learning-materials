@@ -18,6 +18,23 @@ const frontmatter: Frontmatter = {
 }
 ---
 
+<style is:global lang='scss'>
+	a,
+	button,
+	input,
+	select,
+	textarea {
+		&:focus-visible {
+			outline: 4px solid var(--theme-accent);
+			outline-offset: 4px;
+		}
+
+		&:focus:not(:focus-visible) {
+			outline: none;
+		}
+	}
+</style>
+
 <html dir={frontmatter.dir ?? 'ltr'} lang={frontmatter.lang ?? 'en'}>
 	<head>
 		<HeadCommon />

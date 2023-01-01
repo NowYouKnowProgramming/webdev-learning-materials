@@ -1,12 +1,12 @@
 ---
 import Header from '../Header/Header.astro'
-import LandingPageEndingCTA from './LandingPageEndingCTA.astro'
-import LandingPageFooter from './Footer/LandingPageFooter.astro'
 import Comparison from './Comparison/Comparison.astro'
-const currentPage = Astro.url.pathname
+import LandingPageFooter from './Footer/LandingPageFooter.astro'
+import LandingPageEndingCTA from './LandingPageEndingCTA.astro'
+import { GitStarPromoSection } from './Promo/GitStarPromoSection/GitStarPromoSection'
 import { Promo } from './Promo/Promo'
 import WelcomeSection from './WelcomeSection/WelcomeSection.astro'
-import { GitStarPromoSection } from './Promo/GitStarPromoSection/GitStarPromoSection'
+const currentPage = Astro.url.pathname
 ---
 
 <style>
@@ -33,13 +33,13 @@ import { GitStarPromoSection } from './Promo/GitStarPromoSection/GitStarPromoSec
 		flex-direction: column;
 		background-image: linear-gradient(
 				to bottom,
-				var(--bewebdev-purple) 4%,
+				var(--theme-bg) 4%,
 				transparent 30%
 			),
 			radial-gradient(
 				circle at 15% 15%,
 				var(--bewebdev-pink) 0%,
-				var(--bewebdev-purple) 70%
+				var(--theme-bg) 70%
 			);
 		overflow-x: hidden;
 	}
