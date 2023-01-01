@@ -26,6 +26,7 @@ specifiers:
   rollup: '>=3'
   sass: ^1.56.1
   stylelint: ^14.15.0
+  stylelint-config-prettier: ^9.0.4
   stylelint-config-standard: ^29.0.0
   vitest: ^0.25.3
 
@@ -57,6 +58,7 @@ devDependencies:
   prettier-plugin-astro: 0.7.0
   sass: 1.56.1
   stylelint: 14.15.0
+  stylelint-config-prettier: 9.0.4_stylelint@14.15.0
   stylelint-config-standard: 29.0.0_stylelint@14.15.0
   vitest: 0.25.3_sass@1.56.1
 
@@ -4957,6 +4959,16 @@ packages:
     dependencies:
       inline-style-parser: 0.1.1
     dev: false
+
+  /stylelint-config-prettier/9.0.4_stylelint@14.15.0:
+    resolution: {integrity: sha512-38nIGTGpFOiK5LjJ8Ma1yUgpKENxoKSOhbDNSemY7Ep0VsJoXIW9Iq/2hSt699oB9tReynfWicTAoIHiq8Rvbg==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    peerDependencies:
+      stylelint: '>=11.0.0'
+    dependencies:
+      stylelint: 14.15.0
+    dev: true
 
   /stylelint-config-recommended/9.0.0_stylelint@14.15.0:
     resolution: {integrity: sha512-9YQSrJq4NvvRuTbzDsWX3rrFOzOlYBmZP+o513BJN/yfEmGSr0AxdvrWs0P/ilSpVV/wisamAHu5XSk8Rcf4CQ==}
