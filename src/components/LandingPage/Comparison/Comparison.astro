@@ -28,11 +28,24 @@ const comparisonData: ComparisonCardProps[] = [
 		transform: translate3d(0, 20px, 0);
 	}
 
+	.hidden-list li > * {
+		opacity: 0;
+		transform: translate3d(0, 20px, 0);
+	}
+
+	li > * {
+		opacity: 1;
+		transition: opacity 1s 1s, transform 1s 1s;
+	}
+
 	li.side-by-side {
 		@for $i from 1 through 10 {
 			&:nth-child(#{$i}) {
 				transition: opacity 1s ease-out, transform 1s ease-out;
 				transition-delay: 0.2s * $i;
+				> * {
+					transition-delay: 0.3s * $i;
+				}
 			}
 		}
 	}
@@ -57,11 +70,11 @@ const comparisonData: ComparisonCardProps[] = [
 		}
 	)
 
-	observer.observe(list)
+	if (list) observer.observe(list)
 </script>
 
 <div class='main-container'>
-	<h2 class='sr-only'>Compare bewebdev.tech to other services</h2>
+	<h2 class='sr-only'>Compare bewebdev to other services</h2>
 	<ul class='comparison-list hidden-list'>
 		{
 			comparisonData.map((data) => (
