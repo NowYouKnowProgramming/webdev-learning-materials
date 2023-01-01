@@ -1,10 +1,10 @@
 ---
 import * as CONFIG from '../../config'
-import AstroLogo from './AstroLogo.astro'
-import SkipToContent from './SkipToContent.astro'
-import SidebarToggle from './SidebarToggle'
-import Search from './Search'
 import ThemeToggle from '../RightSidebar/ThemeToggleButton'
+import AstroLogo from './AstroLogo.astro'
+import Search from './Search'
+import SidebarToggle from './SidebarToggle'
+import SkipToContent from './SkipToContent.astro'
 
 type Props = {
 	currentPage: string
@@ -14,8 +14,8 @@ const { currentPage } = Astro.props as Props
 
 const currentPageIsRoot = currentPage === '/'
 
-const {ALGOLIA} = CONFIG
-const {apiKey,appId,indexName} = ALGOLIA
+const { ALGOLIA } = CONFIG
+const { apiKey, appId, indexName } = ALGOLIA
 
 const algoliaIsSetUp = indexName && appId && apiKey
 ---
@@ -45,9 +45,13 @@ const algoliaIsSetUp = indexName && appId && apiKey
 				}
 			</a>
 		</div>
-		{algoliaIsSetUp&& <div class='search-item'>
-			<Search client:idle />
-		</div>}
+		{
+			algoliaIsSetUp && (
+				<div class='search-item'>
+					<Search client:idle />
+				</div>
+			)
+		}
 		<ThemeToggle client:visible />
 	</nav>
 </header>
@@ -102,7 +106,7 @@ const algoliaIsSetUp = indexName && appId && apiKey
 		font: inherit;
 		color: inherit;
 		margin: 0;
-		font-family: var(--font-special);	
+		font-family: var(--font-special);
 	}
 
 	.nav-wrapper {
@@ -111,7 +115,7 @@ const algoliaIsSetUp = indexName && appId && apiKey
 		justify-content: flex-end;
 		gap: 1em;
 		width: 100%;
-		max-width: 82em;
+		max-width: var(--safe-max-width);
 		padding: 0 1rem;
 	}
 

@@ -26,6 +26,7 @@
 :root {
 	--user-font-scale: 1rem - 16px;
 	--max-width: calc(100% - 1rem);
+	--safe-max-width: 3000px;
 	--z-negative: -1;
 	--z-base: 0;
 	--z-elevated: 1;

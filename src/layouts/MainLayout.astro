@@ -77,6 +77,7 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 				display: flex;
 				flex-direction: column;
 				height: 100%;
+				align-items: center;
 			}
 
 			#grid-right {
@@ -100,7 +101,7 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 
 			@media (min-width: 72em) {
 				.layout {
-					grid-template-columns: 20rem minmax(0, var(--max-width)) 18rem;
+					grid-template-columns: 20rem minmax(0, var(--safe-max-width)) 18rem;
 					padding-left: 0;
 					padding-right: 0;
 					margin: 0 auto;
@@ -191,6 +192,21 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 			.mobile-sidebar-toggle #grid-left {
 				display: block;
 				top: 2rem;
+			}
+
+			a,
+			button,
+			input,
+			select,
+			textarea {
+				&:focus-visible {
+					outline: 4px solid var(--theme-accent);
+					outline-offset: 4px;
+				}
+
+				&:focus:not(:focus-visible) {
+					outline: none;
+				}
 			}
 		</style>
 	</head>

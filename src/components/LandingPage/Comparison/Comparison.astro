@@ -22,9 +22,47 @@ const comparisonData: ComparisonCardProps[] = [
 ]
 ---
 
+<style lang='scss' is:global>
+	.hidden-list li {
+		opacity: 0;
+		transform: translate3d(0, 20px, 0);
+	}
+
+	li.side-by-side {
+		@for $i from 1 through 10 {
+			&:nth-child(#{$i}) {
+				transition: opacity 1s ease-out, transform 1s ease-out;
+				transition-delay: 0.2s * $i;
+			}
+		}
+	}
+</style>
+
+<script>
+	// remove the hidden-list class from the list if visible
+	const list = document.querySelector('.comparison-list')
+
+	const observer = new IntersectionObserver(
+		(entries) => {
+			entries.forEach((entry) => {
+				if (entry.isIntersecting) {
+					entry.target.classList.remove('hidden-list')
+				}
+			})
+		},
+		{
+			root: null,
+			rootMargin: '-15px',
+			threshold: 0.5,
+		}
+	)
+
+	observer.observe(list)
+</script>
+
 <div class='main-container'>
 	<h2 class='sr-only'>Compare bewebdev.tech to other services</h2>
-	<ul>
+	<ul class='comparison-list hidden-list'>
 		{
 			comparisonData.map((data) => (
 				<ComparisonCard
