@@ -46,6 +46,12 @@ const experimentalOptions = { fetchpriority: 'high' }
 <script is:inline>
 	const root = document.documentElement
 	const theme = localStorage.getItem('theme')
+	if (theme === 'oled') {
+		root.classList.add('theme-oled')
+		root.classList.remove('theme-dark')
+	} else {
+		root.classList.remove('theme-oled')
+	}
 	if (
 		theme === 'dark' ||
 		(!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)

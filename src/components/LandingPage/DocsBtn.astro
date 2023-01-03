@@ -32,9 +32,9 @@ const css = `docs-btn ${classes ? classes : ''}`
 	.docs-btn {
 		font-size: 1.3rem;
 		background-color: var(--docs-btn-bg);
-		color: var(--theme-bg);
+		color: var(--docs-btn-text);
 		font-weight: bold;
-		padding: 1rem 2rem;
+		padding: 1rem 1.2rem;
 		border-radius: 8px;
 		flex: 1;
 		white-space: nowrap;
@@ -55,9 +55,9 @@ const css = `docs-btn ${classes ? classes : ''}`
 		&.repo {
 			border: 2px var(--docs-btn-bg) solid;
 			background-color: transparent;
-			color: var(--docs-btn-bg);
+			color: var(--repo-btn-text);
 			span::before {
-				background-color: var(--docs-btn-bg);
+				background-color: var(--repo-btn-text);
 			}
 		}
 
@@ -77,7 +77,7 @@ const css = `docs-btn ${classes ? classes : ''}`
 				width: 0%;
 				height: 4px;
 				border-radius: 2px;
-				background-color: var(--theme-bg);
+				background-color: var(--docs-btn-text);
 				transition: 0.2s;
 			}
 		}
