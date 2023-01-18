@@ -6,6 +6,7 @@ import Header from '../components/Header/Header.astro'
 import HeadSEO from '../components/HeadSEO.astro'
 import LeftSidebar from '../components/LeftSidebar/LeftSidebar.astro'
 import PageContent from '../components/PageContent/PageContent.astro'
+import RecommendedSections from '../components/RecommendedSections/RecommendedSections.astro'
 import RightSidebar from '../components/RightSidebar/RightSidebar.astro'
 import CopyCodeToClipboard from '../components/utility/CopyCodeToClipboard/CopyCodeToClipboard.astro'
 import HeadingLinksCopyToClipboard from '../components/utility/HeadingLinksCopyToClipboard/HeadingLinksCopyToClipboard.astro'
@@ -224,6 +225,7 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 					githubEditUrl={githubEditUrl}
 				>
 					<slot />
+					<RecommendedSections />
 				</PageContent>
 			</div>
 			<aside id='grid-right' class='grid-sidebar' title='Table of Contents'>
