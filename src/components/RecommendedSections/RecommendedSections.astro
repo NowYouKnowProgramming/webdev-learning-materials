@@ -1,0 +1,82 @@
+---
+import { SIDEBAR } from '../../config'
+
+const urls = Object.values(SIDEBAR)
+
+const getThreeRandomLinks = () => {
+	const randomLinks: {
+		link: string
+		text: string
+	}[] = []
+
+	while (randomLinks.length < 3) {
+		const randomSection = urls[Math.floor(Math.random() * urls.length)]
+		if (!randomSection) continue
+		const randomLink =
+			randomSection[Math.floor(Math.random() * randomSection.length)]
+		if (
+			!randomLink ||
+			randomLinks.find((link) => link.text === randomLink.text) ||
+			randomLink.text === 'Introduction'
+		)
+			continue
+		randomLinks.push(randomLink)
+	}
+	return randomLinks
+}
+
+const sidebarLinks = getThreeRandomLinks()
+---
+
+<style lang='scss'>
+	.list {
+		list-style: none;
+		flex-wrap: wrap;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		gap: 1rem;
+		align-items: center;
+		> li.list-item,
+		.link {
+			margin: 0 !important;
+		}
+		.list-item > .link {
+			padding: 0.7rem 1.5rem;
+			font-weight: bold;
+			background-color: var(--theme-accent);
+			color: var(--theme-bg);
+			border-radius: 1.3rem;
+			display: block;
+			&::before {
+				content: '';
+			}
+			&:hover {
+				background-color: var(--theme-accent);
+				color: var(--theme-bg);
+			}
+			&:visited {
+				color: var(--theme-bg);
+			}
+		}
+	}
+
+	div.wrapper {
+		margin-top: 4rem;
+	}
+</style>
+
+<div class='wrapper'>
+	<h2>Links you might like</h2>
+	<ul class='list'>
+		{
+			sidebarLinks.map(({ link, text }) => (
+				<li class='list-item'>
+					<a class='link' href={link}>
+						{text}
+					</a>
+				</li>
+			))
+		}
+	</ul>
+</div>
