@@ -3,6 +3,8 @@ import { SIDEBAR } from '../../config'
 
 const urls = Object.values(SIDEBAR)
 
+const currentPage = Astro.url.pathname
+
 const getThreeRandomLinks = () => {
 	const randomLinks: {
 		link: string
@@ -16,10 +18,12 @@ const getThreeRandomLinks = () => {
 			randomSection[Math.floor(Math.random() * randomSection.length)]
 		if (
 			!randomLink ||
-			randomLinks.find((link) => link.text === randomLink.text) ||
-			randomLink.text === 'Introduction'
-		)
+			'/' + randomLink.link === currentPage ||
+			randomLink.text === 'Introduction' ||
+			randomLinks.find((link) => link.text === randomLink.text)
+		) {
 			continue
+		}
 		randomLinks.push(randomLink)
 	}
 	return randomLinks
@@ -48,6 +52,7 @@ const sidebarLinks = getThreeRandomLinks()
 			color: var(--theme-bg);
 			border-radius: 1.3rem;
 			display: block;
+			box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 			&::before {
 				content: '';
 			}
@@ -72,7 +77,7 @@ const sidebarLinks = getThreeRandomLinks()
 		{
 			sidebarLinks.map(({ link, text }) => (
 				<li class='list-item'>
-					<a class='link' href={link}>
+					<a class='link' href={`/${link}`}>
 						{text}
 					</a>
 				</li>
