@@ -1,0 +1,67 @@
+---
+import HeadCommon from '../components/HeadCommon.astro'
+import Header from '../components/Header/Header.astro'
+import type { Frontmatter } from '../config'
+
+const frontmatter: Frontmatter = {
+	description: '',
+	title: '404 - Page not found | bewebdev.tech',
+	layout: '',
+}
+
+const currentPage = Astro.url.pathname
+---
+
+<style lang='scss'>
+	.wrapper {
+		height: 100vh;
+		height: 100dvh;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.inner-wrapper {
+		flex: 1;
+		* {
+			font-family: Nunito;
+		}
+		h1 {
+			margin: 0;
+		}
+		margin: 0 auto;
+		max-width: 80%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		@media screen and (max-width: 400px) {
+			max-width: 95%;
+		}
+	}
+
+	.link {
+		background-color: var(--bewebdev-pink-saturated);
+		padding: 0.7rem 1.5rem;
+		text-decoration: none;
+		margin-top: 2rem;
+		font-size: 1.4rem;
+		font-weight: bold;
+		box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+		border-radius: 1rem;
+	}
+</style>
+
+<head>
+	<HeadCommon />
+	<title>
+		{frontmatter.title}
+	</title>
+</head>
+<div class='wrapper'>
+	<Header currentPage={currentPage} />
+	<div class='inner-wrapper'>
+		<h1>404</h1>
+		<p>This page doesn't exist</p>
+		<a href='/' class='link'>Go back to main page</a>
+	</div>
+</div>
