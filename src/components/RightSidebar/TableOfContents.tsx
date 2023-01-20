@@ -38,10 +38,22 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 	const setSummaryVisibleHandler = () => {
 		setIsVisible(true)
 		setTimeout(() => {
+			console.log(listRef.current)
 			listRef.current?.scrollIntoView({
 				behavior: 'smooth',
 				block: 'start',
 			})
+		}, 50)
+	}
+
+	const setSummaryHiddenHandler = () => {
+		setIsVisible(false)
+		setTimeout(() => {
+			const h2 = document.querySelector(
+				'h2.heading-wrapper'
+			) as HTMLHeadingElement
+			h2.style.scrollMarginTop = '100px'
+			h2?.scrollIntoView({ behavior: 'smooth', block: 'start' })
 		}, 50)
 	}
 
@@ -55,7 +67,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 	return (
 		<>
 			{width <= 769 && (
-				<button className={classes.toggle} onClick={() => setIsVisible(false)}>
+				<button className={classes.toggle} onClick={setSummaryHiddenHandler}>
 					Hide summary
 				</button>
 			)}
