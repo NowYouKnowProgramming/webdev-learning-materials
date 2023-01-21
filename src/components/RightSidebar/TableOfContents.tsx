@@ -38,7 +38,6 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 	const setSummaryVisibleHandler = () => {
 		setIsVisible(true)
 		setTimeout(() => {
-			console.log(listRef.current)
 			listRef.current?.scrollIntoView({
 				behavior: 'smooth',
 				block: 'start',
