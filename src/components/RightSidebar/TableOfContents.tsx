@@ -48,9 +48,9 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 	const setSummaryHiddenHandler = () => {
 		setIsVisible(false)
 		setTimeout(() => {
-			const h2 = document.querySelector(
-				'h2.heading-wrapper'
-			) as HTMLHeadingElement
+			const h2 =
+				document.querySelector<HTMLHeadingElement>('h2.heading-wrapper')
+			if (!h2) return
 			h2.style.scrollMarginTop = '100px'
 			h2?.scrollIntoView({ behavior: 'smooth', block: 'start' })
 		}, 50)
