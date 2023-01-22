@@ -2,7 +2,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-# Web Development Learning Materials
+# bewebdev.tech (Web Development Learning Materials)
 
 A list of learning materials for Web Development.
 
