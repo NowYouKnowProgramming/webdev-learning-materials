@@ -228,6 +228,8 @@ Screenshots
 - [Web Dev Junkie - How to implement the MVC pattern in React (very interesting approach to this problem)](https://www.youtube.com/watch?v=LIlTrgVz4QA)
 - [uidotdev - The Story of React](https://www.youtube.com/watch?v=Wm_xI7KntDs)
 - [uidotdev - The Story of Concurrent React](https://www.youtube.com/watch?v=NZoRlVi3MjQ)
+- [Jack Herrington - React UI Library Structure, Storybook and Tests](https://www.youtube.com/watch?v=NgkYH97Z3nk)
+- [Jack Herrington - Rendering React Components Conditionally](https://www.youtube.com/watch?v=gvMpY48kf2w)
 
 #### Other Polish mateirals
 
