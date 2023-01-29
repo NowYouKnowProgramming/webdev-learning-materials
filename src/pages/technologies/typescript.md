@@ -36,4 +36,7 @@ layout: ../../layouts/MainLayout.astro
 - Convert JS objects to TypeScript (a tricky way to do it):
   - [Transform JS object to JSON](https://transform.tools/js-object-to-json)
   - [Then convert JSON to TypeScript](https://transform.tools/json-to-typescript)
+
+## Tools
+
 - [TypeScript Error Translator (VS Code extension to understand TypeScript errors)](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
