@@ -33,6 +33,9 @@ layout: ../../layouts/MainLayout.astro
 - [TypeScript Features to Avoid](https://www.executeprogram.com/blog/typescript-features-to-avoid)
 - [Jack Herrington - Fixing TypeScript's Blind spot: Runtime Typechecking](https://www.youtube.com/watch?v=rY_XqfSHock)
 - [Theo - ping.gg - You Might Be Using TypeScript Wrong... (how to use TypeScript the most effective way?)](https://www.youtube.com/watch?v=RmGHnYUqQ4k)
+- [Matt Pocock - Blazing Fast Tips: Build ANYTHING with Zod + Generics](https://www.youtube.com/watch?v=9N50YV5NHaE)
+- [Matt Pocock - Automate your life with TypeScript](https://www.youtube.com/watch?v=C14MSrJGGBg)
+- [Matt Pocock - Should you use Types or Interfaces?](https://www.youtube.com/watch?v=zM9UPcIyyhQ)
 
 ## Tools
 
