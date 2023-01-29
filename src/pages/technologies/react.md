@@ -101,6 +101,7 @@ layout: ../../layouts/MainLayout.astro
 - [Kent C. Dodds - Inversion of Control](https://kentcdodds.com/blog/inversion-of-control)
 - [AppUnite - Vue's Slots Composition adapted to React - how and when to use it](https://appunite.com/blog/composition-known-as-slots-in-react)
 - [Tips for Writing Better React Code](https://javascript.plainenglish.io/tips-for-writing-better-react-code-ceb49e929001)
+- [Kent C. Dodds - Stop using isLoading booleans](https://kentcdodds.com/blog/stop-using-isloading-booleans)
 
 #### Principles for React in Polish
 
@@ -135,8 +136,6 @@ Screenshots
 <img src="/images/react/react-fetching-3_3.webp" alt="Third advice about the React fetching" loading="lazy">
 
 </details>
-
-- [Kent C. Dodds - Stop using isLoading booleans](https://kentcdodds.com/blog/stop-using-isloading-booleans)
 
 ### React Context
 
