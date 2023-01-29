@@ -33,10 +33,10 @@ layout: ../../layouts/MainLayout.astro
 - [TypeScript Features to Avoid](https://www.executeprogram.com/blog/typescript-features-to-avoid)
 - [Jack Herrington - Fixing TypeScript's Blind spot: Runtime Typechecking](https://www.youtube.com/watch?v=rY_XqfSHock)
 - [Theo - ping.gg - You Might Be Using TypeScript Wrong... (how to use TypeScript the most effective way?)](https://www.youtube.com/watch?v=RmGHnYUqQ4k)
-- Convert JS objects to TypeScript (a tricky way to do it):
-  - [Transform JS object to JSON](https://transform.tools/js-object-to-json)
-  - [Then convert JSON to TypeScript](https://transform.tools/json-to-typescript)
 
 ## Tools
 
 - [TypeScript Error Translator (VS Code extension to understand TypeScript errors)](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
+- Convert JS objects to TypeScript (a tricky way to do it):
+  - [Transform JS object to JSON](https://transform.tools/js-object-to-json)
+  - [Then convert JSON to TypeScript](https://transform.tools/json-to-typescript)
