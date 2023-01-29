@@ -56,6 +56,8 @@ layout: ../../layouts/MainLayout.astro
 - [Jack Herrington - Common React Mistakes: useEffect - Part 2](https://www.youtube.com/watch?v=F-0SZ_TicXA)
 - [React Docs - You Might Not Need an Effect (when to use the useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
 - [David Khourshid - Goodbye, useEffect (how to use useEffect hook properly)](https://www.youtube.com/watch?v=bGzanfKVFeU)
+- [Jack Herrington - Mastering useEffect: Beware of depending on values you set](https://www.youtube.com/watch?v=tvp08g2W5dA)
+- [Jack Herrington - Mastering useEffect: What Goes In Dependency Arrays](https://www.youtube.com/watch?v=NF7FFughuA4)
 
 #### About useState hook
 
