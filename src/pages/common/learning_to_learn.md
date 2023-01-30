@@ -4,7 +4,7 @@ description: All these learning materials out there are great, but how to utiliz
 layout: ../../layouts/MainLayout.astro
 ---
 
-## Free courses about efficient learning
+## Free content about efficient learning
 
 - [How To Learn Any New Programming Skill Fast - YouTube: Web Dev Simplified](https://youtu.be/CJJtA1NTqN4)
 - [The Growth Mindset](https://www.youtube.com/watch?v=-71zdXCMU6A)
@@ -14,7 +14,7 @@ layout: ../../layouts/MainLayout.astro
 - [An Approach to Continuous Learning](https://dev.to/abh1navv/an-approach-to-continuous-learning-30pk)
 - [Reddit Post - Most of you need to SLOW DOWN](https://www.reddit.com/r/learnprogramming/comments/vvsw0x/most_of_you_need_to_slow_down/)
 
-## Paid courses about efficient learning
+## Paid content about efficient learning
 
 - [Zero to Mastery - Learning to Learn](https://academy.zerotomastery.io/p/learning-to-learn-efficient-learning-zero-to-mastery-blueprint)
 
