@@ -30,7 +30,6 @@ layout: ../../layouts/MainLayout.astro
 - [Interactive Typography Tutorial](https://www.learnui.design/tools/typography-tutorial.html)
 
 ## UX (User Experience)
+
 - [Optimal Size and Spacing for Mobile Buttons](https://uxmovement.com/mobile/optimal-size-and-spacing-for-mobile-buttons/)
-- [Interactive Typography Tutorial](https://www.learnui.design/tools/typography-tutorial.html)
 - [The Digital CEO - Design tips for Front End Developers](https://youtu.be/XNJPHGWxLQA)
-- [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
