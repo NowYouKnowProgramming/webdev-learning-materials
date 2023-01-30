@@ -17,15 +17,15 @@ layout: ../../layouts/MainLayout.astro
 
 - [Mizko - How to Steal Designs Like a PRO | End-to-end Process](https://www.youtube.com/watch?v=wLdWwoBDrNg)
 
-### Design System
+## Design System
 
 - [Design Systems - everything about this topic](https://www.designsystems.com/)
 
-### UI Components
+## UI Components
 
 - [UI Components Handbook - real-world examples of UI components](https://www.uiguideline.com/components)
 
-### Typography
+## Typography
 
 - [Interactive Typography Tutorial](https://www.learnui.design/tools/typography-tutorial.html)
 
