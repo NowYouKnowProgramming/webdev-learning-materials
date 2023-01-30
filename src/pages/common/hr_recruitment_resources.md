@@ -45,10 +45,12 @@ layout: ../../layouts/MainLayout.astro
 - [Reddit Post - How to find companies that are looking for entry/junior developers?](https://www.reddit.com/r/cscareerquestions/comments/wy8za7/how_to_find_companies_with_a_low_barbarrier_of/)
 - [How I got my first job as a developer by making simple projects seem big](https://dev.to/yuridevat/how-i-got-my-first-job-as-a-developer-by-making-simple-projects-seem-big-48oi)
 - [My First Year as a Professional Developer – Tips for Getting into Tech](https://www.freecodecamp.org/news/my-first-year-as-a-professional-developer-tips-for-getting-into-tech)
+- [Scrimba - Reach out to Recruiters on LinkedIn (as a Developer)](https://www.youtube.com/watch?v=_HNbfOMLIO8)
 
 ## Other recruitment materials
 
 - [Reddit Post - Should I quit? (what to do when the job sucks)](https://www.reddit.com/r/reactjs/comments/vyrhsx/should_i_quit/)
+- [ThePrimeagon - So now what..? (how to find the job in a layoff crisis)](https://www.youtube.com/watch?v=ReeLQR7KCcM)
 
 ### Other recruitment materials in Polish
 
