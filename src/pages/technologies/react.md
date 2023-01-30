@@ -214,11 +214,6 @@ Screenshots
 - [Fireship - Springy Animated Modals // Framer Motion & React Tutorial for Beginners](https://www.youtube.com/watch?v=SuqU904ZHA4)
 - [PedroTech - Animations In React - Framer-Motion Tutorial](https://www.youtube.com/watch?v=GOuwOI-WSkE)
 
-### React recruitment materials
-
-- [Conner Ardman - React Coding Interview Ft. Clément Mihailescu (build the wordle clone)](https://www.youtube.com/watch?v=5xf4_Kx7azg)
-  - [Used API (if someone wants to recreate the task)](https://api.frontendexpert.io/api/fe/wordle-words)
-
 #### Polish recruitment materials
 
 - [Przeprogramowani - Pięć pytań rekrutacyjnych z Reacta na 2022](https://www.youtube.com/watch?v=ObNaZr9frxY)
