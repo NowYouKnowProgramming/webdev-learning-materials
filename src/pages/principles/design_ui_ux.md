@@ -8,6 +8,8 @@ layout: ../../layouts/MainLayout.astro
 
 - [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
 
+## Design inspirations
+
 - [Godly - find some web design inspirations](https://godly.website/)
 - [Dribbble - also find them here](https://dribbble.com/)
 - [UI Components Handbook - real-world examples of UI components](https://www.uiguideline.com/components)
