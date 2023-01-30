@@ -61,6 +61,7 @@ layout: ../../layouts/MainLayout.astro
 - [Jack Herrington - Is JavaScript Spread Operator a Performance Killer?](https://www.youtube.com/watch?v=tcZbY-Q0TIE)
 - [TomDoesTech - 9 JavaScript Opinions That Will Make You Mad](https://www.youtube.com/watch?v=b9C8r5m-mj8)
 - [Fireship - JavaScript Pro Tips - Code This, NOT That](https://www.youtube.com/watch?v=Mus_vwhTCq0)
+- [Web Dev Cody - How to easily update your NPM dependencies](https://www.youtube.com/watch?v=VNS6QTcDFQ0)
 
 #### Other resources in Polish
 
