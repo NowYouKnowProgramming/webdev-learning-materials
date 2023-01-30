@@ -11,7 +11,7 @@ layout: ../../layouts/MainLayout.astro
 - [Codecademy - Intermediate JavaScript](https://www.codecademy.com/learn/learn-intermediate-javascript)
 - [Exercism - Learn JavaScript by doing exercises](https://exercism.org/tracks/javascript)
 
-### Free Polish courses
+### Free Polish content
 
 - [Jak zacząć programować? - Kurs JavaScript od zera](https://youtu.be/n-cW9HzpnRk)
 - [Overment - ESNext Tutorial (ES6+)](https://www.youtube.com/playlist?list=PLjHmWifVUNMJbnpl8YlXRpyVyepcHa0cH)
@@ -25,7 +25,7 @@ layout: ../../layouts/MainLayout.astro
 - [Academind - JavaScript - The Complete Guide (Beginner + Advanced)](https://acad.link/js)
 - [Dan Abramov - Just JavaScript (ebook)](https://justjavascript.com/)
 
-### Paid Polish courses
+### Paid Polish content
 
 - [Kursy JS od Eduweb (polecam kursy od Overmenta - Adam Gospodarczyk)](https://eduweb.pl/wyszukiwarka?query=javascript)
 
