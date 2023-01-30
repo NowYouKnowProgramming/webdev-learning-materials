@@ -25,6 +25,11 @@ layout: ../../layouts/MainLayout.astro
 
 - [UI Components Handbook - real-world examples of UI components](https://www.uiguideline.com/components)
 
+### Typography
+
+- [Interactive Typography Tutorial](https://www.learnui.design/tools/typography-tutorial.html)
+
+## UX (User Experience)
 - [Optimal Size and Spacing for Mobile Buttons](https://uxmovement.com/mobile/optimal-size-and-spacing-for-mobile-buttons/)
 - [Interactive Typography Tutorial](https://www.learnui.design/tools/typography-tutorial.html)
 - [The Digital CEO - Design tips for Front End Developers](https://youtu.be/XNJPHGWxLQA)
