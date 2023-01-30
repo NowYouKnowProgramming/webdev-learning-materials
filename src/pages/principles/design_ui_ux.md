@@ -4,7 +4,9 @@ description: User interface and user experience relevant materials for frontend 
 layout: ../../layouts/MainLayout.astro
 ---
 
-## Additional content
+## Free content
+
+- [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
 
 - [Godly - find some web design inspirations](https://godly.website/)
 - [Dribbble - also find them here](https://dribbble.com/)
