@@ -32,3 +32,6 @@ layout: ../../layouts/MainLayout.astro
 - [ThePrimeagen - How I Became A Better Programmer](https://www.youtube.com/watch?v=cgXfWo42gig)
 - [Stefan Mischook - Should I Take a Break from Learning CSS? (when to take a break from learning anything)](https://www.youtube.com/watch?v=78tNu4f91oM)
 - [Fireship - How to "Google It" like a Senior Software Engineer](https://www.youtube.com/watch?v=cEBkvm0-rg0)
+- [Web Dev Cody - How do I manage my time](https://www.youtube.com/watch?v=X22NmS_LG7Q)
+- [Web Dev Cody - How do I learn new programming languages, frameworks, or libraries?](https://www.youtube.com/watch?v=QzUgNr1f4iY)
+- [Web Dev Cody - You'll always be learning as a software engineer](https://www.youtube.com/watch?v=gl5HvBpUbt8)
