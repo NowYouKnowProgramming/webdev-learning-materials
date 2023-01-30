@@ -55,7 +55,7 @@ layout: ../../layouts/MainLayout.astro
 - [Przeprogramowani - ESLint, Prettier i VS Code - Czysty JS z automatu](https://www.youtube.com/watch?v=u2yUxhzpht4)
 - [Przeprogramowani - Co musisz wiedzieć przed nauką frameworków React, Angular, Vue?](https://www.youtube.com/watch?v=G7_kEJsrrk4)
 
-### Other sources
+### Other resources
 
 - [Framework.dev - resources about JavaScript frameworks (books, videos, courses, podcasts), popular libraries and possibility of compare them and more](https://www.framework.dev/)
 - [Jack Herrington - Is JavaScript Spread Operator a Performance Killer?](https://www.youtube.com/watch?v=tcZbY-Q0TIE)
