@@ -12,6 +12,10 @@ layout: ../../layouts/MainLayout.astro
 
 - [Godly - find some web design inspirations](https://godly.website/)
 - [Dribbble - also find them here](https://dribbble.com/)
+
+## Recreate designs
+
+- [Mizko - How to Steal Designs Like a PRO | End-to-end Process](https://www.youtube.com/watch?v=wLdWwoBDrNg)
 - [UI Components Handbook - real-world examples of UI components](https://www.uiguideline.com/components)
 - [Design Systems - everything about this topic](https://www.designsystems.com/)
 - [Optimal Size and Spacing for Mobile Buttons](https://uxmovement.com/mobile/optimal-size-and-spacing-for-mobile-buttons/)
