@@ -69,6 +69,7 @@ layout: ../../layouts/MainLayout.astro
 - [useHooks-ts - custom React hooks written in TypeScript](https://usehooks-ts.com/)
 - [Felix Gerschau - Form validation with React Hooks WITHOUT a library: The Complete Guide](https://felixgerschau.com/react-hooks-form-validation-typescript/)
 - [Web Dev Junkie - How you can use custom hooks to abstract your React code](https://www.youtube.com/watch?v=S2rzM9IQVdg)
+- [TomDoesTech - You Need to Know This React Design pattern](https://www.youtube.com/watch?v=1AIecsI73yU)
 
 ### React + TypeScript
 
