@@ -55,6 +55,9 @@ layout: ../../layouts/MainLayout.astro
 - [Jack Herrington - Common React Mistakes: useEffect - Part 1](https://www.youtube.com/watch?v=lStfMBiWROQ)
 - [Jack Herrington - Common React Mistakes: useEffect - Part 2](https://www.youtube.com/watch?v=F-0SZ_TicXA)
 - [React Docs - You Might Not Need an Effect (when to use the useEffect hook)](https://beta.reactjs.org/learn/you-might-not-need-an-effect)
+- [David Khourshid - Goodbye, useEffect (how to use useEffect hook properly)](https://www.youtube.com/watch?v=bGzanfKVFeU)
+- [Jack Herrington - Mastering useEffect: Beware of depending on values you set](https://www.youtube.com/watch?v=tvp08g2W5dA)
+- [Jack Herrington - Mastering useEffect: What Goes In Dependency Arrays](https://www.youtube.com/watch?v=NF7FFughuA4)
 
 #### About useState hook
 
@@ -66,6 +69,7 @@ layout: ../../layouts/MainLayout.astro
 - [useHooks-ts - custom React hooks written in TypeScript](https://usehooks-ts.com/)
 - [Felix Gerschau - Form validation with React Hooks WITHOUT a library: The Complete Guide](https://felixgerschau.com/react-hooks-form-validation-typescript/)
 - [Web Dev Junkie - How you can use custom hooks to abstract your React code](https://www.youtube.com/watch?v=S2rzM9IQVdg)
+- [TomDoesTech - You Need to Know This React Design pattern](https://www.youtube.com/watch?v=1AIecsI73yU)
 
 ### React + TypeScript
 
@@ -98,6 +102,7 @@ layout: ../../layouts/MainLayout.astro
 - [Kent C. Dodds - Inversion of Control](https://kentcdodds.com/blog/inversion-of-control)
 - [AppUnite - Vue's Slots Composition adapted to React - how and when to use it](https://appunite.com/blog/composition-known-as-slots-in-react)
 - [Tips for Writing Better React Code](https://javascript.plainenglish.io/tips-for-writing-better-react-code-ceb49e929001)
+- [Kent C. Dodds - Stop using isLoading booleans](https://kentcdodds.com/blog/stop-using-isloading-booleans)
 
 #### Principles for React in Polish
 
@@ -133,11 +138,14 @@ Screenshots
 
 </details>
 
-- [Kent C. Dodds - Stop using isLoading booleans](https://kentcdodds.com/blog/stop-using-isloading-booleans)
-
 ### React Context
 
 - [Jack Herrington - Mastering React Context: Do you NEED a state manager?](https://www.youtube.com/watch?v=MpdFj8MEuJA)
+
+### State Managment
+
+- [Jack Herrington - React State Management – Intermediate JavaScript Course](https://www.youtube.com/watch?v=-bEzt5ISACA)
+- [Redux - bewebdev.tech](https://bewebdev.tech/technologies/redux)
 
 ### React Portals
 
@@ -206,11 +214,6 @@ Screenshots
 - [Fireship - Springy Animated Modals // Framer Motion & React Tutorial for Beginners](https://www.youtube.com/watch?v=SuqU904ZHA4)
 - [PedroTech - Animations In React - Framer-Motion Tutorial](https://www.youtube.com/watch?v=GOuwOI-WSkE)
 
-### React recruitment materials
-
-- [Conner Ardman - React Coding Interview Ft. Clément Mihailescu (build the wordle clone)](https://www.youtube.com/watch?v=5xf4_Kx7azg)
-  - [Used API (if someone wants to recreate the task)](https://api.frontendexpert.io/api/fe/wordle-words)
-
 #### Polish recruitment materials
 
 - [Przeprogramowani - Pięć pytań rekrutacyjnych z Reacta na 2022](https://www.youtube.com/watch?v=ObNaZr9frxY)
@@ -218,8 +221,11 @@ Screenshots
 ### Other React materials
 
 - [Web Dev Junkie - How to implement the MVC pattern in React (very interesting approach to this problem)](https://www.youtube.com/watch?v=LIlTrgVz4QA)
+- [Web Dev Junkie - Applying layered architecture to my t3 stack api](https://www.youtube.com/watch?v=DA03fgZpb58)
 - [uidotdev - The Story of React](https://www.youtube.com/watch?v=Wm_xI7KntDs)
 - [uidotdev - The Story of Concurrent React](https://www.youtube.com/watch?v=NZoRlVi3MjQ)
+- [Jack Herrington - React UI Library Structure, Storybook and Tests](https://www.youtube.com/watch?v=NgkYH97Z3nk)
+- [Jack Herrington - Rendering React Components Conditionally](https://www.youtube.com/watch?v=gvMpY48kf2w)
 
 #### Other Polish mateirals
 

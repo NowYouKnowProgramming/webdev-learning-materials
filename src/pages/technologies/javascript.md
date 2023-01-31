@@ -11,7 +11,7 @@ layout: ../../layouts/MainLayout.astro
 - [Codecademy - Intermediate JavaScript](https://www.codecademy.com/learn/learn-intermediate-javascript)
 - [Exercism - Learn JavaScript by doing exercises](https://exercism.org/tracks/javascript)
 
-### Free Polish courses
+### Free Polish content
 
 - [Jak zacząć programować? - Kurs JavaScript od zera](https://youtu.be/n-cW9HzpnRk)
 - [Overment - ESNext Tutorial (ES6+)](https://www.youtube.com/playlist?list=PLjHmWifVUNMJbnpl8YlXRpyVyepcHa0cH)
@@ -25,7 +25,7 @@ layout: ../../layouts/MainLayout.astro
 - [Academind - JavaScript - The Complete Guide (Beginner + Advanced)](https://acad.link/js)
 - [Dan Abramov - Just JavaScript (ebook)](https://justjavascript.com/)
 
-### Paid Polish courses
+### Paid Polish content
 
 - [Kursy JS od Eduweb (polecam kursy od Overmenta - Adam Gospodarczyk)](https://eduweb.pl/wyszukiwarka?query=javascript)
 
@@ -55,12 +55,13 @@ layout: ../../layouts/MainLayout.astro
 - [Przeprogramowani - ESLint, Prettier i VS Code - Czysty JS z automatu](https://www.youtube.com/watch?v=u2yUxhzpht4)
 - [Przeprogramowani - Co musisz wiedzieć przed nauką frameworków React, Angular, Vue?](https://www.youtube.com/watch?v=G7_kEJsrrk4)
 
-### Other sources
+### Other resources
 
 - [Framework.dev - resources about JavaScript frameworks (books, videos, courses, podcasts), popular libraries and possibility of compare them and more](https://www.framework.dev/)
 - [Jack Herrington - Is JavaScript Spread Operator a Performance Killer?](https://www.youtube.com/watch?v=tcZbY-Q0TIE)
 - [TomDoesTech - 9 JavaScript Opinions That Will Make You Mad](https://www.youtube.com/watch?v=b9C8r5m-mj8)
 - [Fireship - JavaScript Pro Tips - Code This, NOT That](https://www.youtube.com/watch?v=Mus_vwhTCq0)
+- [Web Dev Cody - How to easily update your NPM dependencies](https://www.youtube.com/watch?v=VNS6QTcDFQ0)
 
 #### Other resources in Polish
 

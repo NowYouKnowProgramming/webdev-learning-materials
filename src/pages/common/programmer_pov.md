@@ -33,6 +33,10 @@ layout: ../../layouts/MainLayout.astro
 - [Jack Herrington - Senior Developer Workflow For Stress-Free Coding](https://www.youtube.com/watch?v=eAfUfKYcvBo)
 - [Fireship - Problem-Solving for Developers - A Beginner's Guide](https://www.youtube.com/watch?v=UFc-RPbq8kg)
 
+## Valuable tips from pros in Polish
+
+- [Mate Code - Rady od serca dla przyszłych juniorów 👼](https://www.youtube.com/watch?v=KoEGAJBWjic)
+
 ## Stories from Polish programmers
 
 - [WDI 2021 - Konstanty Orzeszko - Jak straciłem 600 000 PLN w 5 lat? - O tym, jak nie przepalać pieniędzy (na głupoty) jako programista i jak nimi mądrze zarządzać](https://www.youtube.com/watch?v=mGuSdLWV1pk)

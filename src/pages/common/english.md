@@ -10,6 +10,7 @@ layout: ../../layouts/MainLayout.astro
 - [Serenade.ai - really interesting tool to control VS Code / Chrome / etc. with English words](https://serenade.ai/)
 - [Italki - practice with different semi-native/native speakers](https://www.italki.com/)
 - [Preply - same as Italki](https://preply.com/)
+- [Elsa Speak - speak English and get instant feedback from AI-powered coach](https://elsaspeak.com/en/)
 
 ## Learn grammar
 
