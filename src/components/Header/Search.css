@@ -82,6 +82,15 @@ in
 	border: 1px solid var(--theme-accent);
 }
 
+.DocSearch-Form:focus-within {
+	outline: 4px solid var(--theme-accent);
+	outline-offset: 4px;
+}
+
+.DocSearch-Modal input:focus-visible {
+	outline: none;
+}
+
 .DocSearch-Container {
 	z-index: var(--overlay-higher);
 }
