@@ -82,6 +82,16 @@ in
 	border: 1px solid var(--theme-accent);
 }
 
+.DocSearch-Modal {
+	border-radius: 4px;
+	overflow: hidden;
+	box-shadow: rgb(0 0 0 / 65%) 0 7px 29px 0;
+}
+.DocSearch-Footer {
+	box-shadow: none;
+	border-radius: 0;
+}
+
 .DocSearch-Form:focus-within {
 	outline: 4px solid var(--theme-accent);
 	outline-offset: 4px;
@@ -93,4 +103,8 @@ in
 
 .DocSearch-Container {
 	z-index: var(--overlay-higher);
+}
+
+.DocSearch-SearchBar {
+	padding: var(--docsearch-spacing) var(--docsearch-spacing);
 }
