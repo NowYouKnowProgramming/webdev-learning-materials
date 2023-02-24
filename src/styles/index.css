@@ -158,6 +158,29 @@ h5 {
 	}
 }
 
+@media (max-width: 450px) {
+	h1 {
+		font-size: 1.8rem;
+		font-weight: 800;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	h3 {
+		font-size: 1.3rem;
+	}
+
+	h4 {
+		font-size: 1.1rem;
+	}
+
+	h5 {
+		font-size: 1rem;
+	}
+}
+
 p,
 .content ul {
 	color: var(--theme-text-light);
