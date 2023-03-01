@@ -106,6 +106,12 @@
 		var(--bewebdev-pink-saturated),
 		var(--bewebdev-purple-saturated)
 	);
+
+	--sidebar-bg: hsl(214, 35%, 13%);
+	--sidebar-item-hover: hsl(0, 0%, 80%);
+	--sidebar-item-active: hsl(0, 0%, 95%);
+	--sidebar-item-active-shadow: inset rgba(0, 0, 0, 0.494) 0 0 0 1px,
+		rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
 body {
@@ -165,6 +171,14 @@ body {
 		var(--bewebdev-pink-saturated),
 		var(--bewebdev-purple-saturated)
 	);
+
+	/* Docs sidebar */
+	--sidebar-bg: hsl(214, 35%, 13%);
+	--sidebar-item-hover: hsl(214, 35%, 18%);
+	--sidebar-item-active: hsl(214, 25%, 33%);
+	--sidebar-item-active-text: white;
+	--sidebar-item-active-shadow: inset 0 0 0 1px white,
+		0 5px 15px rgba(0, 0, 0, 0.35);
 }
 
 :root.theme-oled {
@@ -215,6 +229,13 @@ body {
 	--repo-btn-text: white;
 	--circle-gradient-color: transparent;
 	--comparison-card-bg: var(--theme-bg-accent);
+
+	--sidebar-bg: hsl(214, 35%, 13%);
+	--sidebar-item-hover: hsl(214, 0%, 15%);
+	/* active */
+	--sidebar-item-active: hsl(214, 0%, 100%);
+	--sidebar-item-active-text: black;
+	--sidebar-item-active-shadow: 1px 2px var(--bewebdev-pink);
 }
 
 ::selection {
