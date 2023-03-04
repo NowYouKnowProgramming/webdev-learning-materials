@@ -53,7 +53,14 @@ const currentPageMatch = currentPage.endsWith('/')
 
 <style>
 	.title {
-		text-align: center;
+		font-size: 1.2rem;
+		font-weight: normal;
+	}
+
+	.nav-groups li:not(:first-child) .title {
+		border-top: 1px var(--sidebar-item-hover) solid;
+		padding-top: 2rem;
+		margin-top: 2rem;
 	}
 
 	nav {
@@ -98,27 +105,28 @@ const currentPageMatch = currentPage.endsWith('/')
 		text-decoration: none;
 		display: block;
 		transition: 0.3s;
-		border-radius: 3rem;
+		border-radius: 1rem;
 		width: calc(100% - 10px);
-		border: 1px solid var(--theme-code-bg);
+		border: 1px solid var(--sidebar-item-hover);
 		text-align: center;
 	}
 
 	.nav-link a:hover,
 	.nav-link a:focus {
-		transition: 0.1s;
-		background-color: var(--theme-bg-hover);
+		transition: background-color 0.1s;
+		background-color: var(--sidebar-item-hover);
 	}
 
 	.nav-link a[aria-current='page'] {
-		color: var(--theme-text-accent);
-		background-color: var(--theme-bg-accent);
+		color: var(--sidebar-item-active-text);
+		background-color: var(--sidebar-item-active);
+		box-shadow: var(--sidebar-item-active-shadow);
+		border: none;
 		font-weight: 600;
 	}
 
 	@media (max-width: 450px) {
 		.nav-link a {
-			border-color: var(--theme-text);
 			padding: 1.2rem 0.5rem;
 		}
 	}
@@ -127,11 +135,5 @@ const currentPageMatch = currentPage.endsWith('/')
 		.nav-groups {
 			padding: 0;
 		}
-	}
-</style>
-
-<style is:global>
-	:root.theme-dark .nav-link a[aria-current='page'] {
-		color: var(--theme-bg);
 	}
 </style>
