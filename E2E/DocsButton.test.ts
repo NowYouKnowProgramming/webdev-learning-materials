@@ -7,7 +7,7 @@ test('homepage has title and links to intro page', async ({ page }) => {
 	await expect(page).toHaveTitle(/The best way to learn web/)
 
 	// create a locator
-	const getStarted = page.getByText(/Get Started/).first()
+	const getStarted = page.getByText(/Start learning/).first()
 
 	// Click the get started link.
 	await getStarted.click()
