@@ -6,7 +6,7 @@ layout: ../../layouts/MainLayout.astro
 
 ## Start here
 
-- [New React Docs (beta)](https://beta.reactjs.org/)
+- [New React Docs](https://react.dev/)
 
 ## Free React courses
 
