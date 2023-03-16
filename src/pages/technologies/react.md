@@ -13,7 +13,6 @@ layout: ../../layouts/MainLayout.astro
 - [Introduction to React by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe)
 - [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
 - [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
-- [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
 - [React Framework.dev - different React resources (books, videos, courses, podcasts) and more](https://react.framework.dev/)
 
 <details>
