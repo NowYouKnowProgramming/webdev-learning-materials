@@ -35,6 +35,11 @@ layout: ../../layouts/MainLayout.astro
 
 - [React Fundamentals](https://github.com/Willaiem/react-fundamentals-typescript)
 - [React Hooks](https://github.com/Willaiem/react-hooks-typescript)
+- [Advanced React Hooks](https://github.com/Willaiem/advanced-react-hooks-typescript)
+- [Advanced React Patterns](https://github.com/Willaiem/advanced-react-patterns-typescript)
+- [React Performance](https://github.com/Willaiem/react-performance-typescript)
+- [Testing React Apps](https://github.com/Willaiem/testing-react-apps-typescript)
+- [React Suspence](https://github.com/Willaiem/react-suspense-typescript)
 
 </details>
 
