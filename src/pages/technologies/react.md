@@ -6,14 +6,13 @@ layout: ../../layouts/MainLayout.astro
 
 ## Start here
 
-- [New React Docs (beta)](https://beta.reactjs.org/)
+- [New React Docs](https://react.dev/)
 
 ## Free React courses
 
 - [Introduction to React by Jack Herrington](https://www.youtube.com/playlist?list=PLNqp92_EXZBKa1U7JbgUwBnDk3XzYDvXe)
 - [Academind - React Crash Course](https://www.youtube.com/watch?v=Dorf8i6lCuk)
 - [Brad Schiff (LearnWebCode) - React For The Rest Of Us (only the basics of React)](https://www.youtube.com/playlist?list=PLpcSpRrAaOaqONih-vl45TkLRgRzELLvI)
-- [React with Hooks (old React docs rewritten with Hooks API)](https://reactwithhooks.netlify.app/)
 - [React Framework.dev - different React resources (books, videos, courses, podcasts) and more](https://react.framework.dev/)
 
 <details>
@@ -35,6 +34,11 @@ layout: ../../layouts/MainLayout.astro
 
 - [React Fundamentals](https://github.com/Willaiem/react-fundamentals-typescript)
 - [React Hooks](https://github.com/Willaiem/react-hooks-typescript)
+- [Advanced React Hooks](https://github.com/Willaiem/advanced-react-hooks-typescript)
+- [Advanced React Patterns](https://github.com/Willaiem/advanced-react-patterns-typescript)
+- [React Performance](https://github.com/Willaiem/react-performance-typescript)
+- [Testing React Apps](https://github.com/Willaiem/testing-react-apps-typescript)
+- [React Suspence](https://github.com/Willaiem/react-suspense-typescript)
 
 </details>
 
