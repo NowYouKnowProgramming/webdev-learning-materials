@@ -12,6 +12,7 @@ layout: ../../layouts/MainLayout.astro
 - ["Your Theme"](https://www.youtube.com/watch?v=NVGuFdX5guE)
 - [Josh W. Comeau - How to learn stuff quickly](https://www.joshwcomeau.com/blog/how-to-learn-stuff-quickly/)
 - [An Approach to Continuous Learning](https://dev.to/abh1navv/an-approach-to-continuous-learning-30pk)
+- [The Last Game Dev Advice You Need, a lesson about failing fast to learn from your mistakes - YouTube: Mental Checkpoint](https://youtu.be/L-zKm6c8_IE)
 - [Reddit Post - Most of you need to SLOW DOWN](https://www.reddit.com/r/learnprogramming/comments/vvsw0x/most_of_you_need_to_slow_down/)
 
 ## Paid content about efficient learning
