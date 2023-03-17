@@ -60,6 +60,7 @@ export const SIDEBAR: Sidebar = {
 		{ text: 'Job boards', link: 'common/job_boards' },
 		{ text: 'Learning to learn', link: 'common/learning_to_learn' },
 		{ text: 'Programmer POV', link: 'common/programmer_pov' },
+		{ text: 'Productivity', link: 'common/productivity' },
 	],
 	Principles: [
 		{ text: 'Design patterns', link: 'principles/design_patterns' },
