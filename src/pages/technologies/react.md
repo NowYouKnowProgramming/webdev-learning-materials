@@ -2,6 +2,7 @@
 title: React
 description: Useful materials about React. Hooks, React + TypeScript, best practices, testing and more.
 layout: ../../layouts/MainLayout.astro
+image: { src: /metaimages/react.png, alt: 'react' }
 ---
 
 ## Start here

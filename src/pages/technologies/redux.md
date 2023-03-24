@@ -2,6 +2,7 @@
 title: Redux
 description: Redux learning materials. Redux toolkit, Redux with TypeScript and more!
 layout: ../../layouts/MainLayout.astro
+image: { src: /metaimages/redux.png, alt: 'redux' }
 ---
 
 ## Free

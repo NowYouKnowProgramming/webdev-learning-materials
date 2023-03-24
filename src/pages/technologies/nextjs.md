@@ -2,6 +2,7 @@
 title: Next.js
 description: Useful materials about Next.js, how to migrate from CRA? Free and paid Next.js courses
 layout: ../../layouts/MainLayout.astro
+image: { src: /metaimages/nextjs.png, alt: 'nextjs' }
 ---
 
 ## Free
