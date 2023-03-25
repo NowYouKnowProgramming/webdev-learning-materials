@@ -2,6 +2,7 @@
 title: TypeScript
 description: All materials to learn about TypeScript. Free courses, paid courses and more!
 layout: ../../layouts/MainLayout.astro
+image: { src: /metaimages/typescript.png, alt: 'typescript' }
 ---
 
 ## Free courses

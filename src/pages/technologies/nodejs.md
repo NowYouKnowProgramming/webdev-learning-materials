@@ -2,6 +2,7 @@
 title: Node.js
 description: All materials to learn about Node.js
 layout: ../../layouts/MainLayout.astro
+image: { src: /metaimages/nodejs.png, alt: 'nodejs' }
 ---
 
 ## Free

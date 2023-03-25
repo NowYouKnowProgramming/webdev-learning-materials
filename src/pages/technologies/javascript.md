@@ -2,6 +2,7 @@
 title: JavaScript
 description: Useful materials about JavaScript. Free courses, paid courses, async JavaScript, tools for developing in JavaScript and more
 layout: ../../layouts/MainLayout.astro
+image: { src: /metaimages/javascript.png, alt: 'javascript' }
 ---
 
 ## Free

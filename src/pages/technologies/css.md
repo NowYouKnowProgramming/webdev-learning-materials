@@ -2,6 +2,7 @@
 title: CSS materials
 description: Useful materials about CSS. Pro tips for writing best CSS code, learn about different CSS gotchas. Free and paid CSS courses, stuff you need to know
 layout: ../../layouts/MainLayout.astro
+image: { src: /metaimages/css.png, alt: 'CSS' }
 ---
 
 ## Free

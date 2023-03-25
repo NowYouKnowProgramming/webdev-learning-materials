@@ -2,6 +2,7 @@
 title: Git materials
 description: Useful materials about git. Learn what you need to know about git. Write good commit messages, git workflow, necessary commands for git
 layout: ../../layouts/MainLayout.astro
+image: { src: /metaimages/git.png, alt: 'git' }
 ---
 
 ## Free courses

@@ -2,6 +2,7 @@
 title: HTML
 description: Useful materials about HTML. Free HTML courses, and must know facts
 layout: ../../layouts/MainLayout.astro
+image: { src: /metaimages/html.png, alt: 'html' }
 ---
 
 ## Free courses
