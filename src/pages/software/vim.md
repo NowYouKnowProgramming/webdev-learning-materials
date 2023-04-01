@@ -12,7 +12,7 @@ layout: ../../layouts/MainLayout.astro
 
 ## Polish tutorials for Vim
 
-- [Poznajemy VIM. Skuteczny trening VIMF - Pasja informatyki](https://www.youtube.com/watch?v=4ccoihuvQyg)
+- [Poznajemy VIM. Skuteczny trening VIMF - Pasja informatyki](https://youtu.be/U0gJxqyolyU)
 
 ## Extensions for Vscode
 
