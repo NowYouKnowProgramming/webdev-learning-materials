@@ -32,6 +32,7 @@ layout: ../../layouts/MainLayout.astro
 - [Ask Cloud Architech - Contributing to Open Source Can Change Your Life - Here’s How to Do It](https://www.youtube.com/watch?v=CML6vfKjQss)
 - [Jack Herrington - Senior Developer Workflow For Stress-Free Coding](https://www.youtube.com/watch?v=eAfUfKYcvBo)
 - [Fireship - Problem-Solving for Developers - A Beginner's Guide](https://www.youtube.com/watch?v=UFc-RPbq8kg)
+- [Web Dev Simplified- 3 Things Great Developers Do - YouTube](https://www.youtube.com/watch?v=VIfuvSTbzDc)
 
 ## Valuable tips from pros in Polish
 
