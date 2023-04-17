@@ -67,11 +67,14 @@ export const SIDEBAR: Sidebar = {
 		{ text: 'Clean code', link: 'principles/clean_code' },
 		{ text: 'Testing', link: 'principles/testing' },
 		{ text: 'UI and UX', link: 'principles/design_ui_ux' },
+		{ text: 'How web works', link: 'principles/how_web_works' },
 	],
 	Software: [
 		{ text: 'Visual Studio Code', link: 'software/vscode' },
 		{ text: 'Vim', link: 'software/vim' },
 		{ text: 'Other tools', link: 'software/other_tools' },
+		{ text: 'Development setup', link: 'software/development_setup' },
+		{ text: 'Repository tools', link: 'software/repository_tools' },
 	],
 	Resources: [
 		{

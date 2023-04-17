@@ -1,0 +1,5 @@
+- [Frontend mentor](http://frontendmentor.io/)
+- [devChallenges](https://devchallenges.io/)
+- [Frontend practice](http://frontendpractice.com/)
+- [iCodeThis](http://icodethis.com/)
+- [CSSBattle](http://cssbattle.dev/)
