@@ -29,6 +29,7 @@ image: { src: /metaimages/git.png, alt: 'git' }
 
 - [Fireship - 13 Advanced (but useful) Git Techniques and Shortcuts](https://www.youtube.com/watch?v=ecK3EnyGD8o)
 - [Annie Sexton - Git Organized: A Better Git Flow](https://dev.to/render/git-organized-a-better-git-flow-56go)
+- [BenjO - Organize your development to avoid big pull requests](https://medium.com/swile-engineering/organize-your-development-to-avoid-big-pull-requests-a3f1ba69ca7f)
 
 ### Quick tips for Git
 
