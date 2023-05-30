@@ -52,7 +52,7 @@ const LATEST_VIDEO_COUNT = 2
 	}
 </style>
 
-<section>
+<section id='youtube-cta'>
 	<h2>We record code reviews</h2>
 	<p class='description'>
 		We believe that code review can be the best way to learn best practices and
@@ -75,6 +75,7 @@ const LATEST_VIDEO_COUNT = 2
 	const isFromPoland = getUserIsFromPoland()
 
 	if (!isFromPoland) {
-		document.querySelector('section').style.display = 'none'
+		const youtubeCTA = document.querySelector<HTMLElement>('#youtube-cta')
+		if (youtubeCTA) youtubeCTA.style.display = 'none'
 	}
 </script>
