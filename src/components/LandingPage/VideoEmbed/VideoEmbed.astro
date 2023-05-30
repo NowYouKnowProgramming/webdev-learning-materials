@@ -45,9 +45,10 @@ const LATEST_VIDEO_COUNT = 2
 		aspect-ratio: 16/9;
 		border: none;
 
-		box-shadow: 1px 2px 2px hsl(220deg 0 0 / 0.2),
-			2px 4px 4px hsl(220deg 0 0 / 0.2), 4px 8px 8px hsl(220deg 0 0 / 0.2),
-			8px 16px 16px hsl(220deg 0 0 / 0.2), 16px 32px 32px hsl(220deg 0 0 / 0.2);
+		box-shadow: 1px 2px 2px hsl(220deg 0% 0% / 0.2),
+			2px 4px 4px hsl(220deg 0% 0% / 0.2), 4px 8px 8px hsl(220deg 0% 0% / 0.2),
+			8px 16px 16px hsl(220deg 0% 0% / 0.2),
+			16px 32px 32px hsl(220deg 0% 0% / 0.2);
 	}
 </style>
 
@@ -68,3 +69,12 @@ const LATEST_VIDEO_COUNT = 2
 		}
 	</div>
 </section>
+
+<script>
+	import { getUserIsFromPoland } from './helpers'
+	const isFromPoland = getUserIsFromPoland()
+
+	if (!isFromPoland) {
+		document.querySelector('section').style.display = 'none'
+	}
+</script>
