@@ -5,6 +5,7 @@ import LandingPageFooter from './Footer/LandingPageFooter.astro'
 import LandingPageEndingCTA from './LandingPageEndingCTA.astro'
 import { GitStarPromoSection } from './Promo/GitStarPromoSection/GitStarPromoSection'
 import { Promo } from './Promo/Promo'
+import VideoEmbed from './VideoEmbed/VideoEmbed.astro'
 import WelcomeSection from './WelcomeSection/WelcomeSection.astro'
 const currentPage = Astro.url.pathname
 ---
@@ -73,6 +74,7 @@ const currentPage = Astro.url.pathname
 	<Header currentPage={currentPage} />
 	<main>
 		<WelcomeSection />
+		<VideoEmbed />
 		<Promo client:load />
 		<Comparison />
 		<GitStarPromoSection client:load />

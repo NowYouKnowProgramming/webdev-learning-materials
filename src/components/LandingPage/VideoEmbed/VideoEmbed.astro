@@ -1,0 +1,81 @@
+---
+const youTubechannelID = 'UUww1wSWy6LvZjyEEHr7ypLA'
+
+const LATEST_VIDEO_COUNT = 2
+---
+
+<style lang='scss'>
+	section {
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 2rem;
+		width: min(90%, 1280px);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	h2 {
+		margin: 0 auto;
+		padding: 0;
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+
+	.description {
+		max-width: 600px;
+		color: var(--theme-text);
+		margin-bottom: 0.8rem;
+	}
+
+	.videos-wrapper {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+	}
+
+	.video {
+		flex: 1 1 300px;
+		width: 100%;
+		height: 100%;
+		border-radius: 8px;
+		margin: 1rem auto;
+		aspect-ratio: 16/9;
+		border: none;
+
+		box-shadow: 1px 2px 2px hsl(220deg 0% 0% / 0.2),
+			2px 4px 4px hsl(220deg 0% 0% / 0.2), 4px 8px 8px hsl(220deg 0% 0% / 0.2),
+			8px 16px 16px hsl(220deg 0% 0% / 0.2),
+			16px 32px 32px hsl(220deg 0% 0% / 0.2);
+	}
+</style>
+
+<section id='youtube-cta'>
+	<h2>We record code reviews</h2>
+	<p class='description'>
+		We believe that code review can be the best way to learn best practices and
+		new ways to write code for both parties - code reviewer and code writer
+	</p>
+	<div class='videos-wrapper'>
+		{
+			Array.from({ length: LATEST_VIDEO_COUNT }).map((_, index) => {
+				const embedSource = `https://www.youtube.com/embed?listType=playlist&list=${youTubechannelID}&index=${
+					index + 1
+				}`
+				return <iframe class='video' src={embedSource} />
+			})
+		}
+	</div>
+</section>
+
+<script>
+	import { getUserIsFromPoland } from './helpers'
+	const isFromPoland = getUserIsFromPoland()
+
+	if (!isFromPoland) {
+		const youtubeCTA = document.querySelector<HTMLElement>('#youtube-cta')
+		if (youtubeCTA) youtubeCTA.style.display = 'none'
+	}
+</script>
