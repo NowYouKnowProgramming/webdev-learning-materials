@@ -2,21 +2,33 @@
 import MainLinks from './MainLinks.astro'
 ---
 
-<div class={`welcome first-join`}>
+<div class='welcome'>
+	<div class='grid-container'>
+		<div class='grid'></div>
+	</div>
 	<div class='content'>
-		<h2>The best way to learn web development</h2>
+		<h2 class='title'>
+			The <span class='glow'>best way</span> to learn web development
+		</h2>
 		<p>Carefully selected, verified, up to date</p>
 		<MainLinks />
 	</div>
-	<img
-		aria-hidden='true'
-		class='puzzle'
-		src='/images/misc/puzzle.webp'
-		alt=''
-	/>
 </div>
 
 <style lang='scss'>
+	.title {
+		font-size: 40px;
+	}
+
+	.glow {
+		--main-glow: #a66fff;
+		--secondary-glow: #8e62d5;
+		text-shadow: 0 0 7px var(--main-glow), 0 0 10px var(--main-glow),
+			0 0 21px var(--main-glow), 0 0 42px var(--secondary-glow),
+			0 0 82px var(--secondary-glow), 0 0 92px var(--secondary-glow),
+			0 0 102px var(--secondary-glow), 0 0 151px var(--secondary-glow);
+	}
+
 	.welcome {
 		display: flex;
 		align-items: center;
@@ -27,15 +39,7 @@ import MainLinks from './MainLinks.astro'
 		position: relative;
 		overflow-x: hidden;
 		min-height: 91vh;
-	}
-
-	.puzzle {
-		max-height: 50%;
-		max-width: 90vw;
-		position: absolute;
-		z-index: var(--z-base);
-		aspect-ratio: 1596/1222;
-		animation: rotate 200s infinite linear;
+		min-height: 100svh;
 	}
 
 	.content {
@@ -48,71 +52,47 @@ import MainLinks from './MainLinks.astro'
 		justify-content: center;
 	}
 
-	@media (prefers-reduced-motion: no-preference) {
-		.first-join {
-			--appear-time: 2s;
-
-			.content {
-				animation: 1s slide-appear 0.5s backwards;
-			}
-
-			.puzzle {
-				animation: rotate 200s infinite linear var(--appear-time),
-					rotate-appear var(--appear-time);
-			}
-		}
-	}
-
 	.content p {
 		color: var(--theme-text);
 	}
 
-	@keyframes rotate {
-		from {
-			rotate: 0deg;
-		}
-		to {
-			rotate: 360deg;
-		}
-	}
-
-	@keyframes rotate-appear {
-		from {
-			scale: 0.9;
-			rotate: -30deg;
-			opacity: 0;
-			translate: 0 5%;
-		}
-		to {
-			scale: 1;
-		}
-	}
-
-	@keyframes slide-appear {
-		from {
-			translate: 0 5%;
-			opacity: 0;
-		}
-		to {
-			translate: 0 0;
-			opacity: 1;
-		}
-	}
-
-	@media (max-width: 982px) {
-		.puzzle {
-			opacity: 0.5;
-		}
-	}
-
 	@media (min-width: 982px) {
-		.puzzle {
-			position: relative;
-			width: 500px;
-		}
-
 		.welcome {
 			flex-direction: row;
+		}
+	}
+
+	.grid-container {
+		position: absolute;
+		left: 30%;
+		top: -30%;
+		width: 40%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+		transform: perspective(750px) rotateX(70deg);
+	}
+
+	.grid {
+		opacity: 0.3;
+		mask-image: linear-gradient(
+			transparent,
+			rgba(0, 0, 0, 1) 20%,
+			rgba(0, 0, 0, 1) 80%,
+			transparent
+		);
+		width: 100%;
+		height: 800px;
+		background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 100 100"%3E%3Cg fill-rule="evenodd"%3E%3Cg fill="violet" fill-opacity="0.9"%3E%3Cpath opacity=".9" d="M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z"/%3E%3Cpath d="M6 5V0H5v5H0v1h5v94h1V6h94V5H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+		animation: 20s move infinite linear;
+	}
+
+	@keyframes move {
+		from {
+			background-position: 0 0;
+		}
+		to {
+			background-position: 0 100%;
 		}
 	}
 </style>
