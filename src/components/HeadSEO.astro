@@ -11,7 +11,7 @@ const formattedContentTitle = `${frontmatter.title} 🧩 ${SITE.title}`
 const imageAlt = frontmatter.image?.alt ?? OPEN_GRAPH.image.alt
 
 const META_IMG_URL =
-	Astro.url.origin + (frontmatter.image?.src ?? '/metaimage.webp')
+	Astro.url.origin + (frontmatter.image?.src ?? '/metaimage.png')
 
 const DESCRIPTION = frontmatter.description ?? SITE.description
 ---
