@@ -40,12 +40,14 @@ const css = `docs-btn ${classes ? classes : ''}`
 		white-space: nowrap;
 		transition: cubic-bezier(0.17, 0.67, 0.11, 0.98) 0.3s;
 		font-family: var(--font-special);
+
 		&:hover {
 			box-shadow: rgba(0, 0, 0, 0.23) 0 2px 5px, var(--docs-btn-bg) 0 4px 0,
 				0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
 				0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
 				0 16px 16px rgba(0, 0, 0, 0.12);
 			transform: translateY(-2px);
+
 			opacity: 1;
 			span::before {
 				width: 100%;
