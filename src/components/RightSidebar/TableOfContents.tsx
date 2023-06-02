@@ -2,6 +2,7 @@ import type { FunctionalComponent } from 'preact'
 import { useState, useEffect, useRef } from 'preact/hooks'
 import type { MarkdownHeading } from 'astro'
 import classes from './TableOfContents.module.scss'
+import { getUserIsFromPoland } from '../../utils/getUserIsFromPoland'
 
 type ItemOffsets = {
 	id: string
@@ -11,13 +12,17 @@ type ItemOffsets = {
 const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 	headings = [],
 }) => {
+	const [isFromPoland, setIsFromPoland] = useState(false)
 	const [isVisible, setIsVisible] = useState(true)
 	const [width, setWidth] = useState<number>(0)
 	const itemOffsets = useRef<ItemOffsets[]>([])
+
 	// FIXME: Not sure what this state is doing. It was never set to anything truthy.
 	const listRef = useRef<HTMLHeadingElement>(null)
 	const [activeId] = useState<string>('')
 	useEffect(() => {
+		setIsFromPoland(getUserIsFromPoland())
+
 		const getItemOffsets = () => {
 			setWidth(window.innerWidth)
 			const titles = document.querySelectorAll('article :is(h1, h2, h3, h4)')
@@ -83,15 +88,21 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 				</li>
 				{headings
 					.filter(({ depth }) => depth > 1 && depth < 5)
-					.map((heading) => (
-						<li
-							className={`heading-link depth-${heading.depth} ${
-								activeId === heading.slug ? 'active' : ''
-							}`.trim()}
-						>
-							<a href={`#${heading.slug}`}>{heading.text}</a>
-						</li>
-					))}
+					.map((heading) => {
+						const text = heading.text.replace('$PL', '')
+
+						if (!isFromPoland && heading.text.includes('$PL')) return null
+
+						return (
+							<li
+								className={`heading-link depth-${heading.depth} ${
+									activeId === heading.slug ? 'active' : ''
+								}`.trim()}
+							>
+								<a href={`#${heading.slug}`}>{text}</a>
+							</li>
+						)
+					})}
 			</ul>
 		</>
 	)

@@ -71,7 +71,8 @@ const LATEST_VIDEO_COUNT = 2
 </section>
 
 <script>
-	import { getUserIsFromPoland } from './helpers'
+	import { getUserIsFromPoland } from '../../../utils/getUserIsFromPoland'
+
 	const isFromPoland = getUserIsFromPoland()
 
 	if (!isFromPoland) {

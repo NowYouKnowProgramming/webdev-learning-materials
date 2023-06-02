@@ -12,6 +12,7 @@ import CopyCodeToClipboard from '../components/utility/CopyCodeToClipboard/CopyC
 import HeadingLinksCopyToClipboard from '../components/utility/HeadingLinksCopyToClipboard/HeadingLinksCopyToClipboard.astro'
 
 import * as CONFIG from '../config'
+import HidePolishLinks from '../components/utility/HidePolishLinks.astro'
 
 type Props = {
 	frontmatter: CONFIG.Frontmatter
@@ -235,5 +236,6 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 		<Footer path={currentFile} />
 		<CopyCodeToClipboard />
 		<HeadingLinksCopyToClipboard />
+		<HidePolishLinks client:idle />
 	</body>
 </html>
