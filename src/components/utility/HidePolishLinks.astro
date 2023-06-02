@@ -6,22 +6,18 @@
 		...document.querySelectorAll<HTMLElement>('a,h1,h2,h3,h4,h5,h6,p'),
 	]
 
-	console.log('allPolishElements', allPolishElements)
-
 	const isFromPoland = getUserIsFromPoland()
 
-	setTimeout(() => {
-		allPolishElements.forEach((link) => {
-			if (!link.textContent) return
+	allPolishElements.forEach((link) => {
+		if (!link.textContent) return
 
-			const isPolishLink = link.textContent.includes(MATCHING_POLISH_LINKS)
+		const isPolishLink = link.textContent.includes(MATCHING_POLISH_LINKS)
 
-			if (isPolishLink && !isFromPoland) {
-				link.style.display = 'none'
-				return
-			}
+		if (isPolishLink && !isFromPoland) {
+			link.style.display = 'none'
+			return
+		}
 
-			link.textContent = link.textContent?.replace(MATCHING_POLISH_LINKS, '')
-		})
-	}, 0)
+		link.textContent = link.textContent?.replace(MATCHING_POLISH_LINKS, '')
+	})
 </script>
