@@ -23,6 +23,15 @@ const css = `docs-btn ${glow ? 'glow' : ''} ${classes ? classes : ''}`
 </a>
 
 <style lang='scss'>
+	:root:not(.theme-oled):not(.theme-dark) {
+		.docs-btn {
+			border: 1px solid var(--theme-text);
+			.inner-text {
+				border-color: var(--theme-accent);
+			}
+		}
+	}
+
 	.inner-text {
 		width: 100%;
 		height: 100%;
