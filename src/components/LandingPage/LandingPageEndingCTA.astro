@@ -5,7 +5,9 @@ import DocsBtn from './DocsBtn.astro'
 <div class='root'>
 	<div class='text'>
 		<h2>Are you ready to learn?</h2>
-		<DocsBtn title='Docs page' href='/introduction' text='Get Started' />
+		<div class='btn-wrapper'>
+			<DocsBtn glow title='Docs page' href='/introduction' text='Get Started' />
+		</div>
 	</div>
 	<div class='bottom-grad' aria-hidden='true'></div>
 </div>
@@ -30,10 +32,6 @@ import DocsBtn from './DocsBtn.astro'
 
 	.text h2 {
 		margin-bottom: 3rem;
-	}
-
-	DocsBtn {
-		box-shadow: rgba(0, 0, 0, 0.818) 0 -25px 10px;
 	}
 
 	@media screen and (max-width: 600px) {
