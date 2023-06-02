@@ -26,7 +26,6 @@ image: { src: /metaimages/typescript.png, alt: 'typescript' }
 ### Polish paid courses
 
 - [Kurs TS od Eduweb (Overment)](https://eduweb.pl/wyszukiwarka?query=typescript)
-- [Michał Miszczyszyn - Książka "TypeScript na poważnie"](https://typescriptnapowaznie.pl/)
 
 ### Additional content
 
