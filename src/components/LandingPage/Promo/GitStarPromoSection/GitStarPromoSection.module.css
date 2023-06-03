@@ -19,7 +19,12 @@
 	text-align: center;
 	margin: 0 auto;
 	margin-bottom: 2rem;
-	transition: text-shadow 0.5s;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.sectionTitle {
+		transition: text-shadow 0.5s;
+	}
 }
 
 .button {
@@ -36,9 +41,14 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	justify-items: center;
-	transition: 0.2s cubic-bezier(0.25, 1, 0.5, 1);
 	font-family: var(--font-special);
 	font-weight: bold;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.button {
+		transition: 0.2s cubic-bezier(0.25, 1, 0.5, 1);
+	}
 }
 
 .button .textInButton {
@@ -47,9 +57,15 @@
 
 .button:hover,
 .button:focus {
-	animation: pulse 0.8s;
 	box-shadow: 0 0 2em 2em rgb(255 255 255 / 0%);
-	scale: 0.95;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.button:hover,
+	.button:focus {
+		animation: pulse 0.8s;
+		scale: 0.95;
+	}
 }
 
 @keyframes pulse {
@@ -63,5 +79,10 @@
 	width: 1px;
 	height: 2.3rem;
 	display: block;
-	transition: background-color 0.2s ease-in-out;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.separator {
+		transition: background-color 0.2s ease-in-out;
+	}
 }

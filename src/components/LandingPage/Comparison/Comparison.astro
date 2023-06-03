@@ -23,28 +23,30 @@ const comparisonData: ComparisonCardProps[] = [
 ---
 
 <style lang='scss' is:global>
-	.hidden-list li {
-		opacity: 0;
-		transform: translate3d(0, 20px, 0);
-	}
+	@media (prefers-reduced-motion: no-preference) {
+		.hidden-list li {
+			opacity: 0;
+			transform: translate3d(0, 20px, 0);
+		}
 
-	.hidden-list li > * {
-		opacity: 0;
-		transform: translate3d(0, 20px, 0);
-	}
+		.hidden-list li > * {
+			opacity: 0;
+			transform: translate3d(0, 20px, 0);
+		}
 
-	li > * {
-		opacity: 1;
-		transition: opacity 1s 1s, transform 1s 1s;
-	}
+		li > * {
+			opacity: 1;
+			transition: opacity 1s 1s, transform 1s 1s;
+		}
 
-	li.side-by-side {
-		@for $i from 1 through 10 {
-			&:nth-child(#{$i}) {
-				transition: opacity 1s ease-out, transform 1s ease-out;
-				transition-delay: 0.2s * $i;
-				> * {
-					transition-delay: 0.3s * $i;
+		li.side-by-side {
+			@for $i from 1 through 10 {
+				&:nth-child(#{$i}) {
+					transition: opacity 1s ease-out, transform 1s ease-out;
+					transition-delay: 0.2s * $i;
+					> * {
+						transition-delay: 0.3s * $i;
+					}
 				}
 			}
 		}

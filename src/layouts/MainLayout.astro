@@ -137,9 +137,12 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 				}
 				details {
 					summary {
-						transition: 0.2s;
 						padding: 10px;
 						border-radius: 8px;
+
+						@media (prefers-reduced-motion: no-preference) {
+							transition: 0.2s;
+						}
 
 						user-select: none;
 						&:hover {
@@ -172,7 +175,11 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 						a {
 							text-decoration: none;
 							padding: 5px 0;
-							transition: 0.2s;
+
+							@media (prefers-reduced-motion: no-preference) {
+								transition: 0.2s;
+							}
+
 							&:hover {
 								color: var(--theme-accent);
 							}

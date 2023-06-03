@@ -161,8 +161,10 @@ const additionalContributors = unique.length - recentContributors.length // list
 		border-radius: 50%;
 	}
 
-	.avatar-list a {
-		transition: transform 180ms ease-in-out;
+	@media (prefers-reduced-motion: no-preference) {
+		.avatar-list a {
+			transition: transform 180ms ease-in-out;
+		}
 	}
 
 	.avatar-list img {

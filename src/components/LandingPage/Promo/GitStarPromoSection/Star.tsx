@@ -3,6 +3,7 @@
 import { useMemo } from 'react'
 import { ScrollParallax } from 'react-just-parallax'
 import classes from './Star.module.css'
+import { usePrefersReducedMotion } from '../../../../hooks/usePrefersReducedMotion'
 
 type Props = {
 	style: React.CSSProperties
@@ -11,6 +12,7 @@ type Props = {
 }
 
 export const Star = ({ style, strength = 0.05, shouldGlow }: Props) => {
+	const prefersReducedMotion = usePrefersReducedMotion()
 	const starScale = shouldGlow ? strength * 10 : strength * 5
 
 	const animationDelay = useMemo(
@@ -18,7 +20,18 @@ export const Star = ({ style, strength = 0.05, shouldGlow }: Props) => {
 		[]
 	)
 
-	return (
+	return prefersReducedMotion ? (
+		<img
+			className={`${classes.root} ${shouldGlow ? classes.strongGlow : ''}`}
+			style={{
+				...style,
+				scale: starScale.toString(),
+			}}
+			src='/images/starButton/star-icon.svg'
+			alt=''
+			aria-hidden='true'
+		/>
+	) : (
 		<ScrollParallax
 			isAbsolutelyPositioned
 			strength={strength / 2}
