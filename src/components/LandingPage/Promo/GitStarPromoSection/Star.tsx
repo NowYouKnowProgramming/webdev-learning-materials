@@ -20,18 +20,21 @@ export const Star = ({ style, strength = 0.05, shouldGlow }: Props) => {
 		[]
 	)
 
-	return prefersReducedMotion ? (
-		<img
-			className={`${classes.root} ${shouldGlow ? classes.strongGlow : ''}`}
-			style={{
-				...style,
-				scale: starScale.toString(),
-			}}
-			src='/images/starButton/star-icon.svg'
-			alt=''
-			aria-hidden='true'
-		/>
-	) : (
+	if (prefersReducedMotion)
+		return (
+			<img
+				className={`${classes.root} ${shouldGlow ? classes.strongGlow : ''}`}
+				style={{
+					...style,
+					scale: starScale.toString(),
+				}}
+				src='/images/starButton/star-icon.svg'
+				alt=''
+				aria-hidden='true'
+			/>
+		)
+
+	return (
 		<ScrollParallax
 			isAbsolutelyPositioned
 			strength={strength / 2}
