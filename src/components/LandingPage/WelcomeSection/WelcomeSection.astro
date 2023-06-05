@@ -2,7 +2,7 @@
 import MainLinks from './MainLinks.astro'
 ---
 
-<div class='welcome'>
+<section class='welcome'>
 	<div class='content'>
 		<div class='grid-container'>
 			<div class='grid'></div>
@@ -13,7 +13,7 @@ import MainLinks from './MainLinks.astro'
 		<p>Carefully selected, verified, up to date</p>
 		<MainLinks />
 	</div>
-</div>
+</section>
 
 <style lang='scss'>
 	.title {
@@ -98,13 +98,3 @@ import MainLinks from './MainLinks.astro'
 		}
 	}
 </style>
-
-<script is:inline>
-	const firstJoin = localStorage.getItem('firstJoin')
-	if (firstJoin === 'false') {
-		const welcomeSection = document.querySelector('.first-join')
-		welcomeSection.classList.remove('first-join')
-	} else {
-		localStorage.setItem('firstJoin', 'false')
-	}
-</script>

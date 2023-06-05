@@ -36,10 +36,14 @@ const css = `docs-btn ${glow ? 'glow' : ''} ${classes ? classes : ''}`
 		width: 100%;
 		height: 100%;
 		border: 2px solid var(--bewebdev-pink);
-		padding: 0.3rem 1.2rem;
 		display: block;
 		border-radius: 50px;
 		transition: scale 0.3s cubic-bezier(0.17, 0.67, 0.11, 0.98);
+		padding: 1rem 1.2rem;
+
+		@media (min-width: 1000px) {
+			padding: 0.3rem 1.2rem;
+		}
 	}
 
 	.docs-btn,
@@ -50,7 +54,8 @@ const css = `docs-btn ${glow ? 'glow' : ''} ${classes ? classes : ''}`
 	}
 
 	.docs-btn {
-		display: block;
+		display: grid;
+		place-items: center;
 		padding: 0.3rem;
 		font-size: 1.3rem;
 		color: var(--font-body);
