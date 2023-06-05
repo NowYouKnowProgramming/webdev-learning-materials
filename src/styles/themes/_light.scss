@@ -1,0 +1,47 @@
+:root {
+	color-scheme: light;
+
+	--bewebdev-pink: hsl(318, 30%, 100%);
+	--bewebdev-pink-saturated: hsl(318, 92%, 100%);
+	--bewebdev-purple: hsl(255, 20%, 100%);
+	--bewebdev-purple-saturated: hsl(255, 79%, 95%);
+	--bewebdev-red: hsla(0, 96%, 53%, 0.475);
+
+	--theme-accent: hsla(var(--color-blue), 1);
+	--theme-text-accent: hsla(var(--color-blue), 1);
+	--theme-text-accent-visited: var(--bewebdev-red);
+	--theme-accent-opacity: 0.15;
+	--theme-divider: hsla(var(--color-gray-95), 1);
+	--theme-text: hsla(var(--color-gray-10), 1);
+	--theme-text-light: hsla(var(--color-gray-40), 1);
+	/* @@@: not used anywhere */
+	--theme-text-lighter: hsla(var(--color-gray-80), 1);
+	--theme-bg: hsla(var(--color-base-white), 100%, 1);
+	--theme-bg-hover: hsla(var(--color-gray-95), 1);
+	--theme-bg-offset: hsla(var(--color-gray-90), 1);
+	--theme-bg-accent: hsla(var(--color-blue), var(--theme-accent-opacity));
+	--theme-code-inline-bg: hsla(var(--color-gray-95), 1);
+	--theme-code-inline-text: var(--theme-text);
+	--theme-code-bg: hsla(217, 19%, 27%, 1);
+	--theme-code-text: hsla(var(--color-gray-95), 1);
+	--theme-navbar-bg: hsla(var(--color-base-white), 100%, 1);
+	--theme-navbar-height: 6rem;
+	--theme-selection-color: hsla(var(--color-blue), 1);
+	--theme-selection-bg: hsla(var(--color-blue), var(--theme-accent-opacity));
+
+	/* landing page */
+	--docs-btn-bg: hsl(300, 53%, 29%);
+	--docs-btn-text: var(--theme-bg);
+	--repo-btn-text: var(--docs-btn-bg);
+	--circle-gradient-color: transparent;
+	--comparison-card-bg: linear-gradient(
+		45deg,
+		var(--bewebdev-pink-saturated),
+		var(--bewebdev-purple-saturated)
+	);
+
+	--sidebar-bg: hsl(214, 35%, 13%);
+	--sidebar-item-hover: hsl(0, 0%, 80%);
+	--sidebar-item-active: hsl(0, 0%, 100%);
+	--sidebar-item-active-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
