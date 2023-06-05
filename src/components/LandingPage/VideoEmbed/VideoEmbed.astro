@@ -1,7 +1,11 @@
 ---
-const youTubechannelID = 'UUww1wSWy6LvZjyEEHr7ypLA'
+import GlowText from '../../common/GlowText.astro'
+import DocsBtn from '../DocsBtn.astro'
+const YOUTUBE_CHANNEL_ID = 'UUww1wSWy6LvZjyEEHr7ypLA'
 
 const LATEST_VIDEO_COUNT = 2
+
+const CHANNEL_SUBSCRIBE_LINK = ''
 ---
 
 <style lang='scss'>
@@ -53,15 +57,22 @@ const LATEST_VIDEO_COUNT = 2
 </style>
 
 <section id='youtube-cta'>
-	<h2>We record code reviews</h2>
+	<h2>We record <GlowText>code reviews</GlowText></h2>
 	<p class='description'>
 		We believe that code review can be the best way to learn best practices and
 		new ways to write code for both parties - code reviewer and code writer
 	</p>
+	<DocsBtn
+		text='Visit our channel'
+		title='Bewebdev on youtube'
+		href={CHANNEL_SUBSCRIBE_LINK}
+		isExternal
+		classes='repo'
+	/>
 	<div class='videos-wrapper'>
 		{
 			Array.from({ length: LATEST_VIDEO_COUNT }).map((_, index) => {
-				const embedSource = `https://www.youtube.com/embed?listType=playlist&list=${youTubechannelID}&index=${
+				const embedSource = `https://www.youtube.com/embed?listType=playlist&list=${YOUTUBE_CHANNEL_ID}&index=${
 					index + 1
 				}`
 				return <iframe class='video' src={embedSource} />
@@ -74,8 +85,13 @@ const LATEST_VIDEO_COUNT = 2
 	import { getUserIsFromPoland } from './helpers'
 	const isFromPoland = getUserIsFromPoland()
 
+	const removeCTAElement = () => {
+		const youtubeCTAElement =
+			document.querySelector<HTMLElement>('#youtube-cta')
+		if (youtubeCTAElement) youtubeCTAElement.style.display = 'none'
+	}
+
 	if (!isFromPoland) {
-		const youtubeCTA = document.querySelector<HTMLElement>('#youtube-cta')
-		if (youtubeCTA) youtubeCTA.style.display = 'none'
+		removeCTAElement()
 	}
 </script>

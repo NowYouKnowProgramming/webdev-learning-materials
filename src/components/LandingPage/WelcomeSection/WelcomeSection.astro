@@ -1,4 +1,5 @@
 ---
+import GlowText from '../../common/GlowText.astro'
 import MainLinks from './MainLinks.astro'
 ---
 
@@ -8,7 +9,7 @@ import MainLinks from './MainLinks.astro'
 			<div class='grid'></div>
 		</div>
 		<h2 class='title'>
-			The <span class='glow'>best way</span> to learn web development
+			The <GlowText>best way</GlowText> to learn web development
 		</h2>
 		<p>Carefully selected, verified, up to date</p>
 		<MainLinks />
@@ -18,15 +19,6 @@ import MainLinks from './MainLinks.astro'
 <style lang='scss'>
 	.title {
 		font-size: 40px;
-	}
-
-	.glow {
-		--main-glow: #a66fff;
-		--secondary-glow: #8e62d5;
-		text-shadow: 0 0 7px var(--main-glow), 0 0 10px var(--main-glow),
-			0 0 21px var(--main-glow), 0 0 42px var(--secondary-glow),
-			0 0 82px var(--secondary-glow), 0 0 92px var(--secondary-glow),
-			0 0 102px var(--secondary-glow), 0 0 151px var(--secondary-glow);
 	}
 
 	.welcome {
