@@ -1,5 +1,6 @@
 ---
 import { SIDEBAR } from '../../config'
+import GlowText from '../common/GlowText.astro'
 
 type Props = {
 	currentPage: string
@@ -21,14 +22,24 @@ const currentPageMatch = currentPage.endsWith('/')
 						<ul>
 							{children.map((child) => {
 								const url = Astro.site?.pathname + child.link
+								const isCurrentPage = currentPageMatch === child.link
+
+								if (isCurrentPage) {
+									return (
+										<li class='nav-link'>
+											<a
+												href={url}
+												aria-current={isCurrentPage ? 'page' : false}
+											>
+												<GlowText>{child.text}</GlowText>
+											</a>
+										</li>
+									)
+								}
+
 								return (
 									<li class='nav-link'>
-										<a
-											href={url}
-											aria-current={
-												currentPageMatch === child.link ? 'page' : false
-											}
-										>
+										<a href={url} aria-current={isCurrentPage ? 'page' : false}>
 											{child.text}
 										</a>
 									</li>
@@ -43,12 +54,12 @@ const currentPageMatch = currentPage.endsWith('/')
 </nav>
 
 <script is:inline>
-	window.addEventListener('DOMContentLoaded', () => {
-		var target = document.querySelector('[aria-current="page"]')
-		if (target && target.offsetTop > window.innerHeight - 100) {
-			document.querySelector('.nav-groups').scrollTop = target.offsetTop
-		}
-	})
+window.addEventListener('DOMContentLoaded', () => {
+	var target = document.querySelector('[aria-current="page"]')
+	if (target && target.offsetTop > window.innerHeight - 100) {
+		document.querySelector('.nav-groups').scrollTop = target.offsetTop
+	}
+})
 </script>
 
 <style>
@@ -134,6 +145,7 @@ const currentPageMatch = currentPage.endsWith('/')
 	@media (min-width: 50em) {
 		.nav-groups {
 			padding: 0;
+			padding-left: 1rem;
 		}
 	}
 </style>
