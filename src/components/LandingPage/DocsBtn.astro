@@ -1,6 +1,5 @@
 ---
 type Props = {
-	text: string
 	isExternal?: boolean
 	classes?: string
 	href: string
@@ -8,7 +7,7 @@ type Props = {
 	glow?: boolean
 }
 
-const { text, href, isExternal, classes, title, glow }: Props = Astro.props
+const { href, isExternal, classes, title, glow }: Props = Astro.props
 
 const css = `docs-btn ${glow ? 'glow' : ''} ${classes ? classes : ''}`
 ---
@@ -19,7 +18,7 @@ const css = `docs-btn ${glow ? 'glow' : ''} ${classes ? classes : ''}`
 	href={href}
 	rel={isExternal ? 'noopener noreferrer' : ''}
 	target={isExternal ? '_blank' : ''}
-	><span class='inner-text'>{text}</span>
+	><span class='inner-text'> <slot /></span>
 </a>
 
 <style lang='scss'>
