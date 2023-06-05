@@ -52,6 +52,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "grzegorzpokorski",
+      "name": "Grzegorz Pokorski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27455716?v=4",
+      "profile": "http://grzegorzpokorski.pl",
+      "contributions": [
+        "a11y"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -60,5 +69,6 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
