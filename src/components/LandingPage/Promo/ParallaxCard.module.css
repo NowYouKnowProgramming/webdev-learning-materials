@@ -59,16 +59,18 @@
 	rotate: -20deg;
 }
 
-.root:nth-child(4) .iconOne img {
-	animation: rotate 35s infinite linear;
-}
+@media (prefers-reduced-motion: no-preference) {
+	.root:nth-child(4) .iconOne img {
+		animation: rotate 35s infinite linear;
+	}
 
-.root:nth-child(4) .iconTwo img {
-	animation: rotate 25s infinite linear reverse;
-}
+	.root:nth-child(4) .iconTwo img {
+		animation: rotate 25s infinite linear reverse;
+	}
 
-.root:nth-child(4) .iconThree img {
-	animation: rotate 85s infinite linear;
+	.root:nth-child(4) .iconThree img {
+		animation: rotate 85s infinite linear;
+	}
 }
 
 .iconThree {
