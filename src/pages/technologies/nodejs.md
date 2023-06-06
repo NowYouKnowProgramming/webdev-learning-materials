@@ -5,6 +5,35 @@ layout: ../../layouts/MainLayout.astro
 image: { src: /metaimages/nodejs.png, alt: 'nodejs' }
 ---
 
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
+
+## Start learning
+
+- [Node.js official documentation](https://nodejs.org/en/docs/guides/)
+
+## More on Node.js
+
+- [Full Node.js Reference](https://nodejs.org/dist/latest/docs/api/)
+
+## How Node.js works?
+
+- [Node.js Event Loop](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
+- [Blocking and non-blocking code](https://nodejs.org/en/docs/guides/dont-block-the-event-loop/)
+- [Node.js runtime](https://github.com/samerbuna/efficient-node/blob/main/100-learning-node-runtime.adoc)
+
+## Debugging
+
+- [Debugging Node.js](https://nodejs.org/en/docs/guides/debugging-getting-started/)
+- [Debugging with VS Code](https://code.visualstudio.com/docs/nodejs/nodejs-debugging)
+
+## Node.js frameworks
+
+- [Express.js - tutorial](https://expressjs.com/en/starter/installing.html)
+
+## Important patterns and concepts
+
+- [Model View Controller - MDN Docs](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
+
 ## Free
 
 ### Jak zacząć programować? - mini-seria o Node.js i Express.js
