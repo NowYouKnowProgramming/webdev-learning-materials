@@ -147,7 +147,7 @@ Screenshots
 
 - [Jack Herrington - Mastering React Context: Do you NEED a state manager?](https://www.youtube.com/watch?v=MpdFj8MEuJA)
 
-### State Managment
+### State Management
 
 - [Jack Herrington - React State Management – Intermediate JavaScript Course](https://www.youtube.com/watch?v=-bEzt5ISACA)
 - [Redux - bewebdev.tech](https://bewebdev.tech/technologies/redux)

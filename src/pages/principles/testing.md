@@ -141,6 +141,10 @@ What to test? Why test? Which type of test to write?
 
 - [prowe214 - Write failing tests before writing code - medium.com](https://prowe214.medium.com/test-driven-development-and-why-your-tests-should-fail-2c615a92142e)
 
+### Testing React applications
+
+- [How to Test React Components: the Complete Guide - freeCodeCamp](https://www.freecodecamp.org/news/testing-react-hooks/amp/)
+
 ### Other materials about testing
 
 - [Kent C. Dodds - Confidently Shipping Code (why you should learn testing)](https://kentcdodds.com/blog/confidently-shipping-code)
