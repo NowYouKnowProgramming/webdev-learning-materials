@@ -67,6 +67,7 @@ image: { src: /metaimages/react.png, alt: 'react' }
 #### About useState hook
 
 - [Jack Herrington - useState: Asynchronous or what?](https://www.youtube.com/watch?v=RAJD4KpX8LA)
+- [A cure for React useState hell - Steve Sewell on dev.to](https://dev.to/builderio/a-cure-for-react-usestate-hell-1ldi)
 
 #### Custom hooks
 
