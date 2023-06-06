@@ -1,6 +1,6 @@
 ---
 import '../styles/index.css'
-import '../styles/theme.css'
+import '../styles/theme.scss'
 
 const experimentalOptions = { fetchpriority: 'high' }
 ---
@@ -44,32 +44,32 @@ const experimentalOptions = { fetchpriority: 'high' }
 
 <!-- This is intentionally inlined to avoid FOUC -->
 <script is:inline>
-	const root = document.documentElement
-	const theme = localStorage.getItem('theme')
-	if (theme === 'oled') {
-		root.classList.add('theme-oled')
-		root.classList.remove('theme-dark')
-	} else {
-		root.classList.remove('theme-oled')
-	}
-	if (
-		theme === 'dark' ||
-		(!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
-	) {
-		root.classList.add('theme-dark')
-	} else {
-		root.classList.remove('theme-dark')
-	}
+const root = document.documentElement
+const theme = localStorage.getItem('theme')
+if (theme === 'oled') {
+	root.classList.add('theme-oled')
+	root.classList.remove('theme-dark')
+} else {
+	root.classList.remove('theme-oled')
+}
+if (
+	theme === 'dark' ||
+	(!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
+) {
+	root.classList.add('theme-dark')
+} else {
+	root.classList.remove('theme-dark')
+}
 </script>
 
 <!-- Google tag (gtag.js) -->
 <script async src='https://www.googletagmanager.com/gtag/js?id=G-76TJGCMRYN'
 ></script>
 <script is:inline>
-	window.dataLayer = window.dataLayer || []
-	function gtag() {
-		dataLayer.push(arguments)
-	}
-	gtag('js', new Date())
-	gtag('config', 'G-76TJGCMRYN')
+window.dataLayer = window.dataLayer || []
+function gtag() {
+	dataLayer.push(arguments)
+}
+gtag('js', new Date())
+gtag('config', 'G-76TJGCMRYN')
 </script>

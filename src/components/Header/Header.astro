@@ -60,6 +60,7 @@ const algoliaIsSetUp = indexName && appId && apiKey
 	header {
 		z-index: var(--overlay-high);
 		height: var(--theme-navbar-height);
+		margin-bottom: calc(var(--theme-navbar-height) * -1);
 		width: 100%;
 		background-color: var(--theme-navbar-bg);
 		display: flex;
@@ -68,8 +69,13 @@ const algoliaIsSetUp = indexName && appId && apiKey
 		overflow: hidden;
 		position: sticky;
 		top: 0;
-		height: fit-content;
 		padding: 12px 0;
+
+		@supports (backdrop-filter: blur(5px)) {
+			background-color: rgba(255, 255, 255, 0);
+			backdrop-filter: blur(5px);
+			-webkit-backdrop-filter: blur(5px);
+		}
 	}
 
 	.logo {
@@ -133,7 +139,6 @@ const algoliaIsSetUp = indexName && appId && apiKey
 	@media (min-width: 50em) {
 		header {
 			padding: 2rem 0rem;
-			margin-bottom: -100px;
 		}
 
 		.logo {

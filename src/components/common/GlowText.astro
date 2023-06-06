@@ -1,0 +1,14 @@
+<span class='glow'>
+  <slot />
+</span>
+
+<style>
+  .glow {
+    --main-glow: #a66fff;
+    --secondary-glow: #8e62d5;
+    text-shadow: 0 0 7px var(--main-glow), 0 0 10px var(--main-glow),
+      0 0 21px var(--main-glow), 0 0 42px var(--secondary-glow),
+      0 0 82px var(--secondary-glow), 0 0 92px var(--secondary-glow),
+      0 0 102px var(--secondary-glow), 0 0 151px var(--secondary-glow);
+  }
+</style>
