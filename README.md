@@ -1,5 +1,5 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Astro](https://img.shields.io/badge/Astro-0C1222?style=for-the-badge&logo=astro&logoColor=FDFDFE)
@@ -56,11 +56,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tbody>
     <tr>
-      <td align="center"><a href="https://purpleblack.dev/"><img src="https://avatars.githubusercontent.com/u/55458485?v=4?s=100" width="100px;" alt="prplblck"/><br /><sub><b>prplblck</b></sub></a><br /><a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits?author=goodideagiver" title="Documentation">📖</a> <a href="#maintenance-goodideagiver" title="Maintenance">🚧</a></td>
-      <td align="center"><a href="https://github.com/Willaiem"><img src="https://avatars.githubusercontent.com/u/25301582?v=4?s=100" width="100px;" alt="Damian Żygadło"/><br /><sub><b>Damian Żygadło</b></sub></a><br /><a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits?author=Willaiem" title="Code">💻</a> <a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits?author=Willaiem" title="Documentation">📖</a> <a href="#infra-Willaiem" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-      <td align="center"><a href="https://github.com/Aksa12"><img src="https://avatars.githubusercontent.com/u/41188167?v=4?s=100" width="100px;" alt="Aksa12"/><br /><sub><b>Aksa12</b></sub></a><br /><a href="#maintenance-Aksa12" title="Maintenance">🚧</a></td>
-      <td align="center"><a href="https://github.com/skoczy01"><img src="https://avatars.githubusercontent.com/u/82238474?v=4?s=100" width="100px;" alt="Filip"/><br /><sub><b>Filip</b></sub></a><br /><a href="#maintenance-skoczy01" title="Maintenance">🚧</a></td>
-      <td align="center"><a href="https://github.com/martindustry"><img src="https://avatars.githubusercontent.com/u/82864230?v=4?s=100" width="100px;" alt="Marcin Niemczyk"/><br /><sub><b>Marcin Niemczyk</b></sub></a><br /><a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits?author=martindustry" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://purpleblack.dev/"><img src="https://avatars.githubusercontent.com/u/55458485?v=4?s=100" width="100px;" alt="prplblck"/><br /><sub><b>prplblck</b></sub></a><br /><a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits?author=goodideagiver" title="Documentation">📖</a> <a href="#maintenance-goodideagiver" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Willaiem"><img src="https://avatars.githubusercontent.com/u/25301582?v=4?s=100" width="100px;" alt="Damian Żygadło"/><br /><sub><b>Damian Żygadło</b></sub></a><br /><a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits?author=Willaiem" title="Code">💻</a> <a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits?author=Willaiem" title="Documentation">📖</a> <a href="#infra-Willaiem" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Aksa12"><img src="https://avatars.githubusercontent.com/u/41188167?v=4?s=100" width="100px;" alt="Aksa12"/><br /><sub><b>Aksa12</b></sub></a><br /><a href="#maintenance-Aksa12" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/skoczy01"><img src="https://avatars.githubusercontent.com/u/82238474?v=4?s=100" width="100px;" alt="Filip"/><br /><sub><b>Filip</b></sub></a><br /><a href="#maintenance-skoczy01" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/martindustry"><img src="https://avatars.githubusercontent.com/u/82864230?v=4?s=100" width="100px;" alt="Marcin Niemczyk"/><br /><sub><b>Marcin Niemczyk</b></sub></a><br /><a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits?author=martindustry" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://grzegorzpokorski.pl"><img src="https://avatars.githubusercontent.com/u/27455716?v=4?s=100" width="100px;" alt="Grzegorz Pokorski"/><br /><sub><b>Grzegorz Pokorski</b></sub></a><br /><a href="#a11y-grzegorzpokorski" title="Accessibility">️️️️♿️</a></td>
     </tr>
   </tbody>
 </table>

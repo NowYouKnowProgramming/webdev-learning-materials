@@ -100,8 +100,13 @@ const algoliaIsSetUp = indexName && appId && apiKey
 	}
 
 	.logo * {
-		transition: color 100ms ease-out;
 		color: var(--theme-text) !important;
+	}
+
+	@media (prefers-reduced-motion: no-preference) {
+		.logo {
+			transition: color 100ms ease-out;
+		}
 	}
 
 	.logo *:hover,

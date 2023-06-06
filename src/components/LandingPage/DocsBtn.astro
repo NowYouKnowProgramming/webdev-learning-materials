@@ -39,7 +39,6 @@ const css = `docs-btn ${glow ? 'glow' : ''} ${classes ? classes : ''}`
 		border-radius: 50px;
 		transition: scale 0.3s cubic-bezier(0.17, 0.67, 0.11, 0.98);
 		padding: 1rem 1.2rem;
-
 		@media (min-width: 1000px) {
 			padding: 0.3rem 1.2rem;
 		}
@@ -60,7 +59,9 @@ const css = `docs-btn ${glow ? 'glow' : ''} ${classes ? classes : ''}`
 		color: var(--font-body);
 		font-weight: bold;
 
-		transition: text-shadow 0.1s;
+		@media (prefers-reduced-motion: no-preference) {
+			transition: text-shadow 0.1s;
+		}
 
 		background-image: linear-gradient(
 			to bottom,
@@ -101,12 +102,18 @@ const css = `docs-btn ${glow ? 'glow' : ''} ${classes ? classes : ''}`
 		font-family: var(--font-special);
 
 		&.repo {
-			transition: background-color 0.2s;
+			@media (prefers-reduced-motion: no-preference) {
+				transition: background-color 0.2s;
+			}
+
 			background-image: none;
 			.inner-text {
 				border-color: var(--bewebdev-pink);
 				border-style: dashed;
-				transition: border-color 0.3s;
+
+				@media (prefers-reduced-motion: no-preference) {
+					transition: border-color 0.3s;
+				}
 			}
 			&:hover,
 			&:focus {
