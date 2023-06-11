@@ -1,5 +1,26 @@
 ---
 import GlowText from '../../common/GlowText.astro'
+import Category from './Category.astro'
+
+const categoriesData = [
+  {
+    name: 'JavaScript',
+    slug: 'technologies/javascript',
+    imageUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
+  },
+  {
+    name: 'HTML',
+    slug: 'technologies/html',
+    imageUrl: 'https://cdn.worldvectorlogo.com/logos/html-1.svg',
+  },
+  {
+    name: 'React',
+    slug: 'technologies/react',
+    imageUrl:
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png',
+  },
+]
 ---
 
 <style lang='scss'>
@@ -12,10 +33,29 @@ import GlowText from '../../common/GlowText.astro'
 
   section {
     width: min(90%, 1280px);
-    margin: 0 auto;
+    margin: 3rem auto;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+    flex-wrap: wrap;
   }
 </style>
 
 <section>
   <h2>View our <GlowText>most popular</GlowText> categories</h2>
+  <ul>
+    {
+      categoriesData.map((cat) => (
+        <Category href={cat.slug} img={cat.imageUrl}>
+          {cat.name}
+        </Category>
+      ))
+    }
+  </ul>
 </section>
