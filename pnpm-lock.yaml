@@ -9,6 +9,7 @@ specifiers:
   '@docsearch/css': ^3.3.3
   '@docsearch/react': ^3.3.3
   '@playwright/test': ^1.31.1
+  '@types/gtag.js': ^0.0.12
   '@types/node': ^18.14.0
   '@types/react': ^18.0.28
   '@types/react-dom': ^18.0.11
@@ -56,6 +57,7 @@ dependencies:
 
 devDependencies:
   '@playwright/test': 1.31.1
+  '@types/gtag.js': 0.0.12
   prettier: 2.8.4
   prettier-plugin-astro: 0.7.2
   sass: 1.58.3
@@ -1026,6 +1028,10 @@ packages:
   /@types/estree/1.0.0:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: false
+
+  /@types/gtag.js/0.0.12:
+    resolution: {integrity: sha512-YQV9bUsemkzG81Ea295/nF/5GijnD2Af7QhEofh7xu+kvCN6RdodgNwwGWXB5GMI3NoyvQo0odNctoH/qLMIpg==}
+    dev: true
 
   /@types/hast/2.3.4:
     resolution: {integrity: sha512-wLEm0QvaoawEDoTRwzTXp4b4jpwiJDvR5KMnFnVodm3scufTlBOWRD6N1OBf9TZMhjlNsSfcO5V+7AF4+Vy+9g==}

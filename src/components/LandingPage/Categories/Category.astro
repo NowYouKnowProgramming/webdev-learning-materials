@@ -2,94 +2,110 @@
 import type { HTMLAttributes } from 'astro/types'
 
 type Props = HTMLAttributes<'a'> & {
-  img: string
+	img: string
 }
 
 const { img, ...props }: Props = Astro.props
 ---
 
 <li>
-  <a {...props}>
-    <img src={img} alt='' aria-hidden='true' />
-    <p class='text'>
-      <slot />
-    </p>
-    <div class='learn-more'>Learn more</div>
-  </a>
+	<a {...props}>
+		<img src={img} alt='' aria-hidden='true' />
+		<p class='text'>
+			<slot />
+		</p>
+		<div class='learn-more'>Learn more</div>
+	</a>
 </li>
 
+<script>
+	const categoryLink = document.querySelector<HTMLAnchorElement>('a')
+
+	const categoryLinkAnalytics = (href: string) => {
+		gtag('event', 'click', {
+			event_category: 'Popular Categories',
+			event_label: 'Popular Categories',
+			value: `Popular Categories ${href}`,
+		})
+	}
+
+	categoryLink?.addEventListener('click', () =>
+		categoryLinkAnalytics(categoryLink.href)
+	)
+</script>
+
 <style lang='scss'>
-  img {
-    border-radius: 4px;
-    max-width: 100px;
-    aspect-ratio: 1/1;
-    object-fit: contain;
-  }
+	img {
+		border-radius: 4px;
+		max-width: 100px;
+		aspect-ratio: 1/1;
+		object-fit: contain;
+	}
 
-  a {
-    &::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 50px;
-      rotate: 45deg;
-      height: 200%;
-      transform: translate(-425%, 5%);
-      background-color: white;
-      opacity: 0.1;
-      pointer-events: none;
-      filter: blur(10px);
-    }
-    overflow: hidden;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--theme-popular-categories-card-bg);
-    padding: 1rem;
-    border-radius: 8px;
-    text-align: center;
-    text-decoration: none;
-    color: var(--theme-text);
-    box-shadow: 1px 2px 2px hsla(220, 0%, 0%, 0.1),
-      2px 4px 4px hsla(220, 0%, 0%, 0.1), 4px 8px 8px hsla(220, 0%, 0%, 0.1);
-    &:hover,
-    &:focus {
-      @media (prefers-reduced-motion: no-preference) {
-        &::after {
-          transition: transform 1s cubic-bezier(0.33, 1, 0.68, 1);
-          transform: translate(250%, -50%);
-        }
-      }
-      .learn-more {
-        background-color: var(--theme-popular-categories-button-bg-hover);
-        @media (prefers-reduced-motion: no-preference) {
-          transform: translate(0, -2px);
-        }
-      }
-    }
-  }
+	a {
+		&::after {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 50px;
+			rotate: 45deg;
+			height: 200%;
+			transform: translate(-425%, 5%);
+			background-color: white;
+			opacity: 0.1;
+			pointer-events: none;
+			filter: blur(10px);
+		}
+		overflow: hidden;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		background-color: var(--theme-popular-categories-card-bg);
+		padding: 1rem;
+		border-radius: 8px;
+		text-align: center;
+		text-decoration: none;
+		color: var(--theme-text);
+		box-shadow: 1px 2px 2px hsla(220, 0%, 0%, 0.1),
+			2px 4px 4px hsla(220, 0%, 0%, 0.1), 4px 8px 8px hsla(220, 0%, 0%, 0.1);
+		&:hover,
+		&:focus {
+			@media (prefers-reduced-motion: no-preference) {
+				&::after {
+					transition: transform 1s cubic-bezier(0.33, 1, 0.68, 1);
+					transform: translate(250%, -50%);
+				}
+			}
+			.learn-more {
+				background-color: var(--theme-popular-categories-button-bg-hover);
+				@media (prefers-reduced-motion: no-preference) {
+					transform: translate(0, -2px);
+				}
+			}
+		}
+	}
 
-  .text {
-    font-size: 1.3rem;
-    font-weight: bold;
-    color: var(--theme-text);
-  }
+	.text {
+		font-size: 1.3rem;
+		font-weight: bold;
+		color: var(--theme-text);
+	}
 
-  li {
-    padding: 0;
-    margin: 0;
-  }
+	li {
+		padding: 0;
+		margin: 0;
+	}
 
-  .learn-more {
-    margin-top: 1rem;
-    @media (prefers-reduced-motion: no-preference) {
-      transition: transform 0.2s ease-in-out, background-color 0.1s ease-in-out;
-    }
-    background-color: var(--theme-popular-categories-button-bg);
-    padding: 0.5rem 1.2rem;
-    border-radius: 50px;
-    font-weight: bold;
-    border: 1px solid var(--theme-popular-categories-button-border);
-  }
+	.learn-more {
+		margin-top: 1rem;
+		@media (prefers-reduced-motion: no-preference) {
+			transition: transform 0.2s ease-in-out, background-color 0.1s ease-in-out;
+		}
+		background-color: var(--theme-popular-categories-button-bg);
+		padding: 0.5rem 1.2rem;
+		border-radius: 50px;
+		font-weight: bold;
+		border: 1px solid var(--theme-popular-categories-button-border);
+	}
 </style>
