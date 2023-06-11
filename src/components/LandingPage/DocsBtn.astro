@@ -1,15 +1,24 @@
 ---
+import clsx from 'clsx'
+type Variants = 'repo' | 'glow' | 'none'
+
 type Props = {
 	isExternal?: boolean
-	classes?: string
 	href: string
 	title: string
-	glow?: boolean
+	class?: string
+	variant?: Variants
 }
 
-const { href, isExternal, classes, title, glow }: Props = Astro.props
+const {
+	href,
+	isExternal,
+	title,
+	class: className,
+	variant = 'repo',
+}: Props = Astro.props
 
-const css = `docs-btn ${glow ? 'glow' : ''} ${classes ? classes : ''}`
+const css = clsx('docs-btn', variant, className)
 ---
 
 <a
@@ -39,6 +48,7 @@ const css = `docs-btn ${glow ? 'glow' : ''} ${classes ? classes : ''}`
 		border-radius: 50px;
 		transition: scale 0.3s cubic-bezier(0.17, 0.67, 0.11, 0.98);
 		padding: 1rem 1.2rem;
+		height: fit-content;
 		@media (min-width: 1000px) {
 			padding: 0.3rem 1.2rem;
 		}
@@ -52,12 +62,15 @@ const css = `docs-btn ${glow ? 'glow' : ''} ${classes ? classes : ''}`
 	}
 
 	.docs-btn {
-		display: grid;
-		place-items: center;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		padding: 0.3rem;
 		font-size: 1.3rem;
 		color: var(--font-body);
 		font-weight: bold;
+		height: fit-content;
+		width: fit-content;
 
 		@media (prefers-reduced-motion: no-preference) {
 			transition: text-shadow 0.1s;
@@ -96,7 +109,6 @@ const css = `docs-btn ${glow ? 'glow' : ''} ${classes ? classes : ''}`
 		}
 
 		border-radius: 50px;
-		flex: 1;
 		white-space: nowrap;
 
 		font-family: var(--font-special);

@@ -28,6 +28,7 @@
 		"astro": "2.0.14",
 		"astro-compress": "^1.1.33",
 		"autoprefixer": "^10.4.13",
+		"clsx": "^1.2.1",
 		"postcss": "^8.4.21",
 		"preact": "^10.12.1",
 		"react": "^18.2.0",

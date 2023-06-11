@@ -5,14 +5,24 @@ import DocsBtn from './DocsBtn.astro'
 <div class='root'>
 	<div class='text'>
 		<h2>Are you ready to learn?</h2>
-		<div class='btn-wrapper'>
-			<DocsBtn glow title='Docs page' href='/introduction'>Get Started</DocsBtn>
-		</div>
+		<DocsBtn
+			class='button'
+			variant='glow'
+			title='Docs page'
+			href='/introduction'
+		>
+			Get Started
+		</DocsBtn>
 	</div>
 	<div class='bottom-grad' aria-hidden='true'></div>
 </div>
 
 <style>
+	.button {
+		margin: 0 auto;
+		width: min(100%, 200px);
+	}
+
 	.root {
 		margin: 0 auto;
 		padding-top: 5rem;

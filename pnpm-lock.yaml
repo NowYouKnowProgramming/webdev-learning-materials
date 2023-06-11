@@ -15,6 +15,7 @@ specifiers:
   astro: 2.0.14
   astro-compress: ^1.1.33
   autoprefixer: ^10.4.13
+  clsx: ^1.2.1
   postcss: ^8.4.21
   preact: ^10.12.1
   prettier: ^2.8.4
@@ -44,6 +45,7 @@ dependencies:
   astro: 2.0.14_hlkwzk2izwsolfmdrejei4vrty
   astro-compress: 1.1.33
   autoprefixer: 10.4.13_postcss@8.4.21
+  clsx: 1.2.1
   postcss: 8.4.21
   preact: 10.12.1
   react: 18.2.0
@@ -1617,6 +1619,11 @@ packages:
   /clone/1.0.4:
     resolution: {integrity: sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==}
     engines: {node: '>=0.8'}
+    dev: false
+
+  /clsx/1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
+    engines: {node: '>=6'}
     dev: false
 
   /color-convert/1.9.3:
