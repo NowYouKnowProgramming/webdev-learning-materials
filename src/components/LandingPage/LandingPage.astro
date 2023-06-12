@@ -69,8 +69,8 @@ const currentPage = Astro.url.pathname
 	<Header currentPage={currentPage} />
 	<main>
 		<WelcomeSection />
-		<VideoEmbed />
 		<Categories />
+		<VideoEmbed />
 		<Promo client:load />
 		<Comparison />
 		<GitStarPromoSection client:load />
