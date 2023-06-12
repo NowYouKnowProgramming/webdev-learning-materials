@@ -3,14 +3,20 @@ import DocsBtn from '../DocsBtn.astro'
 ---
 
 <div class='links'>
-	<DocsBtn title='bewebdev.tech docs' href='/introduction' glow>
+	<DocsBtn
+		variant='glow'
+		class='link'
+		title='bewebdev.tech docs'
+		href='/introduction'
+	>
 		Start learning
 	</DocsBtn>
 	<DocsBtn
+		class='link'
 		title='bewebdev.tech GitHub'
 		href='https://github.com/NowYouKnowProgramming/webdev-learning-materials'
 		isExternal
-		classes='repo'
+		variant='repo'
 	>
 		Source Code
 	</DocsBtn>
@@ -30,7 +36,7 @@ import DocsBtn from '../DocsBtn.astro'
 		}
 	}
 
-	.links a {
+	.link {
 		flex: 1;
 		white-space: nowrap;
 	}

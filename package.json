@@ -28,6 +28,7 @@
 		"astro": "2.0.14",
 		"astro-compress": "^1.1.33",
 		"autoprefixer": "^10.4.13",
+		"clsx": "^1.2.1",
 		"postcss": "^8.4.21",
 		"preact": "^10.12.1",
 		"react": "^18.2.0",
@@ -38,6 +39,7 @@
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.31.1",
+		"@types/gtag.js": "^0.0.12",
 		"prettier": "^2.8.4",
 		"prettier-plugin-astro": "^0.7.2",
 		"sass": "^1.58.3",

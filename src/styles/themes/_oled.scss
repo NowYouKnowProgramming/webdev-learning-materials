@@ -47,6 +47,14 @@
 	--circle-gradient-color: transparent;
 	--comparison-card-bg: var(--theme-bg-accent);
 
+	// popular categories landing
+	--theme-popular-categories-card-bg: rgba(180, 180, 180, 0.1);
+	--theme--popular-categories-card-text: var(--theme-text);
+	--theme-popular-categories-button-bg: transparent;
+	--theme-popular-categories-button-bg-hover: var(--bewebdev-pink-saturated);
+	--theme-popular-categories-button-border: rgba(255, 255, 255, 0.2);
+	--theme-popular-categories-card-border-hover: var(--theme-bg);
+
 	--sidebar-bg: hsl(214, 35%, 13%);
 	--sidebar-item-hover: hsl(214, 0%, 15%);
 	/* active */

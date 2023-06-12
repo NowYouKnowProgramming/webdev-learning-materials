@@ -1,5 +1,6 @@
 ---
 import Header from '../Header/Header.astro'
+import Categories from './Categories/Categories.astro'
 import Comparison from './Comparison/Comparison.astro'
 import LandingPageFooter from './Footer/LandingPageFooter.astro'
 import LandingPageEndingCTA from './LandingPageEndingCTA.astro'
@@ -68,6 +69,7 @@ const currentPage = Astro.url.pathname
 	<Header currentPage={currentPage} />
 	<main>
 		<WelcomeSection />
+		<Categories />
 		<VideoEmbed />
 		<Promo client:load />
 		<Comparison />
