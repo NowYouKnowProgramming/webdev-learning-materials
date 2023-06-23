@@ -7,6 +7,7 @@ image: { src: /metaimages/git.png, alt: 'git' }
 
 ## Free courses
 
+- [How to be a git expert](https://youtu.be/hZS96dwKvt0)
 - [BitBucket - Learn Git](https://www.atlassian.com/git/tutorials)
 
 ### Free courses in Polish
