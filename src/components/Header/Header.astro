@@ -31,7 +31,7 @@ const algoliaIsSetUp = indexName && appId && apiKey
 			)
 		}
 		<div class='logo flex'>
-			<a href='/'>
+			<a class='link' href='/'>
 				<AstroLogo size={40} />
 				{
 					currentPageIsRoot && (
@@ -100,7 +100,7 @@ const algoliaIsSetUp = indexName && appId && apiKey
 	}
 
 	.logo * {
-		color: var(--theme-text) !important;
+		color: var(--theme-text);
 	}
 
 	@media (prefers-reduced-motion: no-preference) {
@@ -109,8 +109,8 @@ const algoliaIsSetUp = indexName && appId && apiKey
 		}
 	}
 
-	.logo *:hover,
-	.logo *:focus {
+	.link:hover *,
+	.link:focus * {
 		color: var(--theme-text-accent) !important;
 	}
 
