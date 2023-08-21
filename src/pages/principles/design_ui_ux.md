@@ -8,9 +8,10 @@ layout: ../../layouts/MainLayout.astro
 
 This book is a must read for every developer. It's a short book, but it's full of useful information. It's a book about usability a lot of examples and tips on how to make your website more usable. It's a book that will help you understand how users think and how to make your website more user friendly.
 
-## Free content
+## Free courses
 
 - [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
+- [Worls's Shortest UI/UX course by Juxtopposed (6min)](https://www.youtube.com/watch?v=wIuVvCuiJhU)
 
 ## Color palette and theming
 
