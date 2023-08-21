@@ -1,7 +1,6 @@
 /** @jsxImportSource react */
 
 import { useEffect, useState } from 'react'
-import classes from './ArticleUpdateDate.module.scss'
 import timeSince from '../../utils/timeSince'
 
 type Props = {
@@ -29,7 +28,7 @@ const ArticleUpdateDate = ({ path }: Props) => {
 	if (!updatedAt) return null
 
 	return (
-		<p className={classes.root}>
+		<p>
 			This article was last updated:{` `}
 			{timeSince(new Date(updatedAt)).replace(`,`, ' and')} ago
 		</p>
