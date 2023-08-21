@@ -10,6 +10,7 @@ import RecommendedSections from '../components/RecommendedSections/RecommendedSe
 import RightSidebar from '../components/RightSidebar/RightSidebar.astro'
 import CopyCodeToClipboard from '../components/utility/CopyCodeToClipboard/CopyCodeToClipboard.astro'
 import HeadingLinksCopyToClipboard from '../components/utility/HeadingLinksCopyToClipboard/HeadingLinksCopyToClipboard.astro'
+import ArticleUpdateDate from '../components/ArticleUpdateDate/ArticleUpdateDate'
 
 import * as CONFIG from '../config'
 
@@ -231,6 +232,7 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 					headings={headings}
 					githubEditUrl={githubEditUrl}
 				>
+					<ArticleUpdateDate path={currentFile} client:only='react' />
 					<slot />
 					<RecommendedSections />
 				</PageContent>
