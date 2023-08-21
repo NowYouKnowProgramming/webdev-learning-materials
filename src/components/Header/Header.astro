@@ -5,6 +5,7 @@ import AstroLogo from './AstroLogo.astro'
 import Search from './Search'
 import SidebarToggle from './SidebarToggle'
 import SkipToContent from './SkipToContent.astro'
+import DonationModal from '../DonationModal/DonationModal'
 
 type Props = {
 	currentPage: string
@@ -55,6 +56,7 @@ const algoliaIsSetUp = indexName && appId && apiKey
 		<ThemeToggle client:visible />
 	</nav>
 </header>
+<DonationModal client:only='react' />
 
 <style>
 	header {
