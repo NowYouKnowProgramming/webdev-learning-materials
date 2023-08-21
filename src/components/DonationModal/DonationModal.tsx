@@ -5,20 +5,34 @@ import classes from './DonationModal.module.scss'
 import * as Dialog from '@radix-ui/react-dialog'
 
 import { Cross2Icon } from '@radix-ui/react-icons'
+import { usePersistedState } from '../../hooks/usePersistedState'
 
 const DonationModal = () => {
-	const shouldNotOpen = localStorage.getItem('donationDismissed')
+	const [donationDismissed, setDonationDismissed] = usePersistedState(
+		false,
+		'donationDismissed'
+	)
 
 	const handleOpenChange = (isOpen: boolean) => {
 		if (!isOpen) {
-			localStorage.setItem('donationDismissed', 'true')
+			setDonationDismissed(true)
 		}
 	}
 
-	if (shouldNotOpen === 'true') return null
+	const announcementButtonClickHandler = () => {
+		setDonationDismissed(false)
+	}
 
 	return (
-		<Dialog.Root defaultOpen onOpenChange={handleOpenChange}>
+		<Dialog.Root open={!donationDismissed} onOpenChange={handleOpenChange}>
+			<Dialog.Trigger asChild>
+				<button
+					onClick={announcementButtonClickHandler}
+					className={classes.button}
+				>
+					Support us
+				</button>
+			</Dialog.Trigger>
 			<Dialog.Portal>
 				<Dialog.Overlay className={classes.dialogOverlay} />
 				<Dialog.Content className={classes.dialogContent}>

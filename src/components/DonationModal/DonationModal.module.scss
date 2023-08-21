@@ -12,6 +12,48 @@
 	-webkit-text-fill-color: transparent;
 }
 
+.button {
+	background-color: black;
+	color: white;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 4999;
+	background-image: linear-gradient(
+		to right,
+		#ed4264,
+		#a824b6,
+		#a824b6,
+		#ed4264
+	);
+	padding: 10px 16px;
+	font-weight: 600;
+	cursor: pointer;
+	background-size: 200%;
+	&:hover {
+		box-shadow: 0 0 15px #a824b6;
+	}
+	@media (prefers-reduced-motion: no-preference) {
+		transition: transform 0.2s;
+		animation: bg-slide 10s infinite;
+		&:hover {
+			transform: translate(0, -5px);
+		}
+	}
+}
+
+@keyframes bg-slide {
+	0% {
+		background-position: 0% 50%;
+	}
+	20% {
+		background-position: 200% 50%;
+	}
+	100% {
+		background-position: 200% 50%;
+	}
+}
+
 .dialogDescription {
 	margin: 10px 0 20px;
 	color: #fff;
@@ -96,6 +138,7 @@
 	align-items: center;
 	justify-content: center;
 	color: #fff;
+	background-color: #393838;
 	position: absolute;
 	top: 10px;
 	padding: 0;
