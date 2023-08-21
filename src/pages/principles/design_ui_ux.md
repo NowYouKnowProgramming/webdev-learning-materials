@@ -11,7 +11,7 @@ This book is a must read for every developer. It's a short book, but it's full o
 ## Free courses
 
 - [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
-- [Worls's Shortest UI/UX course by Juxtopposed (6min)](https://www.youtube.com/watch?v=wIuVvCuiJhU)
+- [World's Shortest UI/UX course by Juxtopposed (6min)](https://www.youtube.com/watch?v=wIuVvCuiJhU)
 
 ## Color palette and theming
 
