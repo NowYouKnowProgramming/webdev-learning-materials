@@ -12,6 +12,10 @@ This book is a must read for every developer. It's a short book, but it's full o
 
 - [Envato Tuts+ - Web Design for Beginners](https://www.youtube.com/watch?v=B-ytMSuwbf8)
 
+## Color palette and theming
+
+- [Realtime colors - free tool to help you choose color palettes](https://realtimecolors.com/)
+
 ## Design rules for developers
 
 - [16 little UI design rules that make a big impact](https://www.adhamdannaway.com/blog/ui-design/16-ui-design-rules)
