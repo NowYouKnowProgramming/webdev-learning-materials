@@ -1,7 +1,7 @@
 /** @jsxImportSource react */
 
 import { useEffect, useState } from 'react'
-import timeSince from '../../utils/timeSince'
+import { timeSince } from '../../utils/timeSince'
 
 type Props = {
 	path: string
