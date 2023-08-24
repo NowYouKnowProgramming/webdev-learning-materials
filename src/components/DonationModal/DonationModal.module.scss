@@ -1,17 +1,3 @@
-.dialogOverlay {
-	background-color: #ffffff6a;
-	position: fixed;
-	inset: 0;
-	animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
-	z-index: 5000;
-}
-
-.textEmphasis {
-	background: linear-gradient(to right, #ed4264, #a824b6);
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
 .button {
 	background-color: black;
 	color: white;
@@ -54,13 +40,6 @@
 	}
 }
 
-.dialogDescription {
-	margin: 10px 0 20px;
-	color: #fff;
-	font-size: 15px;
-	line-height: 1.5;
-}
-
 .dialogContent {
 	z-index: 6000;
 	background-color: #14071a;
@@ -75,7 +54,7 @@
 	max-width: 450px;
 	max-height: 85vh;
 	padding: 25px;
-	animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+	animation: contentShow 1s cubic-bezier(0.16, 1, 0.3, 1);
 	display: flex;
 	flex-direction: column;
 	overflow: hidden;
@@ -108,18 +87,6 @@
 .scroll {
 	position: relative;
 	overflow-y: auto;
-}
-
-.list {
-	padding: 0;
-	padding-left: 1rem;
-}
-
-.dialogTitle {
-	margin: 0;
-	color: #fff;
-	font-size: 20px;
-	padding-bottom: 4px;
 }
 
 .subtitle {
