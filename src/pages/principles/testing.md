@@ -46,7 +46,7 @@ image: { src: /metaimages/testing.png, alt: 'testing' }
 
 ### How to pick elements to test
 
-Test element selectors from best to worst, you want to test your application in a way the user is interacting with it.
+Test element selectors from best to worst, you want to test your application in a way the user is interacting with it (this is approach presented by React Testing Library authors).
 
 - Accessible by **Everyone**
   - getByRole
@@ -58,6 +58,8 @@ Test element selectors from best to worst, you want to test your application in 
   - getByTitle
 - **Last resort** methods (if it's not possible to use other means)
   = getByTestId
+
+On the other hand, authors of Cypress library encourage the use of as many test id selectors as possible.
 
 ## Free testing courses
 

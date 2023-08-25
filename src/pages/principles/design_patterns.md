@@ -45,3 +45,4 @@ layout: ../../layouts/MainLayout.astro
 - [Localhost Academy - 10 zasad w programowaniu, które warto znać. (oglądać do 1:12:29)](https://www.youtube.com/watch?v=-kRadcD5jRw)
 - [Przeprogramowani - Jak uczyć się wzorców projektowych na froncie? Odpowiedź dla Juniora, Mida i Seniora](https://www.youtube.com/watch?v=yiJlKWxk2jE)
 - [Przeprogramowani - SOLID i Open-Closed Principle w praktyce | Lepszy kod w 20 minut](https://www.youtube.com/watch?v=RWyiKjKmWPs)
+- [Frontend Architecture - Struktura plików dla aplikacji frontendowej (60 stron o architekturze trzech popularnych podejść)](https://projektfrontend.pl)

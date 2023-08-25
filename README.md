@@ -1,5 +1,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![Astro](https://img.shields.io/badge/Astro-0C1222?style=for-the-badge&logo=astro&logoColor=FDFDFE)
@@ -13,6 +15,8 @@
 A list of learning materials for Web Development.
 
 ## <a href="https://bewebdev.tech/">Check the website here!</a>
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/J3J4761UB)
 
 ### Contributing
 
@@ -62,6 +66,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/skoczy01"><img src="https://avatars.githubusercontent.com/u/82238474?v=4?s=100" width="100px;" alt="Filip"/><br /><sub><b>Filip</b></sub></a><br /><a href="#maintenance-skoczy01" title="Maintenance">🚧</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/martindustry"><img src="https://avatars.githubusercontent.com/u/82864230?v=4?s=100" width="100px;" alt="Marcin Niemczyk"/><br /><sub><b>Marcin Niemczyk</b></sub></a><br /><a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits?author=martindustry" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://grzegorzpokorski.pl"><img src="https://avatars.githubusercontent.com/u/27455716?v=4?s=100" width="100px;" alt="Grzegorz Pokorski"/><br /><sub><b>Grzegorz Pokorski</b></sub></a><br /><a href="#a11y-grzegorzpokorski" title="Accessibility">️️️️♿️</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/getlaurekt"><img src="https://avatars.githubusercontent.com/u/58201840?v=4?s=100" width="100px;" alt="Muszkowy Potworek"/><br /><sub><b>Muszkowy Potworek</b></sub></a><br /><a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials/commits?author=getlaurekt" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
