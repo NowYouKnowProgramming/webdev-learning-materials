@@ -50,7 +50,7 @@ export default function Search() {
 				type='button'
 				ref={searchButtonRef}
 				onClick={onOpen}
-				className='search-input'
+				className='w-full py-2 px-2 overflow-visible bg-theme-base/30 text-theme-base flex gap-4 items-center rounded-md hover:shadow-md transition-shadow ease-out ring-1 ring-basetext/10 hover:ring-basetext/40'
 			>
 				<svg width='24' height='24' fill='none'>
 					<path

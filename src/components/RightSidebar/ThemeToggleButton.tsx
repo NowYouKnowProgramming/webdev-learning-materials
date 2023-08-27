@@ -103,19 +103,20 @@ const ThemeToggle: FunctionalComponent = () => {
 	}, [theme])
 
 	return (
-		<div className='inline-flex items-center gap-[0.25em] py-1 px-2 rounded-md bg-theme-base shadow-md'>
+		<div className='inline-flex items-center gap-[0.25em] py-1 px-2 rounded-md bg-theme-base/30 ring-1 ring-basetext/10'>
 			{themesData.map(({ icon, name }) => {
 				const checked = name === theme
 				return (
 					<label
 						className={clsx(
 							checked && 'text-theme-base',
-							!checked && 'text-theme-muted',
-							'relative flex items-center justify-center p-1 hover:scale-125 cursor-pointer motion-safe:transition-transform ease-out'
+							!checked && 'text-theme-muted/50',
+							'relative flex items-center justify-center p-1 hover:scale-125  motion-safe:transition-transform ease-out'
 						)}
 					>
 						{icon}
 						<input
+							className='cursor-pointer'
 							type='radio'
 							name='theme-toggle'
 							checked={checked}
