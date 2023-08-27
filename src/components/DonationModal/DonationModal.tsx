@@ -44,8 +44,8 @@ const DonationModal = () => {
 			</Dialog.Trigger>
 			<Dialog.Portal>
 				<Dialog.Overlay className='bg-backdrop fixed inset-0 z-[5000] motion-safe:animate-fade' />
-				<Dialog.Content className='z-[6000] bg-theme-base fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] max-w-3xl max-h-[85vh] p-6 overflow-hidden flex flex-col rounded-md align-baseline motion-safe:animate-fade animate-once animate-ease-out'>
-					<Dialog.Title className='font-[nunito] m-0 font-bold text-lg xl:text-3xl pb-1 text-white w-full max-w-none'>
+				<Dialog.Content className='shadow-xl z-[6000] bg-theme-base fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] max-w-3xl max-h-[85vh] p-6 overflow-hidden flex flex-col rounded-md align-baseline motion-safe:animate-fade animate-once animate-ease-out'>
+					<Dialog.Title className='font-[nunito] m-0 font-bold text-lg xl:text-3xl pb-1 text-theme-base w-full max-w-none'>
 						We need{' '}
 						<span className={'gradient-text font-extrabold'}>your help</span>
 					</Dialog.Title>
@@ -76,7 +76,7 @@ const DonationModal = () => {
 								and more
 							</li>
 						</ol>
-						<p className='text-sm text-white mb-4'>
+						<p className='text-sm text-theme-base mb-4'>
 							We would be very happy if we could cover at least half of the cost
 							of domain renewal with donations from users 💕.
 						</p>
@@ -88,8 +88,15 @@ const DonationModal = () => {
 						></iframe>
 					</div>
 					<Dialog.Close asChild>
-						<button className={classes.iconButton} aria-label='Close'>
-							<Cross2Icon />
+						<button
+							className='rounded-full h-[25px] w-[25px] inline-flex items-center justify-center text-theme-base bg-theme-base absolute top-[10px] right-[10px] cursor-pointer shadow-md hover:scale-125 transition ease-out xl:h-[35px] xl:w-[35px] p-2 hover:shadow-lg group'
+							aria-label='Close'
+						>
+							<Cross2Icon
+								width='100%'
+								height='100%'
+								className='group-hover:rotate-90 transition duration-700'
+							/>
 						</button>
 					</Dialog.Close>
 				</Dialog.Content>
