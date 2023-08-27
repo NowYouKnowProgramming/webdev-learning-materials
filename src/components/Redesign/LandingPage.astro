@@ -1,0 +1,88 @@
+---
+import type { ComparisonCardProps } from './ComparisonCard.astro'
+import ComparisonCard from './ComparisonCard.astro'
+import LandingSection from './LandingSection.astro'
+
+import FAQ from './LandingSections/FAQ.astro'
+const comparisonCardData: ComparisonCardProps[] = [
+	{
+		icon: '/icons/hourglass.svg',
+		title: 'Save time',
+		text: 'We have done the hard work for you. No need to search for resources.',
+	},
+	{
+		icon: '/icons/savings.svg',
+		title: 'Reliable resources',
+		text: 'All resources are carefully selected and verified by our team.',
+	},
+	{
+		icon: '/icons/school_hat.svg',
+		title: 'Up to date',
+		text: 'We keep all resources up to date. Community can also contribute.',
+	},
+]
+---
+
+<body class='bg-theme-base overflow-x-clip'>
+	<LandingSection className=' mb-16 flex gap-28 relative'>
+					   <div class='-z-10 bg-theme-accent-primary w-1/2 h-full rounded-full absolute select-none pointer-events-none left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-10 blur-[200px]'/>
+    <div class='-z-10 bg-theme-accent-secondary w-1/2 h-full rounded-full absolute select-none pointer-events-none left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 opacity-50 blur-[200px]'/>
+		<div class='grow-1 w-full'>
+			<h2 class='text-theme-base text-4xl font-bold mb-8'>
+				The <span class='gradient-text'>best way</span> to learn web development
+			</h2>
+			<p class='mb-8'>Learning resources, carefully selected, verified, up to date</p>
+			<div>
+				<a class='bg-gradient-to-r from-grad-start to-grad-end py-3 px-8 rounded-md text-base' href='/introduction'>Start learning</a>
+			</div>
+		</div>
+    <div class='grow-1 flex items-center justify-center w-full'>
+				<img
+					class='max-h-[500px]'
+					src='/images/promo/wavy-edu.svg'
+					alt=''
+				/>
+			</div> 
+
+	</LandingSection>
+
+	<div class="w-full mb-28 bg-gradient-to-r from-grad-start/10 to-grad-end/10">
+		<LandingSection className='flex py-16 gap-24 items-center justify-center'>
+			<div class='grow-1 w-full flex items-center justify-center'>
+				<img
+					class='max-h-[500px]'
+					src='/images/promo/Programming-amico.webp'
+					alt=''
+				/>
+			</div>
+			<div class='grow-1 w-full'>
+				<h2 class='text-3xl font-[600] mb-5'>
+					<span class='text-xl block'>What is</span>
+					<span class='gradient-text'>bewebdev.tech</span> all about?
+				</h2>
+				<p class='mb-4'>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+					totam voluptatum magnam excepturi dicta nobis eos vitae, soluta
+					dolorum harum tempora nulla! Similique magnam natus consequuntur nisi!
+					Deserunt, repellendus sit?
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deserunt
+					sapiente vero voluptates, minima debitis odit consectetur doloremque
+					molestias incidunt laboriosam rem ad. Porro, excepturi? Hic doloribus
+					cumque sit temporibus.
+				</p>
+			</div>
+		</LandingSection>
+	</div>
+
+	<LandingSection className='pb-28 border-b-2 border-gray-900 mb-20 relative'>
+		<h2 class='text-3xl font-medium mb-5'>Advantages of using our platform</h2>
+		<ul class='flex gap-14'>
+			{comparisonCardData.map((card) => <ComparisonCard {...card} />)}
+		</ul>
+    <div class='bg-theme-accent-secondary w-96 h-64 rounded-full absolute left-1/2 bottom-0 blur-3xl opacity-10 select-none pointer-events-none -translate-x-1/2'/>
+    <div class='bg-theme-accent-primary w-64 h-64 rounded-full absolute left-0 top-1/2 blur-3xl opacity-5 select-none pointer-events-none -translate-x-1/2 -translate-y-1/2'/>
+	</LandingSection>
+	<FAQ/>
+</body>

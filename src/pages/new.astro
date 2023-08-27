@@ -1,0 +1,32 @@
+---
+import HeadCommon from '../components/HeadCommon.astro'
+
+import LandingPage from '../components/Redesign/LandingPage.astro'
+import LandingSEO from '../components/LandingPage/LandingSEO.astro'
+import type { Frontmatter } from '../config'
+import * as CONFIG from '../config'
+import DonationModal from '../components/DonationModal/DonationModal.tsx'
+
+export interface Props {
+	frontmatter: Frontmatter
+	canonicalUrl: URL
+}
+
+const frontmatter: Frontmatter = {
+	description: '',
+	title: 'bewebdev.tech - the best web development learning materials',
+	layout: '',
+}
+---
+
+<html dir={frontmatter.dir ?? 'ltr'} lang={frontmatter.lang ?? 'en'}>
+	<head>
+		<HeadCommon />
+		<LandingSEO />
+		<title>
+			{frontmatter.title ? `${frontmatter.title}` : CONFIG.SITE.title}
+		</title>
+	</head>
+	<DonationModal client:only='react' />
+	<LandingPage />
+</html>

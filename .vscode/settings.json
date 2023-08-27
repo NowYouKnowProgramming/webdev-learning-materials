@@ -108,10 +108,8 @@
 		]
 	},
 	"[astro]": {
-		"editor.defaultFormatter": "astro-build.astro-vscode"
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"prettier.documentSelectors": [
-		"**/*.astro"
-	],
+	"prettier.documentSelectors": ["**/*.astro"],
 	"prettier.configPath": ".prettierrc"
 }

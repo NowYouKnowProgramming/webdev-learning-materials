@@ -1,0 +1,18 @@
+---
+export type ComparisonCardProps = {
+	title: string
+	text: string
+	icon: string
+}
+const { title, text, icon } = Astro.props as ComparisonCardProps
+---
+
+<li class='p-[2px] bg-gradient-to-r from-grad-start/30 to-grad-end/30 rounded-lg'>
+	<div class='bg-theme-base p-10 rounded-md flex flex-col gap-6 justify-start items-start'>
+    <div>
+      <img src={icon} alt='' class='w-16 h-16' />
+    </div>
+      <h3 class='font-[600] text-2xl'>{title}</h3>
+      <p>{text}</p>
+  </div>
+</li>
