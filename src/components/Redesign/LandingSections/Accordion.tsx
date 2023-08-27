@@ -3,7 +3,7 @@
 import * as Accordion from '@radix-ui/react-accordion'
 import { ChevronDownIcon } from '@radix-ui/react-icons'
 import clsx from 'clsx'
-import React, { useState } from 'react'
+import React from 'react'
 
 type Props = {
 	items: {
@@ -13,17 +13,11 @@ type Props = {
 }
 
 export const AccordionFAQ = ({ items }: Props) => {
-	const [activeItem, setActiveItem] = useState('')
-
 	return (
 		<Accordion.Root
 			className='w-full flex flex-col gap-5'
 			type='single'
 			collapsible
-			onValueChange={(value) => {
-				console.log('value', value)
-				setActiveItem(value)
-			}}
 		>
 			{items.map((item, index) => (
 				<AccordionItem key={index} value={`item-${index}`}>
@@ -58,7 +52,7 @@ const AccordionTrigger = React.forwardRef<
 	React.ElementRef<typeof Accordion.Trigger>,
 	AccordionTriggerProps
 >(({ children, className, ...props }, forwardedRef) => (
-	<Accordion.Header className='flex p-[2px] bg-gradient-to-r from-grad-start/30 to-grad-end/30 rounded-lg shadow-2xl'>
+	<Accordion.Header className='flex p-[2px] bg-gradient-to-r from-grad-start/30 to-grad-end/30 rounded-lg shadow-xl'>
 		<Accordion.Trigger
 			className={clsx(
 				'bg-theme-base p-6 rounded-md w-full justify-between group',

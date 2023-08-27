@@ -68,6 +68,12 @@ const themesData: Theme[] = [
 	},
 ]
 
+const themes = {
+	light: 'theme-light',
+	dark: '',
+	oled: 'theme-oled',
+}
+
 const ThemeToggle: FunctionalComponent = () => {
 	const [theme, setTheme] = useState(() => {
 		if (import.meta.env.SSR) {
@@ -85,14 +91,13 @@ const ThemeToggle: FunctionalComponent = () => {
 	useEffect(() => {
 		const root = document.documentElement
 		if (theme === 'light') {
-			root.classList.remove('theme-dark')
-			root.classList.remove('theme-oled')
+			root.classList.remove(themes.oled)
+			root.classList.add(themes.light)
 		} else if (theme === 'dark') {
-			root.classList.add('theme-dark')
-			root.classList.remove('theme-oled')
+			root.classList.remove(themes.light)
+			root.classList.remove(themes.oled)
 		} else {
-			root.classList.remove('theme-dark')
-			root.classList.add('theme-oled')
+			root.classList.remove(themes.light)
 		}
 	}, [theme])
 

@@ -27,7 +27,7 @@ const DonationModal = () => {
 		<Dialog.Root open={!donationDismissed} onOpenChange={handleOpenChange}>
 			<Dialog.Trigger asChild>
 				<button
-					className='group fixed bottom-5 right-5 z-50 transition-transform motion-safe:hover:scale-105 ease-out'
+					className='group fixed bottom-5 right-5 z-50 transition-transform motion-safe:hover:scale-105 ease-out shadow-lg'
 					onClick={announcementButtonClickHandler}
 				>
 					<div className='scale-0 group-hover:scale-100 transition-transform ease-in-out select-none absolute w-full h-full  bg-gradient-to-r from-grad-start to-grad-end top-0 left-0s motion-safe:animate-pulse blur-md duration-700'></div>
