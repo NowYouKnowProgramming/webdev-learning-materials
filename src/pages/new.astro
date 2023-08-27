@@ -5,7 +5,6 @@ import LandingPage from '../components/Redesign/LandingPage.astro'
 import LandingSEO from '../components/LandingPage/LandingSEO.astro'
 import type { Frontmatter } from '../config'
 import * as CONFIG from '../config'
-import DonationModal from '../components/DonationModal/DonationModal.tsx'
 import Header from '../components/Header/Header.astro'
 
 export interface Props {
@@ -28,7 +27,8 @@ const frontmatter: Frontmatter = {
 			{frontmatter.title ? `${frontmatter.title}` : CONFIG.SITE.title}
 		</title>
 	</head>
-	<Header />
-	<DonationModal client:only='react' />
+	<Header currentPage='/' />
 	<LandingPage />
+
+
 </html>

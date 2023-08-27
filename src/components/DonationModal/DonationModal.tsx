@@ -28,7 +28,11 @@ const DonationModal = () => {
 	}
 
 	return (
-		<Dialog.Root open={!donationDismissed} onOpenChange={handleOpenChange}>
+		<Dialog.Root
+			defaultOpen={!donationDismissed}
+			open={!donationDismissed}
+			onOpenChange={handleOpenChange}
+		>
 			<Dialog.Trigger asChild>
 				<button
 					className='group fixed bottom-5 right-5 z-50 transition-transform motion-safe:hover:scale-105 ease-out shadow-lg'
@@ -93,7 +97,7 @@ const DonationModal = () => {
 					</div>
 					<Dialog.Close asChild>
 						<button
-							className='rounded-full h-[25px] w-[25px] inline-flex items-center justify-center text-theme-base bg-theme-base absolute top-[10px] right-[10px] cursor-pointer shadow-md hover:scale-125 transition ease-out xl:h-[35px] xl:w-[35px] p-2 hover:shadow-lg group'
+							className='rounded-full h-[25px] w-[25px] inline-flex items-center justify-center text-theme-base bg-theme-base absolute top-[10px] right-[10px] cursor-pointer shadow-md hover:scale-125 transition ease-out xl:h-[35px] xl:w-[35px] p-2 hover:shadow-lg group ring-1 ring-basetext/20'
 							aria-label='Close'
 						>
 							<Cross2Icon
