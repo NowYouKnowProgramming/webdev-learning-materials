@@ -1,6 +1,7 @@
 import type { FunctionalComponent } from 'preact'
 import { useEffect, useState } from 'preact/hooks'
 import './ThemeToggleButton.css'
+import clsx from 'clsx'
 
 type Theme = {
 	name: string
@@ -68,7 +69,7 @@ const themesData: Theme[] = [
 	},
 ]
 
-const themes = {
+const themesClassNames = {
 	light: 'theme-light',
 	dark: '',
 	oled: 'theme-oled',
@@ -91,34 +92,39 @@ const ThemeToggle: FunctionalComponent = () => {
 	useEffect(() => {
 		const root = document.documentElement
 		if (theme === 'light') {
-			root.classList.remove(themes.oled)
-			root.classList.add(themes.light)
+			root.classList.remove(themesClassNames.oled)
+			root.classList.add(themesClassNames.light)
 		} else if (theme === 'dark') {
-			root.classList.remove(themes.light)
-			root.classList.remove(themes.oled)
+			root.classList.remove(themesClassNames.light)
+			root.classList.remove(themesClassNames.oled)
 		} else {
-			root.classList.remove(themes.light)
+			root.classList.remove(themesClassNames.light)
 		}
 	}, [theme])
 
 	return (
-		<div className='theme-toggle'>
-			{themesData.map((t) => {
-				const icon = t.icon
-				const checked = t.name === theme
+		<div className='inline-flex items-center gap-[0.25em] py-1 px-2 rounded-md bg-theme-base shadow-md'>
+			{themesData.map(({ icon, name }) => {
+				const checked = name === theme
 				return (
-					<label className={checked ? 'checked' : ''}>
+					<label
+						className={clsx(
+							checked && 'text-theme-base',
+							!checked && 'text-theme-muted',
+							'relative flex items-center justify-center p-1 hover:scale-125 cursor-pointer motion-safe:transition-transform ease-out'
+						)}
+					>
 						{icon}
 						<input
 							type='radio'
 							name='theme-toggle'
 							checked={checked}
-							value={t.name}
-							title={`Use ${t.name} theme`}
-							aria-label={`Use ${t.name} theme`}
+							value={name}
+							title={`Use ${name} theme`}
+							aria-label={`Use ${name} theme`}
 							onChange={() => {
-								localStorage.setItem('theme', t.name)
-								setTheme(t.name)
+								localStorage.setItem('theme', name)
+								setTheme(name)
 							}}
 						/>
 					</label>

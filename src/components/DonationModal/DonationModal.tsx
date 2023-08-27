@@ -7,6 +7,10 @@ import * as Dialog from '@radix-ui/react-dialog'
 import { Cross2Icon, HeartFilledIcon } from '@radix-ui/react-icons'
 import { usePersistedState } from '../../hooks/usePersistedState'
 
+const GradientGlow = () => (
+	<div className='scale-0 group-hover:scale-100 transition-transform ease-in-out select-none absolute w-full h-full  bg-gradient-to-r from-grad-start to-grad-end top-0 left-0s motion-safe:animate-pulse blur-md duration-700'></div>
+)
+
 const DonationModal = () => {
 	const [donationDismissed, setDonationDismissed] = usePersistedState(
 		false,
@@ -30,8 +34,8 @@ const DonationModal = () => {
 					className='group fixed bottom-5 right-5 z-50 transition-transform motion-safe:hover:scale-105 ease-out shadow-lg'
 					onClick={announcementButtonClickHandler}
 				>
-					<div className='scale-0 group-hover:scale-100 transition-transform ease-in-out select-none absolute w-full h-full  bg-gradient-to-r from-grad-start to-grad-end top-0 left-0s motion-safe:animate-pulse blur-md duration-700'></div>
-					<span className='relative font-bold bg-gradient-to-r from-grad-start to-grad-end rounded-md motion-reduce:hover:bg-white motion-reduce:hover:bg-none text-white motion-reduce:hover:text-black flex gap-2 py-3 px-8 hover:shadow-2xl'>
+					<GradientGlow />
+					<span className='relative font-bold bg-gradient-to-r from-grad-start to-grad-end rounded-md motion-reduce:hover:bg-white motion-reduce:hover:bg-none text-white motion-reduce:hover:text-black flex gap-2 py-3 px-8 hover:shadow-2xl items-center'>
 						<div className='relative motion-safe:group-hover:translate-x-11 motion-safe:group-hover:scale-[2.3] transition-transform ease-out'>
 							<HeartFilledIcon className='absolute top-1/5 animate-ping motion-reduce:hidden' />
 							<HeartFilledIcon />
@@ -43,7 +47,7 @@ const DonationModal = () => {
 				</button>
 			</Dialog.Trigger>
 			<Dialog.Portal>
-				<Dialog.Overlay className='bg-backdrop fixed inset-0 z-[5000] motion-safe:animate-fade' />
+				<Dialog.Overlay className='bg-backdrop/20 fixed inset-0 z-[5000] motion-safe:animate-fade' />
 				<Dialog.Content className='shadow-xl z-[6000] bg-theme-base fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] max-w-3xl max-h-[85vh] p-6 overflow-hidden flex flex-col rounded-md align-baseline motion-safe:animate-fade animate-once animate-ease-out'>
 					<Dialog.Title className='font-[nunito] m-0 font-bold text-lg xl:text-3xl pb-1 text-theme-base w-full max-w-none'>
 						We need{' '}

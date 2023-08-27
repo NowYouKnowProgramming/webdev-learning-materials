@@ -18,10 +18,10 @@ const currentPageIsRoot = currentPage === '/'
 const { ALGOLIA } = CONFIG
 const { apiKey, appId, indexName } = ALGOLIA
 
-const algoliaIsSetUp = indexName && appId && apiKey
+const algoliaIsSetUp = (indexName && appId && apiKey)
 ---
 
-<header>
+<header class='z-[4000] py-11 w-full flex items-center justify-center overflow-hidden sticky top-0 backdrop-blur-xl'>
 	<SkipToContent />
 	<nav class='w-full fixed flex items-center justify-end gap-1 px-6' title='Top Navigation'>
 		{
@@ -31,7 +31,7 @@ const algoliaIsSetUp = indexName && appId && apiKey
 				</div>
 			)
 		}
-		<div class='logo flex'>
+		<div class='flex-grow flex'>
 			<a href='/'>
 				<AstroLogo size={40} />
 				{
@@ -59,27 +59,6 @@ const algoliaIsSetUp = indexName && appId && apiKey
 <DonationModal client:only='react' />
 
 <style>
-	header {
-		z-index: var(--overlay-high);
-		height: var(--theme-navbar-height);
-		margin-bottom: calc(var(--theme-navbar-height) * -1);
-		width: 100%;
-		background-color: var(--theme-navbar-bg);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		overflow: hidden;
-		position: sticky;
-		top: 0;
-		padding: 12px 0;
-
-		@supports (backdrop-filter: blur(5px)) {
-			background-color: rgba(255, 255, 255, 0);
-			backdrop-filter: blur(5px);
-			-webkit-backdrop-filter: blur(5px);
-		}
-	}
-
 	.logo {
 		flex: 1;
 		display: flex;

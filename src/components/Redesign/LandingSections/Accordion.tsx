@@ -52,10 +52,10 @@ const AccordionTrigger = React.forwardRef<
 	React.ElementRef<typeof Accordion.Trigger>,
 	AccordionTriggerProps
 >(({ children, className, ...props }, forwardedRef) => (
-	<Accordion.Header className='flex p-[2px] bg-gradient-to-r from-grad-start/30 to-grad-end/30 rounded-lg shadow-xl'>
+	<Accordion.Header className='flex p-[2px] bg-gradient-to-r from-grad-start/30 to-grad-end/30 data-[state=closed]:rounded-lg data-[state=open]:rounded-t-lg shadow-xl transition-[border-radius]'>
 		<Accordion.Trigger
 			className={clsx(
-				'bg-theme-base p-6 rounded-md w-full justify-between group',
+				'bg-theme-base p-6 rounded-md w-full justify-between group flex items-center',
 				className
 			)}
 			{...props}
@@ -76,7 +76,7 @@ const AccordionContent = React.forwardRef<
 >(({ children, className, ...props }, forwardedRef) => (
 	<Accordion.Content
 		className={clsx(
-			'text-mauve11 bg-mauve2 data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden text-[15px]',
+			'bg-gradient-to-r from-grad-start/30 rounded-b-md to-grad-end/30 data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden text-theme-base bg-theme-base',
 			className
 		)}
 		{...props}

@@ -14,7 +14,8 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				backdrop: '#ffffff6a',
+				backdrop: 'rgba(var(--color-backdrop), <alpha-value>)',
+				basetext: 'rgba(var(--color-text-base), <alpha-value>)',
 				'grad-start': 'rgba(var(--color-gradient-start), <alpha-value>)',
 				'grad-end': 'rgba(var(--color-gradient-end), <alpha-value>)',
 			},
@@ -25,7 +26,7 @@ module.exports = {
 			},
 			textColor: {
 				theme: {
-					base: withOpacity('--color-text-base'),
+					base: 'rgba(var(--color-text-base), <alpha-value>)',
 					muted: withOpacity('--color-text-muted'),
 					inverted: withOpacity('--color-text-inverted'),
 				},

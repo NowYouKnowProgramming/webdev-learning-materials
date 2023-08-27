@@ -24,7 +24,7 @@ const comparisonCardData: ComparisonCardProps[] = [
 ---
 
 <body class='bg-theme-base overflow-x-clip'>
-	<LandingSection className=' mb-16 flex gap-28 relative'>
+	<LandingSection className='pt-14 xl:pt-8 mb-16 flex gap-28 relative items-center'>
 					   <div class='-z-10 bg-theme-accent-primary w-1/2 h-full rounded-full absolute select-none pointer-events-none left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-10 blur-[200px]'/>
     <div class='-z-10 bg-theme-accent-secondary w-1/2 h-full rounded-full absolute select-none pointer-events-none left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 opacity-50 blur-[200px]'/>
 		<div class='grow-1 w-full'>
@@ -33,7 +33,7 @@ const comparisonCardData: ComparisonCardProps[] = [
 			</h2>
 			<p class='mb-8'>Learning resources, carefully selected, verified, up to date</p>
 			<div>
-				<a class='bg-gradient-to-r from-grad-start to-grad-end py-3 px-8 rounded-md text-base' href='/introduction'>Start learning</a>
+				<a class='bg-gradient-to-r from-grad-start to-grad-end py-3 px-8 rounded-md text-white font-bold' href='/introduction'>Start learning</a>
 			</div>
 		</div>
     <div class='grow-1 flex items-center justify-center w-full'>
@@ -61,10 +61,7 @@ const comparisonCardData: ComparisonCardProps[] = [
 					<span class='gradient-text'>bewebdev.tech</span> all about?
 				</h2>
 				<p class='mb-4'>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-					totam voluptatum magnam excepturi dicta nobis eos vitae, soluta
-					dolorum harum tempora nulla! Similique magnam natus consequuntur nisi!
-					Deserunt, repellendus sit?
+					Introducing Bewebdev, your ultimate destination for learning web development. Why settle for scattered information when we've done the hard work for you? Discover the best resources, carefully chosen and verified, all in one convenient place.
 				</p>
 				<p>
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deserunt
@@ -76,7 +73,7 @@ const comparisonCardData: ComparisonCardProps[] = [
 		</LandingSection>
 	</div>
 
-	<LandingSection className='pb-28 border-b-2 border-gray-900 mb-20 relative'>
+	<LandingSection className='pb-28 border-b-2 border-basetext/10 mb-20 relative'>
 		<h2 class='text-3xl font-medium mb-5'>Advantages of using our platform</h2>
 		<ul class='flex gap-14'>
 			{comparisonCardData.map((card) => <ComparisonCard {...card} />)}

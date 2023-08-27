@@ -15,11 +15,12 @@
 		--color-button-muted: 99, 102, 241;
 		--color-gradient-start: 236, 65, 99;
 		--color-gradient-end: 168, 36, 181;
+		--color-backdrop: 255, 255, 255;
 	}
 
 	.theme-light {
 		--color-text-base: 0, 0, 0;
-		--color-text-muted: 254, 202, 202;
+		--color-text-muted: 50, 50, 50;
 		--color-text-inverted: 220, 38, 38;
 		--color-bg-base: 255, 255, 255;
 		--color-accent-primary: 237, 189, 66;
@@ -29,13 +30,14 @@
 		--color-button-muted: 239, 68, 68;
 		--color-gradient-start: 236, 65, 99;
 		--color-gradient-end: 168, 36, 181;
+		--color-backdrop: 0, 0, 0;
 	}
 
 	.theme-oled {
-		--color-text-base: 17, 24, 2;
-		--color-text-muted: 47, 67, 6;
+		--color-text-base: 255, 255, 255;
+		--color-text-muted: 190, 190, 190;
 		--color-text-inverted: 235, 250, 204;
-		--color-bg-base: 179, 255, 23;
+		--color-bg-base: 0, 0, 0;
 		--color-accent-primary: 237, 189, 66;
 		--color-accent-secondary: 58, 12, 164;
 		--color-button-accent: 36, 52, 3;
@@ -43,6 +45,7 @@
 		--color-button-muted: 212, 255, 122;
 		--color-gradient-start: 236, 65, 99;
 		--color-gradient-end: 168, 36, 181;
+		--color-backdrop: 255, 255, 255;
 	}
 }
 
@@ -54,4 +57,23 @@
 	);
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+body {
+	color: rgb(var(--color-text-base));
+}
+
+*::-webkit-scrollbar {
+	width: 5px !important;
+	height: 5px !important;
+}
+
+*::-webkit-scrollbar-track {
+	background: transparent !important;
+	border-radius: 5px !important;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: rgb(var(--color-text-muted));
+	border-radius: 5px !important;
 }
