@@ -2,6 +2,7 @@
 import type { ComparisonCardProps } from './ComparisonCard.astro'
 import ComparisonCard from './ComparisonCard.astro'
 import LandingSection from './LandingSection.astro'
+import DocsButton from './LandingElements/DocsButton.astro'
 
 import FAQ from './LandingSections/FAQ.astro'
 const comparisonCardData: ComparisonCardProps[] = [
@@ -32,9 +33,7 @@ const comparisonCardData: ComparisonCardProps[] = [
 				The <span class='gradient-text'>best way</span> to learn web development
 			</h2>
 			<p class='mb-8'>Learning resources, carefully selected, verified, up to date</p>
-			<div>
-				<a class='bg-gradient-to-r from-grad-start to-grad-end py-3 px-8 rounded-md text-white font-bold' href='/introduction'>Start learning</a>
-			</div>
+			<DocsButton/>
 		</div>
     <div class='grow-1 flex items-center justify-center w-full'>
 				<img
