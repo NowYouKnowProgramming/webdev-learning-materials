@@ -64,11 +64,11 @@ const getLatestVideoLink = (index: number) => {
 	}
 </style>
 
-<div class='flex items-center gap-8'>
-	<div class='flex-grow'>
+<div class='flex items-center gap-8 flex-wrap-reverse mb-8 mt-36'>
+	<div class='flex-grow basis-80 shrink-0'>
 		<iframe class='video' src={getLatestVideoLink(0)}></iframe>
 	</div>
-	<div>
+	<div class='shrink-1 basis-64 grow'>
 		<h2 class='text-3xl font-bold mb-4'>
 			We record <span class='gradient-text'>code reviews</span>
 		</h2>
@@ -92,7 +92,7 @@ const getLatestVideoLink = (index: number) => {
 		</div>
 	</div>
 </div>
-<div class='videos-wrapper'>
+<div class='flex gap-4 lg:gap-8 xl:gap-14 flex-wrap w-full'>
 	{
 		Array.from({ length: LATEST_VIDEO_COUNT }).map((_, index) => {
 			const embedSource = getLatestVideoLink(index + 1)
