@@ -6,6 +6,7 @@ import VideoEmbed from '../LandingPage/VideoEmbed/VideoEmbed.astro'
 import Advantages from './LandingSections/Advantages.astro'
 import FAQ from './LandingSections/FAQ.astro'
 import Footer from './LandingSections/Footer/Footer.astro'
+import AboutUs from './LandingSections/AboutUs.astro'
 ---
 
 <body class='bg-theme-base overflow-x-clip'>
@@ -29,34 +30,11 @@ import Footer from './LandingSections/Footer/Footer.astro'
 			</p>
 			<DocsButton href='/introduction'>Start Learning</DocsButton>
 		</div>
-		<div class='grow-1 flex items-center justify-center w-full'>
+		<div class='hidden md:flex grow-1 items-center justify-center w-full'>
 			<img class='max-h-[500px]' src='/images/promo/wavy-edu.svg' alt='' />
 		</div>
 	</LandingSection>
-
-	<div class='w-full mb-28 bg-gradient-to-r from-grad-start/10 to-grad-end/10'>
-		<LandingSection className='flex py-16 gap-24 items-center justify-center'>
-			<div class='grow-1 w-full flex items-center justify-center'>
-				<img
-					class='max-h-[500px]'
-					src='/images/promo/Programming-amico.webp'
-					alt=''
-				/>
-			</div>
-			<div class='grow-1 w-full'>
-				<h2 id='about-us' class='scroll-mt-44 text-3xl font-[600] mb-5'>
-					<span class='text-xl block'>What is</span>
-					<span class='gradient-text'>bewebdev.tech</span> all about?
-				</h2>
-				<p class='mb-4 text-theme-muted'>
-					Introducing Bewebdev, your ultimate destination for learning web
-					development. Why settle for scattered information when we've done the
-					hard work for you? Discover the best resources, carefully chosen and
-					verified, all in one convenient place.
-				</p>
-			</div>
-		</LandingSection>
-	</div>
+	<AboutUs />
 	<LandingSection className='mb-52'>
 		<VideoEmbed />
 	</LandingSection>
