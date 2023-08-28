@@ -4,17 +4,16 @@ const { href } = Astro.props as { href: string }
 
 <style>
 	.background-animate {
-		background-size: 200%;
+		background-size: 50%;
 
 		animation: slide 3s linear infinite;
 	}
 
 	@keyframes slide {
-		0%,
-		100% {
+		0% {
 			background-position: 0% 50%;
 		}
-		50% {
+		100% {
 			background-position: 100% 50%;
 		}
 	}
@@ -22,14 +21,14 @@ const { href } = Astro.props as { href: string }
 
 <div class='relative w-fit h-fit group'>
 	<div
-		class='motion-safe:background-animate bg-gradient-to-r to-grad-start from-grad-end absolute left-0 top-0 w-full h-full group-hover:opacity-50 motion-safe:transition-opacity opacity-0 scale-125 pointer-events-none blur-md rounded-full duration-700 motion-reduce:duration-0 saturate-200 brightness-125'
+		class='motion-safe:background-animate motion-safe:background-animate bg-gradient-to-r to-grad-start from-grad-end absolute left-0 top-0 w-full h-full group-hover:opacity-50 motion-safe:transition-opacity opacity-0 scale-y-125 scale-x-110 pointer-events-none rounded-md duration-700 motion-reduce:duration-0 saturate-200 brightness-125 blur'
 	>
 	</div>
 	<a
-		class='transition ease-out group relative block bg-gradient-to-r from-grad-start to-grad-end rounded-md font-bold motion-safe:hover:scale-110'
+		class='transition ease-out group relative block bg-gradient-to-r from-grad-start to-grad-end rounded-md font-bold motion-safe:hover:scale-105'
 		href={href}
 		><span
-			class='rounded-md py-3 px-8 group-hover:bg-white ease-out motion-safe:group-hover:scale-90 block motion-safe:transition text-white group-hover:text-black'
+			class='rounded-md py-3 px-8 group-hover:bg-white ease-out block motion-safe:transition text-white group-hover:text-black'
 			><slot /></span
 		></a
 	>
