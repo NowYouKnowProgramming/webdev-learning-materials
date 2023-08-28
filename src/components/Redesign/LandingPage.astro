@@ -14,13 +14,13 @@ const comparisonCardData: ComparisonCardProps[] = [
 	},
 	{
 		icon: '/icons/savings.svg',
-		title: 'Reliable resources',
-		text: 'All resources are carefully selected and verified by our team.',
+		title: 'Free',
+		text: 'Our platform is free to use. No hidden fees or subscriptions.',
 	},
 	{
 		icon: '/icons/school_hat.svg',
-		title: 'Up to date',
-		text: 'We keep all resources up to date. Community can also contribute.',
+		title: 'Proven resources',
+		text: 'We only list resources that have been helpful to other developers. No filler content.',
 	},
 ]
 ---
@@ -87,7 +87,7 @@ const comparisonCardData: ComparisonCardProps[] = [
 		className='pb-28 border-b-2 border-basetext/10 mb-20 relative'
 	>
 		<h2 class='text-3xl font-medium mb-5'>Advantages of using our platform</h2>
-		<ul class='flex gap-14'>
+		<ul class='flex gap-4 lg:gap-8 xl:gap-14 flex-wrap'>
 			{comparisonCardData.map((card) => <ComparisonCard {...card} />)}
 		</ul>
 		<div
