@@ -8,7 +8,7 @@ import { Cross2Icon, HeartFilledIcon } from '@radix-ui/react-icons'
 import { usePersistedState } from '../../hooks/usePersistedState'
 
 const GradientGlow = () => (
-	<div className='scale-0 group-hover:scale-100 transition-transform ease-in-out select-none absolute w-full h-full  bg-gradient-to-r from-grad-start to-grad-end top-0 left-0s motion-safe:animate-pulse blur-md duration-700'></div>
+	<div className='scale-0 group-hover:scale-100 transition-transform motion-reduce:duration-0 ease-in-out select-none absolute w-full h-full  bg-gradient-to-r from-grad-start to-grad-end top-0 left-0s motion-safe:animate-pulse blur-md duration-700'></div>
 )
 
 const DonationModal = () => {
@@ -44,7 +44,7 @@ const DonationModal = () => {
 							<HeartFilledIcon className='absolute top-1/5 animate-ping motion-reduce:hidden' />
 							<HeartFilledIcon />
 						</div>
-						<div className='group-hover:opacity-0 transition-opacity'>
+						<div className='motion-safe:group-hover:opacity-0 transition-opacity'>
 							Support us
 						</div>
 					</span>
@@ -97,13 +97,13 @@ const DonationModal = () => {
 					</div>
 					<Dialog.Close asChild>
 						<button
-							className='rounded-full h-[25px] w-[25px] inline-flex items-center justify-center text-theme-base bg-theme-base absolute top-[10px] right-[10px] cursor-pointer shadow-md hover:scale-125 transition ease-out xl:h-[35px] xl:w-[35px] p-2 hover:shadow-lg group ring-1 ring-basetext/20'
+							className='rounded-full h-[25px] w-[25px] inline-flex items-center justify-center text-theme-base bg-theme-base absolute top-[10px] right-[10px] cursor-pointer shadow-md motion-safe:hover:scale-125 transition ease-out xl:h-[35px] xl:w-[35px] p-2 hover:shadow-lg group ring-1 ring-basetext/20 motion-reduce:hover:ring-basetext/60'
 							aria-label='Close'
 						>
 							<Cross2Icon
 								width='100%'
 								height='100%'
-								className='group-hover:rotate-90 transition duration-700'
+								className='motion-safe:group-hover:rotate-90 transition duration-700'
 							/>
 						</button>
 					</Dialog.Close>
