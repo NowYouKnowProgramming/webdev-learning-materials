@@ -111,8 +111,8 @@ const ThemeToggle: FunctionalComponent = () => {
 					<label
 						className={clsx(
 							checked && 'text-theme-base',
-							!checked && 'text-theme-muted/50',
-							'relative flex items-center justify-center p-1 hover:scale-125  motion-safe:transition-transform ease-out'
+							!checked && 'text-theme-muted/50 hover:text-theme-muted',
+							'relative flex items-center justify-center p-1 motion-safe:hover:scale-125  motion-safe:transition-transform ease-out '
 						)}
 					>
 						{icon}
