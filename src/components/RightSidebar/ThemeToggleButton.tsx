@@ -99,6 +99,7 @@ const ThemeToggle: FunctionalComponent = () => {
 			root.classList.remove(themesClassNames.oled)
 		} else {
 			root.classList.remove(themesClassNames.light)
+			root.classList.add(themesClassNames.oled)
 		}
 	}, [theme])
 

@@ -1,12 +1,11 @@
 ---
-import type { ComparisonCardProps } from './ComparisonCard.astro'
-import ComparisonCard from './ComparisonCard.astro'
-import LandingSection from './LandingSection.astro'
 import DocsButton from './LandingElements/DocsButton.astro'
+import LandingSection from './LandingSection.astro'
 
-import FAQ from './LandingSections/FAQ.astro'
 import VideoEmbed from '../LandingPage/VideoEmbed/VideoEmbed.astro'
 import Advantages from './LandingSections/Advantages.astro'
+import FAQ from './LandingSections/FAQ.astro'
+import Footer from './LandingSections/Footer/Footer.astro'
 ---
 
 <body class='bg-theme-base overflow-x-clip'>
@@ -45,21 +44,15 @@ import Advantages from './LandingSections/Advantages.astro'
 				/>
 			</div>
 			<div class='grow-1 w-full'>
-				<h2 class='text-3xl font-[600] mb-5'>
+				<h2 id="about-us" class='scroll-mt-44 text-3xl font-[600] mb-5'>
 					<span class='text-xl block'>What is</span>
 					<span class='gradient-text'>bewebdev.tech</span> all about?
 				</h2>
-				<p class='mb-4'>
+				<p class='mb-4 text-theme-muted'>
 					Introducing Bewebdev, your ultimate destination for learning web
 					development. Why settle for scattered information when we've done the
 					hard work for you? Discover the best resources, carefully chosen and
 					verified, all in one convenient place.
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deserunt
-					sapiente vero voluptates, minima debitis odit consectetur doloremque
-					molestias incidunt laboriosam rem ad. Porro, excepturi? Hic doloribus
-					cumque sit temporibus.
 				</p>
 			</div>
 		</LandingSection>
@@ -69,4 +62,5 @@ import Advantages from './LandingSections/Advantages.astro'
 	</LandingSection>
 	<Advantages />
 	<FAQ />
+	<Footer />
 </body>

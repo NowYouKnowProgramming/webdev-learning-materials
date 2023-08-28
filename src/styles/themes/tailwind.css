@@ -8,6 +8,7 @@
 		--color-text-muted: 176, 171, 177;
 		--color-text-inverted: 79, 70, 229;
 		--color-bg-base: 20, 7, 26;
+		--color-bg-elevated: 88, 37, 112;
 		--color-accent-primary: 237, 189, 66;
 		--color-accent-secondary: 58, 12, 164;
 		--color-button-accent: 255, 255, 255;
@@ -23,6 +24,7 @@
 		--color-text-muted: 50, 50, 50;
 		--color-text-inverted: 220, 38, 38;
 		--color-bg-base: 255, 255, 255;
+		--color-bg-elevated: 88, 37, 112;
 		--color-accent-primary: 198, 86, 253;
 		--color-accent-secondary: 98, 52, 214;
 		--color-button-accent: 255, 255, 255;
@@ -38,6 +40,7 @@
 		--color-text-muted: 190, 190, 190;
 		--color-text-inverted: 235, 250, 204;
 		--color-bg-base: 0, 0, 0;
+		--color-bg-elevated: 88, 37, 112;
 		--color-accent-primary: 237, 189, 66;
 		--color-accent-secondary: 58, 12, 164;
 		--color-button-accent: 36, 52, 3;

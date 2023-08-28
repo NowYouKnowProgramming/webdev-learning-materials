@@ -34,6 +34,7 @@ module.exports = {
 			backgroundColor: {
 				theme: {
 					base: withOpacity('--color-bg-base'),
+					elevated: 'rgba(var(--color-bg-elevated), <alpha-value>)',
 					'accent-primary': 'rgba(var(--color-accent-primary), <alpha-value>)',
 					'accent-secondary': withOpacity('--color-accent-secondary'),
 					'grad-start': withOpacity('--color-gradient-start'),
