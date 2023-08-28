@@ -8,7 +8,7 @@ import { Cross2Icon, HeartFilledIcon } from '@radix-ui/react-icons'
 import { usePersistedState } from '../../hooks/usePersistedState'
 
 const GradientGlow = () => (
-	<div className='scale-0 group-hover:scale-100 transition-transform motion-reduce:duration-0 ease-in-out select-none absolute w-full h-full  bg-gradient-to-r from-grad-start to-grad-end top-0 left-0s motion-safe:animate-pulse blur-md duration-700'></div>
+	<div className='scale-0 group-hover:scale-100 transition-transform motion-reduce:duration-0 ease-in-out select-none absolute w-full h-full  bg-gradient-to-r to-grad-start from-grad-end top-0 left-0s motion-safe:animate-pulse blur-md duration-700'></div>
 )
 
 const DonationModal = () => {

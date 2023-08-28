@@ -1,13 +1,36 @@
+---
+const { href } = Astro.props as { href: string }
+---
+
+<style>
+	.background-animate {
+		background-size: 200%;
+
+		animation: slide 3s linear infinite;
+	}
+
+	@keyframes slide {
+		0%,
+		100% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+	}
+</style>
+
 <div class='relative w-fit h-fit group'>
 	<div
-		class='bg-gradient-to-r from-grad-start to-grad-end absolute left-0 top-0 w-full h-full group-hover:opacity-50 transition-opacity opacity-0 scale-125 pointer-events-none blur-md rounded-full duration-700 saturate-200 brightness-125'
+		class='motion-safe:background-animate bg-gradient-to-r to-grad-start from-grad-end absolute left-0 top-0 w-full h-full group-hover:opacity-50 motion-safe:transition-opacity opacity-0 scale-125 pointer-events-none blur-md rounded-full duration-700 motion-reduce:duration-0 saturate-200 brightness-125'
 	>
 	</div>
 	<a
-		class='transition ease-out group relative block bg-gradient-to-r from-grad-start to-grad-end py-3 px-8 rounded-md text-white font-bold hover:scale-110'
-		href='/introduction'
-		><span class='ease-out group-hover:scale-90 block transition'
-			>Start learning</span
+		class='transition ease-out group relative block bg-gradient-to-r from-grad-start to-grad-end rounded-md font-bold motion-safe:hover:scale-110'
+		href={href}
+		><span
+			class='rounded-md py-3 px-8 group-hover:bg-white ease-out motion-safe:group-hover:scale-90 block motion-safe:transition text-white group-hover:text-black'
+			><slot /></span
 		></a
 	>
 </div>
