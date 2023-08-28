@@ -8,10 +8,16 @@ const { title, text, icon } = Astro.props as ComparisonCardProps
 ---
 
 <li
-	class='p-[2px] bg-gradient-to-r from-grad-start/30 to-grad-end/30 rounded-lg flex-auto basis-72'
+	id=`card-advantage`
+	class='p-[2px] bg-gradient-to-r from-grad-start/30 to-grad-end/30 rounded-lg flex-auto basis-72 transition duration-200 ease-out motion-safe:hover:shadow-2xl relative overflow-hidden group'
 >
 	<div
-		class='bg-theme-base p-10 rounded-md flex flex-col gap-6 justify-start items-start h-full w-full'
+		id='specular'
+		class='absolute bg-white w-14 h-14 blur-3xl pointer-events-none opacity-0 group-hover:opacity-100 trasition-opacity duration-150 motion-reduce:hidden'
+	>
+	</div>
+	<div
+		class='bg-theme-base p-10 rounded-md flex flex-col gap-6 justify-start items-start h-full w-full pointer-events-none'
 	>
 		<div>
 			<img src={icon} alt='' class='w-16 h-16' />
