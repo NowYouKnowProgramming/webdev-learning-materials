@@ -52,7 +52,7 @@ const AccordionTrigger = React.forwardRef<
 	React.ElementRef<typeof Accordion.Trigger>,
 	AccordionTriggerProps
 >(({ children, className, ...props }, forwardedRef) => (
-	<Accordion.Header className='flex p-[2px] bg-gradient-to-r from-grad-start/30 to-grad-end/30 data-[state=closed]:rounded-lg data-[state=open]:rounded-t-lg shadow-xl transition-[border-radius]'>
+	<Accordion.Header className='flex p-[2px] bg-gradient-to-r from-grad-start/30 to-grad-end/30 data-[state=closed]:rounded-lg data-[state=open]:rounded-t-lg shadow-xl motion-safe:transition-[border-radius]'>
 		<Accordion.Trigger
 			className={clsx(
 				'bg-theme-base p-6 rounded-md w-full justify-between group flex items-center',
@@ -63,7 +63,7 @@ const AccordionTrigger = React.forwardRef<
 		>
 			<div>{children}</div>
 			<ChevronDownIcon
-				className='text-theme-base ease-[cubic-bezier(0.87,_0,_0.13,_1)] transition-transform duration-300 group-data-[state=open]:rotate-180'
+				className='text-theme-base ease-[cubic-bezier(0.87,_0,_0.13,_1)] transition-transform duration-300 motion-reduce:duration-0 group-data-[state=open]:rotate-180'
 				aria-hidden
 			/>
 		</Accordion.Trigger>
@@ -76,7 +76,7 @@ const AccordionContent = React.forwardRef<
 >(({ children, className, ...props }, forwardedRef) => (
 	<Accordion.Content
 		className={clsx(
-			'bg-gradient-to-r from-grad-start/30 rounded-b-md to-grad-end/30 data-[state=open]:animate-slideDown data-[state=closed]:animate-slideUp overflow-hidden text-theme-base bg-theme-base',
+			'bg-gradient-to-r from-grad-start/30 rounded-b-md to-grad-end/30 motion-safe:data-[state=open]:animate-slideDown motion-safe:data-[state=closed]:animate-slideUp overflow-hidden text-theme-base bg-theme-base',
 			className
 		)}
 		{...props}
