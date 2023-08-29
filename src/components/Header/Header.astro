@@ -18,12 +18,17 @@ const currentPageIsRoot = currentPage === '/'
 const { ALGOLIA } = CONFIG
 const { apiKey, appId, indexName } = ALGOLIA
 
-const algoliaIsSetUp = (indexName && appId && apiKey)
+const algoliaIsSetUp = indexName && appId && apiKey
 ---
 
-<header class='z-[4000] py-11 w-full flex items-center justify-center overflow-hidden sticky top-0 backdrop-blur-xl'>
+<header
+	class='z-[4000] py-8 w-full flex items-center justify-center overflow-hidden sticky top-0 backdrop-blur-xl'
+>
 	<SkipToContent />
-	<nav class='w-full fixed flex items-center justify-end gap-1 px-6' title='Top Navigation'>
+	<nav
+		class='w-full fixed flex items-center justify-end gap-1 px-6'
+		title='Top Navigation'
+	>
 		{
 			!currentPageIsRoot && (
 				<div class='menu-toggle'>
@@ -32,18 +37,20 @@ const algoliaIsSetUp = (indexName && appId && apiKey)
 			)
 		}
 		<div class='flex-grow flex'>
-			<a href='/'>
+			<a class='flex gap-3 items-center' href='/'>
 				<AstroLogo size={40} />
-				{
-					currentPageIsRoot && (
-						<h1 class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</h1>
-					)
-				}
-				{
-					!currentPageIsRoot && (
-						<p class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</p>
-					)
-				}
+				<div class='gradient-text font-extrabold text-lg'>
+					{
+						currentPageIsRoot && (
+							<h1 class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</h1>
+						)
+					}
+					{
+						!currentPageIsRoot && (
+							<p class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</p>
+						)
+					}
+				</div>
 			</a>
 		</div>
 		{
