@@ -4,16 +4,18 @@ import LandingSection from '../LandingSection.astro'
 
 <div class='w-full mb-28 bg-gradient-to-r from-grad-start/10 to-grad-end/10'>
 	<LandingSection
-		className='flex py-16 gap-24 items-center justify-center flex-wrap-reverse'
+		className='flex py-16 gap-24 items-center justify-center sm:flex-wrap-reverse'
 	>
-		<div class='grow-1 w-full flex items-center justify-center basis-64'>
+		<div
+			class='grow-1 w-full items-center justify-center basis-[300px] hidden lg:flex'
+		>
 			<img
 				class='max-h-[500px]'
 				src='/images/promo/Programming-amico.webp'
 				alt=''
 			/>
 		</div>
-		<div class='basis-2/4 grow-1 shrink w-full'>
+		<div class='lg:basis-[600px] grow-1 shrink w-full'>
 			<h2 id='about-us' class='scroll-mt-44 text-3xl font-[600] mb-5'>
 				<span class='text-xl block'>What is</span>
 				<span class='gradient-text'>bewebdev.tech</span> all about?
