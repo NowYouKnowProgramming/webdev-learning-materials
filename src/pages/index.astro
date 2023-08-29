@@ -1,10 +1,11 @@
 ---
 import HeadCommon from '../components/HeadCommon.astro'
 
-import LandingPage from '../components/LandingPage/LandingPage.astro'
+import LandingPage from '../components/Redesign/LandingPage.astro'
 import LandingSEO from '../components/LandingPage/LandingSEO.astro'
 import type { Frontmatter } from '../config'
 import * as CONFIG from '../config'
+import Header from '../components/Header/Header.astro'
 
 export interface Props {
 	frontmatter: Frontmatter
@@ -18,23 +19,6 @@ const frontmatter: Frontmatter = {
 }
 ---
 
-<style is:global lang='scss'>
-	a,
-	button,
-	input,
-	select,
-	textarea {
-		&:focus-visible {
-			outline: 4px solid var(--theme-accent);
-			outline-offset: 4px;
-		}
-
-		&:focus:not(:focus-visible) {
-			outline: none;
-		}
-	}
-</style>
-
 <html dir={frontmatter.dir ?? 'ltr'} lang={frontmatter.lang ?? 'en'}>
 	<head>
 		<HeadCommon />
@@ -43,5 +27,8 @@ const frontmatter: Frontmatter = {
 			{frontmatter.title ? `${frontmatter.title}` : CONFIG.SITE.title}
 		</title>
 	</head>
+	<Header currentPage='/' />
 	<LandingPage />
+
+
 </html>

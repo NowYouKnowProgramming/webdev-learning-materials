@@ -13,7 +13,7 @@ const ArticleUpdateDate = ({ path }: Props) => {
 	if (error || !commitDate || isLoading) return null
 
 	return (
-		<p>
+		<p className='text-theme-muted'>
 			This article was last updated:{` `}
 			{timeSince(new Date(commitDate)).replace(`,`, ' and')} ago
 		</p>

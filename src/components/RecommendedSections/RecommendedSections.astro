@@ -41,28 +41,14 @@ const sidebarLinks = getThreeRandomLinks()
 		display: flex;
 		gap: 1rem;
 		align-items: center;
-		> li.list-item,
-		.link {
-			margin: 0 !important;
-		}
-		.list-item > .link {
-			padding: 0.7rem 1.5rem;
-			font-weight: bold;
-			background-color: var(--theme-accent);
-			color: var(--theme-bg);
-			border-radius: 1.3rem;
-			display: block;
-			box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+		li > a {
 			&::before {
-				content: '';
+				content: '' !important;
 			}
-			&:hover {
-				background-color: var(--theme-accent);
-				color: var(--theme-bg);
-			}
-			&:visited {
-				color: var(--theme-bg);
-			}
+		}
+		li {
+			margin: 0 !important;
+			padding: 0;
 		}
 	}
 
@@ -73,11 +59,14 @@ const sidebarLinks = getThreeRandomLinks()
 
 <div class='wrapper'>
 	<h2>Links you might like</h2>
-	<ul class='list'>
+	<ul class='flex items-center gap-4 flex-wrap'>
 		{
 			sidebarLinks.map(({ link, text }) => (
-				<li class='list-item'>
-					<a class='link' href={`/${link}`}>
+				<li class='m-0'>
+					<a
+						class='bg-theme-elevated block px-3 py-2 rounded-md m-0'
+						href={`/${link}`}
+					>
 						{text}
 					</a>
 				</li>

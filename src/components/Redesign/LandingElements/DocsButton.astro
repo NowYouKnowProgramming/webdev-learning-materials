@@ -17,6 +17,10 @@ const { href } = Astro.props as { href: string }
 			background-position: 100% 50%;
 		}
 	}
+
+	a::before {
+		content: '' !important;
+	}
 </style>
 
 <div class='relative w-fit h-fit group'>
