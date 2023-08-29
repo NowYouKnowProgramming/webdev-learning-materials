@@ -23,7 +23,7 @@ const ListLink = ({
 	depth = 0,
 }: ListLinkProps) => {
 	const linkCss =
-		'hover:bg-basetext/10 rounded-md group-hover:border-b-transparent block px-4 py-1 text-sm scroll-mt-32' +
+		'hover:bg-basetext/10 rounded-md group-hover:border-b-transparent block px-4 py-1 text-sm scroll-mt-32 max-w-[170px] ' +
 		className
 
 	return (
