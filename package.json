@@ -46,8 +46,9 @@
 	"devDependencies": {
 		"@playwright/test": "^1.31.1",
 		"@types/gtag.js": "^0.0.12",
-		"prettier": "^2.8.4",
+		"prettier": "3.0.2",
 		"prettier-plugin-astro": "^0.7.2",
+		"prettier-plugin-tailwindcss": "^0.4.0",
 		"sass": "^1.58.3",
 		"stylelint": "^14.16.1",
 		"stylelint-config-prettier": "^9.0.5",
