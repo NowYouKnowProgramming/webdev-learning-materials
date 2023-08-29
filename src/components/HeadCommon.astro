@@ -3,6 +3,27 @@ import '../styles/index.css'
 import '../styles/themes/tailwind.css'
 
 const experimentalOptions = { importance: 'high' }
+
+const poppinsVariants = [
+	'Black',
+	'BlackItalic',
+	'Bold',
+	'BoldItalic',
+	'ExtraBold',
+	'ExtraBoldItalic',
+	'ExtraLight',
+	'ExtraLightItalic',
+	'Italic',
+	'Light',
+	'LightItalic',
+	'Medium',
+	'MediumItalic',
+	'Regular',
+	'SemiBold',
+	'SemiBoldItalic',
+	'Thin',
+	'ThinItalic',
+]
 ---
 
 <!-- Global Metadata -->
@@ -15,21 +36,18 @@ const experimentalOptions = { importance: 'high' }
 <link rel='sitemap' href='/sitemap.xml' />
 
 <!-- Fonts -->
-<link
-	rel='preload'
-	href='/fonts/Nunito-Italic-VariableFont_wght.woff2'
-	as='font'
-	type='font/woff2'
-	{...experimentalOptions}
-/>
 
-<link
-	rel='preload'
-	href='/fonts/Nunito-VariableFont_wght.woff2'
-	as='font'
-	type='font/woff2'
-	{...experimentalOptions}
-/>
+{
+	poppinsVariants.map((font) => (
+		<link
+			rel='preload'
+			href={`/fonts/Poppins-${font}.ttf`}
+			as='font'
+			type='font/woff2'
+			{...experimentalOptions}
+		/>
+	))
+}
 
 <link
 	rel='preload'
@@ -52,24 +70,24 @@ if (theme === 'oled') {
 } else {
 	root.classList.remove('theme-oled')
 }
-if (
-	theme === 'dark' ||
-	(!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
-) {
-	root.classList.add('theme-dark')
-} else {
-	root.classList.remove('theme-dark')
-}
+	if (
+		theme === 'dark' ||
+		(!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
+	) {
+		root.classList.add('theme-dark')
+	} else {
+		root.classList.remove('theme-dark')
+	}
 </script>
 
 <!-- Google tag (gtag.js) -->
 <script async src='https://www.googletagmanager.com/gtag/js?id=G-76TJGCMRYN'
 ></script>
 <script is:inline>
-window.dataLayer = window.dataLayer || []
-function gtag() {
-	dataLayer.push(arguments)
-}
-gtag('js', new Date())
-gtag('config', 'G-76TJGCMRYN')
+	window.dataLayer = window.dataLayer || []
+	function gtag() {
+		dataLayer.push(arguments)
+	}
+	gtag('js', new Date())
+	gtag('config', 'G-76TJGCMRYN')
 </script>

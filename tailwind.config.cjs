@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 function withOpacity(variableName) {
 	return ({ opacityValue }) => {
 		if (opacityValue !== undefined) {
@@ -13,6 +15,10 @@ module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
+			fontFamily: {
+				sans: ['Poppins', ...defaultTheme.fontFamily.sans],
+				serious: ['Inter', ...defaultTheme.fontFamily.sans],
+			},
 			colors: {
 				backdrop: 'rgba(var(--color-backdrop), <alpha-value>)',
 				basetext: 'rgba(var(--color-text-base), <alpha-value>)',
