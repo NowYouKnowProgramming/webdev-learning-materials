@@ -9,11 +9,11 @@ const { title, text, icon } = Astro.props as ComparisonCardProps
 
 <li
 	id=`card-advantage`
-	class='p-[2px] bg-gradient-to-r from-grad-start/30 to-grad-end/30 rounded-lg flex-auto basis-72 transition duration-200 ease-out motion-safe:hover:shadow-2xl relative overflow-hidden group'
+	class='p-[2px] bg-gradient-to-r from-grad-start/30 to-grad-end/30 rounded-lg flex-auto basis-72 transition duration-1000 hover:duration-200 ease-out motion-safe:hover:shadow-2xl relative overflow-hidden group will-change-transform'
 >
 	<div
 		id='specular'
-		class='absolute bg-white w-14 h-14 blur-3xl pointer-events-none opacity-0 group-hover:opacity-100 trasition-opacity duration-150 motion-reduce:hidden'
+		class='absolute bg-white w-14 h-14 blur-3xl pointer-events-none opacity-0 group-hover:opacity-100 trasition-opacity motion-reduce:opacity-0 will-change-transform group-hover:duration-0 duration-200'
 	>
 	</div>
 	<div

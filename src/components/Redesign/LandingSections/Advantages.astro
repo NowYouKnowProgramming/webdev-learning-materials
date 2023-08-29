@@ -37,7 +37,7 @@ const comparisonCardData: ComparisonCardProps[] = [
 </LandingSection>
 
 <script>
-	const MAX_DEGREE_TILT = 20
+	const MAX_DEGREE_TILT = 2
 
 	const tiltHandler = (event: MouseEvent) => {
 		const container = event.currentTarget as HTMLElement
@@ -55,7 +55,7 @@ const comparisonCardData: ComparisonCardProps[] = [
 		const containerHeight = container.offsetHeight
 
 		const xProgress = (
-			MAX_DEGREE_TILT *
+			-MAX_DEGREE_TILT *
 			(event.offsetX / containerWidth - 0.5) *
 			2
 		).toFixed(2)
@@ -66,7 +66,7 @@ const comparisonCardData: ComparisonCardProps[] = [
 			2
 		).toFixed(2)
 
-		container.style.transform = `rotateX(${yProgress}deg) rotateY(${xProgress}deg)`
+		container.style.transform = `perspective(300px) rotateX(${yProgress}deg) rotateY(${xProgress}deg)`
 	}
 
 	const leaveHandler = (event: MouseEvent) => {
