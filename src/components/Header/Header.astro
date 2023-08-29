@@ -21,8 +21,20 @@ const { apiKey, appId, indexName } = ALGOLIA
 const algoliaIsSetUp = indexName && appId && apiKey
 ---
 
+<script>
+	window.addEventListener('scroll', () => {
+		const header = document.querySelector('#main-header-top')
+		if (window.scrollY > 0 && header) {
+			header.classList.add('bg-theme-base/50')
+		} else if (header) {
+			header.classList.remove('bg-theme-base/50')
+		}
+	})
+</script>
+
 <header
-	class='z-[4000] py-8 w-full flex items-center justify-center overflow-hidden sticky top-0 backdrop-blur-xl'
+	id='main-header-top'
+	class='z-[4000] py-8 w-full flex items-center justify-center overflow-hidden sticky top-0 backdrop-blur transition-colors'
 >
 	<SkipToContent />
 	<nav
@@ -66,60 +78,6 @@ const algoliaIsSetUp = indexName && appId && apiKey
 <DonationModal client:only='react' />
 
 <style>
-	.logo {
-		flex: 1;
-		display: flex;
-		overflow: hidden;
-		width: 30px;
-		font-size: 2rem;
-		flex-shrink: 0;
-		font-weight: 600;
-		line-height: 1;
-		color: hsla(var(--color-base-white), 100%, 1);
-		gap: 0.25em;
-	}
-
-	.logo a {
-		display: flex;
-		padding: 0.5em 0.25em;
-		margin: -0.5em -0.25em;
-		text-decoration: none;
-		font-weight: bold;
-	}
-
-	.logo * {
-		color: var(--theme-text) !important;
-	}
-
-	@media (prefers-reduced-motion: no-preference) {
-		.logo {
-			transition: color 100ms ease-out;
-		}
-	}
-
-	.logo *:hover,
-	.logo *:focus {
-		color: var(--theme-text-accent) !important;
-	}
-
-	.logo .title-main {
-		display: none;
-		font: inherit;
-		color: inherit;
-		margin: 0;
-		font-family: var(--font-special);
-	}
-
-	.nav-wrapper {
-		display: flex;
-		align-items: center;
-		justify-content: flex-end;
-		gap: 1em;
-		width: 100%;
-		max-width: var(--safe-max-width);
-		padding: 0 1rem;
-	}
-
 	.menu-toggle {
 		scale: 1.8;
 	}
@@ -129,25 +87,9 @@ const algoliaIsSetUp = indexName && appId && apiKey
 			padding: 2rem 0rem;
 		}
 
-		.logo {
-			width: auto;
-			margin: 0;
-			z-index: var(--z-base);
-		}
-
-		.logo .title-main {
-			display: initial;
-		}
-
 		.menu-toggle {
 			display: none;
 		}
-	}
-
-	/** Style Algolia */
-	:root {
-		--docsearch-primary-color: var(--theme-accent);
-		--docsearch-logo-color: var(--theme-text);
 	}
 
 	.search-item {
