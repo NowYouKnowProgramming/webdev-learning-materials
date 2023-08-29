@@ -11,22 +11,22 @@ const currentPageMatch = currentPage.endsWith('/')
 	: currentPage.slice(1)
 ---
 
-<nav aria-labelledby='grid-left'>
-	<ul class='nav-groups'>
-		{
+<nav aria-labelledby='grid-left' class="mr-4">
+	<ul class='h-screen overflow-x-visible overflow-y-auto px-4 flex flex-col gap-4 pb-32 pt-1 pl-1'>
+	{
 			Object.entries(SIDEBAR).map(([header, children]) => (
-				<li>
-					<div class='nav-group'>
-						<h2 class='title'>{header}</h2>
+				<li class="w-full">
+					<div class='ring-1 ring-basetext/10 p-2 rounded-md mr-2'>
+						<h2 class='text-lg font-bold'>{header}</h2>
 						<ul>
 							{children.map((child) => {
 								const url = Astro.site?.pathname + child.link
 								const isCurrentPage = currentPageMatch === child.link
 
 								return (
-									<li class=`mr-5 ${isCurrentPage ? 'bg-basetext/90' : 'hover:bg-basetext/10 '}`>
+									<li class=`mt-1 group border-b-2 border-b-basetext/10 last:border-b-0 pb-1`>
 										<a
-											class=`block text-lg px-4 py-2 border-b-2 border-b-basetext/10 ${isCurrentPage ? 'font-extrabold gradient-text' : ''}`
+											class=`rounded-md group-hover:border-b-transparent block px-4 py-1 text-sm ${isCurrentPage ? 'bg-basetext/90 font-extrabold text-theme-inverted' : 'hover:bg-basetext/10'}`
 											href={url}
 											aria-current={isCurrentPage ? 'page' : false}
 										>
@@ -52,89 +52,3 @@ window.addEventListener('DOMContentLoaded', () => {
 	}
 })
 </script>
-
-<style>
-	.title {
-		font-size: 1.2rem;
-		font-weight: bold;
-		margin-bottom: .6rem;
-	}
-
-	.nav-groups li:not(:first-child) .title {
-		border-top: 1px var(--sidebar-item-hover) solid;
-		padding-top: 2rem;
-		margin-top: 2rem;
-	}
-
-	nav {
-		width: 100%;
-		margin-right: 1rem;
-	}
-
-	.nav-groups {
-		height: 100%;
-		padding: 2rem 1rem;
-		overflow-x: visible;
-		overflow-y: auto;
-		max-height: 100vh;
-	}
-
-	.nav-groups > li + li {
-		margin-top: 2rem;
-	}
-	.nav-groups > :first-child {
-		padding-top: var(--doc-padding);
-	}
-
-	.nav-groups > :last-child {
-		padding-bottom: 2rem;
-		margin-bottom: var(--theme-navbar-height);
-	}
-
-	.nav-group-title {
-		font-size: 1rem;
-		font-weight: 700;
-		padding: 0.1rem 1rem;
-		text-transform: uppercase;
-		margin-bottom: 0.5rem;
-	}
-
-	@media (prefers-reduced-motion: no-preference) {
-		.nav-link a {
-			transition: 0.3s;
-		}
-	}
-
-	.nav-link a:hover,
-	.nav-link a:focus {
-		background-color: var(--sidebar-item-hover);
-	}
-
-	@media (prefers-reduced-motion: no-preference) {
-		.nav-link a:hover,
-		.nav-link a:focus {
-			transition: background-color 0.1s;
-		}
-	}
-
-	.nav-link a[aria-current='page'] {
-		color: var(--sidebar-item-active-text);
-		background-color: var(--sidebar-item-active);
-		box-shadow: var(--sidebar-item-active-shadow);
-		border: none;
-		font-weight: 600;
-	}
-
-	@media (max-width: 450px) {
-		.nav-link a {
-			padding: 1.2rem 0.5rem;
-		}
-	}
-
-	@media (min-width: 50em) {
-		.nav-groups {
-			padding: 0;
-			padding-left: 1rem;
-		}
-	}
-</style>

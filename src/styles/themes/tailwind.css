@@ -6,7 +6,7 @@
 	:root {
 		--color-text-base: 255, 255, 255;
 		--color-text-muted: 176, 171, 177;
-		--color-text-inverted: 79, 70, 229;
+		--color-text-inverted: 20, 7, 26;
 		--color-link: 190, 190, 255;
 		--color-bg-base: 20, 7, 26;
 		--color-bg-elevated: 88, 37, 112;
@@ -23,7 +23,7 @@
 	.theme-light {
 		--color-text-base: 0, 0, 0;
 		--color-text-muted: 50, 50, 50;
-		--color-text-inverted: 220, 38, 38;
+		--color-text-inverted: 255, 255, 255;
 		--color-link: 0, 0, 190;
 		--color-bg-base: 255, 255, 255;
 		--color-bg-elevated: 200, 200, 200;
@@ -40,7 +40,7 @@
 	.theme-oled {
 		--color-text-base: 255, 255, 255;
 		--color-text-muted: 190, 190, 190;
-		--color-text-inverted: 235, 250, 204;
+		--color-text-inverted: 0, 0, 0;
 		--color-link: 190, 90, 255;
 		--color-bg-base: 0, 0, 0;
 		--color-bg-elevated: 30, 30, 30;

@@ -68,13 +68,6 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 				padding: 0;
 			}
 
-			#grid-left {
-				position: fixed;
-				background-color: var(--theme-bg);
-				z-index: var(--z-elevated-higher);
-				display: none;
-			}
-
 			#grid-main {
 				padding: var(--doc-padding) var(--gutter);
 				grid-column: 2;
@@ -93,13 +86,6 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 					overflow: initial;
 					grid-template-columns: 20rem minmax(0, var(--max-width));
 					gap: 1em;
-				}
-
-				#grid-left {
-					display: flex;
-					padding-left: 2rem;
-					position: sticky;
-					grid-column: 1;
 				}
 			}
 
@@ -226,8 +212,12 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 
 	<body>
 		<Header currentPage={currentPage} />
-		<main class='layout'>
-			<aside id='grid-left' class='grid-sidebar' title='Site Navigation'>
+		<main class='flex w-full max-w-7xl px-8 m-auto items-start'>
+			<aside
+				id='grid-left'
+				class='sticky top-0 h-screen grid-cols-1 flex'
+				title='Site Navigation'
+			>
 				<LeftSidebar currentPage={currentPage} />
 			</aside>
 			<div id='grid-main'>
