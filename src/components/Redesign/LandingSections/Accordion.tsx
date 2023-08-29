@@ -76,7 +76,7 @@ const AccordionContent = React.forwardRef<
 >(({ children, className, ...props }, forwardedRef) => (
 	<Accordion.Content
 		className={clsx(
-			'bg-gradient-to-r from-grad-start/30 rounded-b-md to-grad-end/30 motion-safe:data-[state=open]:animate-slideDown motion-safe:data-[state=closed]:animate-slideUp overflow-hidden text-theme-base bg-theme-base',
+			'bg-gradient-to-r from-grad-start/30 rounded-b-md to-grad-end/30 overflow-hidden text-theme-base bg-theme-base',
 			className
 		)}
 		{...props}
