@@ -9,7 +9,7 @@ const { size = 50 } = Astro.props as { size?: number }
 </style>
 
 <img
-	style=`width: ${size}px;`
+	style=`width: ${size}px; min-width: ${size}px;`
 	alt='bewebdev logo - computer backlit with pink color'
 	src='/images/logo.svg'
 />
