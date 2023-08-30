@@ -1,6 +1,6 @@
-import type { FunctionalComponent } from 'preact'
-import { useEffect, useState } from 'preact/hooks'
+import { useEffect, useState } from 'react'
 import clsx from 'clsx'
+import { BlendingModeIcon } from '@radix-ui/react-icons'
 
 type Theme = {
 	name: string
@@ -74,7 +74,8 @@ const themesClassNames = {
 	oled: 'theme-oled',
 }
 
-const ThemeToggle: FunctionalComponent = () => {
+const ThemeToggle = () => {
+	const [mobilePickerOpen, setMobilePickerOpen] = useState(false)
 	const [theme, setTheme] = useState(() => {
 		if (import.meta.env.SSR) {
 			return undefined
@@ -103,36 +104,77 @@ const ThemeToggle: FunctionalComponent = () => {
 	}, [theme])
 
 	return (
-		<div className='max-w-[40px] desktop-ui:max-w-none inline-flex overflow-auto items-center gap-[0.25em] py-1 desktop-ui:px-3 px-[6px] rounded-md bg-theme-base/30 ring-1 ring-basetext/10 min-h-[40px]'>
-			{themesData.map(({ icon, name }) => {
-				const checked = name === theme
-				return (
-					<label
-						className={clsx(
-							checked && 'text-theme-base',
-							!checked &&
-								'text-theme-muted/50 hover:text-theme-muted motion-safe:hover:scale-125  motion-safe:transition cursor-pointer',
-							'relative flex items-center justify-center p-1 ease-out'
-						)}
-					>
-						{icon}
-						<input
-							className='sr-only'
-							type='radio'
-							name='theme-toggle'
-							checked={checked}
-							value={name}
-							title={`Use ${name} theme`}
-							aria-label={`Use ${name} theme`}
-							onChange={() => {
-								localStorage.setItem('theme', name)
-								setTheme(name)
-							}}
-						/>
-					</label>
-				)
-			})}
-		</div>
+		<>
+			<button
+				onClick={() => setMobilePickerOpen((open) => !open)}
+				className='desktop-ui:hidden text-theme-base motion-safe:transition cursor-pointer flex items-center justify-center rounded-md bg-theme-base/30 ring-1 ring-basetext/10 min-h-[40px] px-3'
+			>
+				<BlendingModeIcon />
+			</button>
+			<div
+				data-open={mobilePickerOpen}
+				className='hidden items-center gap-[0.25em] py-1-[6px] rounded-md bg-theme-base ring-1 ring-basetext/10 min-h-[40px] data-[open=true]:flex fixed right-[79px] px-2 min-w-[130px] justify-between shadow-lg shadow-basetext/20'
+			>
+				{themesData.map(({ icon, name }) => {
+					const checked = name === theme
+					return (
+						<label
+							className={clsx(
+								checked && 'text-theme-base',
+								!checked &&
+									'text-theme-muted/50 hover:text-theme-muted motion-safe:hover:scale-125  motion-safe:transition cursor-pointer',
+								'relative flex items-center justify-center p-1 ease-out'
+							)}
+						>
+							{icon}
+							<input
+								className='sr-only'
+								type='radio'
+								name='theme-toggle'
+								checked={checked}
+								value={name}
+								title={`Use ${name} theme`}
+								aria-label={`Use ${name} theme`}
+								onChange={() => {
+									localStorage.setItem('theme', name)
+									setTheme(name)
+								}}
+							/>
+						</label>
+					)
+				})}
+			</div>
+			<div className='hidden desktop-ui:inline-flex max-w-[40px] desktop-ui:max-w-none overflow-auto items-center gap-[0.25em] py-1 desktop-ui:px-3 px-[6px] rounded-md bg-theme-base/30 ring-1 ring-basetext/10 min-h-[40px]'>
+				{themesData.map(({ icon, name }) => {
+					const checked = name === theme
+					return (
+						<label
+							className={clsx(
+								checked && 'text-theme-base',
+								!checked &&
+									'text-theme-muted/50 hover:text-theme-muted motion-safe:hover:scale-125  motion-safe:transition cursor-pointer',
+								'relative flex items-center justify-center p-1 ease-out'
+							)}
+						>
+							{icon}
+							<input
+								className='sr-only'
+								type='radio'
+								name='theme-toggle'
+								checked={checked}
+								value={name}
+								title={`Use ${name} theme`}
+								aria-label={`Use ${name} theme`}
+								onChange={() => {
+									localStorage.setItem('theme', name)
+									setTheme(name)
+								}}
+							/>
+						</label>
+					)
+				})}
+			</div>
+		</>
 	)
 }
 
