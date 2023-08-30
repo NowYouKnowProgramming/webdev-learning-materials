@@ -11,12 +11,12 @@ const currentPageMatch = currentPage.endsWith('/')
 	: currentPage.slice(1)
 ---
 
-<nav id="toggleable-sidebar" data-sidebar-shown='true' aria-labelledby='grid-left' class="desktop-ui:mr-4 hidden desktop-ui:block data-[sidebar-shown=true]:block desktop-ui:static fixed bg-theme-base/90 desktop-ui:w-fit w-full left-0 top-[50px] desktop-ui:px-0 desktop-ui:pt-0 pt-4  px-2 z-[52] backdrop-blur">
-	<ul class='h-screen overflow-x-visible overflow-y-auto desktop-ui:px-4 flex flex-col gap-4 pb-32 pt-1 pl-1'>
+<nav id="toggleable-sidebar" data-sidebar-shown='false' aria-labelledby='grid-left' class="desktop-ui:mr-4 hidden desktop-ui:block data-[sidebar-shown=true]:block desktop-ui:static fixed bg-theme-base/90 desktop-ui:w-fit w-full left-0 top-[50px] desktop-ui:px-0 desktop-ui:pt-0 pt-4 z-[52] backdrop-blur px-0">
+	<ul class='h-screen overflow-x-visible overflow-y-auto desktop-ui:px-4 flex flex-col gap-4 pb-32 pt-1 desktop-ui:pl-1'>
 	{
 			Object.entries(SIDEBAR).map(([header, children]) => (
 				<li class="w-full">
-					<div class='ring-1 ring-basetext/10 p-2 rounded-md desktop-ui:mx-0 mx-4 desktop-ui:mr-2 '>
+					<div class='ring-1 ring-basetext/10 p-2 rounded-md desktop-ui:mx-0 mx-6 desktop-ui:mr-2 '>
 						<h2 class='text-lg font-bold'>{header}</h2>
 						<ul>
 							{children.map((child) => {
@@ -26,7 +26,7 @@ const currentPageMatch = currentPage.endsWith('/')
 								return (
 									<li class=`mt-1 group border-b-2 border-b-basetext/10 last:border-b-0 pb-1`>
 										<a
-											class=`rounded-md group-hover:border-b-transparent block px-4 py-1 text-sm ${isCurrentPage ? 'bg-basetext/90 font-extrabold text-theme-inverted' : 'hover:bg-basetext/10'}`
+											class=`rounded-md group-hover:border-b-transparent block px-4 py-1 text-sm ${isCurrentPage ? 'bg-basetext/90 font-extrabold text-theme-inverted' : 'hover:bg-basetext/10 py-4 desktop-ui:py-1'}`
 											href={url}
 											aria-current={isCurrentPage ? 'page' : false}
 										>

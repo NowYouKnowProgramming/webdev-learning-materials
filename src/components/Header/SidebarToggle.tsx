@@ -23,6 +23,7 @@ const MenuToggle: FunctionalComponent = () => {
 
 	return (
 		<button
+		className='bg-theme-base/30 text-theme-base flex gap-2 items-center rounded-md hover:shadow-md transition-shadow ease-out ring-1 ring-basetext/10 hover:ring-basetext/40 min-h-[40px] px-3 mr-3'
 			type='button'
 			aria-pressed={sidebarShown ? 'true' : 'false'}
 			id='menu-toggle'
