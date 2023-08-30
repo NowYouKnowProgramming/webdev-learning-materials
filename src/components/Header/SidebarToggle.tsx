@@ -9,12 +9,13 @@ const MenuToggle: FunctionalComponent = () => {
 
 	useEffect(() => {
 		const sidebarElement = document.querySelector('#toggleable-sidebar')!
+		const sidebarScrollElement = document.querySelector('#toggleable-sidebar-overflow')!
 		if (sidebarShown) {
 			sidebarElement.setAttribute('data-sidebar-shown', 'true')
-			disableBodyScroll(sidebarElement)
+			disableBodyScroll(sidebarScrollElement)
 		} else {
 			sidebarElement.setAttribute('data-sidebar-shown', 'false')
-			enableBodyScroll(sidebarElement)
+			enableBodyScroll(sidebarScrollElement)
 		}
 		return () => {
 			clearAllBodyScrollLocks()
