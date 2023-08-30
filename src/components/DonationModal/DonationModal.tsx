@@ -14,7 +14,7 @@ const GradientGlow = () => (
 const DonationModal = () => {
 	const [donationDismissed, setDonationDismissed] = usePersistedState(
 		false,
-		'donationDismissed'
+		'donationDismissed',
 	)
 
 	const handleOpenChange = (isOpen: boolean) => {
@@ -53,7 +53,7 @@ const DonationModal = () => {
 			<Dialog.Portal>
 				<Dialog.Overlay className='bg-backdrop/20 fixed inset-0 z-[5000] motion-safe:animate-fade' />
 				<Dialog.Content className='shadow-xl z-[6000] bg-theme-base fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] max-w-3xl max-h-[85vh] p-6 overflow-hidden flex flex-col rounded-md align-baseline motion-safe:animate-fade animate-once animate-ease-out'>
-					<Dialog.Title className='font-[nunito] m-0 font-bold text-lg xl:text-3xl pb-1 text-theme-base w-full max-w-none'>
+					<Dialog.Title className='m-0 font-bold text-lg xl:text-3xl pb-1 text-theme-base w-full max-w-none'>
 						We need{' '}
 						<span className={'gradient-text font-extrabold'}>your help</span>
 					</Dialog.Title>
@@ -68,7 +68,7 @@ const DonationModal = () => {
 						</Dialog.Description>
 						<h3
 							className={
-								'font-[nunito] p-0 gradient-text font-extrabold mt-2 mb-1 text-lg xl:text-2xl'
+								'p-0 gradient-text font-extrabold mt-2 mb-1 text-lg xl:text-2xl'
 							}
 						>
 							Why we need funding to keep our project alive
