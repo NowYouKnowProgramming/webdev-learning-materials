@@ -1,4 +1,4 @@
-import useSWR, { Fetcher } from 'swr'
+import useSWR, { type Fetcher } from 'swr'
 
 const URL = `https://api.github.com/repos/nowyouknowprogramming/webdev-learning-materials`
 

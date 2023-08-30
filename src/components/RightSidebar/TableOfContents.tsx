@@ -1,7 +1,8 @@
+/** @jsxImportSource preact */
+
 import type { FunctionalComponent } from 'preact'
 import { useState, useEffect, useRef } from 'preact/hooks'
 import type { MarkdownHeading } from 'astro'
-import classes from './TableOfContents.module.scss'
 import type { ReactNode } from 'react'
 
 type ItemOffsets = {
@@ -114,7 +115,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 				{headings
 					.filter(({ depth }) => depth > 1 && depth < 5)
 					.map((heading) => (
-						<ListLink depth={heading.depth} href={`#${heading.slug}`}>
+						<ListLink key={`#${heading.slug}`} depth={heading.depth} href={`#${heading.slug}`}>
 							{heading.text}
 						</ListLink>
 					))}

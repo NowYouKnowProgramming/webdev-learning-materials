@@ -10,6 +10,10 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [preact(), react(), mdx(), compress(), sitemap(), tailwind()],
+  integrations: [preact({
+    include: ['**/preact/*']
+  }), react({
+      include: ['**/react/*']
+    }), mdx(), compress(), sitemap(), tailwind()],
   site: `https://bewebdev.tech/`
 });

@@ -54,6 +54,7 @@ const poppinsVariants = [
 	href='/fonts/Inter-Regular.woff2'
 	as='font'
 	type='font/woff2'
+	crossorigin='anonymous'
 	{...experimentalOptions}
 />
 
@@ -70,24 +71,24 @@ if (theme === 'oled') {
 } else {
 	root.classList.remove('theme-oled')
 }
-	if (
-		theme === 'dark' ||
-		(!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
-	) {
-		root.classList.add('theme-dark')
-	} else {
-		root.classList.remove('theme-dark')
-	}
+if (
+	theme === 'dark' ||
+	(!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
+) {
+	root.classList.add('theme-dark')
+} else {
+	root.classList.remove('theme-dark')
+}
 </script>
 
 <!-- Google tag (gtag.js) -->
 <script async src='https://www.googletagmanager.com/gtag/js?id=G-76TJGCMRYN'
 ></script>
 <script is:inline>
-	window.dataLayer = window.dataLayer || []
-	function gtag() {
-		dataLayer.push(arguments)
-	}
-	gtag('js', new Date())
-	gtag('config', 'G-76TJGCMRYN')
+window.dataLayer = window.dataLayer || []
+function gtag() {
+	dataLayer.push(arguments)
+}
+gtag('js', new Date())
+gtag('config', 'G-76TJGCMRYN')
 </script>
