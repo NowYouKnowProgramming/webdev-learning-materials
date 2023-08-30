@@ -1,6 +1,5 @@
 import type { FunctionalComponent } from 'preact'
 import { useEffect, useState } from 'preact/hooks'
-import './ThemeToggleButton.css'
 import clsx from 'clsx'
 
 type Theme = {
@@ -104,20 +103,21 @@ const ThemeToggle: FunctionalComponent = () => {
 	}, [theme])
 
 	return (
-		<div className='inline-flex items-center gap-[0.25em] py-1 px-2 rounded-md bg-theme-base/30 ring-1 ring-basetext/10'>
+		<div className='inline-flex items-center gap-[0.25em] py-1 px-3 rounded-md bg-theme-base/30 ring-1 ring-basetext/10 min-h-[40px]'>
 			{themesData.map(({ icon, name }) => {
 				const checked = name === theme
 				return (
 					<label
 						className={clsx(
 							checked && 'text-theme-base',
-							!checked && 'text-theme-muted/50 hover:text-theme-muted',
-							'relative flex items-center justify-center p-1 motion-safe:hover:scale-125  motion-safe:transition-transform ease-out '
+							!checked &&
+								'text-theme-muted/50 hover:text-theme-muted motion-safe:hover:scale-125  motion-safe:transition cursor-pointer',
+							'relative flex items-center justify-center p-1 ease-out'
 						)}
 					>
 						{icon}
 						<input
-							className='cursor-pointer'
+							className='sr-only'
 							type='radio'
 							name='theme-toggle'
 							checked={checked}
