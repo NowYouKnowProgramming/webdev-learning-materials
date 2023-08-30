@@ -90,7 +90,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 
 	if (!isVisible)
 		return (
-			<button className={classes.toggle} onClick={setSummaryVisibleHandler}>
+			<button className='text-theme-base motion-safe:transition cursor-pointer flex items-center justify-center rounded-md ring-1 ring-basetext/10 min-h-[40px] px-3 bg-theme-elevated/30' onClick={setSummaryVisibleHandler}>
 				Show summary
 			</button>
 		)
@@ -98,7 +98,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 	return (
 		<>
 			{width <= 769 && (
-				<button className={classes.toggle} onClick={setSummaryHiddenHandler}>
+				<button className='text-theme-base motion-safe:transition cursor-pointer flex items-center justify-center rounded-md ring-1 ring-basetext/10 min-h-[40px] px-3 bg-theme-elevated/30' onClick={setSummaryHiddenHandler}>
 					Hide summary
 				</button>
 			)}

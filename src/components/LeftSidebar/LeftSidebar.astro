@@ -11,7 +11,7 @@ const currentPageMatch = currentPage.endsWith('/')
 	: currentPage.slice(1)
 ---
 
-<nav id="toggleable-sidebar" data-sidebar-shown='false' aria-labelledby='grid-left' class="desktop-ui:mr-4 hidden desktop-ui:block data-[sidebar-shown=true]:block desktop-ui:static fixed bg-theme-base/90 desktop-ui:w-fit w-full left-0 top-[50px] desktop-ui:px-0 desktop-ui:pt-0 pt-4 z-[52] backdrop-blur px-0">
+<nav id="toggleable-sidebar" data-sidebar-shown='false' aria-labelledby='grid-left' class="lg:min-w-[300px] sm:min-w-[250px] desktop-ui:mr-4 hidden desktop-ui:block data-[sidebar-shown=true]:block desktop-ui:static fixed bg-theme-base/90 desktop-ui:w-fit w-full left-0 top-[50px] desktop-ui:px-0 desktop-ui:pt-0 pt-4 z-[52] backdrop-blur px-0">
 	<ul id="toggleable-sidebar-overflow" class='h-screen overflow-x-visible overflow-y-auto desktop-ui:px-4 flex flex-col gap-4 desktop-ui:pb-32 pb-48 pt-1 desktop-ui:pl-1'>
 	{
 			Object.entries(SIDEBAR).map(([header, children]) => (
