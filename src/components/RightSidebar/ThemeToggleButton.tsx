@@ -103,7 +103,7 @@ const ThemeToggle: FunctionalComponent = () => {
 	}, [theme])
 
 	return (
-		<div className='max-w-[40px] desktop-ui:max-w-none inline-flex overflow-auto items-center gap-[0.25em] py-1 px-3 rounded-md bg-theme-base/30 ring-1 ring-basetext/10 min-h-[40px]'>
+		<div className='max-w-[40px] desktop-ui:max-w-none inline-flex overflow-auto items-center gap-[0.25em] py-1 desktop-ui:px-3 px-[6px] rounded-md bg-theme-base/30 ring-1 ring-basetext/10 min-h-[40px]'>
 			{themesData.map(({ icon, name }) => {
 				const checked = name === theme
 				return (
