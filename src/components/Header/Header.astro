@@ -18,6 +18,8 @@ const currentPageIsRoot = currentPage === '/'
 const { ALGOLIA } = CONFIG
 const { apiKey, appId, indexName } = ALGOLIA
 
+import GithubStars from './GithubStars'
+
 const algoliaIsSetUp = indexName && appId && apiKey
 ---
 
@@ -72,6 +74,7 @@ const algoliaIsSetUp = indexName && appId && apiKey
 				</div>
 			)
 		}
+		<GithubStars client:visible />
 		<ThemeToggle client:visible />
 	</nav>
 </header>
