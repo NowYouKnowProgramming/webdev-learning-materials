@@ -94,14 +94,19 @@ const ThemeToggle = () => {
 		if (theme === 'light') {
 			root.classList.remove(themesClassNames.oled)
 			root.classList.add(themesClassNames.light)
+			setTheme('light')
 		} else if (theme === 'dark') {
 			root.classList.remove(themesClassNames.light)
 			root.classList.remove(themesClassNames.oled)
+			setTheme('dark')
 		} else {
 			root.classList.remove(themesClassNames.light)
 			root.classList.add(themesClassNames.oled)
+			setTheme('oled')
 		}
 	}, [theme])
+
+	console.log(theme)
 
 	return (
 		<>
@@ -119,6 +124,7 @@ const ThemeToggle = () => {
 					const checked = name === theme
 					return (
 						<label
+							key={name + icon}
 							className={clsx(
 								checked && 'text-theme-base',
 								!checked &&
@@ -149,6 +155,7 @@ const ThemeToggle = () => {
 					const checked = name === theme
 					return (
 						<label
+							key={name + icon}
 							className={clsx(
 								checked && 'text-theme-base',
 								!checked &&

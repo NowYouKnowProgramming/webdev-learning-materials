@@ -148,7 +148,7 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 						}
 					}
 					a:visited {
-						color: var(--theme-text-accent-visited);
+						color: rgb(var(--color-text-muted)) !important;
 					}
 					ul {
 						list-style: none !important;
@@ -227,8 +227,8 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 				>
 					<ArticleUpdateDate path={currentFile} client:only='react' />
 					<slot />
-					<RecommendedSections />
 				</PageContent>
+				<RecommendedSections />
 			</div>
 			<aside id='grid-right' class='grid-sidebar' title='Table of Contents'>
 				<RightSidebar headings={headings} githubEditUrl={githubEditUrl} />

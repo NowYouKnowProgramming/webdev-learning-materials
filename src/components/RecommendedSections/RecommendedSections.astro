@@ -33,38 +33,19 @@ const sidebarLinks = getThreeRandomLinks()
 ---
 
 <style lang='scss'>
-	.list {
-		list-style: none;
-		flex-wrap: wrap;
-		padding: 0;
-		margin: 0;
-		display: flex;
-		gap: 1rem;
-		align-items: center;
-		li > a {
-			&::before {
-				content: '' !important;
-			}
-		}
-		li {
-			margin: 0 !important;
-			padding: 0;
-		}
-	}
-
-	div.wrapper {
-		margin-top: 4rem;
+	li {
+		margin: 0 !important;
 	}
 </style>
 
-<div class='wrapper'>
+<div class='mt-2'>
 	<h2>Links you might like</h2>
-	<ul class='flex items-center gap-4 flex-wrap'>
+	<ul class='flex items-center gap-4 flex-wrap mt-2'>
 		{
 			sidebarLinks.map(({ link, text }) => (
 				<li class='m-0'>
 					<a
-						class='bg-theme-elevated block px-3 py-2 rounded-md m-0'
+						class='bg-theme-elevated block px-3 py-2 rounded-md m-0 hover:bg-basetext hover:text-theme-inverted transition-colors'
 						href={`/${link}`}
 					>
 						{text}

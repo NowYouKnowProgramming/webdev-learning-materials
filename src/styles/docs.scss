@@ -146,7 +146,10 @@ small,
 }
 
 article a {
-	color: rgb(var(--color-link)) !important;
+	color: rgb(var(--color-link));
+	&:visited {
+		color: rgb(var(--color-text-muted));
+	}
 	font-weight: 400;
 	text-underline-offset: 0.08em;
 	align-items: center;
@@ -346,68 +349,6 @@ h2.heading {
 	padding: 0.1rem 1rem;
 	text-transform: uppercase;
 	margin-bottom: 0.5rem;
-}
-
-.heading-link {
-	font-size: 1rem;
-	padding: 0.1rem 0 0.1rem 1rem;
-	border-left: 4px solid var(--theme-divider);
-}
-
-.heading-link:hover,
-.heading-link:focus {
-	border-left-color: var(--theme-accent);
-	color: var(--theme-accent);
-}
-
-.heading-link:focus-within {
-	color: var(--theme-text-light);
-	border-left-color: hsl(var(--color-gray-40) 1);
-}
-
-.heading-link svg {
-	opacity: 0.6;
-}
-
-.heading-link:hover svg {
-	opacity: 0.8;
-}
-
-.heading-link a {
-	display: inline-flex;
-	gap: 0.5em;
-	width: 100%;
-}
-
-.heading-link.depth-3 {
-	padding-left: 2rem;
-}
-
-.heading-link.depth-4 {
-	padding-left: 3.2rem;
-}
-
-.heading-link.depth-5 {
-	padding-left: 5rem;
-}
-
-.heading-link a {
-	font: inherit;
-	color: inherit;
-	text-decoration: none;
-}
-
-/* Screenreader Only Text */
-.sr-only {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: -1px;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	white-space: nowrap;
-	border-width: 0;
 }
 
 .focus\:not-sr-only:focus,
