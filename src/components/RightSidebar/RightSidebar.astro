@@ -13,7 +13,7 @@ const { headings, githubEditUrl } = Astro.props as Props
 
 <nav class='w-full sticky top-0' aria-labelledby='grid-right'>
 	<div class='h-full overflow-auto'>
-		<TableOfContents client:media='(min-width: 50em)' headings={headings} />
+		<TableOfContents client:only='preact' headings={headings} />
 		<MoreMenu editHref={githubEditUrl} />
 	</div>
 </nav>

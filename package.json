@@ -16,11 +16,11 @@
 	},
 	"dependencies": {
 		"@algolia/client-search": "^4.14.3",
-		"@astrojs/mdx": "^0.19.7",
-		"@astrojs/preact": "^1.2.0",
-		"@astrojs/react": "^1.2.2",
-		"@astrojs/sitemap": "^1.0.1",
-		"@astrojs/tailwind": "^4.0.0",
+		"@astrojs/mdx": "^1.0.0",
+		"@astrojs/preact": "^3.0.0",
+		"@astrojs/react": "^3.0.0",
+		"@astrojs/sitemap": "^3.0.0",
+		"@astrojs/tailwind": "^5.0.0",
 		"@docsearch/css": "^3.3.3",
 		"@docsearch/react": "^3.3.3",
 		"@radix-ui/react-accordion": "^1.1.2",
@@ -29,7 +29,7 @@
 		"@types/node": "^18.14.0",
 		"@types/react": "^18.0.28",
 		"@types/react-dom": "^18.0.11",
-		"astro": "^2.10.14",
+		"astro": "^3.0.2",
 		"astro-compress": "2.0.14",
 		"autoprefixer": "^10.4.13",
 		"body-scroll-lock": "4.0.0-beta.0",
@@ -55,6 +55,7 @@
 		"stylelint": "^14.16.1",
 		"stylelint-config-prettier": "^9.0.5",
 		"stylelint-config-standard": "^29.0.0",
+		"typescript": "^5.2.2",
 		"vitest": "^0.34.3"
 	}
 }
