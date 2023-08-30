@@ -51,7 +51,7 @@ const algoliaIsSetUp = indexName && appId && apiKey
 		<div class='flex-grow flex'>
 			<a class='flex gap-3 items-center font-serious' href='/'>
 				<AstroLogo size={40} />
-				<div class='font-extrabold text-lg text-theme-base'>
+				<div class='hidden sm:block font-extrabold text-lg text-theme-base'>
 					{
 						currentPageIsRoot && (
 							<h1 class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</h1>
