@@ -2,10 +2,15 @@
 import LandingSection from '../../LandingSection.astro'
 import TopFooterSection from './TopFooterSection.astro'
 import BottomFooterSection from './BottomFooterSection.astro'
+
+const { isDocs } = Astro.props as { isDocs?: boolean }
 ---
 
 <div class='bg-theme-base relative z-[51] min-h-[300px] font-serious'>
-	<LandingSection className='py-8'>
+	<LandingSection
+		maxWidth={isDocs ? 'max-w-docs' : 'max-w-7xl'}
+		className='py-8'
+	>
 		<footer>
 			<TopFooterSection />
 			<BottomFooterSection />

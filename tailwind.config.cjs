@@ -15,6 +15,12 @@ module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
+			maxWidth: {
+				docs: '2048px',
+			},
+			screens: {
+				'desktop-ui': '50em',
+			},
 			fontFamily: {
 				sans: ['Poppins', ...defaultTheme.fontFamily.sans],
 				serious: ['Inter', ...defaultTheme.fontFamily.sans],
