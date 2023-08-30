@@ -1,16 +1,23 @@
 /** @jsxImportSource preact */
 import type { FunctionalComponent } from 'preact'
 import { useState, useEffect } from 'preact/hooks'
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
+
 
 const MenuToggle: FunctionalComponent = () => {
 	const [sidebarShown, setSidebarShown] = useState(false)
 
 	useEffect(() => {
-		const body = document.querySelector('body')!
+		const sidebarElement = document.querySelector('#toggleable-sidebar')!
 		if (sidebarShown) {
-			body.classList.add('mobile-sidebar-toggle')
+			sidebarElement.setAttribute('data-sidebar-shown', 'true')
+			disableBodyScroll(sidebarElement)
 		} else {
-			body.classList.remove('mobile-sidebar-toggle')
+			sidebarElement.setAttribute('data-sidebar-shown', 'false')
+			enableBodyScroll(sidebarElement)
+		}
+		return () => {
+			clearAllBodyScrollLocks()
 		}
 	}, [sidebarShown])
 
