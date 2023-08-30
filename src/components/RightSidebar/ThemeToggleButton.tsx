@@ -113,7 +113,7 @@ const ThemeToggle = () => {
 			</button>
 			<div
 				data-open={mobilePickerOpen}
-				className='hidden items-center gap-[0.25em] py-1-[6px] rounded-md bg-theme-base ring-1 ring-basetext/10 min-h-[40px] data-[open=true]:flex fixed right-[79px] px-2 min-w-[130px] justify-between shadow-lg shadow-basetext/20'
+				className='data-[open=true]:desktop-ui:hidden hidden items-center gap-[0.25em] py-1-[6px] rounded-md bg-theme-base ring-1 ring-basetext/10 min-h-[40px] data-[open=true]:flex fixed right-[79px] px-2 min-w-[130px] justify-between shadow-lg shadow-basetext/20'
 			>
 				{themesData.map(({ icon, name }) => {
 					const checked = name === theme
