@@ -29,10 +29,6 @@ article {
 	}
 }
 
-article ul {
-	list-style: disc;
-}
-
 article :is(h2, h3):not(:first-child) {
 	margin-top: 3rem !important;
 }
