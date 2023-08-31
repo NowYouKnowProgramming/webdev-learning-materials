@@ -25,7 +25,6 @@ const poppinsVariants = [
 	'ThinItalic',
 ]
 
-import { themesClassNames } from './RightSidebar/ThemeToggleButton'
 ---
 
 <!-- Global Metadata -->
@@ -66,20 +65,23 @@ import { themesClassNames } from './RightSidebar/ThemeToggleButton'
 
 <!-- This is intentionally inlined to avoid FOUC -->
 <script is:inline>
+const themesClassNames = {
+	light: 'theme-light',
+	dark: '',
+	oled: 'theme-oled',
+}
+
 const theme = localStorage.getItem('theme')
 const root = document.documentElement
 if (theme === 'light') {
 	root.classList.remove(themesClassNames.oled)
 	root.classList.add(themesClassNames.light)
-	setTheme('light')
 } else if (theme === 'dark') {
 	root.classList.remove(themesClassNames.light)
 	root.classList.remove(themesClassNames.oled)
-	setTheme('dark')
 } else {
 	root.classList.remove(themesClassNames.light)
 	root.classList.add(themesClassNames.oled)
-	setTheme('oled')
 }
 </script>
 
