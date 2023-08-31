@@ -1,6 +1,5 @@
 ---
 import { ViewTransitions } from 'astro:transitions'
-import '../styles/index.css'
 import '../styles/themes/tailwind.css'
 
 const experimentalOptions = { importance: 'high' }
@@ -25,6 +24,8 @@ const poppinsVariants = [
 	'Thin',
 	'ThinItalic',
 ]
+
+import { themesClassNames } from './RightSidebar/ThemeToggleButton'
 ---
 
 <!-- Global Metadata -->
@@ -35,7 +36,7 @@ const poppinsVariants = [
 <link rel='icon' type='image/svg+xml' href='/favicon.ico' />
 
 <link rel='sitemap' href='/sitemap.xml' />
-<ViewTransitions fallback='swap' />
+<ViewTransitions fallback='none' />
 
 <!-- Fonts -->
 
@@ -65,21 +66,20 @@ const poppinsVariants = [
 
 <!-- This is intentionally inlined to avoid FOUC -->
 <script is:inline>
-const root = document.documentElement
 const theme = localStorage.getItem('theme')
-if (theme === 'oled') {
-	root.classList.add('theme-oled')
-	root.classList.remove('theme-dark')
+const root = document.documentElement
+if (theme === 'light') {
+	root.classList.remove(themesClassNames.oled)
+	root.classList.add(themesClassNames.light)
+	setTheme('light')
+} else if (theme === 'dark') {
+	root.classList.remove(themesClassNames.light)
+	root.classList.remove(themesClassNames.oled)
+	setTheme('dark')
 } else {
-	root.classList.remove('theme-oled')
-}
-if (
-	theme === 'dark' ||
-	(!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
-) {
-	root.classList.add('theme-dark')
-} else {
-	root.classList.remove('theme-dark')
+	root.classList.remove(themesClassNames.light)
+	root.classList.add(themesClassNames.oled)
+	setTheme('oled')
 }
 </script>
 

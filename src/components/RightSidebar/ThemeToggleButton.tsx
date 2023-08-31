@@ -8,7 +8,7 @@ type Theme = {
 	description: string
 }
 
-const themesData: Theme[] = [
+export const themesData: Theme[] = [
 	{
 		name: 'light',
 		icon: (
@@ -68,7 +68,7 @@ const themesData: Theme[] = [
 	},
 ]
 
-const themesClassNames = {
+export const themesClassNames = {
 	light: 'theme-light',
 	dark: '',
 	oled: 'theme-oled',
@@ -127,7 +127,7 @@ const ThemeToggle = () => {
 								checked && 'text-theme-base',
 								!checked &&
 									'text-theme-muted/50 hover:text-theme-muted motion-safe:hover:scale-125  motion-safe:transition cursor-pointer',
-								'relative flex items-center justify-center p-1 ease-out'
+								'relative flex items-center justify-center p-1 ease-out',
 							)}
 						>
 							{icon}
@@ -158,7 +158,7 @@ const ThemeToggle = () => {
 								checked && 'text-theme-base',
 								!checked &&
 									'text-theme-muted/50 hover:text-theme-muted motion-safe:hover:scale-125  motion-safe:transition cursor-pointer',
-								'relative flex items-center justify-center p-1 ease-out'
+								'relative flex items-center justify-center p-1 ease-out',
 							)}
 						>
 							{icon}
