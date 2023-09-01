@@ -1,10 +1,10 @@
-import { Dispatch, SetStateAction, useEffect, useState } from 'react'
+import { type Dispatch, type SetStateAction, useEffect, useState } from 'react'
 
 type PersistedState<T> = [T, Dispatch<SetStateAction<T>>]
 
 export const usePersistedState = <StateValue>(
 	defaultValue: StateValue,
-	key: string
+	key: string,
 ): PersistedState<StateValue> => {
 	const [value, setValue] = useState<StateValue>(() => {
 		const value = window.localStorage.getItem(key)

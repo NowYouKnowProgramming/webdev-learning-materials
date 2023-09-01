@@ -29,11 +29,11 @@ export default function Search() {
 	}, [setIsOpen])
 
 	const onInput = useCallback(
-		(e) => {
+		(e: any) => {
 			setIsOpen(true)
 			setInitialQuery(e.key)
 		},
-		[setIsOpen, setInitialQuery]
+		[setIsOpen, setInitialQuery],
 	)
 
 	useDocSearchKeyboardEvents({
@@ -96,7 +96,7 @@ export default function Search() {
 							})
 						}}
 					/>,
-					document.body
+					document.body,
 				)}
 		</>
 	)

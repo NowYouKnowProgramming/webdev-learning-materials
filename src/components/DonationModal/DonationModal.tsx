@@ -97,7 +97,7 @@ const DonationModal = () => {
 					</div>
 					<Dialog.Close asChild>
 						<button
-							className='rounded-full h-[25px] w-[25px] inline-flex items-center justify-center text-theme-base bg-theme-base absolute top-[10px] right-[10px] cursor-pointer shadow-md motion-safe:hover:scale-125 transition ease-out xl:h-[35px] xl:w-[35px] p-2 hover:shadow-lg group ring-1 ring-basetext/20 motion-reduce:hover:ring-basetext/60'
+							className='rounded-full h-10 w-10 inline-flex items-center justify-center text-theme-base bg-theme-base absolute top-[10px] right-[10px] cursor-pointer shadow-md motion-safe:hover:scale-125 transition ease-out p-2 hover:shadow-lg group ring-1 ring-basetext/20 motion-reduce:hover:ring-basetext/60'
 							aria-label='Close'
 						>
 							<Cross2Icon

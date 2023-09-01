@@ -1,39 +1,16 @@
 ---
-import DocsButton from './LandingElements/DocsButton.astro'
 import LandingSection from './LandingSection.astro'
 
 import VideoEmbed from '../LandingPage/VideoEmbed/VideoEmbed.astro'
+import AboutUs from './LandingSections/AboutUs.astro'
 import Advantages from './LandingSections/Advantages.astro'
 import FAQ from './LandingSections/FAQ.astro'
 import Footer from './LandingSections/Footer/Footer.astro'
-import AboutUs from './LandingSections/AboutUs.astro'
+import Hero from './LandingSections/Hero.astro'
 ---
 
 <body class='bg-theme-base overflow-x-clip font-sans'>
-	<LandingSection
-		className='pt-28 lg:pt-20 xl:pt-8 mb-16 flex gap-28 relative items-center'
-	>
-		<div
-			class='-z-10 bg-theme-accent-primary w-1/2 h-full rounded-full absolute select-none pointer-events-none left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-10 blur-[200px]'
-		>
-		</div>
-		<div
-			class='-z-10 bg-theme-accent-secondary w-1/2 h-full rounded-full absolute select-none pointer-events-none left-1/2 top-0 -translate-x-1/2 -translate-y-1/2 opacity-50 blur-[200px]'
-		>
-		</div>
-		<div class='grow-1 w-full'>
-			<h2 class='text-theme-base text-4xl font-bold mb-8'>
-				The <span class='gradient-text'>best way</span> to learn web development
-			</h2>
-			<p class='mb-8'>
-				Learning resources, carefully selected, verified, up to date
-			</p>
-			<DocsButton href='/introduction'>Start Learning</DocsButton>
-		</div>
-		<div class='hidden md:flex grow-1 items-center justify-center w-full'>
-			<img class='max-h-[500px]' src='/images/promo/wavy-edu.svg' alt='' />
-		</div>
-	</LandingSection>
+	<Hero/>
 	<AboutUs />
 	<LandingSection className='mb-52'>
 		<VideoEmbed />

@@ -23,16 +23,7 @@ import GithubStars from './GithubStars'
 const algoliaIsSetUp = indexName && appId && apiKey
 ---
 
-<script>
-	window.addEventListener('scroll', () => {
-		const header = document.querySelector('#main-header-top')
-		if (window.scrollY > 0 && header) {
-			header.classList.add('bg-theme-base/50')
-		} else if (header) {
-			header.classList.remove('bg-theme-base/50')
-		}
-	})
-</script>
+
 
 <header
 	id='main-header-top'
@@ -79,6 +70,21 @@ const algoliaIsSetUp = indexName && appId && apiKey
 	</nav>
 </header>
 <DonationModal client:only='react' />
+
+<script is:inline>
+try {
+	window.addEventListener('scroll', () => {
+		const header = document.querySelector('#main-header-top')
+		if (window.scrollY > 0 && header) {
+			header.classList.add('bg-theme-base/50')
+		} else if (header) {
+			header.classList.remove('bg-theme-base/50')
+		}
+	})
+} catch (error) {
+	alert(error)
+}
+</script>
 
 <style>
 	.menu-toggle {
