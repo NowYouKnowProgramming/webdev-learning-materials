@@ -1,7 +1,5 @@
 /** @jsxImportSource react */
 
-import classes from './DonationModal.module.scss'
-
 import * as Dialog from '@radix-ui/react-dialog'
 
 import { Cross2Icon, HeartFilledIcon } from '@radix-ui/react-icons'
@@ -51,15 +49,15 @@ const DonationModal = () => {
 				</button>
 			</Dialog.Trigger>
 			<Dialog.Portal>
-				<Dialog.Overlay className='bg-backdrop/20 fixed inset-0 z-[5000] motion-safe:animate-fade' />
-				<Dialog.Content className='shadow-xl z-[6000] bg-theme-base fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] max-w-3xl max-h-[85vh] p-6 overflow-hidden flex flex-col rounded-md align-baseline motion-safe:animate-fade animate-once animate-ease-out'>
+				<Dialog.Overlay className='bg-backdrop/40 fixed inset-0 z-[5000] motion-safe:animate-fade' />
+				<Dialog.Content className='ring-1 ring-basetext/10 shadow-xl z-[6000] bg-theme-base fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] max-w-3xl max-h-[85vh] p-6 overflow-hidden flex flex-col rounded-md align-baseline motion-safe:animate-fade animate-once animate-ease-out'>
 					<Dialog.Title className='m-0 font-bold text-lg xl:text-3xl pb-1 text-theme-base w-full max-w-none'>
 						We need{' '}
 						<span className={'gradient-text font-extrabold'}>your help</span>
 					</Dialog.Title>
-					<div className={classes.circle}></div>
-					<div className={classes.circle2}></div>
-					<div className={classes.scroll}>
+					<div className='bg-theme-accent-secondary/50 blur-[100px] w-36 h-36 absolute top-0 left-1/2'></div>
+					<div className='bg-theme-accent-primary/50 blur-[100px] w-36 h-36 absolute top-[20%] left-0'></div>
+					<div className='relative overflow-auto'>
 						<Dialog.Description className='text-theme-base m-0 leading-6 text-sm xl:mb-6'>
 							Hello! If you find value in our platform, please consider making a
 							small donation to help us cover the costs. Even a few dollars can
