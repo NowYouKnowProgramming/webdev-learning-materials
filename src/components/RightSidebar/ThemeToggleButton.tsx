@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import clsx from 'clsx'
 import { BlendingModeIcon } from '@radix-ui/react-icons'
+import { AnimatePresence, motion } from 'framer-motion'
 
 type Theme = {
 	name: string
@@ -114,40 +115,48 @@ const ThemeToggle = () => {
 			>
 				<BlendingModeIcon />
 			</button>
-			<div
-				data-open={mobilePickerOpen}
-				className='data-[open=true]:desktop-ui:hidden hidden items-center gap-[0.25em] py-1-[6px] rounded-md bg-theme-base ring-1 ring-basetext/10 min-h-[40px] data-[open=true]:flex fixed right-[79px] px-2 min-w-[130px] justify-between shadow-lg shadow-basetext/20'
-			>
-				{themesData.map(({ icon, name }) => {
-					const checked = name === theme
-					return (
-						<label
-							key={name + icon}
-							className={clsx(
-								checked && 'text-theme-base',
-								!checked &&
-									'text-theme-muted/50 hover:text-theme-muted motion-safe:hover:scale-125  motion-safe:transition cursor-pointer',
-								'relative flex items-center justify-center p-1 ease-out',
-							)}
-						>
-							{icon}
-							<input
-								className='sr-only'
-								type='radio'
-								name='theme-toggle'
-								checked={checked}
-								value={name}
-								title={`Use ${name} theme`}
-								aria-label={`Use ${name} theme`}
-								onChange={() => {
-									localStorage.setItem('theme', name)
-									setTheme(name)
-								}}
-							/>
-						</label>
-					)
-				})}
-			</div>
+			<AnimatePresence>
+				{mobilePickerOpen && (
+					<motion.div
+						initial={{ opacity: 0, y: '-200%' }}
+						animate={{ opacity: 1, y: '0%' }}
+						exit={{ opacity: 0, y: '100%' }}
+						data-open={mobilePickerOpen}
+						className='data-[open=true]:desktop-ui:hidden hidden items-center gap-[0.25em] py-1-[6px] rounded-md bg-theme-base ring-1 ring-basetext/10 min-h-[40px] data-[open=true]:flex fixed right-[79px] px-2 min-w-[130px] justify-between shadow-2xl shadow-basetext/20'
+					>
+						{themesData.map(({ icon, name }) => {
+							const checked = name === theme
+							return (
+								<label
+									key={name + icon}
+									className={clsx(
+										checked && 'text-theme-base',
+										!checked &&
+											'text-theme-muted/50 hover:text-theme-muted motion-safe:hover:scale-125  motion-safe:transition cursor-pointer',
+										'relative flex items-center justify-center p-1 ease-out',
+									)}
+								>
+									{icon}
+									<input
+										className='sr-only'
+										type='radio'
+										name='theme-toggle'
+										checked={checked}
+										value={name}
+										title={`Use ${name} theme`}
+										aria-label={`Use ${name} theme`}
+										onChange={() => {
+											localStorage.setItem('theme', name)
+											setTheme(name)
+											setMobilePickerOpen(false)
+										}}
+									/>
+								</label>
+							)
+						})}
+					</motion.div>
+				)}
+			</AnimatePresence>
 			<div className='hidden desktop-ui:inline-flex max-w-[40px] desktop-ui:max-w-none overflow-auto items-center gap-[0.25em] py-1 desktop-ui:px-3 px-[6px] rounded-md bg-theme-base/30 ring-1 ring-basetext/10 min-h-[40px]'>
 				{themesData.map(({ icon, name }) => {
 					const checked = name === theme
