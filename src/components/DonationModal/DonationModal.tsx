@@ -60,9 +60,9 @@ const DonationModal = () => {
 							<Dialog.Content asChild key='modal'>
 								<motion.div
 									key='modal'
-									initial={{ opacity: 0, scale: 0.8, y: '-30%', x: '-50%' }}
+									initial={{ opacity: 0, scale: 0.8, y: '-40%', x: '-50%' }}
 									animate={{ opacity: 1, scale: 1, y: '-50%', x: '-50%' }}
-									exit={{ opacity: 0, scale: 0.5, y: '-30%', x: '-50%' }}
+									exit={{ opacity: 0, scale: 0.5, y: '-40%', x: '-50%' }}
 									transition={{
 										delay: 0.1,
 									}}
@@ -74,8 +74,6 @@ const DonationModal = () => {
 											your help
 										</span>
 									</Dialog.Title>
-									<div className='bg-theme-accent-secondary/50 blur-[100px] w-36 h-36 absolute top-0 left-1/2'></div>
-									<div className='bg-theme-accent-primary/50 blur-[100px] w-36 h-36 absolute top-[20%] left-0'></div>
 									<div className='relative overflow-auto'>
 										<Dialog.Description className='text-theme-base m-0 leading-6 text-sm xl:mb-6'>
 											Hello! If you find value in our platform, please consider
