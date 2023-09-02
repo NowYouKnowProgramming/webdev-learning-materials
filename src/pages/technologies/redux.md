@@ -15,3 +15,4 @@ image: { src: /metaimages/redux.png, alt: 'redux' }
 ## Additional content
 
 - [Jack Herrington - Fixing Redux/Zustand Re-renders](https://www.youtube.com/watch?v=aOt4Hz3ze3Q)
+- [Matt Pocock - Should you still be using Redux in 2023?](https://www.youtube.com/watch?v=czptRA4IeCc)
