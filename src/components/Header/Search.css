@@ -63,7 +63,6 @@ in
 	border-radius: 0.25rem;
 	line-height: 14px;
 	box-shadow:
-		lightgray inset 0 -2px,
 		rgba(128, 128, 128, 0.308) 0 0 0 1px,
 		rgba(0, 0, 0, 0.1) 0 2px 2px;
 }
