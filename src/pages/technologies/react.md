@@ -51,6 +51,20 @@ image: { src: /metaimages/react.png, alt: 'react' }
 
 ## Additional content
 
+### What to know before react
+
+- [Brad Schiff (LearnWebCode) - What is React and what problems does it solve? (Vanilla JS vs React comparison)](https://www.youtube.com/watch?v=fZpINicCPRY)
+- [Kent C. Dodds. - JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
+- [Web Dev Simplified - Do You Know Enough JavaScript To Learn React](https://www.youtube.com/watch?v=JR9wsVYp8RQ)
+- [How well should I know React before applying to my first job?](https://scastiel.dev/what-to-know-react-first-job)
+
+### Common mistakes
+
+- [Jack Herrington - 3 React Mistakes, 1 App Killer](https://www.youtube.com/watch?v=QuLfCUh-iwI)
+- [Jack Herrington - Stop Writing Fake React Code](https://www.youtube.com/watch?v=s-lumOeD2fk)
+- [Josh W. Comeau - Common Beginner Mistakes with React](https://www.joshwcomeau.com/react/common-beginner-mistakes/)
+- [Stop using SVG-in-JS (bundle size issues)](https://kurtextrem.de/posts/svg-in-js)
+
 ### Hooks
 
 #### About useEffect hook
@@ -76,19 +90,19 @@ image: { src: /metaimages/react.png, alt: 'react' }
 - [Felix Gerschau - Form validation with React Hooks WITHOUT a library: The Complete Guide](https://felixgerschau.com/react-hooks-form-validation-typescript/)
 - [Web Dev Junkie - How you can use custom hooks to abstract your React code](https://www.youtube.com/watch?v=S2rzM9IQVdg)
 - [TomDoesTech - You Need to Know This React Design pattern](https://www.youtube.com/watch?v=1AIecsI73yU)
+- [React Hook for Avoiding Flash of Empty UI While Data Transitions](https://www.jameskerr.blog/posts/use-data-transition/)
 
 ### React + TypeScript
 
+- [Matt Pocock - Learn React with TypeScript](https://www.totaltypescript.com/tutorials/react-with-typescript)
 - [Jack Herrington - Mastering React Hooks with TypeScript](https://www.youtube.com/watch?v=zM_ZiSl2n2E)
 - [React TypeScript Cheetsheets](https://github.com/typescript-cheatsheets/react)
-
-### What to know before react
-
-- [Brad Schiff (LearnWebCode) - What is React and what problems does it solve? (Vanilla JS vs React comparison)](https://www.youtube.com/watch?v=fZpINicCPRY)
-- [Kent C. Dodds. - JavaScript to Know for React](https://kentcdodds.com/blog/javascript-to-know-for-react)
+- [React `ComponentProps<T>` Type Helper](https://www.totaltypescript.com/concepts/react-componentprops-type-helper)
+- [Matt Pocock - Fix your useRefs with ElementRef](https://www.youtube.com/watch?v=JuULWGuoI1A)
 
 ### Folder structure
 
+- [What's the best component / folder architecture for a project to scale?](https://www.reddit.com/r/reactjs/comments/14i8jpb/whats_the_best_component_folder_architecture_for/)
 - [Josh W. Comeau - Delightful React File/Directory Structure](https://www.joshwcomeau.com/react/file-structure/)
 - [Screaming Architecture - Evolution of a React folder structure](https://dev.to/profydev/screaming-architecture-evolution-of-a-react-folder-structure-4g25)
 - [Richard Oliver Bray - How to structure files in large React projects](https://www.youtube.com/watch?v=1uQ9j8ynQlM)
@@ -96,6 +110,7 @@ image: { src: /metaimages/react.png, alt: 'react' }
 - [Web Dev Simplified - How To Organize React Projects](https://youtu.be/UUga4-z7b6s)
 - [Theo - ping.gg - Your Folder Structure Hurt Me (reaction to Web Dev Simplified's folder structure video + from 11:06 shows and explain folder structure in his projects)](https://www.youtube.com/watch?v=86i8ZODqMlI)
 - [React project structure for scale: decomposition, layers and hierarchy](https://www.developerway.com/posts/react-project-structure)
+- [Project Standards for High-Quality Code - React Handbook](https://reacthandbook.dev/project-structure)
 
 ### Principles for React
 
@@ -151,11 +166,19 @@ Screenshots
 ### State Management
 
 - [Jack Herrington - React State Management – Intermediate JavaScript Course](https://www.youtube.com/watch?v=-bEzt5ISACA)
+- [Theo - ping.gg - You still use Redux? (how to pick the right state management tool?)](https://www.youtube.com/watch?v=5-1LM2NySR0)
 - [Redux - bewebdev.tech](https://bewebdev.tech/technologies/redux)
+- [Web Dev Simplified - learn React Query](https://www.youtube.com/watch?v=r8Dg0KVnfMA)
+- [Web Dev Simplified - learn XState (This Library Makes State Management So Much Easier)](https://www.youtube.com/watch?v=s0h34OkEVUE)
 
 ### React Portals
 
 - [Theo - ping.gg - how to use React Portals and why?](https://www.youtube.com/watch?v=IgJcK0SbiLM)
+- [Teleportation in React: Positioning, Stacking Context, and Portals](https://www.developerway.com/posts/positioning-and-portals-in-react)
+
+### Error handling
+
+- [How to handle errors in React: full guide](https://www.developerway.com/posts/how-to-handle-errors-in-react)
 
 ### React testing
 
@@ -164,6 +187,8 @@ Screenshots
 
 ### Performance in React
 
+- [Web Dev Simplified - How To Maximize Performance In Your React Apps](https://www.youtube.com/watch?v=Qwb-Za6cBws)
+- [Web Dev Simplified - Speed Up Your React Apps With Code Splitting](https://www.youtube.com/watch?v=JU6sl_yyZqs)
 - [Jack Herrington - Mastering React Batch Updating](https://www.youtube.com/watch?v=MlDTHzK1vKI)
 - [React is slow, what now?](https://nosleepjavascript.com/react-performance/)
 - [Lydia Hallie - Advanced Rendering Patterns (what shortcuts like ISR, SSG and SSR really mean? )](https://www.youtube.com/watch?v=PN1HgvAOmi8)
@@ -205,6 +230,11 @@ Screenshots
 - [Virtual DOM and Internals](https://reactjs.org/docs/faq-internals.html)
 - [React fiber architecture](https://github.com/acdlite/react-fiber-architecture)
 - [How does React work – deep dive into the React framework - The Software House](https://tsh.io/blog/how-does-react-work/)
+- [The Interactive Guide to Rendering in React](https://ui.dev/why-react-renders)
+
+### WebSockets
+
+- [Josh tries coding - Realtime Features for React: Easier Than You Think](https://www.youtube.com/watch?v=96YcViCGlRo)
 
 ### Animations
 
@@ -226,6 +256,8 @@ Screenshots
 
 ### Other React materials
 
+- [Web Dev Simplified - Most Senior React Devs Don’t Know How To Fix This](https://www.youtube.com/watch?v=vXJkeZf-4-4)
+- [Jack Herrington - Don't Follow THIS Bad React Advice!](https://www.youtube.com/watch?v=YlU9vznPWIk)
 - [Web Dev Junkie - How to implement the MVC pattern in React (very interesting approach to this problem)](https://www.youtube.com/watch?v=LIlTrgVz4QA)
 - [Web Dev Junkie - Applying layered architecture to my t3 stack api](https://www.youtube.com/watch?v=DA03fgZpb58)
 - [uidotdev - The Story of React](https://www.youtube.com/watch?v=Wm_xI7KntDs)
