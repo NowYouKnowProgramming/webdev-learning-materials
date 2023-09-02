@@ -51,9 +51,6 @@ module.exports = {
 					'accent-secondary': withOpacity('--color-accent-secondary'),
 					'grad-start': withOpacity('--color-gradient-start'),
 					'grad-end': withOpacity('--color-gradient-end'),
-					'button-accent': withOpacity('--color-button-accent'),
-					'button-accent-hover': withOpacity('--color-button-accent-hover'),
-					'button-muted': withOpacity('--color-button-muted'),
 				},
 			},
 			keyframes: {

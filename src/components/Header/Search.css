@@ -47,9 +47,7 @@ in
 }
 
 .search-hint {
-	position: absolute;
-	top: 7px;
-	right: 19px;
+	margin-left: auto;
 	padding: 3px 5px;
 	display: none;
 	align-items: center;
@@ -58,12 +56,16 @@ in
 	font-size: 13px;
 	font-family: var(--font-mono);
 	pointer-events: none;
-	border-color: rgb(var(--color-text-muted));
+	border-color: rgba(var(--color-text-muted), 20%);
 	color: var(--theme-text-light);
 	border-style: solid;
-	border-width: 1px;
+	border-width: 0px;
 	border-radius: 0.25rem;
 	line-height: 14px;
+	box-shadow:
+		lightgray inset 0 -2px,
+		rgba(128, 128, 128, 0.308) 0 0 0 1px,
+		rgba(0, 0, 0, 0.1) 0 2px 2px;
 }
 
 @media (min-width: 50em) {
@@ -82,7 +84,8 @@ in
 }
 
 .DocSearch-Hit[aria-selected='true'] a {
-	box-shadow: 0 0 15px 150px rgba(0, 0, 0, 0.116) inset;
+	box-shadow: 0 0 15px 150px rgba(var(--color-text-muted), 30%) inset;
+	background-color: transparent !important;
 }
 
 .DocSearch-Modal {
