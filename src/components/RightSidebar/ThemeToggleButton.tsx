@@ -121,8 +121,8 @@ const ThemeToggle = () => {
 				>
 					<defs>
 						<linearGradient id='my-cool-gradient'>
-							<stop offset='0%' stop-color='rgb(190, 100, 0)' />
-							<stop offset='100%' stop-color='rgb(0, 100, 190)' />
+							<stop offset='0%' stopColor='rgb(190, 100, 0)' />
+							<stop offset='100%' stopColor='rgb(0, 100, 190)' />
 						</linearGradient>
 					</defs>
 					<g fill='url(#my-cool-gradient)'>
@@ -135,7 +135,7 @@ const ThemeToggle = () => {
 					<motion.div
 						initial={{ opacity: 0, y: '-200%' }}
 						animate={{ opacity: 1, y: '0%' }}
-						exit={{ opacity: 0, y: '100%' }}
+						exit={{ opacity: 0, y: '-100%' }}
 						data-open={mobilePickerOpen}
 						className='data-[open=true]:desktop-ui:hidden hidden items-center gap-[0.25em] py-1-[6px] rounded-md bg-theme-base ring-1 ring-basetext/10 min-h-[40px] data-[open=true]:flex fixed right-[79px] px-2 min-w-[130px] justify-between shadow-2xl shadow-basetext/20'
 					>
