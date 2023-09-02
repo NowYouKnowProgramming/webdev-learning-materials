@@ -1,0 +1,16 @@
+<div class="flex justify-between">
+	<div>
+    <h2 class='font-extrabold text-3xl gradient-text mb-1'>bewebdev.tech</h2>
+    <a href="https://github.com/NowYouKnowProgramming/webdev-learning-materials" class="text-theme-muted hover:text-theme-base transition-colors text-sm">2022 - <span id='date'></span> github.com/NowYouKnowProgramming/webdev-learning-materials</a>
+  </div>
+  <div></div>
+</div>
+
+<script>
+	const date = new Date()
+	const year = date.getFullYear()
+	const dateElement = document.getElementById('date')
+	if (dateElement) {
+		dateElement.innerText = year.toString()
+	}
+</script>

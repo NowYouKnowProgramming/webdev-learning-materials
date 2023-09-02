@@ -1,0 +1,29 @@
+---
+import {
+	DiscordLogoIcon,
+	GitHubLogoIcon,
+	LinkedInLogoIcon,
+	PlayIcon,
+} from '@radix-ui/react-icons'
+import SocialLink from './SocialLink.astro'
+---
+
+<div>
+	<h2 class='mb-5'>Social Handles</h2>
+	<ul class='flex gap-4'>
+		<SocialLink href='https://github.com/goodideagiver'>
+			<DiscordLogoIcon />
+		</SocialLink>
+		<SocialLink href='https://www.youtube.com/@bewebdev?sub_confirmation=1'>
+			<PlayIcon />
+		</SocialLink>
+		<SocialLink
+			href='https://github.com/NowYouKnowProgramming/webdev-learning-materials'
+		>
+			<GitHubLogoIcon />
+		</SocialLink>
+		<SocialLink href='https://pl.linkedin.com/company/bewebdev'>
+			<LinkedInLogoIcon />
+		</SocialLink>
+	</ul>
+</div>

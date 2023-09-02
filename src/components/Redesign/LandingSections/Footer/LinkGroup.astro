@@ -1,0 +1,28 @@
+---
+type Link = {
+	url: string
+	title: string
+}
+
+export type LinkGroupProps = {
+	groupName: string
+	links: Link[]
+}
+
+const { groupName, links } = Astro.props as LinkGroupProps
+---
+
+<div>
+	<h3 class='text-theme-base mb-7 font-semibold	'>{groupName}</h3>
+	<ul class="flex flex-col gap-2">
+		{
+			links.map((link) => (
+				<li>
+					<a class='text-theme-muted hover:text-theme-base transition-colors' href={link.url}>
+						{link.title}
+					</a>
+				</li>
+			))
+		}
+	</ul>
+</div>

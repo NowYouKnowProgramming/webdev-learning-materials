@@ -1,6 +1,5 @@
 ---
 import type { MarkdownHeading } from 'astro'
-import Footer from '../components/Footer/Footer.astro'
 import HeadCommon from '../components/HeadCommon.astro'
 import Header from '../components/Header/Header.astro'
 import HeadSEO from '../components/HeadSEO.astro'
@@ -12,7 +11,10 @@ import CopyCodeToClipboard from '../components/utility/CopyCodeToClipboard/CopyC
 import HeadingLinksCopyToClipboard from '../components/utility/HeadingLinksCopyToClipboard/HeadingLinksCopyToClipboard.astro'
 import ArticleUpdateDate from '../components/ArticleUpdateDate/ArticleUpdateDate'
 
+import '../styles/docs.scss'
+
 import * as CONFIG from '../config'
+import Footer from '../components/Redesign/LandingSections/Footer/Footer.astro'
 
 type Props = {
 	frontmatter: CONFIG.Frontmatter
@@ -43,8 +45,6 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 		</title>
 		<style lang='scss'>
 			body {
-				width: 100%;
-				display: grid;
 				grid-template-rows: var(--theme-navbar-height) 1fr;
 				--gutter: 0.5rem;
 				--doc-padding: 2rem;
@@ -66,20 +66,11 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 				padding: 0;
 			}
 
-			#grid-left {
-				position: fixed;
-				background-color: var(--theme-bg);
-				z-index: var(--z-elevated-higher);
-				display: none;
-			}
-
 			#grid-main {
-				padding: var(--doc-padding) var(--gutter);
 				grid-column: 2;
 				display: flex;
 				flex-direction: column;
 				height: 100%;
-				align-items: center;
 			}
 
 			#grid-right {
@@ -92,18 +83,11 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 					grid-template-columns: 20rem minmax(0, var(--max-width));
 					gap: 1em;
 				}
-
-				#grid-left {
-					display: flex;
-					padding-left: 2rem;
-					position: sticky;
-					grid-column: 1;
-				}
 			}
 
 			@media (min-width: 72em) {
 				.layout {
-					grid-template-columns: 20rem minmax(0, var(--safe-max-width)) 18rem;
+					grid-template-columns: 20rem minmax(0, 1920px) 18rem;
 					padding-left: 0;
 					padding-right: 0;
 					margin: 0 auto;
@@ -122,74 +106,76 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 			}
 
 			.main-section {
-				@keyframes fadeInDown {
-					0% {
-						opacity: 0;
-						transform: translateY(-1.25em);
-					}
-					100% {
-						opacity: 1;
-						transform: translateY(0);
-					}
-				}
-				details[open] {
-					animation-name: fadeInDown;
-					animation-duration: 0.5s;
-				}
-				details {
-					summary {
-						padding: 10px;
-						border-radius: 8px;
-
-						@media (prefers-reduced-motion: no-preference) {
-							transition: 0.2s;
+				article {
+					@keyframes fadeInDown {
+						0% {
+							opacity: 0;
+							transform: translateY(-1.25em);
 						}
-
-						user-select: none;
-						&:hover {
-							background-color: var(--theme-text-accent);
-							color: var(--theme-bg);
-							cursor: pointer;
+						100% {
+							opacity: 1;
+							transform: translateY(0);
 						}
 					}
-
-					&[open] {
+					details[open] {
+						animation-name: fadeInDown;
+						animation-duration: 0.5s;
+					}
+					details {
 						summary {
-							margin-bottom: 10px;
-						}
-					}
-				}
-				a:visited {
-					color: var(--theme-text-accent-visited);
-				}
-				ul {
-					list-style: none !important;
-					padding: 0;
-					li {
-						li {
-							padding-left: 0.5rem;
-							margin-bottom: 0;
-							&::before {
-								content: '- ';
-							}
-						}
-						a {
-							text-decoration: none;
-							padding: 5px 0;
+							padding: 10px;
+							border-radius: 8px;
 
 							@media (prefers-reduced-motion: no-preference) {
 								transition: 0.2s;
 							}
 
+							user-select: none;
 							&:hover {
-								color: var(--theme-accent);
-							}
-
-							&::before {
-								content: '🔗 ';
+								background-color: var(--theme-text-accent);
+								color: var(--theme-bg);
+								cursor: pointer;
 							}
 						}
-						margin-bottom: 1.6rem;
+
+						&[open] {
+							summary {
+								margin-bottom: 10px;
+							}
+						}
+					}
+					a:visited {
+						color: rgb(var(--color-text-muted)) !important;
+					}
+					ul {
+						list-style: none !important;
+						padding: 0;
+						li {
+							li {
+								padding-left: 0.5rem;
+								margin-bottom: 0;
+								&::before {
+									content: '- ';
+								}
+							}
+							a {
+								text-decoration: none;
+								padding: 5px 0;
+
+								@media (prefers-reduced-motion: no-preference) {
+									transition: 0.2s;
+								}
+
+								&:hover {
+									color: var(--theme-accent);
+								}
+
+								&::before {
+									content: '🔗 ';
+								}
+							}
+							margin-bottom: 1.6rem;
+						}
 					}
 				}
 			}
@@ -217,16 +203,24 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 					outline: none;
 				}
 			}
+
+			article {
+				margin: auto;
+			}
 		</style>
 	</head>
 
-	<body>
+	<body class='pt-20'>
 		<Header currentPage={currentPage} />
-		<main class='layout'>
-			<aside id='grid-left' class='grid-sidebar' title='Site Navigation'>
+		<main class='flex w-full max-w-docs px-8 m-auto items-start'>
+			<aside
+				id='grid-left'
+				class='sticky top-0 h-screen grid-cols-1 flex'
+				title='Site Navigation'
+			>
 				<LeftSidebar currentPage={currentPage} />
 			</aside>
-			<div id='grid-main'>
+			<div class='mx-auto w-full flex justify-center' id='grid-main'>
 				<PageContent
 					frontmatter={frontmatter}
 					headings={headings}
@@ -234,14 +228,14 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
 				>
 					<ArticleUpdateDate path={currentFile} client:only='react' />
 					<slot />
-					<RecommendedSections />
 				</PageContent>
+				<RecommendedSections />
 			</div>
 			<aside id='grid-right' class='grid-sidebar' title='Table of Contents'>
 				<RightSidebar headings={headings} githubEditUrl={githubEditUrl} />
 			</aside>
 		</main>
-		<Footer path={currentFile} />
+		<Footer isDocs />
 		<CopyCodeToClipboard />
 		<HeadingLinksCopyToClipboard />
 	</body>

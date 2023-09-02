@@ -1,11 +1,45 @@
+/** @jsxImportSource preact */
+
 import type { FunctionalComponent } from 'preact'
 import { useState, useEffect, useRef } from 'preact/hooks'
 import type { MarkdownHeading } from 'astro'
-import classes from './TableOfContents.module.scss'
+import type { ReactNode } from 'react'
 
 type ItemOffsets = {
 	id: string
 	topOffset: number
+}
+
+type ListLinkProps = {
+	href: string
+	children: ReactNode
+	className?: string
+	depth?: number
+}
+
+const ListLink = ({
+	children,
+	href,
+	className = '',
+	depth = 0,
+}: ListLinkProps) => {
+	const linkCss =
+		'hover:bg-basetext/10 rounded-md group-hover:border-b-transparent block px-4 py-1 text-sm scroll-mt-32 max-w-[170px] ' +
+		className
+
+	return (
+		<li className='p-1 border-b-2 border-b-basetext/10 last:border-0'>
+			<a
+				style={{
+					paddingLeft: `${depth * 8}px`,
+				}}
+				className={linkCss}
+				href={href}
+			>
+				{children}
+			</a>
+		</li>
+	)
 }
 
 const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
@@ -16,7 +50,6 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 	const itemOffsets = useRef<ItemOffsets[]>([])
 	// FIXME: Not sure what this state is doing. It was never set to anything truthy.
 	const listRef = useRef<HTMLHeadingElement>(null)
-	const [activeId] = useState<string>('')
 	useEffect(() => {
 		const getItemOffsets = () => {
 			setWidth(window.innerWidth)
@@ -58,7 +91,7 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 
 	if (!isVisible)
 		return (
-			<button className={classes.toggle} onClick={setSummaryVisibleHandler}>
+			<button className='text-theme-base motion-safe:transition cursor-pointer flex items-center justify-center rounded-md ring-1 ring-basetext/10 min-h-[40px] px-3 bg-theme-elevated/30' onClick={setSummaryVisibleHandler}>
 				Show summary
 			</button>
 		)
@@ -66,31 +99,25 @@ const TableOfContents: FunctionalComponent<{ headings: MarkdownHeading[] }> = ({
 	return (
 		<>
 			{width <= 769 && (
-				<button className={classes.toggle} onClick={setSummaryHiddenHandler}>
+				<button className='text-theme-base motion-safe:transition cursor-pointer flex items-center justify-center rounded-md ring-1 ring-basetext/10 min-h-[40px] px-3 bg-theme-elevated/30' onClick={setSummaryHiddenHandler}>
 					Hide summary
 				</button>
 			)}
-			<h2 ref={listRef} style={{ scrollMargin: '100px' }} className='heading'>
+			<h2
+				ref={listRef}
+				style={{ scrollMargin: '100px' }}
+				className='mt-1 font-bold'
+			>
 				On this page
 			</h2>
-			<ul>
-				<li
-					className={`heading-link ${
-						activeId === 'overview' ? 'active' : ''
-					}`.trim()}
-				>
-					<a href='#overview'>Overview</a>
-				</li>
+			<ul className='ring-1 ring-basetext/10 p-1 m-1 px-2 rounded-md'>
+				<ListLink href='#overview'>Overview</ListLink>
 				{headings
 					.filter(({ depth }) => depth > 1 && depth < 5)
 					.map((heading) => (
-						<li
-							className={`heading-link depth-${heading.depth} ${
-								activeId === heading.slug ? 'active' : ''
-							}`.trim()}
-						>
-							<a href={`#${heading.slug}`}>{heading.text}</a>
-						</li>
+						<ListLink key={`#${heading.slug}`} depth={heading.depth} href={`#${heading.slug}`}>
+							{heading.text}
+						</ListLink>
 					))}
 			</ul>
 		</>

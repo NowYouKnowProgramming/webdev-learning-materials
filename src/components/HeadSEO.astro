@@ -1,5 +1,5 @@
 ---
-import { SITE, OPEN_GRAPH, Frontmatter } from '../config'
+import { SITE, OPEN_GRAPH, type Frontmatter } from '../config'
 
 export interface Props {
 	frontmatter: Frontmatter
@@ -7,7 +7,7 @@ export interface Props {
 }
 
 const { frontmatter, canonicalUrl } = Astro.props as Props
-const formattedContentTitle = `${frontmatter.title} 🧩 ${SITE.title}`
+const formattedContentTitle = `${frontmatter.title} 👨‍💻 ${SITE.title}`
 const imageAlt = frontmatter.image?.alt ?? OPEN_GRAPH.image.alt
 
 const META_IMG_URL =

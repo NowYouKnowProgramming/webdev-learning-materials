@@ -18,32 +18,44 @@ const currentPageIsRoot = currentPage === '/'
 const { ALGOLIA } = CONFIG
 const { apiKey, appId, indexName } = ALGOLIA
 
+import GithubStars from './GithubStars'
+
 const algoliaIsSetUp = indexName && appId && apiKey
 ---
 
-<header>
+
+
+<header
+	id='main-header-top'
+	class='z-[4000] py-8 w-full flex items-center justify-center overflow-hidden fixed top-0 backdrop-blur transition-colors'
+>
 	<SkipToContent />
-	<nav class='nav-wrapper' title='Top Navigation'>
+	<nav
+		class='w-full fixed flex items-center justify-end gap-1 px-6'
+		title='Top Navigation'
+	>
 		{
 			!currentPageIsRoot && (
-				<div class='menu-toggle'>
+				<div class='desktop-ui:hidden block'>
 					<SidebarToggle client:idle />
 				</div>
 			)
 		}
-		<div class='logo flex'>
-			<a href='/'>
+		<div class='flex-grow flex mr-3'>
+			<a class='flex gap-3 items-center font-serious' href='/'>
 				<AstroLogo size={40} />
-				{
-					currentPageIsRoot && (
-						<h1 class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</h1>
-					)
-				}
-				{
-					!currentPageIsRoot && (
-						<p class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</p>
-					)
-				}
+				<div class='hidden sm:block font-extrabold text-lg text-theme-base'>
+					{
+						currentPageIsRoot && (
+							<h1 class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</h1>
+						)
+					}
+					{
+						!currentPageIsRoot && (
+							<p class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</p>
+						)
+					}
+				</div>
 			</a>
 		</div>
 		{
@@ -53,87 +65,28 @@ const algoliaIsSetUp = indexName && appId && apiKey
 				</div>
 			)
 		}
-		<ThemeToggle client:visible />
+		<GithubStars client:visible />
+		<ThemeToggle client:only='react' />
 	</nav>
 </header>
 <DonationModal client:only='react' />
 
+<script is:inline>
+try {
+	window.addEventListener('scroll', () => {
+		const header = document.querySelector('#main-header-top')
+		if (window.scrollY > 0 && header) {
+			header.classList.add('bg-theme-base/50')
+		} else if (header) {
+			header.classList.remove('bg-theme-base/50')
+		}
+	})
+} catch (error) {
+	alert(error)
+}
+</script>
+
 <style>
-	header {
-		z-index: var(--overlay-high);
-		height: var(--theme-navbar-height);
-		margin-bottom: calc(var(--theme-navbar-height) * -1);
-		width: 100%;
-		background-color: var(--theme-navbar-bg);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		overflow: hidden;
-		position: sticky;
-		top: 0;
-		padding: 12px 0;
-
-		@supports (backdrop-filter: blur(5px)) {
-			background-color: rgba(255, 255, 255, 0);
-			backdrop-filter: blur(5px);
-			-webkit-backdrop-filter: blur(5px);
-		}
-	}
-
-	.logo {
-		flex: 1;
-		display: flex;
-		overflow: hidden;
-		width: 30px;
-		font-size: 2rem;
-		flex-shrink: 0;
-		font-weight: 600;
-		line-height: 1;
-		color: hsla(var(--color-base-white), 100%, 1);
-		gap: 0.25em;
-	}
-
-	.logo a {
-		display: flex;
-		padding: 0.5em 0.25em;
-		margin: -0.5em -0.25em;
-		text-decoration: none;
-		font-weight: bold;
-	}
-
-	.logo * {
-		color: var(--theme-text) !important;
-	}
-
-	@media (prefers-reduced-motion: no-preference) {
-		.logo {
-			transition: color 100ms ease-out;
-		}
-	}
-
-	.logo *:hover,
-	.logo *:focus {
-		color: var(--theme-text-accent) !important;
-	}
-
-	.logo .title-main {
-		display: none;
-		font: inherit;
-		color: inherit;
-		margin: 0;
-		font-family: var(--font-special);
-	}
-
-	.nav-wrapper {
-		display: flex;
-		align-items: center;
-		justify-content: flex-end;
-		gap: 1em;
-		width: 100%;
-		max-width: var(--safe-max-width);
-		padding: 0 1rem;
-	}
-
 	.menu-toggle {
 		scale: 1.8;
 	}
@@ -143,25 +96,9 @@ const algoliaIsSetUp = indexName && appId && apiKey
 			padding: 2rem 0rem;
 		}
 
-		.logo {
-			width: auto;
-			margin: 0;
-			z-index: var(--z-base);
-		}
-
-		.logo .title-main {
-			display: initial;
-		}
-
 		.menu-toggle {
 			display: none;
 		}
-	}
-
-	/** Style Algolia */
-	:root {
-		--docsearch-primary-color: var(--theme-accent);
-		--docsearch-logo-color: var(--theme-text);
 	}
 
 	.search-item {

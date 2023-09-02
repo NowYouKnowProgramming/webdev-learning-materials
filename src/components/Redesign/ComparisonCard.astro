@@ -1,0 +1,28 @@
+---
+export type ComparisonCardProps = {
+	title: string
+	text: string
+	icon: string
+}
+const { title, text, icon } = Astro.props as ComparisonCardProps
+---
+
+<li
+	id=`card-advantage`
+	class='p-[2px] bg-gradient-to-r from-grad-start/30 to-grad-end/30 rounded-lg flex-auto basis-72 transition duration-1000 hover:duration-200 ease-out motion-safe:hover:shadow-2xl relative overflow-hidden group will-change-transform'
+>
+	<div
+		id='specular'
+		class='absolute bg-white w-14 h-14 blur-3xl pointer-events-none opacity-0 group-hover:opacity-100 trasition-opacity motion-reduce:opacity-0 will-change-transform group-hover:duration-0 duration-200'
+	>
+	</div>
+	<div
+		class='bg-theme-base p-10 rounded-md flex flex-col gap-6 justify-start items-start h-full w-full pointer-events-none'
+	>
+		<div>
+			<img src={icon} alt='' class='w-16 h-16' />
+		</div>
+		<h3 class='font-[600] text-2xl'>{title}</h3>
+		<p class='text-theme-muted'>{text}</p>
+	</div>
+</li>

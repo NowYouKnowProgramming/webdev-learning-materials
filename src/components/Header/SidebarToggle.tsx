@@ -1,21 +1,30 @@
 /** @jsxImportSource preact */
 import type { FunctionalComponent } from 'preact'
 import { useState, useEffect } from 'preact/hooks'
+import { disableBodyScroll, enableBodyScroll, clearAllBodyScrollLocks } from 'body-scroll-lock';
+
 
 const MenuToggle: FunctionalComponent = () => {
 	const [sidebarShown, setSidebarShown] = useState(false)
 
 	useEffect(() => {
-		const body = document.querySelector('body')!
+		const sidebarElement = document.querySelector('#toggleable-sidebar')!
+		const sidebarScrollElement = document.querySelector('#toggleable-sidebar-overflow')!
 		if (sidebarShown) {
-			body.classList.add('mobile-sidebar-toggle')
+			sidebarElement.setAttribute('data-sidebar-shown', 'true')
+			disableBodyScroll(sidebarScrollElement)
 		} else {
-			body.classList.remove('mobile-sidebar-toggle')
+			sidebarElement.setAttribute('data-sidebar-shown', 'false')
+			enableBodyScroll(sidebarScrollElement)
+		}
+		return () => {
+			clearAllBodyScrollLocks()
 		}
 	}, [sidebarShown])
 
 	return (
 		<button
+		className='bg-theme-base/30 text-theme-base flex gap-2 items-center rounded-md hover:shadow-md transition-shadow ease-out ring-1 ring-basetext/10 hover:ring-basetext/40 min-h-[40px] px-3 mr-3'
 			type='button'
 			aria-pressed={sidebarShown ? 'true' : 'false'}
 			id='menu-toggle'

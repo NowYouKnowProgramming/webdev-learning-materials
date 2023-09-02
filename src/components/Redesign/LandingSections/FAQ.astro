@@ -1,0 +1,51 @@
+---
+import LandingSection from '../LandingSection.astro'
+import { AccordionFAQ } from './Accordion'
+
+const questions = [
+	{
+		title: 'What is bewebdev.tech?',
+		content: `Bewebdev.tech is an exceptional web platform that compiles a curated collection of top-quality resources for learning web development. With a focus on accuracy and relevance, Bewebdev.tech ensures that users can access the most up-to-date and reliable materials in various web development categories. Whether you're a beginner or an experienced developer, this platform is designed to support your learning journey by providing a one-stop hub for honing your skills and staying current in the dynamic field of web development.`,
+	},
+	{
+		title: 'How can I support you?',
+		content:
+			'There is a floating button on the bottom right corner of the page. You can click it to support us.',
+	},
+	{
+		title: 'I want to change something on the website. How can I do that?',
+		content:
+			'You can reach out to us on Discord. We will review your request and make the necessary changes. You can also contribute to the website on GitHub or create an Issue with detailed description of your concerns.',
+	},
+	{
+		title: "I want to support you, but I don't have money. What can I do?",
+		content:
+			'You can share this website with your friends, spread the word about it. That would be a great help!',
+	},
+	{
+		title: 'How can I request a code review on your YouTube channel?',
+		content:
+			'Reach out to us on Discord. We will review your code and upload it to our channel.',
+	},
+	{
+		title: 'Is bewebdev free to use?',
+		content:
+			'Yes it is. You can use it for free. Just press the Start Learning button and you are good to go.',
+	},
+]
+---
+
+<LandingSection className='mb-28 relative'>
+	<h2 id='faq' class='text-3xl font-medium mb-5 scroll-mt-44'>
+		Frequently Asked Questions
+	</h2>
+	<AccordionFAQ client:visible items={questions} />
+	<div
+		class='bg-theme-accent-primary/10 w-1/2 h-full rounded-full absolute select-none pointer-events-none left-0 top-full -translate-x-1/2 -translate-y-1/2 blur-[200px]'
+	>
+	</div>
+	<div
+		class='hidden lg:inline-block bg-theme-accent-secondary w-1/2 h-full rounded-full absolute select-none pointer-events-none left-full top-full -translate-x-full -translate-y-full 3xl:-translate-x-1/2 2xl:-translate-y-1/2 blur-[200px] opacity-10'
+	>
+	</div>
+</LandingSection>

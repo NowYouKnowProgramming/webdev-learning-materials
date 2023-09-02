@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--color-text-base: 255, 255, 255;
+		--color-text-muted: 176, 171, 177;
+		--color-text-inverted: 20, 7, 26;
+		--color-link: 190, 190, 255;
+		--color-bg-base: 20, 7, 26;
+		--color-bg-elevated: 88, 37, 112;
+		--color-accent-primary: 237, 189, 66;
+		--color-accent-secondary: 58, 12, 164;
+		--color-gradient-start: 236, 65, 99;
+		--color-gradient-end: 168, 36, 181;
+		--color-backdrop: 80, 80, 80;
+	}
+
+	.theme-light {
+		--color-text-base: 0, 0, 0;
+		--color-text-muted: 50, 50, 50;
+		--color-text-inverted: 255, 255, 255;
+		--color-link: 0, 0, 190;
+		--color-bg-base: 255, 255, 255;
+		--color-bg-elevated: 200, 200, 200;
+		--color-accent-primary: 198, 86, 253;
+		--color-accent-secondary: 98, 52, 214;
+		--color-gradient-start: 236, 65, 99;
+		--color-gradient-end: 168, 36, 181;
+		--color-backdrop: 0, 0, 0;
+	}
+
+	.theme-oled {
+		--color-text-base: 255, 255, 255;
+		--color-text-muted: 190, 190, 190;
+		--color-text-inverted: 0, 0, 0;
+		--color-link: 190, 90, 255;
+		--color-bg-base: 0, 0, 0;
+		--color-bg-elevated: 30, 30, 30;
+		--color-accent-primary: 237, 189, 66;
+		--color-accent-secondary: 58, 12, 164;
+		--color-gradient-start: 236, 65, 99;
+		--color-gradient-end: 168, 36, 181;
+		--color-backdrop: 40, 40, 40;
+	}
+}
+
+.gradient-text {
+	background-image: linear-gradient(
+		to right,
+		rgb(var(--color-gradient-start)),
+		rgb(var(--color-gradient-end))
+	);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+body {
+	color: rgb(var(--color-text-base));
+}
+
+*::-webkit-scrollbar {
+	width: 5px !important;
+	height: 5px !important;
+}
+
+*::-webkit-scrollbar-track {
+	background: transparent !important;
+	border-radius: 5px !important;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: rgb(var(--color-text-muted));
+	border-radius: 5px !important;
+}

@@ -1,12 +1,15 @@
+---
+const { size = 50 } = Astro.props as { size?: number }
+---
+
 <style>
 	img {
-		border-radius: 50%;
 		width: 50px;
-		aspect-ratio: 1/1;
 	}
 </style>
 
 <img
+	style=`width: ${size}px; min-width: ${size}px;`
 	alt='bewebdev logo - computer backlit with pink color'
-	src='/images/nukp-logo.webp'
+	src='/images/logo.svg'
 />

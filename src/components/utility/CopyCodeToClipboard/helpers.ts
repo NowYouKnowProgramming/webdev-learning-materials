@@ -1,6 +1,8 @@
 export const createCopyButton = () => {
 	const button = document.createElement('button')
-	button.classList.add('copy-button')
+	const classes =
+		'px-4 py-2 text-theme-inverted bg-basetext rounded-md hover:bg-theme-base hover:text-basetext'
+	classes.split(' ').forEach((className) => button.classList.add(className))
 	button.innerHTML = 'Copy'
 	return button
 }
@@ -13,7 +15,7 @@ export const createCopyButtonWrapper = () => {
 
 export const handleCopyButtonClick = async (
 	button: HTMLButtonElement,
-	text: string
+	text: string,
 ) => {
 	const textsAfterClick = ['Copied', 'Error']
 	const currentText = button.innerText

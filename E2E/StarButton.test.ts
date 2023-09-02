@@ -25,7 +25,7 @@ test('Button that is a CTA to star project is in the docs page', async ({
 test('CTA button to star project is visible on the landing page', async ({
 	page,
 }) => {
-	const starButtonLink = await page.getByRole('link', { name: /Star \w*/ })
+	const starButtonLink = page.getByRole('link', { name: /Star \w*/ })
 
 	await expect(starButtonLink).toBeVisible()
 	await expect(starButtonLink).toHaveAttribute('href', githubRepoLink)

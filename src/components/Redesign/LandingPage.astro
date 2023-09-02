@@ -1,0 +1,21 @@
+---
+import LandingSection from './LandingSection.astro'
+
+import VideoEmbed from '../LandingPage/VideoEmbed/VideoEmbed.astro'
+import AboutUs from './LandingSections/AboutUs.astro'
+import Advantages from './LandingSections/Advantages.astro'
+import FAQ from './LandingSections/FAQ.astro'
+import Footer from './LandingSections/Footer/Footer.astro'
+import Hero from './LandingSections/Hero.astro'
+---
+
+<body class='bg-theme-base overflow-x-clip font-sans'>
+	<Hero/>
+	<AboutUs />
+	<LandingSection className='mb-52'>
+		<VideoEmbed />
+	</LandingSection>
+	<Advantages />
+	<FAQ />
+	<Footer />
+</body>

@@ -1,0 +1,67 @@
+---
+import type { LinkGroupProps } from './LinkGroup.astro'
+import LinkGroup from './LinkGroup.astro'
+import Socials from './Socials.astro'
+const links: LinkGroupProps[] = [
+	{
+		groupName: 'Quick Links',
+		links: [
+			{
+				title: 'Home',
+				url: '/',
+			},
+			{
+				title: 'About us',
+				url: '/#about-us',
+			},
+			{
+				title: 'YouTube',
+				url: 'https://www.youtube.com/@bewebdev?sub_confirmation=1',
+			},
+			{
+				title: 'FAQ',
+				url: '/#faq',
+			},
+		],
+	},
+	{
+		groupName: 'Learn',
+		links: [
+			{
+				title: 'Get started',
+				url: '/introduction',
+			},
+			{
+				title: 'React',
+				url: '/technologies/react',
+			},
+			{
+				title: 'JavaScript',
+				url: '/technologies/javascript',
+			},
+			{
+				title: 'HTML',
+				url: '/technologies/html',
+			},
+		],
+	},
+	{
+		groupName: 'Support',
+		links: [
+			{
+				title: 'Report a bug',
+				url: 'https://github.com/NowYouKnowProgramming/webdev-learning-materials/issues/new/',
+			},
+		],
+	},
+]
+---
+
+<div
+	class='pt-10 border-t-basetext/10 border-t-2 mt-10 flex justify-between gap-8 flex-wrap'
+>
+	<div class='flex gap-20 flex-wrap'>
+		{links.map((link) => <LinkGroup {...link} />)}
+	</div>
+	<Socials />
+</div>

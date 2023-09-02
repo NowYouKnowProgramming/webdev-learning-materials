@@ -1,8 +1,30 @@
 ---
-import '../styles/index.css'
-import '../styles/theme.scss'
+import { ViewTransitions } from 'astro:transitions'
+import '../styles/themes/tailwind.css'
 
-const experimentalOptions = { fetchpriority: 'high' }
+const experimentalOptions = { importance: 'high' }
+
+const poppinsVariants = [
+	'Black',
+	'BlackItalic',
+	'Bold',
+	'BoldItalic',
+	'ExtraBold',
+	'ExtraBoldItalic',
+	'ExtraLight',
+	'ExtraLightItalic',
+	'Italic',
+	'Light',
+	'LightItalic',
+	'Medium',
+	'MediumItalic',
+	'Regular',
+	'SemiBold',
+	'SemiBoldItalic',
+	'Thin',
+	'ThinItalic',
+]
+
 ---
 
 <!-- Global Metadata -->
@@ -13,29 +35,28 @@ const experimentalOptions = { fetchpriority: 'high' }
 <link rel='icon' type='image/svg+xml' href='/favicon.ico' />
 
 <link rel='sitemap' href='/sitemap.xml' />
+<ViewTransitions fallback='none' />
 
 <!-- Fonts -->
-<link
-	rel='preload'
-	href='/fonts/Nunito-Italic-VariableFont_wght.woff2'
-	as='font'
-	type='font/woff2'
-	{...experimentalOptions}
-/>
 
-<link
-	rel='preload'
-	href='/fonts/Nunito-VariableFont_wght.woff2'
-	as='font'
-	type='font/woff2'
-	{...experimentalOptions}
-/>
+{
+	poppinsVariants.map((font) => (
+		<link
+			rel='preload'
+			href={`/fonts/Poppins-${font}.ttf`}
+			as='font'
+			type='font/woff2'
+			{...experimentalOptions}
+		/>
+	))
+}
 
 <link
 	rel='preload'
 	href='/fonts/Inter-Regular.woff2'
 	as='font'
 	type='font/woff2'
+	crossorigin='anonymous'
 	{...experimentalOptions}
 />
 
@@ -44,21 +65,23 @@ const experimentalOptions = { fetchpriority: 'high' }
 
 <!-- This is intentionally inlined to avoid FOUC -->
 <script is:inline>
-const root = document.documentElement
-const theme = localStorage.getItem('theme')
-if (theme === 'oled') {
-	root.classList.add('theme-oled')
-	root.classList.remove('theme-dark')
-} else {
-	root.classList.remove('theme-oled')
+const themesClassNames = {
+	light: 'theme-light',
+	dark: '',
+	oled: 'theme-oled',
 }
-if (
-	theme === 'dark' ||
-	(!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)
-) {
-	root.classList.add('theme-dark')
+
+const theme = localStorage.getItem('theme')
+const root = document.documentElement
+if (theme === 'light') {
+	root.classList.remove(themesClassNames.oled)
+	root.classList.add(themesClassNames.light)
+} else if (theme === 'dark') {
+	root.classList.remove(themesClassNames.light)
+	root.classList.remove(themesClassNames.oled)
 } else {
-	root.classList.remove('theme-dark')
+	root.classList.remove(themesClassNames.light)
+	root.classList.add(themesClassNames.oled)
 }
 </script>
 

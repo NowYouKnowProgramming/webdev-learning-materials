@@ -1,0 +1,11 @@
+---
+type Props = {
+	className?: string
+	maxWidth?: string
+}
+const { className = '', maxWidth = 'max-w-7xl' } = Astro.props as Props
+---
+
+<section class=`w-full ${maxWidth} px-8 m-auto ${className}`>
+	<slot />
+</section>

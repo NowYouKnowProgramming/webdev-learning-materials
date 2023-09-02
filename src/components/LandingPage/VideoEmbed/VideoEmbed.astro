@@ -1,12 +1,17 @@
 ---
-import GlowText from '../../common/GlowText.astro'
-import DocsBtn from '../DocsBtn.astro'
+import DocsButton from '../../Redesign/LandingElements/DocsButton.astro'
 const YOUTUBE_CHANNEL_ID = 'UUww1wSWy6LvZjyEEHr7ypLA'
 
-const LATEST_VIDEO_COUNT = 2
+const LATEST_VIDEO_COUNT = 3
 
 const CHANNEL_SUBSCRIBE_LINK =
 	'https://www.youtube.com/@bewebdev?sub_confirmation=1'
+
+const getLatestVideoLink = (index: number) => {
+	return `https://www.youtube.com/embed?listType=playlist&list=${YOUTUBE_CHANNEL_ID}&index=${
+		index + 1
+	}`
+}
 ---
 
 <style lang='scss'>
@@ -29,12 +34,6 @@ const CHANNEL_SUBSCRIBE_LINK =
 		margin-bottom: 1rem;
 	}
 
-	.description {
-		max-width: 600px;
-		color: var(--theme-text);
-		margin-bottom: 0.8rem;
-	}
-
 	.videos-wrapper {
 		width: 100%;
 		display: flex;
@@ -46,43 +45,44 @@ const CHANNEL_SUBSCRIBE_LINK =
 		flex: 1 1 300px;
 		width: 100%;
 		height: 100%;
-		border-radius: 8px;
+		border-radius: 4px;
 		margin: 1rem auto;
 		aspect-ratio: 16/9;
 		border: none;
+		filter: grayscale(0.8);
 
-		box-shadow: 1px 2px 2px hsl(220deg 0% 0% / 0.2),
-			2px 4px 4px hsl(220deg 0% 0% / 0.2), 4px 8px 8px hsl(220deg 0% 0% / 0.2),
-			8px 16px 16px hsl(220deg 0% 0% / 0.2),
-			16px 32px 32px hsl(220deg 0% 0% / 0.2);
+		&:hover {
+			filter: none;
+		}
 	}
 </style>
 
-<section id='youtube-cta'>
-	<h2>We record <GlowText>code reviews</GlowText></h2>
-	<p class='description'>
-		We believe that code review can be the best way to learn best practices and
-		new ways to write code for both parties - code reviewer and code writer
-	</p>
-	<DocsBtn
-		title='Bewebdev on youtube'
-		href={CHANNEL_SUBSCRIBE_LINK}
-		isExternal
-		classes='repo'
-	>
-		Visit our channel
-	</DocsBtn>
-	<div class='videos-wrapper'>
-		{
-			Array.from({ length: LATEST_VIDEO_COUNT }).map((_, index) => {
-				const embedSource = `https://www.youtube.com/embed?listType=playlist&list=${YOUTUBE_CHANNEL_ID}&index=${
-					index + 1
-				}`
-				return <iframe class='video' src={embedSource} />
-			})
-		}
+<div class='flex items-center gap-8 flex-wrap-reverse mb-8 mt-36'>
+	<div class='flex-grow basis-80 shrink-0'>
+		<iframe class='video' src={getLatestVideoLink(0)}></iframe>
 	</div>
-</section>
+	<div class='shrink-1 basis-64 grow'>
+		<h2 class='text-3xl font-bold mb-4'>
+			We record <span class='gradient-text'>code reviews</span>
+		</h2>
+		<p class='mb-5'>
+			We believe that code review can be the best way to learn best practices
+			and new ways to write code for both parties - code reviewer and code
+			writer
+		</p>
+		<DocsButton href={CHANNEL_SUBSCRIBE_LINK}>
+			Visit our YouTube channel
+		</DocsButton>
+	</div>
+</div>
+<div class='flex gap-4 lg:gap-8 xl:gap-14 flex-wrap w-full'>
+	{
+		Array.from({ length: LATEST_VIDEO_COUNT }).map((_, index) => {
+			const embedSource = getLatestVideoLink(index + 1)
+			return <iframe class='video' src={embedSource} />
+		})
+	}
+</div>
 
 <script>
 	import { getUserIsFromPoland } from './helpers'
