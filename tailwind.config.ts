@@ -7,7 +7,7 @@ module.exports = {
 	theme: {
 		extend: {
 			maxWidth: {
-				docs: '2048px',
+				docs: '2560px',
 			},
 			screens: {
 				'desktop-ui': '50em',
