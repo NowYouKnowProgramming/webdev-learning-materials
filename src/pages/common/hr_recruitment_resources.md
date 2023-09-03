@@ -41,7 +41,7 @@ layout: ../../layouts/MainLayout.astro
 ## Networking tips for developers
 
 - [Dev Agrawal - Your Professional Networking Questions Answered](https://www.youtube.com/watch?v=So0owNSsaFg)
-- [Dev Agrawal - The Cheat Code To Getting A Job](https://www.youtube.com/watch?v=b0Eqv0YrfIw)
+- [Dev Agrawal - How to make other people give you a job](https://www.youtube.com/watch?v=b0Eqv0YrfIw)
 
 ## Different approaches to job seeking
 
