@@ -18,7 +18,7 @@ layout: ../../layouts/MainLayout.astro
 - [Beyond Fireship - The ultimate guide to web performance](https://www.youtube.com/watch?v=0fONene3OIA)
 - [Beyond Fireship - Dramatically improve website speed with Partytown](https://www.youtube.com/watch?v=ZZIR1NGwy-s)
 - [Beyond Fireship -  How to make your JavaScript Bundle Smaller](https://www.youtube.com/watch?v=kwUfeWe7DCw)
-- [⚡️ 💾  Web Performance Snippets](https://github.com/nucliweb/webperf-snippets)
+- [⚡️ 💾  Web Performance Snippets - GitHub repository](https://github.com/nucliweb/webperf-snippets)
 
 ## Architecture
 
@@ -40,4 +40,4 @@ layout: ../../layouts/MainLayout.astro
 
 ## Other content
 
-- [Josh W. Comeau - The End of Front-End Development](https://www.joshwcomeau.com/blog/the-end-of-frontend-development/)
+- [Josh W. Comeau - Will AI replace frontend developers?](https://www.joshwcomeau.com/blog/the-end-of-frontend-development/)
