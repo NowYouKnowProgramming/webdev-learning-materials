@@ -107,9 +107,4 @@
 			}
 		]
 	},
-	"[astro]": {
-		"editor.defaultFormatter": "astro-build.astro-vscode"
-	},
-	"prettier.documentSelectors": ["**/*.astro"],
-	"prettier.configPath": ".prettierrc"
 }

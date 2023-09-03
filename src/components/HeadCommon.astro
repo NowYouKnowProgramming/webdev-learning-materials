@@ -65,24 +65,33 @@ const poppinsVariants = [
 
 <!-- This is intentionally inlined to avoid FOUC -->
 <script is:inline>
-const themesClassNames = {
-	light: 'theme-light',
-	dark: '',
-	oled: 'theme-oled',
+const setThemeFromLocalStorage = () => {
+	const themesClassNames = {
+		light: 'theme-light',
+		dark: '',
+		oled: 'theme-oled',
+	}
+
+	const theme = localStorage.getItem('theme')
+	const root = document.documentElement
+	if (theme === 'light') {
+		root.classList.remove(themesClassNames.oled)
+		root.classList.add(themesClassNames.light)
+	} else if (theme === 'dark') {
+		root.classList.remove(themesClassNames.light)
+		root.classList.remove(themesClassNames.oled)
+	} else {
+		root.classList.remove(themesClassNames.light)
+		root.classList.add(themesClassNames.oled)
+	}
 }
 
-const theme = localStorage.getItem('theme')
-const root = document.documentElement
-if (theme === 'light') {
-	root.classList.remove(themesClassNames.oled)
-	root.classList.add(themesClassNames.light)
-} else if (theme === 'dark') {
-	root.classList.remove(themesClassNames.light)
-	root.classList.remove(themesClassNames.oled)
-} else {
-	root.classList.remove(themesClassNames.light)
-	root.classList.add(themesClassNames.oled)
-}
+setThemeFromLocalStorage();
+
+document.addEventListener('astro:after-swap', setThemeFromLocalStorage);
+document.addEventListener('astro:page-load', () => {
+	setThemeFromLocalStorage();
+}, { once: true });
 </script>
 
 <!-- Google tag (gtag.js) -->
