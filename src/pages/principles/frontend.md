@@ -7,7 +7,7 @@ layout: ../../layouts/MainLayout.astro
 ## Learn about the web
 
 - [web.dev - various resources about front-end from Google itself (responsive design, accessibility, optimization, etc.)](https://web.dev/)
-- [Framework.dev - resources about JavaScript frameworks (books, videos, courses, podcasts), popular libraries and possibility of compare them and more](https://www.framework.dev/)
+- [Framework.dev - resources about JavaScript frameworks (books, videos, courses, podcasts), popular libraries and possibility of comparing them and more](https://www.framework.dev/)
 
 ## Rendering patterns
 
