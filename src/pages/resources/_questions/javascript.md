@@ -25,6 +25,8 @@ obj.nested.a = 1
 
 Does the `a` property will be declared also in `anotherObj` and why? If yes, how you can prevent it?
 
+<br />
+
 - How you can iterate through the objects?
 - How you would describe hoisting?
 - How you would describe array/object mutation? It is a good practice or something to avoid?
@@ -70,6 +72,8 @@ promise
 
 What results will be displayed in console.log's and why?
 
+<br />
+
 - Based on this code:
 
 ```js
@@ -104,6 +108,8 @@ for await (const info of timeouts) {
  console.log(info)
 }
 ```
+
+<br />
 
 What will be differences between those iterators? In which order the timeouts will be resolved and why?
 
@@ -174,5 +180,11 @@ obser4$.subscribe((value: number) => {
 ```
 
 What values will be console.log'ed from observables and why?
+
+<br />
+
+- How you can check that the property exists in object?
+- What are differences between `null` and `undefined`?
+- What are differences between `==` and `===`?
 
 </details>

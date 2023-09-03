@@ -13,7 +13,7 @@ layout: ../../layouts/MainLayout.astro
 - [Kevin Powell (HTML/CSS/JS)](https://www.youtube.com/kepowob)
 - [Matt Pocock (TypeScript)](https://www.youtube.com/channel/UCswG6FSbgZjbWtdf_hMLaow)
 - [DesignCode (Figma/React)](https://www.youtube.com/c/DesignCodeTeam)
-- [Web Dev Junkie (JS/React)](https://www.youtube.com/c/WebDevJunkie)
+- [Web Dev Cody (JS/React)](https://www.youtube.com/@WebDevCody/)
 - [Jack Herrington (JS/React)](https://www.youtube.com/c/JackHerrington)
 - [TomDoesTech (JS/React)](https://www.youtube.com/c/TomDoesTech)
 - [Code 2020 (VSCode/JS)](https://www.youtube.com/c/Code2020/videos)
@@ -24,7 +24,6 @@ layout: ../../layouts/MainLayout.astro
 - [Josh W. Comeau (CSS/JS)](https://www.joshwcomeau.com/)
 - [Oak Harbor Web Designs (builds real-world HTML/CSS/JS websites)](https://www.youtube.com/channel/UC6YEjppZo4Ep-8N54_nXFQg)
 - [Nadia Makarevich - Developer Way Blog (advanced React + TypeScript topics)](https://developerway.com/)
-- [web.dev - various resources about front-end from Google itself (responsive design, accessibility, optimization, etc.)](https://web.dev/)
 - [React Round Up](https://topenddevs.com/podcasts/react-round-up)
 - [The React Show](https://www.thereactshow.com/)
 
@@ -33,6 +32,12 @@ layout: ../../layouts/MainLayout.astro
 - [Front End Happy Hour](https://open.spotify.com/show/0Giuw6eNbTzP9CDZODDrA2?si=0bc2ad2c0cb24319)
 - [The Scrimba Podcast](https://open.spotify.com/show/1oJamVudy2v3oSJTejUyus?si=8140359b1b7f4927)
 - [Syntax - Tasty Web Development Treats](https://open.spotify.com/show/4kYCRYJ3yK5DQbP5tbfZby?si=6f7fb75508f4482a)
+
+### Twitter / X accounts to follow
+
+- [Matt Pocock](https://twitter.com/mattpocockuk)
+- [Cory House](https://twitter.com/housecor)
+- [Web Dev Cody](https://twitter.com/webdevcody)
 
 ## Polish
 

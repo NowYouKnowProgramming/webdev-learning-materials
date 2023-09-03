@@ -26,17 +26,22 @@ layout: ../../layouts/MainLayout.astro
 - [Kenny Gunderman - Should You Learn Native or Cross-Platform Mobile Development?](https://youtu.be/Mq_HS-o-v6o)
 - [Web Dev Junkie - My list of advanced web development topics you should learn](https://www.youtube.com/watch?v=5PWXfjCCm1g)
 - [Code Creative - 3 Skills That Will Help You Succeed as a Junior Developer](https://www.youtube.com/watch?v=I0Erp3w8qu4)
+- [Aaron Jack - How “Overemployed” Programmers Are Earning Multiple FULL TIME Salaries](https://www.youtube.com/watch?v=oR-mzzIsHVE)
+- [mayuko - What does "Senior" Software Engineer mean? (From a Senior Software Engineer)](https://www.youtube.com/watch?v=ys7V9JSTE5A)
 
 ## Valuable tips from pros
 
+- [Kent C. Dodds - Stop being a junior developer](https://kentcdodds.com/blog/stop-being-a-junior)
 - [Ask Cloud Architech - Contributing to Open Source Can Change Your Life - Here’s How to Do It](https://www.youtube.com/watch?v=CML6vfKjQss)
 - [Jack Herrington - Senior Developer Workflow For Stress-Free Coding](https://www.youtube.com/watch?v=eAfUfKYcvBo)
 - [Fireship - Problem-Solving for Developers - A Beginner's Guide](https://www.youtube.com/watch?v=UFc-RPbq8kg)
-- [Web Dev Simplified- 3 Things Great Developers Do - YouTube](https://www.youtube.com/watch?v=VIfuvSTbzDc)
+- [Web Dev Simplified - 3 Things Great Developers Do](https://www.youtube.com/watch?v=VIfuvSTbzDc)
 
 ## Valuable tips from pros in Polish
 
+- [Jak zacząć programować? - Pierwszy dzień i zadanie juniora 👶](https://www.youtube.com/watch?v=Os20EiXRpi8)
 - [Mate Code - Rady od serca dla przyszłych juniorów 👼](https://www.youtube.com/watch?v=KoEGAJBWjic)
+- [PavelPavlow - TUTORIAL HELL (jak go uniknąć)](https://www.youtube.com/watch?v=MVwzk5gZmJQ)
 
 ## Stories from Polish programmers
 

@@ -24,3 +24,5 @@ layout: ../../layouts/MainLayout.astro
 - [5 Javascript Clean Coding Patterns To Enhance your Code](https://medium.com/arionkoder-engineering/5-javascript-clean-coding-patterns-to-enhance-your-code-cc205d8d1ab6)
   - The second one does not includes the mutation. Correct one: `[...arr].sort((a, b) => a - b)`
 - [How to interrogate unfamiliar code (how to keep the code readable and easy to understand)](https://stackoverflow.blog/2022/08/15/how-to-interrogate-unfamiliar-code/)
+- [Will4_U (co-creator of bewebdev 😊) - Maintain a high quality codebase with an ease](https://will4u.vercel.app/maintain-codebase)
+- [Naming cheatsheet](https://github.com/kettanaito/naming-cheatsheet)

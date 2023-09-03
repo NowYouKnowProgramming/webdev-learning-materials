@@ -32,6 +32,7 @@ Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js 
 
 ## Important patterns and concepts
 
+- [Node.js Best Practices (2023 Version)](https://github.com/goldbergyoni/nodebestpractices)
 - [Model View Controller - MDN Docs](https://developer.mozilla.org/en-US/docs/Glossary/MVC)
 
 ## Free
