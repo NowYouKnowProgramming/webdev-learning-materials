@@ -8,7 +8,7 @@ import SkipToContent from './SkipToContent.astro'
 import DonationModal from '../DonationModal/DonationModal'
 
 type Props = {
-	currentPage: string
+  currentPage: string
 }
 
 const { currentPage } = Astro.props as Props
@@ -23,51 +23,49 @@ import GithubStars from './GithubStars'
 const algoliaIsSetUp = indexName && appId && apiKey
 ---
 
-
-
 <header
-	id='main-header-top'
-	class='z-[4000] py-8 w-full flex items-center justify-center overflow-hidden fixed top-0 backdrop-blur transition-colors'
+  id='main-header-top'
+  class='z-[4000] py-8 w-full flex items-center justify-center overflow-hidden fixed top-0 backdrop-blur transition-colors'
 >
-	<SkipToContent />
-	<nav
-		class='w-full fixed flex items-center justify-end gap-1 px-6'
-		title='Top Navigation'
-	>
-		{
-			!currentPageIsRoot && (
-				<div class='desktop-ui:hidden block'>
-					<SidebarToggle client:idle />
-				</div>
-			)
-		}
-		<div class='flex-grow flex mr-3'>
-			<a class='flex gap-3 items-center font-serious' href='/'>
-				<AstroLogo size={40} />
-				<div class='hidden sm:block font-extrabold text-lg text-theme-base'>
-					{
-						currentPageIsRoot && (
-							<h1 class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</h1>
-						)
-					}
-					{
-						!currentPageIsRoot && (
-							<p class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</p>
-						)
-					}
-				</div>
-			</a>
-		</div>
-		{
-			algoliaIsSetUp && (
-				<div class='search-item'>
-					<Search client:idle />
-				</div>
-			)
-		}
-		<GithubStars client:visible />
-		<ThemeToggle client:only='react' />
-	</nav>
+  <SkipToContent />
+  <nav
+    class='w-full fixed flex items-center justify-end gap-1 px-6'
+    title='Top Navigation'
+  >
+    {
+      !currentPageIsRoot && (
+        <div class='desktop-ui:hidden block'>
+          <SidebarToggle client:idle />
+        </div>
+      )
+    }
+    <div class='flex-grow flex mr-3'>
+      <a class='flex gap-3 items-center font-serious' href='/'>
+        <AstroLogo size={40} />
+        <div class='hidden sm:block font-extrabold text-lg text-theme-base'>
+          {
+            currentPageIsRoot && (
+              <h1 class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</h1>
+            )
+          }
+          {
+            !currentPageIsRoot && (
+              <p class='title-main'>{CONFIG.SITE.title ?? 'Documentation'}</p>
+            )
+          }
+        </div>
+      </a>
+    </div>
+    {
+      algoliaIsSetUp && (
+        <div class='search-item'>
+          <Search client:idle />
+        </div>
+      )
+    }
+    <GithubStars client:visible />
+    <ThemeToggle client:visible />
+  </nav>
 </header>
 <DonationModal client:only='react' />
 
@@ -87,39 +85,39 @@ try {
 </script>
 
 <style>
-	.menu-toggle {
-		scale: 1.8;
-	}
+  .menu-toggle {
+    scale: 1.8;
+  }
 
-	@media (min-width: 50em) {
-		header {
-			padding: 2rem 0rem;
-		}
+  @media (min-width: 50em) {
+    header {
+      padding: 2rem 0rem;
+    }
 
-		.menu-toggle {
-			display: none;
-		}
-	}
+    .menu-toggle {
+      display: none;
+    }
+  }
 
-	.search-item {
-		display: none;
-		position: relative;
-		z-index: var(--z-elevated-higher);
-		flex-grow: 1;
-		padding-right: 0.7rem;
-		display: flex;
-		max-width: 200px;
-	}
+  .search-item {
+    display: none;
+    position: relative;
+    z-index: var(--z-elevated-higher);
+    flex-grow: 1;
+    padding-right: 0.7rem;
+    display: flex;
+    max-width: 200px;
+  }
 
-	@media (min-width: 50em) {
-		.search-item {
-			max-width: 400px;
-		}
-	}
+  @media (min-width: 50em) {
+    .search-item {
+      max-width: 400px;
+    }
+  }
 </style>
 
 <style is:global>
-	.search-item > * {
-		flex-grow: 1;
-	}
+  .search-item > * {
+    flex-grow: 1;
+  }
 </style>
