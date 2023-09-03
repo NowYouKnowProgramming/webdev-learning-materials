@@ -1,22 +1,13 @@
-/** @type {import('tailwindcss').Config} */
+import type { Config } from 'tailwindcss'
 
-const defaultTheme = require('tailwindcss/defaultTheme')
-
-function withOpacity(variableName) {
-	return ({ opacityValue }) => {
-		if (opacityValue !== undefined) {
-			return `rgba(var(${variableName}), ${opacityValue})`
-		}
-		return `rgb(var(${variableName}))`
-	}
-}
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 module.exports = {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
 			maxWidth: {
-				docs: '2048px',
+				docs: '2560px',
 			},
 			screens: {
 				'desktop-ui': '50em',
@@ -31,26 +22,22 @@ module.exports = {
 				'grad-start': 'rgba(var(--color-gradient-start), <alpha-value>)',
 				'grad-end': 'rgba(var(--color-gradient-end), <alpha-value>)',
 			},
-			backgroundImage: {
-				'theme-gradient': `linear-gradient(to right, ${withOpacity(
-					'--color-gradient-start'
-				)}, ${withOpacity('--color-gradient-end')})`,
-			},
 			textColor: {
 				theme: {
 					base: 'rgba(var(--color-text-base), <alpha-value>)',
-					muted: withOpacity('--color-text-muted'),
-					inverted: withOpacity('--color-text-inverted'),
+					muted: 'rgba(var(--color-text-muted), <alpha-value>)',
+					inverted: 'rgba(var(--color-text-inverted), <alpha-value>)',
 				},
 			},
 			backgroundColor: {
 				theme: {
-					base: withOpacity('--color-bg-base'),
+					base: 'rgba(var(--color-bg-base), <alpha-value>)',
 					elevated: 'rgba(var(--color-bg-elevated), <alpha-value>)',
 					'accent-primary': 'rgba(var(--color-accent-primary), <alpha-value>)',
-					'accent-secondary': withOpacity('--color-accent-secondary'),
-					'grad-start': withOpacity('--color-gradient-start'),
-					'grad-end': withOpacity('--color-gradient-end'),
+					'accent-secondary':
+						'rgba(var(--color-accent-secondary), <alpha-value>)',
+					'grad-start': 'rgba(var(--color-gradient-start), <alpha-value>)',
+					'grad-end': 'rgba(var(--color-gradient-end), <alpha-value>)',
 				},
 			},
 			keyframes: {
@@ -63,12 +50,12 @@ module.exports = {
 					},
 				},
 				slideDown: {
-					from: { height: 0 },
+					from: { height: '0' },
 					to: { height: 'var(--radix-accordion-content-height)' },
 				},
 				slideUp: {
 					from: { height: 'var(--radix-accordion-content-height)' },
-					to: { height: 0 },
+					to: { height: '0' },
 				},
 			},
 			animation: {
@@ -79,4 +66,4 @@ module.exports = {
 		},
 	},
 	plugins: [],
-}
+} satisfies Config

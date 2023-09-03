@@ -40,9 +40,17 @@
 <script>
 	import { createHeadingWithButton, getHeadingsFromDocument } from './helpers'
 
-	const headings = getHeadingsFromDocument()
+
+	const addHeadingCopyButtonsToHeadings = () => {
+			const headings = getHeadingsFromDocument()
 
 	headings.forEach((heading) =>
 		heading.replaceWith(createHeadingWithButton(heading))
 	)
+	}
+
+	 document.addEventListener('astro:after-swap', addHeadingCopyButtonsToHeadings);
+		document.addEventListener('astro:page-load', () => {
+			addHeadingCopyButtonsToHeadings();
+		}, { once: true });
 </script>

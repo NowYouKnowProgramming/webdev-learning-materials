@@ -5,12 +5,6 @@ export const SITE = {
 }
 
 export const OPEN_GRAPH = {
-	image: {
-		src: '/public/default-og-image.png',
-		alt:
-			'astro logo on a starry expanse of space,' +
-			' with a purple saturn-like planet floating in the right foreground',
-	},
 	twitter: 'bewebdev.tech',
 }
 

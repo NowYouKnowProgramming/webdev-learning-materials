@@ -55,18 +55,25 @@
 		handleCopyButtonClick,
 	} from './helpers'
 
-	const codeSnippets = [
-		...document.querySelectorAll<HTMLElement>('.astro-code'),
-	]
+	const addCopyButtonsToCodeElements = () => {
+		const codeSnippets = [
+			...document.querySelectorAll<HTMLElement>('.astro-code'),
+		]
 
-	codeSnippets.forEach((block) => {
-		const wrapper = createCopyButtonWrapper()
-		const button = createCopyButton()
-		wrapper.appendChild(button)
-		block.prepend(wrapper)
+		codeSnippets.forEach((block) => {
+			const wrapper = createCopyButtonWrapper()
+			const button = createCopyButton()
+			wrapper.appendChild(button)
+			block.prepend(wrapper)
 
-		button.addEventListener('click', () =>
-			handleCopyButtonClick(button, block.innerText)
-		)
-	})
+			button.addEventListener('click', () =>
+				handleCopyButtonClick(button, block.innerText)
+			)
+		})
+	}
+
+	  document.addEventListener('astro:after-swap', addCopyButtonsToCodeElements);
+		document.addEventListener('astro:page-load', () => {
+			addCopyButtonsToCodeElements();
+		}, { once: true });
 </script>

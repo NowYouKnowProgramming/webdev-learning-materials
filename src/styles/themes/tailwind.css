@@ -61,16 +61,22 @@ body {
 }
 
 *::-webkit-scrollbar {
-	width: 5px !important;
-	height: 5px !important;
+	width: 5px;
+	height: 5px;
 }
 
 *::-webkit-scrollbar-track {
-	background: transparent !important;
-	border-radius: 5px !important;
+	background: transparent;
+	border-radius: 5px;
 }
 
 *::-webkit-scrollbar-thumb {
 	background-color: rgb(var(--color-text-muted));
-	border-radius: 5px !important;
+	border-radius: 5px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	* {
+		scroll-behavior: smooth;
+	}
 }
