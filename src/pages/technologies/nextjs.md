@@ -17,7 +17,7 @@ image: { src: /metaimages/nextjs.png, alt: 'nextjs' }
 
 ## Additional content
 
-- [Web Dev Cody - Keep your next.js code cleaner by doing this simple rename](https://www.youtube.com/shorts/YCovzYOoVJA)
+- [Web Dev Cody - Keep your next.js routes cleaner by grouping them](https://www.youtube.com/shorts/YCovzYOoVJA)
 - [Migrating from create react app](https://nextjs.org/docs/migrating/from-create-react-app)
 - [FAQ](https://nextjs.org/docs/faq)
 - [uidotdev - The Story of Next.js](https://www.youtube.com/watch?v=BILxV_vrZO0)
