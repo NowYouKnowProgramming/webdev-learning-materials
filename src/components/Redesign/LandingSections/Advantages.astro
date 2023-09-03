@@ -37,9 +37,13 @@ const comparisonCardData: ComparisonCardProps[] = [
 </LandingSection>
 
 <script>
+
+const setupTiltingAdvantages = () => {
 	const MAX_DEGREE_TILT = 2
 
 	const tiltHandler = (event: MouseEvent) => {
+		event.stopImmediatePropagation();
+		console.log('move');
 		const container = event.currentTarget as HTMLElement
 
 		const specular = container.querySelector('#specular') as HTMLElement
@@ -85,4 +89,10 @@ const comparisonCardData: ComparisonCardProps[] = [
 		card.addEventListener('mousemove', tiltHandler)
 		card.addEventListener('mouseleave', leaveHandler)
 	})
+}
+
+setupTiltingAdvantages()
+
+		 document.addEventListener('astro:after-swap', setupTiltingAdvantages);
+
 </script>
