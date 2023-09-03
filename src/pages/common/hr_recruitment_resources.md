@@ -38,9 +38,15 @@ layout: ../../layouts/MainLayout.astro
 
 - [Jason Tu - How to get a job in a new industry without experience (interesting approach to this problem)](https://jasont.co/no-experience/)
 
+## Networking tips for developers
+
+- [Dev Agrawal - Your Professional Networking Questions Answered](https://www.youtube.com/watch?v=So0owNSsaFg)
+- [Dev Agrawal - How to make other people give you a job](https://www.youtube.com/watch?v=b0Eqv0YrfIw)
+
 ## Different approaches to job seeking
 
 - [If you're too honest, it's harder for you to get a job](https://youtu.be/6ufwxkurKKg)
+- [Web Dev Simplified - How to land your first job (3 tips)](https://www.youtube.com/watch?v=fO5Sx7l6Nps)
 - [Fireship - How to Land a 100K/yr Tech Job - 10 Strategies](https://www.youtube.com/watch?v=Xg9ihH15Uto)
 - [Reddit Post - How to find companies that are looking for entry/junior developers?](https://www.reddit.com/r/cscareerquestions/comments/wy8za7/how_to_find_companies_with_a_low_barbarrier_of/)
 - [How I got my first job as a developer by making simple projects seem big](https://dev.to/yuridevat/how-i-got-my-first-job-as-a-developer-by-making-simple-projects-seem-big-48oi)
@@ -51,9 +57,14 @@ layout: ../../layouts/MainLayout.astro
 
 - [Reddit Post - Should I quit? (what to do when the job sucks)](https://www.reddit.com/r/reactjs/comments/vyrhsx/should_i_quit/)
 - [ThePrimeagon - So now what..? (how to find the job in a layoff crisis)](https://www.youtube.com/watch?v=ReeLQR7KCcM)
+- [ThePrimeTime - How To Never Get A Job](https://www.youtube.com/watch?v=YFhxQ8kmJw0)
 
 ### Other recruitment materials in Polish
 
+- [5 tipów, jak zwiększyć swoje szanse na pracę w IT - Just Geek IT](https://geek.justjoin.it/5-tipow-jak-zwiekszyc-swoje-szanse-na-prace-w-it/)
+- [Jak zacząć programować? - Ile zajmuje dostanie pierwszej pracy jako programist(k)a? 🕒](https://www.youtube.com/watch?v=h-WhTkpe6vk)
+- [Jak zacząć progrmować? - Jak dostać pierwszą pracę w 2023?](https://www.youtube.com/watch?v=MaVR9wvxkeo)
+- [Jak zacząć programować? - Ile CV trzeba wysłać, żeby dostać pierwszą pracę w IT?](https://www.youtube.com/watch?v=CHHSwbuE3LQ)
 - [Localhost Academy - "Cała prawda" o rekrutacjach w branży IT - jak dostać pracę i "mroczny sekret rekruterów" (mocne) [zaczyna się od 27:45]](https://youtu.be/Mp7HTWZ6FyE?t=1665)
 - [Geekowojażer - Rekrutacja IT z perspektywy programisty seniora](https://www.geekowojazer.pl/rekrutacja-it-programista/)
 - [Programistyczny preworkout na rozmowy rekrutacyjne - 11 konceptów, które warto znać](https://app.minicoursegenerator.com/5RgSg_hWwEebgf1KuVnzFA/1)

@@ -1,18 +1,17 @@
+Real-world frontend technical recruitment tasks
+
 <details>
-<summary>Real-world frontend technical recruitment tasks</summary>
-
-1. Internship recruitment task
-
-- Create the function to calculate the balance in a specific category within the specified time period.
+<summary>Internship recruitment task</summary>
+1 - Create the function to calculate the balance in a specific category within the specified time period.
 
 ```js
 function getBalanceByCategoryInPeriod(
-	transactionsList,
-	category,
-	startTime,
-	endTime
+ transactionsList,
+ category,
+ startTime,
+ endTime
 ) {
-	// ...
+ // ...
 }
 ```
 
@@ -36,7 +35,9 @@ Transaction object looks like this:
 }
 ```
 
-- Create the function to find duplicated transactions.
+<br />
+
+2 - Create the function to find duplicated transactions.
 
 Sometimes when a customer gets charged, a duplicate transaction is created.
 We need to find those transactions so that they can be dealt with.
@@ -45,13 +46,15 @@ as there can be up to a minute delay.
 
 ```js
 function findDuplicateTransactions(transactions) {
-	// ...
+ // ...
 }
 ```
 
 Parameters:
 
 - transactions: array of transactions
+
+<br />
 
 Find all transactions that have the same sourceAccount, targetAccount, category, amount,
 and the time difference between each consecutive transaction is less than 1 minute.
@@ -62,60 +65,64 @@ However, the incoming transactions are not guaranteed to be in any particular or
 List of all the duplicate transaction groups, ordered by time ascending (nested array of transactions).
 The groups should be sorted in ascending order of the first transaction in the group.
 
+<br />
+
 Example:
+
+<br />
 
 Input:
 
 ```js
 ;[
-	{
-		id: 3,
-		sourceAccount: 'A',
-		targetAccount: 'B',
-		amount: 100,
-		category: 'eating_out',
-		time: '2018-03-02T10:34:30.000Z',
-	},
-	{
-		id: 1,
-		sourceAccount: 'A',
-		targetAccount: 'B',
-		amount: 100,
-		category: 'eating_out',
-		time: '2018-03-02T10:33:00.000Z',
-	},
-	{
-		id: 6,
-		sourceAccount: 'A',
-		targetAccount: 'C',
-		amount: 250,
-		category: 'other',
-		time: '2018-03-02T10:33:05.000Z',
-	},
-	{
-		id: 4,
-		sourceAccount: 'A',
-		targetAccount: 'B',
-		amount: 100,
-		category: 'eating_out',
-		time: '2018-03-02T10:36:00.000Z',
-	},
-	{
-		id: 2,
-		sourceAccount: 'A',
-		targetAccount: 'B',
-		amount: 100,
-		category: 'eating_out',
-		time: '2018-03-02T10:33:50.000Z',
-	},
-	{
-		id: 5,
-		sourceAccount: 'A',
-		targetAccount: 'C',
-		amount: 250,
-		category: 'other',
-		time: '2018-03-02T10:33:00.000Z',
-	},
+ {
+  id: 3,
+  sourceAccount: 'A',
+  targetAccount: 'B',
+  amount: 100,
+  category: 'eating_out',
+  time: '2018-03-02T10:34:30.000Z',
+ },
+ {
+  id: 1,
+  sourceAccount: 'A',
+  targetAccount: 'B',
+  amount: 100,
+  category: 'eating_out',
+  time: '2018-03-02T10:33:00.000Z',
+ },
+ {
+  id: 6,
+  sourceAccount: 'A',
+  targetAccount: 'C',
+  amount: 250,
+  category: 'other',
+  time: '2018-03-02T10:33:05.000Z',
+ },
+ {
+  id: 4,
+  sourceAccount: 'A',
+  targetAccount: 'B',
+  amount: 100,
+  category: 'eating_out',
+  time: '2018-03-02T10:36:00.000Z',
+ },
+ {
+  id: 2,
+  sourceAccount: 'A',
+  targetAccount: 'B',
+  amount: 100,
+  category: 'eating_out',
+  time: '2018-03-02T10:33:50.000Z',
+ },
+ {
+  id: 5,
+  sourceAccount: 'A',
+  targetAccount: 'C',
+  amount: 250,
+  category: 'other',
+  time: '2018-03-02T10:33:00.000Z',
+ },
 ]
 ```
 
@@ -123,55 +130,57 @@ Output:
 
 ```js
 ;[
-	[
-		{
-			id: 1,
-			sourceAccount: 'A',
-			targetAccount: 'B',
-			amount: 100,
-			category: 'eating_out',
-			time: '2018-03-02T10:33:00.000Z',
-		},
-		{
-			id: 2,
-			sourceAccount: 'A',
-			targetAccount: 'B',
-			amount: 100,
-			category: 'eating_out',
-			time: '2018-03-02T10:33:50.000Z',
-		},
-		{
-			id: 3,
-			sourceAccount: 'A',
-			targetAccount: 'B',
-			amount: 100,
-			category: 'eating_out',
-			time: '2018-03-02T10:34:30.000Z',
-		},
-	],
-	[
-		{
-			id: 5,
-			sourceAccount: 'A',
-			targetAccount: 'C',
-			amount: 250,
-			category: 'other',
-			time: '2018-03-02T10:33:00.000Z',
-		},
-		{
-			id: 6,
-			sourceAccount: 'A',
-			targetAccount: 'C',
-			amount: 250,
-			category: 'other',
-			time: '2018-03-02T10:33:05.000Z',
-		},
-	],
+ [
+  {
+   id: 1,
+   sourceAccount: 'A',
+   targetAccount: 'B',
+   amount: 100,
+   category: 'eating_out',
+   time: '2018-03-02T10:33:00.000Z',
+  },
+  {
+   id: 2,
+   sourceAccount: 'A',
+   targetAccount: 'B',
+   amount: 100,
+   category: 'eating_out',
+   time: '2018-03-02T10:33:50.000Z',
+  },
+  {
+   id: 3,
+   sourceAccount: 'A',
+   targetAccount: 'B',
+   amount: 100,
+   category: 'eating_out',
+   time: '2018-03-02T10:34:30.000Z',
+  },
+ ],
+ [
+  {
+   id: 5,
+   sourceAccount: 'A',
+   targetAccount: 'C',
+   amount: 250,
+   category: 'other',
+   time: '2018-03-02T10:33:00.000Z',
+  },
+  {
+   id: 6,
+   sourceAccount: 'A',
+   targetAccount: 'C',
+   amount: 250,
+   category: 'other',
+   time: '2018-03-02T10:33:05.000Z',
+  },
+ ],
 ]
 ```
 
-2. Create e-commerce app using the included design (only for desktop).
+</details>
 
+<details>
+<summary>Create e-commerce app using the included design (only for desktop).</summary>
 Essentials:
 
 - Has to use Gatsby.js (or any other SSG framework)
@@ -183,6 +192,8 @@ Essentials:
 - Use Bootstrap.
 - App should be responsive.
 
+<br />
+
 Optional:
 
 - Add the "lightbox" (create it yourself or use the NPM package), which opens, when clicked the image. Must have the option to move between the images (via the arrows).
@@ -192,22 +203,30 @@ Optional:
 - Adding your own animations.
 - Create a sub-page of the article, the content of which will be downloaded from wordpress. The look of this page is up to you, but put great emphasis on aesthetics.
 
+<br />
+
 Pay attention to the file structure.
 Folders or components properly laid out. It will be an added advantage to pay attention to such elements as page loading speed, optimization of images, use of lazy loading, etc.
 
+<br />
+
 As a design you can use:
 
-- https://dribbble.com/shots/15389208-Antic-Decoration-Landing-Page
-- https://dribbble.com/shots/15182337-BoConcept-e-Commerce-Slider
+- <https://dribbble.com/shots/15389208-Antic-Decoration-Landing-Page>
+- <https://dribbble.com/shots/15182337-BoConcept-e-Commerce-Slider>
 
-3. GitHub Issues App
+</details>
 
+<details>
+<summary>GitHub Issues App</summary>
 Essentials:
 
 - Use GitHub API - either the REST API or GraphQL API.
 - Use TypeScript.
 - Take care of code quality and clean code.
 - Use any JavaScript framework.
+
+<br />
 
 Features:
 
@@ -223,16 +242,20 @@ Features:
 - When the user is clicked, it should display in another view the username, nickname, followers count, following count, stars count and their avatar.
 - When the repo is clicked, then nothing happens.
 
-3. Yet another variation of GitHub Issues App.
+</details>
 
+<details>
+<summary>Yet another variation of GitHub Issues App.</summary>
 Essentials:
 
 - Use GitHub API - either the REST API or GraphQL API.
-- Select any repo, which it should fetch the issues, ie. https://github.com/facebook/react
+- Select any repo, which it should fetch the issues, ie. <https://github.com/facebook/react>
 - You can use any third-party libraries.
 - Take care of code quality and clean code.
 - Use any architecture.
 - App should be responsive.
+
+<br />
 
 Features:
 
@@ -244,18 +267,25 @@ Features:
 - When the count is below `-99` or above `99`, it should display `99!!`, otherwise it should display the count.
 - The count should be saved somewhere and still be available when the app is reloaded and the same issue will be open.
 
+<br />
+
 Optional:
 
 - Local search engine.
 - Animations and transitions.
 
-4. Create the part of e-commerce app.
+</details>
 
-- Use this API: https://jsonplaceholder.typicode.com/photos
+<details>
+<summary>Create the part of e-commerce app.</summary>
+
+- Use this API: <https://jsonplaceholder.typicode.com/photos>
 - Has to be pixel perfect.
 - You can use Bootstrap, Material Design or any other component library.
 - App should be responsive.
 - TypeScript is recommended, but still optional.
+
+<br />
 
 Main page:
 
@@ -275,6 +305,8 @@ Main page:
       - 1,2,3,4,5,6
 - Handle the situation, when it couldn't find the products.
 
+<br />
+
 Login page:
 
 - The only login and password that is valid is "admin" and "admin123!".
@@ -285,21 +317,34 @@ Login page:
 - When logout, the avatar icon is changed to the "Log in" button.
 - The log in should be persistent, even after the page is closed.
 
+<br />
+
 Optional:
 
 - Write the unit tests.
 - Write the e2e tests.
 
+<br />
+
 As a design you can use:
 
-- https://dribbble.com/shots/15389208-Antic-Decoration-Landing-Page
-- https://dribbble.com/shots/15117860-Syncrhomedics-Reference-Page
-- https://dribbble.com/shots/16634976-eCommerce-Cosmetic-Web-design
+- <https://dribbble.com/shots/15389208-Antic-Decoration-Landing-Page>
+- <https://dribbble.com/shots/15117860-Syncrhomedics-Reference-Page>
+- <https://dribbble.com/shots/16634976-eCommerce-Cosmetic-Web-design>
 
-5. Live-coding problem #1 - issue with too much rerendering of the same component (look at the console)
+</details>
+
+<details>
+<summary>Live-coding problem #1 - issue with too much rerendering of the same component (look at the console)</summary>
+
    (you have to do something with memoization inside of the App component)
-   https://jsfiddle.net/mdh2c7xg/
+   <https://jsfiddle.net/mdh2c7xg/>
 
-6. [Live-coding problem #2 - how to fetch user from the GitHub API?](https://jsfiddle.net/dn8rqksL/)
+</details>
+
+<details>
+<summary>Live-coding problem #2 - how to fetch user from the GitHub API?</summary>
+
+   <https://jsfiddle.net/dn8rqksL/>
 
 </details>

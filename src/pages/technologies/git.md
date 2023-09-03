@@ -5,12 +5,15 @@ layout: ../../layouts/MainLayout.astro
 image: { src: /metaimages/git.png, alt: 'git' }
 ---
 
-## Free courses
+## Free content
 
 - [How to be a git expert](https://youtu.be/hZS96dwKvt0)
 - [BitBucket - Learn Git](https://www.atlassian.com/git/tutorials)
+- [TomDoesTech - Learn Just Enough Git to be Productive](https://www.youtube.com/watch?v=wx3ultvbzUY)
+- [How to learn Git slowly.](https://dev.to/samuelfaure/how-to-learn-git-slowly-38fa)
+- [Oh My Git! Game about learning Git](https://ohmygit.org/)
 
-### Free courses in Polish
+### Free content in Polish
 
 - [Overment - Kurs Git po polsku od podstaw](https://www.youtube.com/playlist?list=PLjHmWifVUNMKIGHmaGPVqSD-L6i1Zw-MH)
 
@@ -42,6 +45,4 @@ image: { src: /metaimages/git.png, alt: 'git' }
 ### Other
 
 - [List of git commands for different situations](https://ohshitgit.com/)
-- [How to learn Git slowly.](https://dev.to/samuelfaure/how-to-learn-git-slowly-38fa)
 - [Undo wrong Git changes](https://dev.to/dailydevtips1/undo-wrong-git-changes-32mc)
-- [Oh My Git! Game about learning Git](https://ohmygit.org/)
