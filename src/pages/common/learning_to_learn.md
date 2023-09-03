@@ -40,4 +40,4 @@ layout: ../../layouts/MainLayout.astro
 
 ## Polish content about learning
 
-- [Programista vs wiedza – #40 Taby vs spacje](https://www.youtube.com/watch?v=N0KIOogRIgQ)
+- [Programista vs wiedza (skąd czerpać wiedzę, na jakich kursach się skupić, na co zwracać uwagę na kolejnych etapach kariery) – #40 Taby vs spacje](https://www.youtube.com/watch?v=N0KIOogRIgQ)
