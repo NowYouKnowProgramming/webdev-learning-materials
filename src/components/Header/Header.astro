@@ -64,23 +64,23 @@ const algoliaIsSetUp = indexName && appId && apiKey
       )
     }
     <GithubStars client:visible />
-    <ThemeToggle client:visible />
+    <ThemeToggle client:only='react' />
   </nav>
 </header>
 <DonationModal client:only='react' />
 
 <script is:inline>
 try {
-	window.addEventListener('scroll', () => {
-		const header = document.querySelector('#main-header-top')
-		if (window.scrollY > 0 && header) {
-			header.classList.add('bg-theme-base/50')
-		} else if (header) {
-			header.classList.remove('bg-theme-base/50')
-		}
-	})
+  window.addEventListener('scroll', () => {
+    const header = document.querySelector('#main-header-top')
+    if (window.scrollY > 0 && header) {
+      header.classList.add('bg-theme-base/50')
+    } else if (header) {
+      header.classList.remove('bg-theme-base/50')
+    }
+  })
 } catch (error) {
-	alert(error)
+  alert(error)
 }
 </script>
 
