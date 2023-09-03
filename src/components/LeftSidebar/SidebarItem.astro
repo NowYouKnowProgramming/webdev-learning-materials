@@ -1,0 +1,13 @@
+---
+const {url, isCurrentPage } = Astro.props as {url: string, isCurrentPage: boolean}
+---
+
+<li class=`mt-1 group border-b-2 border-b-basetext/10 last:border-b-0 pb-1`>
+										<a
+											class=`rounded-md group-hover:border-b-transparent block px-4 py-4 desktop-ui:py-1 text-sm ${isCurrentPage ? 'bg-basetext/90 font-extrabold text-theme-inverted' : 'hover:bg-basetext/10'}`
+											href={url}
+											aria-current={isCurrentPage}
+										>
+											<slot/>
+										</a>
+									</li>

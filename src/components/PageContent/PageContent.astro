@@ -28,35 +28,6 @@ const title = frontmatter.title
 </article>
 
 <style>
-	.color-desc {
-		display: flex;
-		align-items: center;
-		gap: 8px;
-		flex-wrap: wrap;
-		margin-bottom: 1rem;
-	}
-
-	.color-desc > * {
-		flex: 0 0 100px;
-		white-space: nowrap;
-	}
-
-	.visited {
-		background-color: var(--theme-text-accent-visited);
-	}
-
-	.not-visited {
-		background-color: var(--theme-text-accent);
-	}
-
-	.visited,
-	.not-visited {
-		padding: 4px 16px;
-		font-weight: bold;
-		color: var(--theme-bg);
-		border-radius: 25px;
-	}
-
 	.content {
 		padding: 0;
 		max-width: 75ch;
@@ -68,10 +39,6 @@ const title = frontmatter.title
 
 	.content > section {
 		margin-bottom: 4rem;
-	}
-
-	.block {
-		display: block;
 	}
 
 	@media (min-width: 50em) {
