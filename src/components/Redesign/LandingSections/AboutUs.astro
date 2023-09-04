@@ -3,29 +3,31 @@ import LandingSection from '../LandingSection.astro'
 ---
 
 <div class='w-full mb-28 bg-gradient-to-r from-grad-start/10 to-grad-end/10'>
-	<LandingSection
-		className='flex py-16 gap-24 items-center justify-center sm:flex-wrap-reverse'
-	>
-		<div
-			class='grow-1 w-full items-center justify-center basis-[300px] hidden lg:flex'
-		>
-			<img
-				class='max-h-[500px]'
-				src='/images/promo/about-us.svg'
-				alt=''
-			/>
-		</div>
-		<div class='lg:basis-[600px] grow-1 shrink w-full'>
-			<h2 id='about-us' class='scroll-mt-44 text-3xl font-[600] mb-5'>
-				<span class='text-xl block'>What is</span>
-				<span class='gradient-text'>bewebdev.tech</span> all about?
-			</h2>
-			<p class='mb-4 text-theme-muted'>
-				Introducing Bewebdev, your ultimate destination for learning web
-				development. Why settle for scattered information when we've done the
-				hard work for you? Discover the best resources, carefully chosen and
-				verified, all in one convenient place.
-			</p>
-		</div>
-	</LandingSection>
+  <LandingSection
+    className='flex py-16 gap-24 items-center justify-center sm:flex-wrap-reverse'
+  >
+    <div
+      class='grow-1 w-full items-center justify-center basis-[300px] hidden lg:flex'
+    >
+      <img
+        class='max-h-[500px]'
+        src='/images/promo/about-us.svg'
+        alt=''
+        width='300px'
+        height='300px'
+      />
+    </div>
+    <div class='lg:basis-[600px] grow-1 shrink w-full'>
+      <h2 id='about-us' class='scroll-mt-44 text-3xl font-[600] mb-5'>
+        <span class='text-xl block'>What is</span>
+        <span class='gradient-text'>bewebdev.tech</span> all about?
+      </h2>
+      <p class='mb-4 text-theme-muted'>
+        Introducing Bewebdev, your ultimate destination for learning web
+        development. Why settle for scattered information when we've done the
+        hard work for you? Discover the best resources, carefully chosen and
+        verified, all in one convenient place.
+      </p>
+    </div>
+  </LandingSection>
 </div>
