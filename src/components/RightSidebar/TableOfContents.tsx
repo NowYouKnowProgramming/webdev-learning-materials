@@ -13,19 +13,14 @@ type ItemOffsets = {
 type ListLinkProps = {
 	href: string
 	children: ReactNode
-	className?: string
 	depth?: number
 }
 
 const ListLink = ({
 	children,
 	href,
-	className = '',
 	depth = 0,
 }: ListLinkProps) => {
-	const linkCss =
-		'hover:bg-basetext/10 rounded-md group-hover:border-b-transparent block px-4 py-1 text-sm scroll-mt-32 max-w-[170px] ' +
-		className
 
 	return (
 		<li className='p-1 border-b-2 border-b-basetext/10 last:border-0'>
@@ -33,7 +28,7 @@ const ListLink = ({
 				style={{
 					paddingLeft: `${depth * 8}px`,
 				}}
-				className={linkCss}
+				className='hover:bg-basetext/10 rounded-md group-hover:border-b-transparent block px-4 py-1 text-sm scroll-mt-32 md:whitespace-nowrap'
 				href={href}
 			>
 				{children}
