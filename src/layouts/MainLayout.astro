@@ -237,7 +237,13 @@ const updatedSince = timeSince(
             Last updated {updatedSince} ago <span
               class='text-sm text-theme-muted/30 italic'
             >
-              - {new Date(lastModified || '').toLocaleDateString()}
+              - {
+                new Date(lastModified || '').toLocaleDateString('en-EN', {
+                  month: 'long',
+                  day: 'numeric',
+                  year: 'numeric',
+                })
+              }
             </span>
           </p>
           <slot />
