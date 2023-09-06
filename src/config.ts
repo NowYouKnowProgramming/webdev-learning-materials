@@ -17,6 +17,8 @@ export type Frontmatter = {
   dir?: 'ltr' | 'rtl'
   ogLocale?: string
   lang?: string
+  filePath?: string
+  lastModified?:  string
 }
 
 export const GITHUB_EDIT_URL = `https://github.com/NowYouKnowProgramming/webdev-learning-materials/tree/main`
