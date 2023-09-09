@@ -3,7 +3,7 @@ Exercises from [CSS for JavaScript Developers](https://css-for-js.dev/) - all mo
 - [Huckleberry - the basics of CSS (flow layout, box model)](https://github.com/css-for-js/huckleberry)
 - [Character Creator - position and overflow](https://github.com/css-for-js/character-creator)
 - [Mini Component Library - create your own components (progress bar, select element and search input)](https://github.com/css-for-js/mini-component-library)
-  
+
   <br />
   <details>
       <summary>How these components could look like:</summary>
@@ -22,6 +22,5 @@ Exercises from [CSS for JavaScript Developers](https://css-for-js.dev/) - all mo
   </details>
   <br />
 
-- [New Grid Times - CSS Grid Layout](https://github.com/css-for-js/new-grid-times)
-    - - [Design for this exercise](https://www.figma.com/file/BDdNhCeVLye5mFHHxQhkgE/New-Grid-Times?node-id=0%3A1)
+- [New Grid Times - CSS Grid Layout](https://github.com/css-for-js/new-grid-times) - [Design for this exercise](https://www.figma.com/file/BDdNhCeVLye5mFHHxQhkgE/New-Grid-Times?node-id=0%3A1)
 - [Sole and Ankle Animated - animations](https://github.com/css-for-js/sole-and-ankle-animated)
