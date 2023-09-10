@@ -91,7 +91,8 @@ const DonationModal = () => {
 											id='kofiframe'
 											src='https://ko-fi.com/prplblck/?hidefeed=true&widget=true&embed=true&preview=true'
 											className='md:min-w-[400px] m-auto max-w-full border-none h-[750px] rounded-md bg-[#ffffff] p-1 overflow-hidden'
-											title='prplblck'
+                      title='prplblck'
+                      loading='lazy'
 										></iframe>
 									</div>
 									<Dialog.Close asChild>
