@@ -88,5 +88,5 @@ This project is tested with [BrowserStack](https://www.browserstack.com/).
 
 ## License
 
-This project is licensed under **The MIT License (MIT)**, see the
+This project is licensed under **BSD-3-Clause**, see the
 [LICENSE](LICENSE) file for more details.
