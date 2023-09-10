@@ -11,7 +11,6 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 
-
 # bewebdev.tech (Web Development Learning Materials)
 
 A list of learning materials for Web Development.
@@ -33,13 +32,13 @@ This website is built using [Astro](https://astro.build/), a modern static websi
 #### Installation
 
 ```
-$ pnpm i
+pnpm i
 ```
 
 #### Local Development
 
 ```
-$ pnpm dev
+pnpm dev
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -47,7 +46,7 @@ This command starts a local development server and opens up a browser window. Mo
 #### Build
 
 ```
-$ pnpm build
+pnpm build
 ```
 
 This command generates static content into the `dist` directory and can be served using any static contents hosting service.
@@ -81,3 +80,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 ### [How to add the contributor to the list](https://allcontributors.org/docs/en/bot/usage)
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+## Special thanks
+
+<!-- This next line need to stay exactly as is. It is required for BrowserStack sponsorship. -->
+This project is tested with [BrowserStack](https://www.browserstack.com/).
+
+## License
+
+This project is licensed under **The MIT License (MIT)**, see the
+[LICENSE](LICENSE) file for more details.
