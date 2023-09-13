@@ -1,0 +1,103 @@
+[
+    {
+      "question": "What does the <ViewTransitions /> component do?",
+      "options": [
+        "Enables server-side routing",
+        "Controls page transitions during navigation",
+        "Handles form submissions",
+        "Adds meta tags for SEO"
+      ],
+      "answer": "Controls page transitions during navigation"
+    },
+    {
+      "question": "Where should you place the <ViewTransitions /> component to enable view transitions?",
+      "options": [
+        "In the <body> tag",
+        "In a separate JavaScript file",
+        "In the <head> tag",
+        "None of the above"
+      ],
+      "answer": "In the <head> tag"
+    },
+    {
+      "question": "How can you apply view transitions across your entire website?",
+      "options": [
+        "Include it in a common layout component",
+        "Include it on every individual page",
+        "Place it in the website's CSS file",
+        "It cannot be applied site-wide"
+      ],
+      "answer": "Include it in a common layout component"
+    },
+    {
+      "question": "What is the role of the transition:name directive?",
+      "options": [
+        "To specify a transition animation type",
+        "To assign a name for pairing DOM elements across pages",
+        "To indicate the duration of the transition",
+        "To specify the direction of the slide animation"
+      ],
+      "answer": "To assign a name for pairing DOM elements across pages"
+    },
+    {
+      "question": "What does the transition:persist directive do?",
+      "options": [
+        "Specifies an animation type",
+        "Maintains state of components and HTML elements across navigations",
+        "Sets the transition to be persistent even after a page refresh",
+        "None of the above"
+      ],
+      "answer": "Maintains state of components and HTML elements across navigations"
+    },
+    {
+      "question": "Which of the following is NOT a built-in animation type in Astro?",
+      "options": [
+        "fade",
+        "slide",
+        "bounce",
+        "none"
+      ],
+      "answer": "bounce"
+    },
+    {
+      "question": "What does the transition:animate directive allow you to do?",
+      "options": [
+        "Set a custom animation duration",
+        "Override Astro's default animation",
+        "Specify a delay before the transition starts",
+        "All of the above"
+      ],
+      "answer": "Override Astro's default animation"
+    },
+    {
+      "question": "Which directive allows you to maintain the state of a video component?",
+      "options": [
+        "transition:state",
+        "transition:keep",
+        "transition:persist",
+        "transition:retain"
+      ],
+      "answer": "transition:persist"
+    },
+    {
+      "question": "What happens if you don't opt in to view transitions?",
+      "options": [
+        "Your website will crash",
+        "Astro will automatically add transitions",
+        "Every page will use regular, full-page browser navigation",
+        "None of the above"
+      ],
+      "answer": "Every page will use regular, full-page browser navigation"
+    },
+    {
+      "question": "Can you control fallback behavior for unsupported browsers?",
+      "options": [
+        "Yes",
+        "No",
+        "Only for some browsers",
+        "Only if you write custom code"
+      ],
+      "answer": "Yes"
+    }
+  ]
+  

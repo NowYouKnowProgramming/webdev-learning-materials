@@ -2,12 +2,10 @@
 import HeadCommon from '../components/HeadCommon.astro'
 
 import LandingSEO from '../components/LandingPage/LandingSEO.astro'
+import QuizPage from '../components/Quiz/QuizPage.astro'
 import type { Frontmatter } from '../config'
 import * as CONFIG from '../config'
-
-
 import Layout from '../layouts/Layout.astro'
-import LandingPage from '../layouts/LandingPage.astro'
 
 export interface Props {
 	frontmatter: Frontmatter
@@ -31,6 +29,6 @@ const frontmatter: Frontmatter = {
 	</head>
 
 	<Layout>
-		<LandingPage />
+		<QuizPage />
 	</Layout>
 </html>

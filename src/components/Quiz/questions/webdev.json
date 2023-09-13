@@ -1,0 +1,53 @@
+[
+    {
+      "question": "Which HTML element is used for creating an ordered list?",
+      "options": ["<ul>", "<li>", "<ol>", "<dl>"],
+      "answer": "<ol>"
+    },
+    {
+      "question": "What does HTTP stand for?",
+      "options": ["HyperText Transformation Protocol", "Hyper Transfer Text Protocol", "HyperText Transfer Protocol", "High-Level Text Transfer Protocol"],
+      "answer": "HyperText Transfer Protocol"
+    },
+    {
+      "question": "Which CSS property is used for controlling the layout?",
+      "options": ["margin", "format", "display", "border"],
+      "answer": "display"
+    },
+    {
+      "question": "What does the 'DOM' stand for?",
+      "options": ["Dedicated Object Model", "Document Object Model", "Digital Object Module", "Data Object Model"],
+      "answer": "Document Object Model"
+    },
+    {
+      "question": "Which of the following is a client-side JavaScript framework?",
+      "options": ["Node.js", "Django", "React", "Laravel"],
+      "answer": "React"
+    },
+    {
+      "question": "What does SQL stand for?",
+      "options": ["Structured Query Language", "String Query Language", "Structured Queue Language", "Script Query Language"],
+      "answer": "Structured Query Language"
+    },
+    {
+      "question": "Which command is used to install a package in a Node.js application?",
+      "options": ["npm install", "npm get", "node install", "node get"],
+      "answer": "npm install"
+    },
+    {
+      "question": "Which of these is not a CSS preprocessor?",
+      "options": ["LESS", "SASS", "Stylus", "jQuery"],
+      "answer": "jQuery"
+    },
+    {
+      "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+      "options": ["src", "title", "href", "alt"],
+      "answer": "alt"
+    },
+    {
+      "question": "Which company developed JavaScript?",
+      "options": ["Netscape", "Microsoft", "Sun Microsystems", "IBM"],
+      "answer": "Netscape"
+    }
+  ]
+  

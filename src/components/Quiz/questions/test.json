@@ -1,0 +1,23 @@
+[
+    {
+      "question": "What does the <ViewTransitions /> component do?",
+      "options": [
+        "Enables server-side routing",
+        "Controls page transitions during navigation",
+        "Handles form submissions",
+        "Adds meta tags for SEO"
+      ],
+      "answer": "Controls page transitions during navigation"
+    },
+    {
+      "question": "Where should you place the <ViewTransitions /> component to enable view transitions?",
+      "options": [
+        "In the <body> tag",
+        "In a separate JavaScript file",
+        "In the <head> tag",
+        "None of the above"
+      ],
+      "answer": "In the <head> tag"
+    }
+  ]
+  

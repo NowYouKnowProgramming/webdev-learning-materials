@@ -1,7 +1,7 @@
 ---
 import HeadCommon from '../components/HeadCommon.astro'
 import Header from '../components/Header/Header.astro'
-import DocsButton from '../components/Redesign/LandingElements/DocsButton.astro'
+import Button from '../components/Redesign/LandingElements/Button.astro'
 import Footer from '../components/Redesign/LandingSections/Footer/Footer.astro'
 import type { Frontmatter } from '../config'
 
@@ -30,8 +30,8 @@ const currentPage = Astro.url.pathname
 		<div class="absolute w-40 h-40 bg-theme-accent-secondary/50 blur-3xl left-0 top-full -translate-x-1/2 -translate-y-1/2"></div>
 		<div aria-hidden="true" class="absolute text-[180px] 3xl:text-[300px] font-extrabold left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none opacity-10">404</div>
 	</div>
-	<DocsButton href="/">
+	<Button href="/">
 		Go back to main page
-	</DocsButton>
+	</Button>
 </div>
 <Footer/>
