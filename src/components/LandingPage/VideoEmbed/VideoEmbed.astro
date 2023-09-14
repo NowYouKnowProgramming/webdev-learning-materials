@@ -1,10 +1,11 @@
 ---
-import DocsButton from "../../Redesign/LandingElements/DocsButton.astro"
-const YOUTUBE_CHANNEL_ID = "UUww1wSWy6LvZjyEEHr7ypLA"
+import DocsButton from '../../Redesign/LandingElements/DocsButton.astro'
+const YOUTUBE_CHANNEL_ID = 'UUww1wSWy6LvZjyEEHr7ypLA'
 
 const LATEST_VIDEO_COUNT = 3
 
-const CHANNEL_SUBSCRIBE_LINK = "https://www.youtube.com/@bewebdev?sub_confirmation=1"
+const CHANNEL_SUBSCRIBE_LINK =
+  'https://www.youtube.com/@bewebdev?sub_confirmation=1'
 
 const getLatestVideoLink = (index: number) => {
   return `https://www.youtube.com/embed?listType=playlist&list=${YOUTUBE_CHANNEL_ID}&index=${
@@ -13,7 +14,7 @@ const getLatestVideoLink = (index: number) => {
 }
 ---
 
-<style lang="scss">
+<style lang='scss'>
   section {
     margin: 0 auto;
     text-align: center;
@@ -56,37 +57,41 @@ const getLatestVideoLink = (index: number) => {
   }
 </style>
 
-<div class="flex items-center gap-8 flex-wrap-reverse mb-8 mt-36">
-  <div class="flex-grow basis-80 shrink-0">
-    <iframe class="video" loading="lazy" src={getLatestVideoLink(0)}></iframe>
+<div class='mb-8 mt-36 flex flex-wrap-reverse items-center gap-8'>
+  <div class='shrink-0 flex-grow basis-80'>
+    <iframe class='video' loading='lazy' src={getLatestVideoLink(0)}></iframe>
   </div>
-  <div class="shrink-1 basis-64 grow">
-    <h2 class="text-3xl font-bold mb-4">
-      We record <span class="gradient-text">code reviews</span>
+  <div class='shrink-1 grow basis-64'>
+    <h2 class='mb-4 text-3xl font-bold'>
+      We record <span class='gradient-text'>code reviews</span>
     </h2>
-    <p class="mb-5">
-      We believe that code review can be the best way to learn best practices and new
-      ways to write code for both parties - code reviewer and code writer
+    <p class='mb-5'>
+      We believe that code review can be the best way to learn best practices
+      and new ways to write code for both parties - code reviewer and code
+      writer
     </p>
-    <DocsButton href={CHANNEL_SUBSCRIBE_LINK}>Visit our YouTube channel</DocsButton>
+    <DocsButton href={CHANNEL_SUBSCRIBE_LINK}>
+      Visit our YouTube channel
+    </DocsButton>
   </div>
 </div>
-<div class="flex gap-4 lg:gap-8 xl:gap-14 flex-wrap w-full">
+<div class='flex w-full flex-wrap gap-4 lg:gap-8 xl:gap-14'>
   {
     Array.from({ length: LATEST_VIDEO_COUNT }).map((_, index) => {
       const embedSource = getLatestVideoLink(index + 1)
-      return <iframe class="video" loading="lazy" src={embedSource} />
+      return <iframe class='video' loading='lazy' src={embedSource} />
     })
   }
 </div>
 
 <script>
-  import { getUserIsFromPoland } from "./helpers"
+  import { getUserIsFromPoland } from './helpers'
   const isFromPoland = getUserIsFromPoland()
 
   const removeCTAElement = () => {
-    const youtubeCTAElement = document.querySelector<HTMLElement>("#youtube-cta")
-    if (youtubeCTAElement) youtubeCTAElement.style.display = "none"
+    const youtubeCTAElement =
+      document.querySelector<HTMLElement>('#youtube-cta')
+    if (youtubeCTAElement) youtubeCTAElement.style.display = 'none'
   }
 
   if (!isFromPoland) {
