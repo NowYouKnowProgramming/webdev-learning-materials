@@ -1,7 +1,6 @@
 import { useState } from 'react';
-
-import AnswerButton from './AnswerButton';
-import questions from './questions/webdev.json';
+import { AnswerButton } from './AnswerButton';
+import questionsJson from './questions/webdev.json';
 
 interface Question {
   question: string;
@@ -9,22 +8,31 @@ interface Question {
   answer: string;
 }
 
-export default function Quiz() {
+const questions: Question[] = (questionsJson as unknown) as Question[];
+
+export function Quiz() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
   const [completed, setCompleted] = useState(false);
+  const currentQ = questions[currentQuestion];
 
   const handleAnswerOptionClick = (answer: string) => {
-    if (answer === questions[currentQuestion].answer) {
+    if (!currentQ) {
+      console.error('Invalid question data.');
+      return;
+    }
+
+    if (answer === currentQ.answer) {
       setScore((prevScore) => prevScore + 1);
     }
 
     const nextQuestion = currentQuestion + 1;
     if (nextQuestion < questions.length) {
       setCurrentQuestion(nextQuestion);
-    } else {
-      setCompleted(true);
+      return; 
     }
+    
+    setCompleted(true);
   };
 
   const resetQuiz = () => {
@@ -58,7 +66,7 @@ export default function Quiz() {
               <span>Question {currentQuestion + 1}</span>/{questions.length}
             </div>
             <div className='question-text text-xl mt-4'>
-              {questions[currentQuestion].question}
+            {currentQ?.question}
             </div>
 
             <div className='absolute top-0 right-0 bg-gradient-to-r from-grad-start/80 to-grad-end/90 text-white p-2 rounded'>
@@ -66,7 +74,7 @@ export default function Quiz() {
             </div>
           </div>
           <div className='flex-col justify-center	lg:flex-row answer-section flex mt-6 '>
-            {questions[currentQuestion].options.map((option, index) => (
+            {currentQ?.options.map((option, index) => (
               <AnswerButton
                 key={index}
                 gradient={' bg-gradient-to-r from-grad-start to-grad-end '}

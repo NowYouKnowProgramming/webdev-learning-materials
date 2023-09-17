@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import type { ReactNode } from 'react';
 
 interface AnswerButtonProps {
   children: ReactNode;
@@ -24,5 +24,3 @@ export const AnswerButton = ({
     </button>
   );
 };
-
-export default AnswerButton;
