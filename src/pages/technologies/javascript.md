@@ -102,6 +102,10 @@ image: { src: /metaimages/javascript.png, alt: 'javascript' }
 - [TomDoesTech - Observer Pattern - Design Patterns in JavaScript](https://www.youtube.com/watch?v=PldXoGemkyk)
 - [TomDoesTech - Factory Functions - Design Patterns in JavaScript](https://www.youtube.com/watch?v=yxlDCyDfCtI)
 
+## Common mistakes
+
+- [Avoid export default](https://basarat.gitbook.io/typescript/main-1/defaultisbad)
+
 ### Tips compilation
 
 - [Jack Herrington - Is JavaScript Spread Operator a Performance Killer?](https://www.youtube.com/watch?v=tcZbY-Q0TIE)
