@@ -45,7 +45,7 @@ image: { src: /metaimages/typescript.png, alt: 'typescript' }
 - [Matt Pocock - Infer is easier than you think](https://www.youtube.com/watch?v=hLZXJTm7TEk)
 - [Matt Pocock - learn const generics](https://www.youtube.com/watch?v=hk6ZkD0Vg3w)
 
-### Tips compilations
+#### Tips compilations
 
 - [Matt Pocock's collection of TypeScript tips](https://www.totaltypescript.com/tips)
 - [Matt Pocock's list of articles](https://www.totaltypescript.com/articles)
