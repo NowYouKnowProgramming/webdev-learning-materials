@@ -144,6 +144,7 @@ image: { src: /metaimages/react.png, alt: 'react' }
 
 ### Fetching data in React
 
+- [Await component - alternative way to fetch data in React](https://buildui.com/recipes/await-component)
 - [Reddit Thread - What is the recommended way to load data for React 18?](https://www.reddit.com/r/reactjs/comments/vi6q6f/what_is_the_recommended_way_to_load_data_for/)
 
 #### Advices from Dan Abramov (member of React Core Team)

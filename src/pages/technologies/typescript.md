@@ -45,7 +45,7 @@ image: { src: /metaimages/typescript.png, alt: 'typescript' }
 - [Matt Pocock - Infer is easier than you think](https://www.youtube.com/watch?v=hLZXJTm7TEk)
 - [Matt Pocock - learn const generics](https://www.youtube.com/watch?v=hk6ZkD0Vg3w)
 
-### Tips compilations
+#### Tips compilations
 
 - [Matt Pocock's collection of TypeScript tips](https://www.totaltypescript.com/tips)
 - [Matt Pocock's list of articles](https://www.totaltypescript.com/articles)
@@ -80,8 +80,15 @@ image: { src: /metaimages/typescript.png, alt: 'typescript' }
 - [Matt Pocock - Blazing Fast Tips: Build ANYTHING with Zod + Generics](https://www.youtube.com/watch?v=9N50YV5NHaE)
 - [Jack Herrington - Fixing TypeScript's Blind spot: Runtime Typechecking](https://www.youtube.com/watch?v=rY_XqfSHock)
 
+#### Patterns
+
+- [Stronger TypeScript with Opaque Types (branded types)](https://codemix.com/opaque-types-in-javascript/)
+- [TypeScript docs - Using type predicates](https://www.typescriptlang.org/docs/handbook/2/narrowing.html#using-type-predicates)
+- [TypeScript docs - Assertion Functions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#assertion-functions)
+
 ## Tools
 
+- [ts-toolbelt - TypeScript's largest type utility library](https://github.com/millsp/ts-toolbelt)
 - [Josh tries coding - This Makes TypeScript Errors So Much Better (Pretty TypeScript Errors extension)](https://www.youtube.com/watch?v=_9y29Cyo9uU)
 - [TypeScript Error Translator (VS Code extension to understand TypeScript errors)](https://marketplace.visualstudio.com/items?itemName=mattpocock.ts-error-translator)
 - Convert JS objects to TypeScript (a tricky way to do it):
