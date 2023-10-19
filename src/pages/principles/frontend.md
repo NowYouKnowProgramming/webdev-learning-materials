@@ -17,8 +17,8 @@ layout: ../../layouts/MainLayout.astro
 
 - [Beyond Fireship - The ultimate guide to web performance](https://www.youtube.com/watch?v=0fONene3OIA)
 - [Beyond Fireship - Dramatically improve website speed with Partytown](https://www.youtube.com/watch?v=ZZIR1NGwy-s)
-- [Beyond Fireship -  How to make your JavaScript Bundle Smaller](https://www.youtube.com/watch?v=kwUfeWe7DCw)
-- [⚡️ 💾  Web Performance Snippets - GitHub repository](https://github.com/nucliweb/webperf-snippets)
+- [Beyond Fireship - How to make your JavaScript Bundle Smaller](https://www.youtube.com/watch?v=kwUfeWe7DCw)
+- [⚡️ 💾 Web Performance Snippets - GitHub repository](https://github.com/nucliweb/webperf-snippets)
 
 ## Architecture
 
@@ -37,6 +37,7 @@ layout: ../../layouts/MainLayout.astro
 ## Tools
 
 - [Knip - Find unused files, dependencies and exports in your JavaScript and TypeScript projects.](https://github.com/webpro/knip)
+- [Fontsource - Find and install fonts in more pleasant and easier way](https://fontsource.org)
 
 ## Other content
 
