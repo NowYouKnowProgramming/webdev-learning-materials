@@ -234,7 +234,7 @@ const updatedSince = timeSince(
           githubEditUrl={githubEditUrl}
         >
           <p class='text-theme-muted'>
-            Last updated {updatedSince} ago <span
+            Last updated <span id="update-time" data-timestamp={lastModified}>{updatedSince}</span> ago <span
               class='text-sm text-theme-muted/30 italic'
             >
               - {
@@ -259,3 +259,24 @@ const updatedSince = timeSince(
     <HeadingLinksCopyToClipboard />
   </body>
 </html>
+
+<script>
+import { timeSince } from '../utils/timeSince'
+
+const setCurrentTimeSince = () => {
+  const updateTime = document.getElementById('update-time')
+  if (updateTime) {
+    const timestamp = updateTime.getAttribute('data-timestamp')
+    if(timestamp === null) return
+    const date = new Date(timestamp)
+    const newTimeSince = timeSince(date).replace(',', ' and')
+    updateTime.innerText = newTimeSince
+  }
+}
+
+setCurrentTimeSince()
+
+setInterval(() => {
+  setCurrentTimeSince()
+}, 1000)
+</script>

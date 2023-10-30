@@ -5,8 +5,10 @@ layout: ../../layouts/MainLayout.astro
 ---
 
 ## CSS
+
 - [animista.net - Cool genarator for CSS animations](https://animista.net/)
 - [easings.net - Easing functions for CSS animations](https://easings.net/)
+- [ui.glass - Glass ui generator](https://ui.glass/generator/)
 
 ## JavaScript
 
