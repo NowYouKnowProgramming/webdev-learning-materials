@@ -29,10 +29,8 @@ const currentPage = Astro.url.pathname + '/'
 const filePath = Astro.props.frontmatter.filePath
 const currentFile = filePath?.replace(/.*src/, 'src')
 const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`
+const githubCommitsUrl = githubEditUrl.replace('tree', 'commits')
 const lastModified = Astro.props.frontmatter.lastModified
-const updatedSince = timeSince(
-  new Date(lastModified?.toString() || '')
-).replace(',', ' and')
 ---
 
 <html
@@ -233,10 +231,9 @@ const updatedSince = timeSince(
           headings={headings}
           githubEditUrl={githubEditUrl}
         >
-          <p class='text-theme-muted'>
-            Last updated <span id="update-time" data-timestamp={lastModified}>{updatedSince}</span> ago <span
-              class='text-sm text-theme-muted/30 italic'
-            >
+          <a href={githubCommitsUrl} target='_blank' class='text-theme-muted'>
+            Last updated <span id='update-time' data-timestamp={lastModified}
+            ></span> ago <span class='text-sm text-theme-muted/30 italic'>
               - {
                 new Date(lastModified || '').toLocaleDateString('en-EN', {
                   month: 'long',
@@ -245,7 +242,7 @@ const updatedSince = timeSince(
                 })
               }
             </span>
-          </p>
+          </a>
           <slot />
         </PageContent>
         <RecommendedSections />
@@ -257,26 +254,25 @@ const updatedSince = timeSince(
     <Footer isDocs />
     <CopyCodeToClipboard />
     <HeadingLinksCopyToClipboard />
+    <script>
+      import { timeSince } from '../utils/timeSince'
+
+      const setCurrentTimeSince = () => {
+        const updateTime = document.getElementById('update-time')
+        if (updateTime) {
+          const timestamp = updateTime.getAttribute('data-timestamp')
+          if (timestamp === null) return
+          const date = new Date(timestamp)
+          const newTimeSince = timeSince(date).replace(',', ' and')
+          updateTime.innerText = newTimeSince
+        }
+      }
+
+      setCurrentTimeSince()
+
+      setInterval(() => {
+        setCurrentTimeSince()
+      }, 1000)
+    </script>
   </body>
 </html>
-
-<script>
-import { timeSince } from '../utils/timeSince'
-
-const setCurrentTimeSince = () => {
-  const updateTime = document.getElementById('update-time')
-  if (updateTime) {
-    const timestamp = updateTime.getAttribute('data-timestamp')
-    if(timestamp === null) return
-    const date = new Date(timestamp)
-    const newTimeSince = timeSince(date).replace(',', ' and')
-    updateTime.innerText = newTimeSince
-  }
-}
-
-setCurrentTimeSince()
-
-setInterval(() => {
-  setCurrentTimeSince()
-}, 1000)
-</script>
